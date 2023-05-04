@@ -1,0 +1,4379 @@
+- name: term-GO:0061621-0
+  gene_symbols:
+  - pfkpb
+  - pfkma
+  - pfklb
+  - pfkmb
+  - pfkpa
+  gene_ids:
+  - ZFIN:ZDB-GENE-070912-634
+  - ZFIN:ZDB-GENE-040912-135
+  - ZFIN:ZDB-GENE-050417-62
+  - ZFIN:ZDB-GENE-081114-1
+  - ZFIN:ZDB-GENE-091112-22
+  payloads:
+    gpt-3.5-turbo.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkpb; pfkma; pfklb; pfkmb; pfkpa; \n\n\n===\n\nSummary and\
+        \ enriched terms:"
+      response_text: "Summary: These genes are all involved in the regulation of glycolysis.\n\
+        Mechanism: Glycolysis\nEnriched Terms: Glycolysis; energy metabolism; glucose\
+        \ metabolic process. \n\nHypothesis: These genes encode isoforms of the enzyme\
+        \ phosphofructokinase (PFK), which catalyzes the conversion of fructose-6-phosphate\
+        \ to fructose-1,6-bisphosphate in the glycolytic pathway. The over-representation\
+        \ of terms related to glycolysis and energy metabolism suggests an important\
+        \ role for PFK in the regulation of these processes in human cells."
+      truncation_factor: 1.0
+      summary: 'Summary: These genes are all involved in the regulation of glycolysis.
+
+        Mechanism: Glycolysis
+
+
+        Hypothesis:  These genes encode isoforms of the enzyme phosphofructokinase
+        (PFK), which catalyzes the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate
+        in the glycolytic pathway. The over-representation of terms related to glycolysis
+        and energy metabolism suggests an important role for PFK in the regulation
+        of these processes in human cells.'
+      term_strings:
+      - glycolysis
+      - energy metabolism
+      - glucose metabolic process
+      term_ids:
+      - GO:0006096
+      - MESH:D004734
+      - GO:0006006
+      response_token_length: 123
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkpb; pfkma; pfklb; pfkmb; pfkpa; \n\n\n###\n\nSummary and\
+        \ enriched terms:"
+      response_text: "Summary: Enriched terms suggest these genes are involved in\
+        \ glycolysis and metabolic processes.\nMechanism: Glycolysis and glucose metabolism.\n\
+        Enriched Terms: Glycolysis; glucose metabolic process; generation of precursor\
+        \ metabolites and energy. \n\nHypothesis: These genes, all encoding different\
+        \ subunits of the phosphofructokinase enzyme, are involved in regulating glycolysis\
+        \ and glucose metabolism. The enriched terms suggest that these genes play\
+        \ a role in generating energy through glycolytic pathways. This supports the\
+        \ hypothesis that variations in these genes could affect metabolic processes\
+        \ and overall energy homeostasis."
+      truncation_factor: 1.0
+      summary: 'Summary: Enriched terms suggest these genes are involved in glycolysis
+        and metabolic processes.
+
+        Mechanism: Glycolysis and glucose metabolism.
+
+
+        Hypothesis:  These genes, all encoding different subunits of the phosphofructokinase
+        enzyme, are involved in regulating glycolysis and glucose metabolism. The
+        enriched terms suggest that these genes play a role in generating energy through
+        glycolytic pathways. This supports the hypothesis that variations in these
+        genes could affect metabolic processes and overall energy homeostasis.'
+      term_strings:
+      - glycolysis
+      - glucose metabolic process
+      - generation of precursor metabolites and energy
+      term_ids:
+      - GO:0006096
+      - GO:0006006
+      - GO:0006091
+      response_token_length: 123
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpa: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in cardiac ventricle.
+        Orthologous to human PFKP (phosphofructokinase, platelet).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: These genes are involved in the metabolic process of
+        glycolysis.
+
+
+        Mechanism: These genes encode for 6-phosphofructokinase enzymes, which catalyze
+        the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate, an important
+        step in the glycolysis pathway.
+
+
+        Enriched Terms: glycolysis; fructose 1,6-bisphosphate metabolic process; fructose
+        6-phosphate metabolic process; canonical glycolysis.'
+      truncation_factor: 1.0
+      summary: 'Summary: These genes are involved in the metabolic process of glycolysis.
+
+
+        Mechanism: These genes encode for 6-phosphofructokinase enzymes, which catalyze
+        the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate, an important
+        step in the glycolysis pathway.
+
+
+        '
+      term_strings:
+      - glycolysis
+      - fructose 1,6-bisphosphate metabolic process
+      - fructose 6-phosphate metabolic process
+      - canonical glycolysis
+      term_ids:
+      - GO:0006096
+      - GO:0030388
+      - GO:0006002
+      - GO:0061621
+      annotations: true
+      response_token_length: 104
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpa: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in cardiac ventricle.
+        Orthologous to human PFKP (phosphofructokinase, platelet).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: "Summary: Genes involved in glycolysis and fructose metabolism.\n\
+        Mechanism: Glycolysis and fructose metabolism.\nEnriched Terms: glycolysis;\
+        \ fructose metabolism. \n\nHypothesis: These genes are involved in the glycolytic\
+        \ pathway, converting glucose to pyruvate for energy production. The specialization\
+        \ of each isoform may be tissue-specific, as shown by the distinct expression\
+        \ patterns. The similarities in function of these genes suggest a coordinated\
+        \ regulation of glucose metabolism in the body."
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in glycolysis and fructose metabolism.
+
+        Mechanism: Glycolysis and fructose metabolism.
+
+
+        Hypothesis:  These genes are involved in the glycolytic pathway, converting
+        glucose to pyruvate for energy production. The specialization of each isoform
+        may be tissue-specific, as shown by the distinct expression patterns. The
+        similarities in function of these genes suggest a coordinated regulation of
+        glucose metabolism in the body.'
+      term_strings:
+      - glycolysis
+      - fructose metabolism
+      term_ids:
+      - GO:0006096
+      - GO:0006000
+      annotations: true
+      response_token_length: 102
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.narrative_synopsis.v1:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkpb: \n\
+        \npfkma: \n\npfklb: \n\npfkmb: \n\npfkpa: \n\n\n\n===\n\nSummary and enriched\
+        \ terms:"
+      response_text: "Summary: Glycolysis is the common function of the listed genes.\n\
+        Mechanism: Glycolysis pathway\nEnriched Terms: Glycolysis; Glucose metabolism;\
+        \ Energy production. \n\nHypothesis: The listed genes encode for different\
+        \ isoforms of the phosphofructokinase enzyme, which is a key regulatory enzyme\
+        \ in the glycolysis pathway. The over-representation of terms related to glycolysis,\
+        \ glucose metabolism, and energy production suggest that these genes play\
+        \ a crucial role in glucose metabolism and energy production through glycolysis."
+      truncation_factor: 1.0
+      summary: 'Summary: Glycolysis is the common function of the listed genes.
+
+        Mechanism: Glycolysis pathway
+
+
+        Hypothesis:  The listed genes encode for different isoforms of the phosphofructokinase
+        enzyme, which is a key regulatory enzyme in the glycolysis pathway. The over-representation
+        of terms related to glycolysis, glucose metabolism, and energy production
+        suggest that these genes play a crucial role in glucose metabolism and energy
+        production through glycolysis.'
+      term_strings:
+      - glycolysis
+      - glucose metabolism
+      - energy production
+      term_ids:
+      - GO:0006096
+      - GO:0006006
+      - energy production
+      annotations: true
+      response_token_length: 111
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.narrative_synopsis.v2:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkpb: \n\
+        \npfkma: \n\npfklb: \n\npfkmb: \n\npfkpa: \n\n\n\n###\n\nSummary and enriched\
+        \ terms:"
+      response_text: There were no descriptions of gene functions provided, so a term
+        enrichment test cannot be performed.
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - there were no descriptions of gene functions provided
+      - so a term enrichment test cannot be performed
+      term_ids:
+      - there were no descriptions of gene functions provided
+      - so a term enrichment test cannot be performed
+      annotations: true
+      response_token_length: 18
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v2
+    text-davinci-003.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkpb; pfkma; pfklb; pfkmb; pfkpa; \n\n\n===\n\nSummary and\
+        \ enriched terms:"
+      response_text: " The list of genes provided are associated with the phosphate\
+        \ pentose-phosphate shunt, a metabolic pathway for biosynthesis of nucleotides\
+        \ and generation of energy. \nMechanism: This pathway starts with breakdown\
+        \ of glucose-6-phosphate to form hexose monophosphates, which can then be\
+        \ used for further energy creation and synthesis of pentose sugars. \nEnriched\
+        \ Terms: Pentose-phosphate shunt; Hexose monophosphate metabolism; Glucose-6-phosphate\
+        \ breakdown; Nucleotide biosynthesis; Energy generation."
+      truncation_factor: 1.0
+      summary: " The list of genes provided are associated with the phosphate pentose-phosphate\
+        \ shunt, a metabolic pathway for biosynthesis of nucleotides and generation\
+        \ of energy. \nMechanism: This pathway starts with breakdown of glucose-6-phosphate\
+        \ to form hexose monophosphates, which can then be used for further energy\
+        \ creation and synthesis of pentose sugars. \n"
+      term_strings:
+      - pentose-phosphate shunt
+      - hexose monophosphate metabolism
+      - glucose-6-phosphate breakdown
+      - nucleotide biosynthesis
+      - energy generation
+      term_ids:
+      - GO:0006098
+      - hexose monophosphate metabolism
+      - glucose-6-phosphate breakdown
+      - GO:0009165
+      - energy generation
+      response_token_length: 120
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v1
+    text-davinci-003.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkpb; pfkma; pfklb; pfkmb; pfkpa; \n\n\n###\n\nSummary and\
+        \ enriched terms:"
+      response_text: "\nThe genes above are all related to the enzyme phosphofructokinase,\
+        \ which is responsible for catalyzing the phosphorylation of fructose 6-phosphate,\
+        \ a key glycolytic enzyme. This gene list is enriched for terms related to\
+        \ the function of phosphofructokinase, such as glycolysis, carbohydrate metabolism,\
+        \ metabolic regulation, and phosphorylation. \n\nMechanism:\nThe primary biochemical\
+        \ activity of phosphofructokinase is that of catalyzing the phosphorylation\
+        \ of fructose 6-phosphate, a key glycolytic enzyme, which initiates its conversion\
+        \ to fructose 1,6-bisphosphate and ultimately to glucose 6-phosphate. This\
+        \ enzymatic reaction is necessary for the breakdown of carbohydrates in the\
+        \ glycolytic pathway and for metabolic regulation. \n\nEnriched Terms:  Glycolysis;\
+        \ Carbohydrate Metabolism; Metabolic Regulation; Phosphorylation."
+      truncation_factor: 1.0
+      summary: "\nThe genes above are all related to the enzyme phosphofructokinase,\
+        \ which is responsible for catalyzing the phosphorylation of fructose 6-phosphate,\
+        \ a key glycolytic enzyme. This gene list is enriched for terms related to\
+        \ the function of phosphofructokinase, such as glycolysis, carbohydrate metabolism,\
+        \ metabolic regulation, and phosphorylation. \n\nMechanism:\nThe primary biochemical\
+        \ activity of phosphofructokinase is that of catalyzing the phosphorylation\
+        \ of fructose 6-phosphate, a key glycolytic enzyme, which initiates its conversion\
+        \ to fructose 1,6-bisphosphate and ultimately to glucose 6-phosphate. This\
+        \ enzymatic reaction is necessary for the breakdown of carbohydrates in the\
+        \ glycolytic pathway and for metabolic regulation. \n\n"
+      term_strings:
+      - glycolysis
+      - carbohydrate metabolism
+      - metabolic regulation
+      - phosphorylation
+      term_ids:
+      - GO:0006096
+      - GO:0005975
+      - metabolic regulation
+      - GO:0016310
+      response_token_length: 197
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v2
+    text-davinci-003.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpa: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in cardiac ventricle.
+        Orthologous to human PFKP (phosphofructokinase, platelet).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: ' These five human genes (pfkpb, pfkma, pfklb, pfkmb and pfkpa)
+        are all involved in the same metabolic process of glycolysis via the 6-phosphofructokinase
+        complex, and some of them (pfkma and pfkmb) may be associated with glycogen
+        storage disease VII. The term "6-phosphofructokinase activity" is enriched,
+        as well as terms related to "canonical glycolysis", "fructose 1,6-bisphosphate
+        metabolic process", and "fructose 6-phosphate metabolic process".
+
+
+        Mechanism: These five human genes are all involved in the upregulation and
+        maintenance of glycolysis and phosphorylation through their activities of
+        6-phosphofructokinase, adenyl ribonucleotide binding, and fructose-6-phosphate
+        binding. By regulating and facilitating the production and use of high energy
+        phosphates, they maintain energy homeostasis.
+
+
+        Enriched Terms: 6-phosphofructokinase activity; Canonical glycolysis; Fructose
+        1,6-bisphosphate metabolic'
+      truncation_factor: 1.0
+      summary: ' These five human genes (pfkpb, pfkma, pfklb, pfkmb and pfkpa) are
+        all involved in the same metabolic process of glycolysis via the 6-phosphofructokinase
+        complex, and some of them (pfkma and pfkmb) may be associated with glycogen
+        storage disease VII. The term "6-phosphofructokinase activity" is enriched,
+        as well as terms related to "canonical glycolysis", "fructose 1,6-bisphosphate
+        metabolic process", and "fructose 6-phosphate metabolic process".
+
+
+        Mechanism: These five human genes are all involved in the upregulation and
+        maintenance of glycolysis and phosphorylation through their activities of
+        6-phosphofructokinase, adenyl ribonucleotide binding, and fructose-6-phosphate
+        binding. By regulating and facilitating the production and use of high energy
+        phosphates, they maintain energy homeostasis.
+
+
+        '
+      term_strings:
+      - 6-phosphofructokinase activity
+      - canonical glycolysis
+      - fructose 1,6-bisphosphate metabolic
+      term_ids:
+      - GO:0003872
+      - GO:0061621
+      - fructose 1,6-bisphosphate metabolic
+      annotations: true
+      response_token_length: 250
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v1
+    text-davinci-003.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpa: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in cardiac ventricle.
+        Orthologous to human PFKP (phosphofructokinase, platelet).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: " All 5 human genes are associated with 6-phosphofructokinase\
+        \ activity, adenyl ribonucleotide binding activity, and fructose-6-phosphate\
+        \ binding activity, all of which are related to the canonical glycolysis pathway.\
+        \ The terms 'glycolysis', 'phosphorylation', and 'fructose metabolism' are\
+        \ significantly over-represented, suggesting these genes are likely to be\
+        \ involved in glycolytic processes and energy production. \n\nMechanism: These\
+        \ genes likely function in the canonical glycolytic pathway, where they may\
+        \ be involved in the production of ATP from glucose. It is suggested that\
+        \ these genes act as 6-phosphofructokinase enzymes, which phosphorylate fructose\
+        \ 6-phosphate in the first step of glycolysis. In addition, these enzymes\
+        \ also facilitate binding of fructose 6-phosphate and adenyl ribonucleotide.\
+        \ \n\nEnriched Terms: glycolysis; phosphorylation; fructose metabolism."
+      truncation_factor: 1.0
+      summary: " All 5 human genes are associated with 6-phosphofructokinase activity,\
+        \ adenyl ribonucleotide binding activity, and fructose-6-phosphate binding\
+        \ activity, all of which are related to the canonical glycolysis pathway.\
+        \ The terms 'glycolysis', 'phosphorylation', and 'fructose metabolism' are\
+        \ significantly over-represented, suggesting these genes are likely to be\
+        \ involved in glycolytic processes and energy production. \n\nMechanism: These\
+        \ genes likely function in the canonical glycolytic pathway, where they may\
+        \ be involved in the production of ATP from glucose. It is suggested that\
+        \ these genes act as 6-phosphofructokinase enzymes, which phosphorylate fructose\
+        \ 6-phosphate in the first step of glycolysis. In addition, these enzymes\
+        \ also facilitate binding of fructose 6-phosphate and adenyl ribonucleotide.\
+        \ \n\n"
+      term_strings:
+      - glycolysis
+      - phosphorylation
+      - fructose metabolism
+      term_ids:
+      - GO:0006096
+      - GO:0016310
+      - GO:0006000
+      annotations: true
+      response_token_length: 209
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v2
+    text-davinci-003.narrative_synopsis.v1:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkpb: \n\
+        \npfkma: \n\npfklb: \n\npfkmb: \n\npfkpa: \n\n\n\n===\n\nSummary and enriched\
+        \ terms:"
+      response_text: '
+
+        Summary: The genes are involved in phosphoglycerate metabolism in cell regulation.
+
+        Mechanism: Phosphoglycerate kinase is responsible for catalyzing the reversible
+        conversion of 1,3-bisphosphoglycerate to 3-phosphoglycerate in the glycolysis
+        pathway.
+
+        Enriched Terms: Cellular metabolism; Glycolysis pathway; Phosphoglycerate
+        metabolism; Phosphoglycerate kinase.'
+      truncation_factor: 1.0
+      summary: '
+
+        Summary: The genes are involved in phosphoglycerate metabolism in cell regulation.
+
+        Mechanism: Phosphoglycerate kinase is responsible for catalyzing the reversible
+        conversion of 1,3-bisphosphoglycerate to 3-phosphoglycerate in the glycolysis
+        pathway.
+
+        '
+      term_strings:
+      - cellular metabolism
+      - glycolysis pathway
+      - phosphoglycerate metabolism
+      - phosphoglycerate kinase
+      term_ids:
+      - GO:0044237
+      - glycolysis pathway
+      - phosphoglycerate metabolism
+      - MESH:D010735
+      annotations: true
+      response_token_length: 92
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v1
+    text-davinci-003.narrative_synopsis.v2:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkpb: \n\
+        \npfkma: \n\npfklb: \n\npfkmb: \n\npfkpa: \n\n\n\n###\n\nSummary and enriched\
+        \ terms:"
+      response_text: ' The proteins encoded by these genes are involved in the glycolysis
+        pathway, specifically in the transfer of phosphate groups from phosphofructokinase
+        to glucose.
+
+        Mechanism: The proteins encoded by these genes work together to facilitate
+        the transfer of phosphate groups from phosphofructokinase to glucose, thereby
+        allowing for the breakdown of glucose in glycolysis.
+
+        Enriched Terms: Glycolysis; Phosphofructokinase; Phosphate Transfer; Glycolysis
+        Pathway.'
+      truncation_factor: 1.0
+      summary: ' The proteins encoded by these genes are involved in the glycolysis
+        pathway, specifically in the transfer of phosphate groups from phosphofructokinase
+        to glucose.
+
+        Mechanism: The proteins encoded by these genes work together to facilitate
+        the transfer of phosphate groups from phosphofructokinase to glucose, thereby
+        allowing for the breakdown of glucose in glycolysis.
+
+        '
+      term_strings:
+      - glycolysis
+      - phosphofructokinase
+      - phosphate transfer
+      - glycolysis pathway
+      term_ids:
+      - GO:0006096
+      - phosphofructokinase
+      - phosphate transfer
+      - glycolysis pathway
+      annotations: true
+      response_token_length: 102
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v2
+    standard:
+      term_strings:
+      - canonical glycolysis
+      - glucose catabolic process to pyruvate
+      - 6-phosphofructokinase complex
+      - glycolytic process through glucose-6-phosphate
+      - glucose catabolic process
+      - fructose-6-phosphate binding
+      - NADH regeneration
+      - 6-phosphofructokinase activity
+      - glycolytic process through fructose-6-phosphate
+      - hexose catabolic process
+      - AMP binding
+      - monosaccharide catabolic process
+      - fructose 6-phosphate metabolic process
+      - phosphofructokinase activity
+      - fructose 1,6-bisphosphate metabolic process
+      - carbohydrate kinase activity
+      - carbohydrate phosphorylation
+      - glycolytic process
+      - glucose metabolic process
+      - pyruvate metabolic process
+      - monosaccharide binding
+      - carbohydrate catabolic process
+      - hexose metabolic process
+      - monosaccharide metabolic process
+      - identical protein binding
+      - small molecule catabolic process
+      - transferase complex, transferring phosphorus-containing groups
+      - carbohydrate binding
+      - monocarboxylic acid metabolic process
+      - carbohydrate metabolic process
+      - carboxylic acid metabolic process
+      - oxoacid metabolic process
+      - organic acid metabolic process
+      - transferase complex
+      - organophosphate metabolic process
+      - carbohydrate derivative metabolic process
+      - phosphotransferase activity, alcohol group as acceptor
+      - cytosol
+      - phosphorylation
+      - small molecule metabolic process
+      - organic substance catabolic process
+      - kinase activity
+      - transferase activity, transferring phosphorus-containing groups
+      - catabolic process
+      - catalytic complex
+      - ATP binding
+      - adenyl ribonucleotide binding
+      - phosphate-containing compound metabolic process
+      - phosphorus metabolic process
+      - adenyl nucleotide binding
+      - purine ribonucleoside triphosphate binding
+      - purine ribonucleotide binding
+      - ribonucleotide binding
+      - purine nucleotide binding
+      - carbohydrate derivative binding
+      - nucleotide binding
+      - nucleoside phosphate binding
+      - anion binding
+      - transferase activity
+      - small molecule binding
+      - protein binding
+      - protein-containing complex
+      - metal ion binding
+      - protein-containing material entity
+      - cation binding
+      term_ids:
+      - GO:0061621
+      - GO:0061718
+      - GO:0005945
+      - GO:0061620
+      - GO:0006007
+      - GO:0070095
+      - GO:0006735
+      - GO:0003872
+      - GO:0061615
+      - GO:0019320
+      - GO:0016208
+      - GO:0046365
+      - GO:0006002
+      - GO:0008443
+      - GO:0030388
+      - GO:0019200
+      - GO:0046835
+      - GO:0006096
+      - GO:0006006
+      - GO:0006090
+      - GO:0048029
+      - GO:0016052
+      - GO:0019318
+      - GO:0005996
+      - GO:0042802
+      - GO:0044282
+      - GO:0061695
+      - GO:0030246
+      - GO:0032787
+      - GO:0005975
+      - GO:0019752
+      - GO:0043436
+      - GO:0006082
+      - GO:1990234
+      - GO:0019637
+      - GO:1901135
+      - GO:0016773
+      - GO:0005829
+      - GO:0016310
+      - GO:0044281
+      - GO:1901575
+      - GO:0016301
+      - GO:0016772
+      - GO:0009056
+      - GO:1902494
+      - GO:0005524
+      - GO:0032559
+      - GO:0006796
+      - GO:0006793
+      - GO:0030554
+      - GO:0035639
+      - GO:0032555
+      - GO:0032553
+      - GO:0017076
+      - GO:0097367
+      - GO:0000166
+      - GO:1901265
+      - GO:0043168
+      - GO:0016740
+      - GO:0036094
+      - GO:0005515
+      - GO:0032991
+      - GO:0046872
+      - PR:000050567
+      - GO:0043169
+      method: standard
+      enrichment_results:
+      - class_id: GO:0061621
+        class_label: canonical glycolysis
+        rank: 1
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0061718
+        class_label: glucose catabolic process to pyruvate
+        rank: 2
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005945
+        class_label: 6-phosphofructokinase complex
+        rank: 3
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0061620
+        class_label: glycolytic process through glucose-6-phosphate
+        rank: 4
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006007
+        class_label: glucose catabolic process
+        rank: 5
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0070095
+        class_label: fructose-6-phosphate binding
+        rank: 6
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0006735
+        class_label: NADH regeneration
+        rank: 7
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 1.8185266252087256e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0003872
+        class_label: 6-phosphofructokinase activity
+        rank: 8
+        p_value: 1.1485431317086842e-19
+        p_value_adjusted: 1.09111597512325e-17
+        sample_count: 5
+        sample_total: 5
+        background_count: 6
+        background_total: 22881
+      - class_id: GO:0061615
+        class_label: glycolytic process through fructose-6-phosphate
+        rank: 9
+        p_value: 1.1485431317086842e-19
+        p_value_adjusted: 1.09111597512325e-17
+        sample_count: 5
+        sample_total: 5
+        background_count: 6
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019320
+        class_label: hexose catabolic process
+        rank: 10
+        p_value: 1.0719735896015214e-18
+        p_value_adjusted: 1.0183749101214454e-16
+        sample_count: 5
+        sample_total: 5
+        background_count: 8
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016208
+        class_label: AMP binding
+        rank: 11
+        p_value: 2.411940576610532e-18
+        p_value_adjusted: 2.2913435477800053e-16
+        sample_count: 5
+        sample_total: 5
+        background_count: 9
+        background_total: 22881
+      - class_id: GO:0046365
+        class_label: monosaccharide catabolic process
+        rank: 12
+        p_value: 2.411940576610532e-18
+        p_value_adjusted: 2.2913435477800053e-16
+        sample_count: 5
+        sample_total: 5
+        background_count: 9
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006002
+        class_label: fructose 6-phosphate metabolic process
+        rank: 13
+        p_value: 8.843782114055858e-18
+        p_value_adjusted: 8.401593008353065e-16
+        sample_count: 5
+        sample_total: 5
+        background_count: 11
+        background_total: 22881
+      - class_id: GO:0008443
+        class_label: phosphofructokinase activity
+        rank: 14
+        p_value: 2.4636250175356718e-17
+        p_value_adjusted: 2.340443766658888e-15
+        sample_count: 5
+        sample_total: 5
+        background_count: 13
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0030388
+        class_label: fructose 1,6-bisphosphate metabolic process
+        rank: 15
+        p_value: 5.748458374305026e-17
+        p_value_adjusted: 5.461035455589775e-15
+        sample_count: 5
+        sample_total: 5
+        background_count: 15
+        background_total: 22881
+      - class_id: GO:0019200
+        class_label: carbohydrate kinase activity
+        rank: 16
+        p_value: 1.2591861200525347e-15
+        p_value_adjusted: 1.196226814049908e-13
+        sample_count: 5
+        sample_total: 5
+        background_count: 26
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0046835
+        class_label: carbohydrate phosphorylation
+        rank: 17
+        p_value: 1.545364783712296e-15
+        p_value_adjusted: 1.4680965445266813e-13
+        sample_count: 5
+        sample_total: 5
+        background_count: 27
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006096
+        class_label: glycolytic process
+        rank: 18
+        p_value: 1.2595842816585495e-14
+        p_value_adjusted: 1.196605067575622e-12
+        sample_count: 5
+        sample_total: 5
+        background_count: 40
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006006
+        class_label: glucose metabolic process
+        rank: 19
+        p_value: 2.0788783823256538e-14
+        p_value_adjusted: 1.9749344632093713e-12
+        sample_count: 5
+        sample_total: 5
+        background_count: 44
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006090
+        class_label: pyruvate metabolic process
+        rank: 20
+        p_value: 8.015119730214048e-14
+        p_value_adjusted: 7.614363743703345e-12
+        sample_count: 5
+        sample_total: 5
+        background_count: 57
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0048029
+        class_label: monosaccharide binding
+        rank: 21
+        p_value: 8.77126310065397e-14
+        p_value_adjusted: 8.33269994562127e-12
+        sample_count: 5
+        sample_total: 5
+        background_count: 58
+        background_total: 22881
+      - class_id: GO:0016052
+        class_label: carbohydrate catabolic process
+        rank: 22
+        p_value: 1.9954267697610091e-13
+        p_value_adjusted: 1.8956554312729586e-11
+        sample_count: 5
+        sample_total: 5
+        background_count: 68
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019318
+        class_label: hexose metabolic process
+        rank: 23
+        p_value: 2.1513194861567675e-13
+        p_value_adjusted: 2.043753511848929e-11
+        sample_count: 5
+        sample_total: 5
+        background_count: 69
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005996
+        class_label: monosaccharide metabolic process
+        rank: 24
+        p_value: 4.60183254393622e-13
+        p_value_adjusted: 4.3717409167394094e-11
+        sample_count: 5
+        sample_total: 5
+        background_count: 80
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0042802
+        class_label: identical protein binding
+        rank: 25
+        p_value: 2.7708424262434974e-11
+        p_value_adjusted: 2.6323003049313226e-09
+        sample_count: 5
+        sample_total: 5
+        background_count: 179
+        background_total: 22881
+      - class_id: GO:0044282
+        class_label: small molecule catabolic process
+        rank: 26
+        p_value: 8.220218281505606e-11
+        p_value_adjusted: 7.809207367430326e-09
+        sample_count: 5
+        sample_total: 5
+        background_count: 222
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0061695
+        class_label: transferase complex, transferring phosphorus-containing groups
+        rank: 27
+        p_value: 1.0045020215254777e-10
+        p_value_adjusted: 9.542769204492038e-09
+        sample_count: 5
+        sample_total: 5
+        background_count: 231
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0030246
+        class_label: carbohydrate binding
+        rank: 28
+        p_value: 1.0953537971867735e-10
+        p_value_adjusted: 1.0405861073274348e-08
+        sample_count: 5
+        sample_total: 5
+        background_count: 235
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032787
+        class_label: monocarboxylic acid metabolic process
+        rank: 29
+        p_value: 2.8446775658763565e-10
+        p_value_adjusted: 2.7024436875825385e-08
+        sample_count: 5
+        sample_total: 5
+        background_count: 284
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005975
+        class_label: carbohydrate metabolic process
+        rank: 30
+        p_value: 4.210083079574962e-10
+        p_value_adjusted: 3.999578925596214e-08
+        sample_count: 5
+        sample_total: 5
+        background_count: 307
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019752
+        class_label: carboxylic acid metabolic process
+        rank: 31
+        p_value: 6.362143364556116e-09
+        p_value_adjusted: 6.04403619632831e-07
+        sample_count: 5
+        sample_total: 5
+        background_count: 527
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0043436
+        class_label: oxoacid metabolic process
+        rank: 32
+        p_value: 6.608233999947635e-09
+        p_value_adjusted: 6.277822299950253e-07
+        sample_count: 5
+        sample_total: 5
+        background_count: 531
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006082
+        class_label: organic acid metabolic process
+        rank: 33
+        p_value: 9.43082661585544e-09
+        p_value_adjusted: 8.959285285062668e-07
+        sample_count: 5
+        sample_total: 5
+        background_count: 570
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1990234
+        class_label: transferase complex
+        rank: 34
+        p_value: 1.6862147016574356e-08
+        p_value_adjusted: 1.6019039665745639e-06
+        sample_count: 5
+        sample_total: 5
+        background_count: 640
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019637
+        class_label: organophosphate metabolic process
+        rank: 35
+        p_value: 1.794618742857291e-08
+        p_value_adjusted: 1.7048878057144264e-06
+        sample_count: 5
+        sample_total: 5
+        background_count: 648
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1901135
+        class_label: carbohydrate derivative metabolic process
+        rank: 36
+        p_value: 3.284341955660426e-08
+        p_value_adjusted: 3.1201248578774044e-06
+        sample_count: 5
+        sample_total: 5
+        background_count: 731
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016773
+        class_label: phosphotransferase activity, alcohol group as acceptor
+        rank: 37
+        p_value: 1.8313794268598915e-07
+        p_value_adjusted: 1.7398104555168968e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1030
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005829
+        class_label: cytosol
+        rank: 38
+        p_value: 2.20614982160822e-07
+        p_value_adjusted: 2.095842330527809e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1069
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016310
+        class_label: phosphorylation
+        rank: 39
+        p_value: 2.5690729937630856e-07
+        p_value_adjusted: 2.4406193440749313e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1102
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0044281
+        class_label: small molecule metabolic process
+        rank: 40
+        p_value: 2.8491274180603085e-07
+        p_value_adjusted: 2.7066710471572932e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1125
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1901575
+        class_label: organic substance catabolic process
+        rank: 41
+        p_value: 2.991426914761089e-07
+        p_value_adjusted: 2.8418555690230346e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1136
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016301
+        class_label: kinase activity
+        rank: 42
+        p_value: 3.057959710938966e-07
+        p_value_adjusted: 2.905061725392018e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1141
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016772
+        class_label: transferase activity, transferring phosphorus-containing groups
+        rank: 43
+        p_value: 5.459667665075636e-07
+        p_value_adjusted: 5.1866842818218544e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1281
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0009056
+        class_label: catabolic process
+        rank: 44
+        p_value: 5.698519769106588e-07
+        p_value_adjusted: 5.4135937806512584e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1292
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1902494
+        class_label: catalytic complex
+        rank: 45
+        p_value: 5.787418623378727e-07
+        p_value_adjusted: 5.498047692209791e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1296
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005524
+        class_label: ATP binding
+        rank: 46
+        p_value: 2.493485822116538e-06
+        p_value_adjusted: 0.0002368811531010711
+        sample_count: 5
+        sample_total: 5
+        background_count: 1735
+        background_total: 22881
+      - class_id: GO:0032559
+        class_label: adenyl ribonucleotide binding
+        rank: 47
+        p_value: 2.7401075705058857e-06
+        p_value_adjusted: 0.00026031021919805915
+        sample_count: 5
+        sample_total: 5
+        background_count: 1768
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006796
+        class_label: phosphate-containing compound metabolic process
+        rank: 48
+        p_value: 3.0058683695894606e-06
+        p_value_adjusted: 0.0002855574951109988
+        sample_count: 5
+        sample_total: 5
+        background_count: 1801
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006793
+        class_label: phosphorus metabolic process
+        rank: 49
+        p_value: 3.1679881619734837e-06
+        p_value_adjusted: 0.00030095887538748097
+        sample_count: 5
+        sample_total: 5
+        background_count: 1820
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0030554
+        class_label: adenyl nucleotide binding
+        rank: 50
+        p_value: 3.4567885929804167e-06
+        p_value_adjusted: 0.0003283949163331396
+        sample_count: 5
+        sample_total: 5
+        background_count: 1852
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0035639
+        class_label: purine ribonucleoside triphosphate binding
+        rank: 51
+        p_value: 8.856415687201638e-06
+        p_value_adjusted: 0.0008413594902841556
+        sample_count: 5
+        sample_total: 5
+        background_count: 2235
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032555
+        class_label: purine ribonucleotide binding
+        rank: 52
+        p_value: 9.828531409916412e-06
+        p_value_adjusted: 0.0009337104839420591
+        sample_count: 5
+        sample_total: 5
+        background_count: 2282
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032553
+        class_label: ribonucleotide binding
+        rank: 53
+        p_value: 1.0134013251039717e-05
+        p_value_adjusted: 0.0009627312588487731
+        sample_count: 5
+        sample_total: 5
+        background_count: 2296
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0017076
+        class_label: purine nucleotide binding
+        rank: 54
+        p_value: 1.2104875776748372e-05
+        p_value_adjusted: 0.0011499631987910953
+        sample_count: 5
+        sample_total: 5
+        background_count: 2379
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0097367
+        class_label: carbohydrate derivative binding
+        rank: 55
+        p_value: 1.4023987554134356e-05
+        p_value_adjusted: 0.0013322788176427637
+        sample_count: 5
+        sample_total: 5
+        background_count: 2450
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0000166
+        class_label: nucleotide binding
+        rank: 56
+        p_value: 1.5828950763730544e-05
+        p_value_adjusted: 0.0015037503225544017
+        sample_count: 5
+        sample_total: 5
+        background_count: 2510
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1901265
+        class_label: nucleoside phosphate binding
+        rank: 57
+        p_value: 1.5828950763730544e-05
+        p_value_adjusted: 0.0015037503225544017
+        sample_count: 5
+        sample_total: 5
+        background_count: 2510
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0043168
+        class_label: anion binding
+        rank: 58
+        p_value: 1.9394579027825315e-05
+        p_value_adjusted: 0.0018424850076434048
+        sample_count: 5
+        sample_total: 5
+        background_count: 2614
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016740
+        class_label: transferase activity
+        rank: 59
+        p_value: 2.5180054962396525e-05
+        p_value_adjusted: 0.00239210522142767
+        sample_count: 5
+        sample_total: 5
+        background_count: 2754
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0036094
+        class_label: small molecule binding
+        rank: 60
+        p_value: 2.6202746432077705e-05
+        p_value_adjusted: 0.002489260911047382
+        sample_count: 5
+        sample_total: 5
+        background_count: 2776
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005515
+        class_label: protein binding
+        rank: 61
+        p_value: 0.00013198019360644025
+        p_value_adjusted: 0.012538118392611824
+        sample_count: 5
+        sample_total: 5
+        background_count: 3835
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032991
+        class_label: protein-containing complex
+        rank: 62
+        p_value: 0.0001413606879874946
+        p_value_adjusted: 0.013429265358811986
+        sample_count: 5
+        sample_total: 5
+        background_count: 3888
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0046872
+        class_label: metal ion binding
+        rank: 63
+        p_value: 0.0002129842885905388
+        p_value_adjusted: 0.020233507416101186
+        sample_count: 5
+        sample_total: 5
+        background_count: 4220
+        background_total: 22881
+      - class_id: PR:000050567
+        class_label: protein-containing material entity
+        rank: 64
+        p_value: 0.00022432719192481339
+        p_value_adjusted: 0.021311083232857273
+        sample_count: 5
+        sample_total: 5
+        background_count: 4264
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0043169
+        class_label: cation binding
+        rank: 65
+        p_value: 0.00022964024895050065
+        p_value_adjusted: 0.02181582365029756
+        sample_count: 5
+        sample_total: 5
+        background_count: 4284
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+    standard_no_ontology:
+      term_strings:
+      - canonical glycolysis
+      - 6-phosphofructokinase complex
+      - fructose-6-phosphate binding
+      - 6-phosphofructokinase activity
+      - AMP binding
+      - monosaccharide binding
+      - fructose 6-phosphate metabolic process
+      - fructose 1,6-bisphosphate metabolic process
+      - glycolytic process
+      - identical protein binding
+      - metabolic process
+      - catalytic activity
+      - kinase activity
+      - phosphorylation
+      - ATP binding
+      - transferase activity
+      - nucleotide binding
+      - metal ion binding
+      - cytoplasm
+      term_ids:
+      - GO:0061621
+      - GO:0005945
+      - GO:0070095
+      - GO:0003872
+      - GO:0016208
+      - GO:0048029
+      - GO:0006002
+      - GO:0030388
+      - GO:0006096
+      - GO:0042802
+      - GO:0008152
+      - GO:0003824
+      - GO:0016301
+      - GO:0016310
+      - GO:0005524
+      - GO:0016740
+      - GO:0000166
+      - GO:0046872
+      - GO:0005737
+      method: standard_no_ontology
+      enrichment_results:
+      - class_id: GO:0061621
+        class_label: canonical glycolysis
+        rank: 1
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 3.82847710570258e-19
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0005945
+        class_label: 6-phosphofructokinase complex
+        rank: 2
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 3.82847710570258e-19
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0070095
+        class_label: fructose-6-phosphate binding
+        rank: 3
+        p_value: 1.91423855285129e-20
+        p_value_adjusted: 3.82847710570258e-19
+        sample_count: 5
+        sample_total: 5
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0003872
+        class_label: 6-phosphofructokinase activity
+        rank: 4
+        p_value: 1.1485431317086842e-19
+        p_value_adjusted: 2.2970862634173685e-18
+        sample_count: 5
+        sample_total: 5
+        background_count: 6
+        background_total: 22881
+      - class_id: GO:0016208
+        class_label: AMP binding
+        rank: 5
+        p_value: 2.411940576610532e-18
+        p_value_adjusted: 4.823881153221064e-17
+        sample_count: 5
+        sample_total: 5
+        background_count: 9
+        background_total: 22881
+      - class_id: GO:0048029
+        class_label: monosaccharide binding
+        rank: 6
+        p_value: 4.823881153142924e-18
+        p_value_adjusted: 9.647762306285849e-17
+        sample_count: 5
+        sample_total: 5
+        background_count: 10
+        background_total: 22881
+      - class_id: GO:0006002
+        class_label: fructose 6-phosphate metabolic process
+        rank: 7
+        p_value: 8.843782114055858e-18
+        p_value_adjusted: 1.7687564228111715e-16
+        sample_count: 5
+        sample_total: 5
+        background_count: 11
+        background_total: 22881
+      - class_id: GO:0030388
+        class_label: fructose 1,6-bisphosphate metabolic process
+        rank: 8
+        p_value: 5.748458374305026e-17
+        p_value_adjusted: 1.1496916748610051e-15
+        sample_count: 5
+        sample_total: 5
+        background_count: 15
+        background_total: 22881
+      - class_id: GO:0006096
+        class_label: glycolytic process
+        rank: 9
+        p_value: 1.2595842816585495e-14
+        p_value_adjusted: 2.519168563317099e-13
+        sample_count: 5
+        sample_total: 5
+        background_count: 40
+        background_total: 22881
+      - class_id: GO:0042802
+        class_label: identical protein binding
+        rank: 10
+        p_value: 5.557876018279959e-13
+        p_value_adjusted: 1.1115752036559917e-11
+        sample_count: 5
+        sample_total: 5
+        background_count: 83
+        background_total: 22881
+      - class_id: GO:0008152
+        class_label: metabolic process
+        rank: 11
+        p_value: 4.866602650656123e-12
+        p_value_adjusted: 9.733205301312246e-11
+        sample_count: 5
+        sample_total: 5
+        background_count: 127
+        background_total: 22881
+      - class_id: GO:0003824
+        class_label: catalytic activity
+        rank: 12
+        p_value: 6.933383082047969e-10
+        p_value_adjusted: 1.3866766164095939e-08
+        sample_count: 5
+        sample_total: 5
+        background_count: 339
+        background_total: 22881
+      - class_id: GO:0016301
+        class_label: kinase activity
+        rank: 13
+        p_value: 4.664928879848305e-08
+        p_value_adjusted: 9.32985775969661e-07
+        sample_count: 5
+        sample_total: 5
+        background_count: 784
+        background_total: 22881
+      - class_id: GO:0016310
+        class_label: phosphorylation
+        rank: 14
+        p_value: 4.755099101459109e-08
+        p_value_adjusted: 9.510198202918218e-07
+        sample_count: 5
+        sample_total: 5
+        background_count: 787
+        background_total: 22881
+      - class_id: GO:0005524
+        class_label: ATP binding
+        rank: 15
+        p_value: 2.493485822116538e-06
+        p_value_adjusted: 4.986971644233076e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1735
+        background_total: 22881
+      - class_id: GO:0016740
+        class_label: transferase activity
+        rank: 16
+        p_value: 3.560787455813685e-06
+        p_value_adjusted: 7.12157491162737e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1863
+        background_total: 22881
+      - class_id: GO:0000166
+        class_label: nucleotide binding
+        rank: 17
+        p_value: 4.033722968005439e-06
+        p_value_adjusted: 8.067445936010878e-05
+        sample_count: 5
+        sample_total: 5
+        background_count: 1910
+        background_total: 22881
+      - class_id: GO:0046872
+        class_label: metal ion binding
+        rank: 18
+        p_value: 0.00010334250199973155
+        p_value_adjusted: 0.002066850039994631
+        sample_count: 5
+        sample_total: 5
+        background_count: 3652
+        background_total: 22881
+      - class_id: GO:0005737
+        class_label: cytoplasm
+        rank: 19
+        p_value: 0.00020429324717327225
+        p_value_adjusted: 0.004085864943465445
+        sample_count: 5
+        sample_total: 5
+        background_count: 4185
+        background_total: 22881
+    random:
+      term_strings:
+      - chemokine-mediated signaling pathway
+      - nucleus
+      - pyrroline-5-carboxylate reductase activity
+      - extracellular region
+      term_ids:
+      - GO:0070098
+      - GO:0005634
+      - GO:0004735
+      - GO:0005576
+      method: random
+    rank_based:
+      term_strings:
+      - ATP binding
+      - cytoplasm
+      - nucleus
+      - DNA binding
+      - membrane
+      term_ids:
+      - GO:0005524
+      - GO:0005737
+      - GO:0005634
+      - GO:0003677
+      - GO:0016020
+      method: rank_based
+    closure:
+      term_strings:
+      - phosphorylation
+      - cytoplasm
+      - transferase activity
+      - metal ion binding
+      - 6-phosphofructokinase activity
+      - canonical glycolysis
+      - ATP binding
+      - fructose 1,6-bisphosphate metabolic process
+      - identical protein binding
+      - phosphofructokinase activity
+      - 6-phosphofructokinase complex
+      - nucleotide binding
+      - fructose-6-phosphate binding
+      - AMP binding
+      - metabolic process
+      - catalytic activity
+      - membrane
+      - kinase activity
+      - monosaccharide binding
+      - glycolytic process
+      - fructose 6-phosphate metabolic process
+      - occurrent
+      - process
+      - nucleotide binding
+      - molecular_function
+      - binding
+      - small molecule binding
+      - organic cyclic compound binding
+      - nucleoside phosphate binding
+      - heterocyclic compound binding
+      - catalytic activity
+      - carbohydrate metabolic process
+      - organic acid metabolic process
+      - pyruvate metabolic process
+      - glycolytic process
+      - phosphorus metabolic process
+      - phosphate-containing compound metabolic process
+      - biological_process
+      - metabolic process
+      - catabolic process
+      - cellular process
+      - carbohydrate catabolic process
+      - phosphorylation
+      - carboxylic acid metabolic process
+      - monocarboxylic acid metabolic process
+      - oxoacid metabolic process
+      - cellular metabolic process
+      - primary metabolic process
+      - small molecule metabolic process
+      - carbohydrate phosphorylation
+      - glycolytic process through fructose-6-phosphate
+      - organic substance metabolic process
+      - organic substance catabolic process
+      - 6-phosphofructokinase activity
+      - phosphofructokinase activity
+      - kinase activity
+      - transferase activity
+      - transferase activity, transferring phosphorus-containing groups
+      - phosphotransferase activity, alcohol group as acceptor
+      - carbohydrate kinase activity
+      - ATP binding
+      - purine nucleotide binding
+      - adenyl nucleotide binding
+      - ribonucleotide binding
+      - purine ribonucleotide binding
+      - adenyl ribonucleotide binding
+      - purine ribonucleoside triphosphate binding
+      - ion binding
+      - anion binding
+      - carbohydrate derivative binding
+      - continuant
+      - independent continuant
+      - material entity
+      - anatomical entity
+      - connected anatomical structure
+      - material anatomical entity
+      - biological entity
+      - cell
+      - cellular_component
+      - intracellular anatomical structure
+      - cellular anatomical entity
+      - anatomical structure
+      - material anatomical entity
+      - anatomical entity
+      - cytoplasm
+      - cytosol
+      - 6-phosphofructokinase complex
+      - protein-containing complex
+      - transferase complex, transferring phosphorus-containing groups
+      - catalytic complex
+      - transferase complex
+      - protein-containing material entity
+      - fructose 6-phosphate metabolic process
+      - organophosphate metabolic process
+      - carbohydrate derivative metabolic process
+      - membrane
+      - AMP binding
+      - cation binding
+      - fructose 1,6-bisphosphate metabolic process
+      - protein binding
+      - identical protein binding
+      - metal ion binding
+      - carbohydrate binding
+      - monosaccharide binding
+      - monosaccharide metabolic process
+      - glucose metabolic process
+      - glucose catabolic process
+      - NADH regeneration
+      - hexose metabolic process
+      - hexose catabolic process
+      - small molecule catabolic process
+      - monosaccharide catabolic process
+      - glycolytic process through glucose-6-phosphate
+      - canonical glycolysis
+      - glucose catabolic process to pyruvate
+      - fructose-6-phosphate binding
+      term_ids:
+      - GO:0016310
+      - GO:0005737
+      - GO:0016740
+      - GO:0046872
+      - GO:0003872
+      - GO:0061621
+      - GO:0005524
+      - GO:0030388
+      - GO:0042802
+      - GO:0008443
+      - GO:0005945
+      - GO:0000166
+      - GO:0070095
+      - GO:0016208
+      - GO:0008152
+      - GO:0003824
+      - GO:0016020
+      - GO:0016301
+      - GO:0048029
+      - GO:0006096
+      - GO:0006002
+      - BFO:0000003
+      - BFO:0000015
+      - GO:0000166
+      - GO:0003674
+      - GO:0005488
+      - GO:0036094
+      - GO:0097159
+      - GO:1901265
+      - GO:1901363
+      - GO:0003824
+      - GO:0005975
+      - GO:0006082
+      - GO:0006090
+      - GO:0006096
+      - GO:0006793
+      - GO:0006796
+      - GO:0008150
+      - GO:0008152
+      - GO:0009056
+      - GO:0009987
+      - GO:0016052
+      - GO:0016310
+      - GO:0019752
+      - GO:0032787
+      - GO:0043436
+      - GO:0044237
+      - GO:0044238
+      - GO:0044281
+      - GO:0046835
+      - GO:0061615
+      - GO:0071704
+      - GO:1901575
+      - GO:0003872
+      - GO:0008443
+      - GO:0016301
+      - GO:0016740
+      - GO:0016772
+      - GO:0016773
+      - GO:0019200
+      - GO:0005524
+      - GO:0017076
+      - GO:0030554
+      - GO:0032553
+      - GO:0032555
+      - GO:0032559
+      - GO:0035639
+      - GO:0043167
+      - GO:0043168
+      - GO:0097367
+      - BFO:0000002
+      - BFO:0000004
+      - BFO:0000040
+      - CARO:0000000
+      - CARO:0000003
+      - CARO:0000006
+      - CARO:0030000
+      - CL:0000000
+      - GO:0005575
+      - GO:0005622
+      - GO:0110165
+      - UBERON:0000061
+      - UBERON:0000465
+      - UBERON:0001062
+      - GO:0005737
+      - GO:0005829
+      - GO:0005945
+      - GO:0032991
+      - GO:0061695
+      - GO:1902494
+      - GO:1990234
+      - PR:000050567
+      - GO:0006002
+      - GO:0019637
+      - GO:1901135
+      - GO:0016020
+      - GO:0016208
+      - GO:0043169
+      - GO:0030388
+      - GO:0005515
+      - GO:0042802
+      - GO:0046872
+      - GO:0030246
+      - GO:0048029
+      - GO:0005996
+      - GO:0006006
+      - GO:0006007
+      - GO:0006735
+      - GO:0019318
+      - GO:0019320
+      - GO:0044282
+      - GO:0046365
+      - GO:0061620
+      - GO:0061621
+      - GO:0061718
+      - GO:0070095
+- name: term-GO:0061621-1
+  gene_symbols:
+  - pfkmb
+  - pfkpb
+  - pfkma
+  - pfklb
+  gene_ids:
+  - ZFIN:ZDB-GENE-081114-1
+  - ZFIN:ZDB-GENE-070912-634
+  - ZFIN:ZDB-GENE-040912-135
+  - ZFIN:ZDB-GENE-050417-62
+  payloads:
+    gpt-3.5-turbo.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkmb; pfkpb; pfkma; pfklb; \n\n\n===\n\nSummary and enriched\
+        \ terms:"
+      response_text: "Summary: The common function of these genes is related to glycolysis.\n\
+        Mechanism: Glycolysis\nEnriched Terms: glycolysis; carbohydrate metabolic\
+        \ process; glucose metabolic process; cellular carbohydrate metabolic process.\
+        \ \n\nHypothesis: These genes play a key role in regulating glycolysis. Glycolysis\
+        \ is a metabolic pathway that converts glucose into pyruvate, releasing energy\
+        \ in the form of ATP and NADH. These four genes are all isoforms of the enzyme\
+        \ phosphofructokinase (PFK), which is a key regulatory enzyme in glycolysis.\
+        \ PFK catalyzes the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate,\
+        \ a rate-limiting step in glycolysis. These isoforms may have different tissue-specific\
+        \ expression patterns and regulatory functions, but all contribute to the\
+        \ overall regulation of glycolysis. Therefore, these genes are important for\
+        \ energy metabolism and regulation of glucose utilization in cells."
+      truncation_factor: 1.0
+      summary: 'Summary: The common function of these genes is related to glycolysis.
+
+        Mechanism: Glycolysis
+
+
+        Hypothesis:  These genes play a key role in regulating glycolysis. Glycolysis
+        is a metabolic pathway that converts glucose into pyruvate, releasing energy
+        in the form of ATP and NADH. These four genes are all isoforms of the enzyme
+        phosphofructokinase (PFK), which is a key regulatory enzyme in glycolysis.
+        PFK catalyzes the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate,
+        a rate-limiting step in glycolysis. These isoforms may have different tissue-specific
+        expression patterns and regulatory functions, but all contribute to the overall
+        regulation of glycolysis. Therefore, these genes are important for energy
+        metabolism and regulation of glucose utilization in cells.'
+      term_strings:
+      - glycolysis
+      - carbohydrate metabolic process
+      - glucose metabolic process
+      - cellular carbohydrate metabolic process
+      term_ids:
+      - GO:0006096
+      - GO:0005975
+      - GO:0006006
+      - GO:0044262
+      response_token_length: 199
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkmb; pfkpb; pfkma; pfklb; \n\n\n###\n\nSummary and enriched\
+        \ terms:"
+      response_text: "Summary: The commonality among these genes is their involvement\
+        \ in carbohydrate metabolism.\nMechanism: Glycolysis\nEnriched Terms: glucose\
+        \ metabolism; energy production; glycolysis. \n\nHypothesis: These genes belong\
+        \ to different isoforms of the 6-phosphofructokinase (PFK) enzyme family,\
+        \ which catalyze the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate\
+        \ during glycolysis. Their over-representation in carbohydrate metabolism-related\
+        \ terms suggests their important roles in energy production."
+      truncation_factor: 1.0
+      summary: 'Summary: The commonality among these genes is their involvement in
+        carbohydrate metabolism.
+
+        Mechanism: Glycolysis
+
+
+        Hypothesis:  These genes belong to different isoforms of the 6-phosphofructokinase
+        (PFK) enzyme family, which catalyze the conversion of fructose-6-phosphate
+        to fructose-1,6-bisphosphate during glycolysis. Their over-representation
+        in carbohydrate metabolism-related terms suggests their important roles in
+        energy production.'
+      term_strings:
+      - glucose metabolism
+      - energy production
+      - glycolysis
+      term_ids:
+      - GO:0006006
+      - energy production
+      - GO:0006096
+      response_token_length: 113
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Genes involved in glycolysis through 6-phosphofructokinase
+        activity.
+
+        Mechanism: Glycolysis
+
+        Enriched Terms: glycolysis; fructose 6-phosphate metabolic process; fructose
+        1,6-bisphosphate metabolic process; phosphorylation.
+
+
+        Hypothesis: These genes are involved in the regulation of glycolysis, specifically
+        the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate through
+        the activity of 6-phosphofructokinase. They also play a role in the phosphorylation
+        of glucose during glycolysis.'
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in glycolysis through 6-phosphofructokinase
+        activity.
+
+        Mechanism: Glycolysis
+
+
+        Hypothesis:  These genes are involved in the regulation of glycolysis, specifically
+        the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate through
+        the activity of 6-phosphofructokinase. They also play a role in the phosphorylation
+        of glucose during glycolysis.'
+      term_strings:
+      - glycolysis
+      - fructose 6-phosphate metabolic process
+      - fructose 1,6-bisphosphate metabolic process
+      - phosphorylation
+      term_ids:
+      - GO:0006096
+      - GO:0006002
+      - GO:0030388
+      - GO:0016310
+      annotations: true
+      response_token_length: 129
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: "Summary: Genes involved in 6-phosphofructokinase activity and\
+        \ glycolysis.\nMechanism: Glycolysis and energy production.\nEnriched Terms:\
+        \ Glycolysis; fructose 1,6-bisphosphate metabolic process; fructose 6-phosphate\
+        \ metabolic process. \n\nHypothesis: The enrichment of terms related to glycolysis\
+        \ and energy production suggests that these genes are involved in the regulation\
+        \ and utilization of glucose as an energy source. The 6-phosphofructokinase\
+        \ complex, which these genes are part of, catalyzes the conversion of fructose\
+        \ 6-phosphate to fructose 1,6-bisphosphate, a pivotal step in glycolysis.\
+        \ Dysregulation of these genes or the glycolytic pathway may lead to metabolic\
+        \ disorders such as glycogen storage disease VII."
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in 6-phosphofructokinase activity and glycolysis.
+
+        Mechanism: Glycolysis and energy production.
+
+
+        Hypothesis:  The enrichment of terms related to glycolysis and energy production
+        suggests that these genes are involved in the regulation and utilization of
+        glucose as an energy source. The 6-phosphofructokinase complex, which these
+        genes are part of, catalyzes the conversion of fructose 6-phosphate to fructose
+        1,6-bisphosphate, a pivotal step in glycolysis. Dysregulation of these genes
+        or the glycolytic pathway may lead to metabolic disorders such as glycogen
+        storage disease VII.'
+      term_strings:
+      - glycolysis
+      - fructose 1,6-bisphosphate metabolic process
+      - fructose 6-phosphate metabolic process
+      term_ids:
+      - GO:0006096
+      - GO:0030388
+      - GO:0006002
+      annotations: true
+      response_token_length: 173
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.narrative_synopsis.v1:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkmb: \n\
+        \npfkpb: \n\npfkma: \n\npfklb: \n\n\n\n===\n\nSummary and enriched terms:"
+      response_text: "Summary: Genes associated with the regulation of energy metabolism.\n\
+        Mechanism: Glycolysis and gluconeogenesis pathways.\nEnriched Terms: Metabolic\
+        \ pathways; carbohydrate metabolism; glycolysis/gluconeogenesis. \n\nHypotheses:\
+        \ These genes are all involved in the regulation of energy metabolism, specifically\
+        \ in the glycolysis and gluconeogenesis pathways. They most likely participate\
+        \ in the conversion of glucose into energy, and their dysregulation may lead\
+        \ to metabolic disorders like diabetes or hypoglycemia. The term enrichment\
+        \ suggests a strong association between these genes and metabolic pathways,\
+        \ which could be studied further to understand their underlying mechanisms\
+        \ and functions in these processes."
+      truncation_factor: 1.0
+      summary: 'Summary: Genes associated with the regulation of energy metabolism.
+
+        Mechanism: Glycolysis and gluconeogenesis pathways.
+
+        '
+      term_strings:
+      - "metabolic pathways; carbohydrate metabolism; glycolysis/gluconeogenesis.\
+        \ \n\nhypotheses: these genes are all involved in the regulation of energy\
+        \ metabolism"
+      - specifically in the glycolysis and gluconeogenesis pathways. they most likely
+        participate in the conversion of glucose into energy
+      - and their dysregulation may lead to metabolic disorders like diabetes or hypoglycemia.
+        the term enrichment suggests a strong association between these genes and
+        metabolic pathways
+      - which could be studied further to understand their underlying mechanisms and
+        functions in these processes
+      term_ids:
+      - "metabolic pathways; carbohydrate metabolism; glycolysis/gluconeogenesis.\
+        \ \n\nhypotheses: these genes are all involved in the regulation of energy\
+        \ metabolism"
+      - specifically in the glycolysis and gluconeogenesis pathways. they most likely
+        participate in the conversion of glucose into energy
+      - and their dysregulation may lead to metabolic disorders like diabetes or hypoglycemia.
+        the term enrichment suggests a strong association between these genes and
+        metabolic pathways
+      - which could be studied further to understand their underlying mechanisms and
+        functions in these processes
+      annotations: true
+      response_token_length: 134
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.narrative_synopsis.v2:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkmb: \n\
+        \npfkpb: \n\npfkma: \n\npfklb: \n\n\n\n###\n\nSummary and enriched terms:"
+      response_text: "Summary: Genes involved in various isoforms of phosphofructokinase\
+        \ (PFK) which play a role in glycolysis and energy production.\n\nMechanism:\
+        \ These genes encode for different isoforms of the same enzyme - phosphofructokinase\
+        \ which catalyzes one of the rate-limiting steps of glucose metabolism. \n\
+        \nEnriched Terms: Glycolysis; Glucose metabolism; Energy production."
+      truncation_factor: 1.0
+      summary: "Summary: Genes involved in various isoforms of phosphofructokinase\
+        \ (PFK) which play a role in glycolysis and energy production.\n\nMechanism:\
+        \ These genes encode for different isoforms of the same enzyme - phosphofructokinase\
+        \ which catalyzes one of the rate-limiting steps of glucose metabolism. \n\
+        \n"
+      term_strings:
+      - glycolysis
+      - glucose metabolism
+      - energy production
+      term_ids:
+      - GO:0006096
+      - GO:0006006
+      - energy production
+      annotations: true
+      response_token_length: 85
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v2
+    text-davinci-003.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkmb; pfkpb; pfkma; pfklb; \n\n\n===\n\nSummary and enriched\
+        \ terms:"
+      response_text: ' The genes identified (pfkma; pfkmb; pfklb; pfkpb) appear to
+        be involved in the phosphofructokinase pathway.  Enriched terms include "phosphofructokinase";
+        "glycolysis"; and "metabolic pathway".
+
+
+        Mechanism: Phosphofructokinase is an enzyme involved in glycolysis, a metabolic
+        pathway that results in the breakdown of glucose and generates ATP. The genes
+        identified are components of this glycolytic pathway, helping to regulate
+        the rate of ATP formation and breakdown.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - the genes identified (pfkma
+      - pfkmb
+      - pfklb
+      - pfkpb) appear to be involved in the phosphofructokinase pathway.  enriched
+        terms include "phosphofructokinase"
+      - '"glycolysis"'
+      - '"metabolic pathway".
+
+
+        mechanism: phosphofructokinase is an enzyme involved in glycolysis, a metabolic
+        pathway that results in the breakdown of glucose generates atp. the genes
+        identified are components of this glycolytic pathway, helping to regulate
+        the rate of atp formation breakdown'
+      term_ids:
+      - the genes identified (pfkma
+      - pfkmb
+      - pfklb
+      - pfkpb) appear to be involved in the phosphofructokinase pathway.  enriched
+        terms include "phosphofructokinase"
+      - '"glycolysis"'
+      - '"metabolic pathway".
+
+
+        mechanism: phosphofructokinase is an enzyme involved in glycolysis, a metabolic
+        pathway that results in the breakdown of glucose generates atp. the genes
+        identified are components of this glycolytic pathway, helping to regulate
+        the rate of atp formation breakdown'
+      response_token_length: 121
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v1
+    text-davinci-003.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\npfkmb; pfkpb; pfkma; pfklb; \n\n\n###\n\nSummary and enriched\
+        \ terms:"
+      response_text: " These four human genes are involved in carbohydrate metabolism.\
+        \ \nMechanism: The mechanisms behind their roles are likely related to their\
+        \ enzymatic functions and pathways within the glycolysis process. \nEnriched\
+        \ Terms: Carbohydrate metabolism; Glycolysis; Phenylalanine metabolism; Pentose\
+        \ Phosphate Pathway; Pyruvate Metabolism."
+      truncation_factor: 1.0
+      summary: " These four human genes are involved in carbohydrate metabolism. \n\
+        Mechanism: The mechanisms behind their roles are likely related to their enzymatic\
+        \ functions and pathways within the glycolysis process. \n"
+      term_strings:
+      - carbohydrate metabolism
+      - glycolysis
+      - phenylalanine metabolism
+      - pentose phosphate pathway
+      - pyruvate metabolism
+      term_ids:
+      - GO:0005975
+      - GO:0006096
+      - GO:0006558
+      - GO:0006098
+      - GO:0006090
+      response_token_length: 76
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v2
+    text-davinci-003.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: '
+
+        Summary: The four genes (pfkmb, pfkpb, pfkma, and pfklb) all share a similar
+        role in canonical glycolysis and phosphorylation, as part of the 6-phosphofructokinase
+        complex.
+
+        Mechanism: The four proteins are involved in the process of phosphorylation
+        which is an essential step in glycolysis.
+
+        Enriched Terms: 6-phosphofructokinase activity; adenyl ribonucleotide binding
+        activity; fructose-6-phosphate binding activity; canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; fructose 6-phosphate metabolic process;
+        glycolytic process; phosphorylation; cytoplasm; membrane.'
+      truncation_factor: 1.0
+      summary: '
+
+        Summary: The four genes (pfkmb, pfkpb, pfkma, and pfklb) all share a similar
+        role in canonical glycolysis and phosphorylation, as part of the 6-phosphofructokinase
+        complex.
+
+        Mechanism: The four proteins are involved in the process of phosphorylation
+        which is an essential step in glycolysis.
+
+        '
+      term_strings:
+      - 6-phosphofructokinase activity
+      - adenyl ribonucleotide binding activity
+      - fructose-6-phosphate binding activity
+      - canonical glycolysis
+      - fructose 1,6-bisphosphate metabolic process
+      - fructose 6-phosphate metabolic process
+      - glycolytic process
+      - phosphorylation
+      - cytoplasm
+      - membrane
+      term_ids:
+      - GO:0003872
+      - adenyl ribonucleotide binding activity
+      - fructose-6-phosphate binding activity
+      - GO:0061621
+      - GO:0030388
+      - GO:0006002
+      - GO:0006096
+      - GO:0016310
+      - GO:0005737
+      - GO:0016020
+      annotations: true
+      response_token_length: 164
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v1
+    text-davinci-003.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        pfkmb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Human ortholog(s) of this gene
+        implicated in glycogen storage disease VII. Orthologous to human PFKM (phosphofructokinase,
+        muscle).
+
+
+        pfkpb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Orthologous to human PFKP (phosphofructokinase,
+        platelet).
+
+
+        pfkma: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in male organism;
+        musculature system; myotome; and pectoral fin musculature. Human ortholog(s)
+        of this gene implicated in glycogen storage disease VII. Orthologous to human
+        PFKM (phosphofructokinase, muscle).
+
+
+        pfklb: Predicted to enable several functions, including 6-phosphofructokinase
+        activity; adenyl ribonucleotide binding activity; and fructose-6-phosphate
+        binding activity. Predicted to be involved in canonical glycolysis; fructose
+        1,6-bisphosphate metabolic process; and fructose 6-phosphate metabolic process.
+        Predicted to act upstream of or within glycolytic process and phosphorylation.
+        Predicted to be located in cytoplasm. Predicted to be part of 6-phosphofructokinase
+        complex. Predicted to be active in membrane. Is expressed in several structures,
+        including liver; male organism; nervous system; somite; and yolk syncytial
+        layer. Orthologous to human PFKL (phosphofructokinase, liver type).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: ' The genes pfkmb, pfkpb, pfkma, and pfklb appear to be involved
+        in the same metabolic pathway, namely glycolysis. More specifically, all four
+        of the genes have 6-phosphofructokinase activity, adenyl ribonucleotide binding
+        activity, and fructose-6-phosphate binding activity, and are active in the
+        same processes including canonical glycolysis, fructose 1,6-bisphosphate metabolic
+        process, and fructose 6-phosphate metabolic process. They act upstream or
+        within the glycolytic process and phosphorylation, and are located in the
+        cytoplasm and active in membranes. They are also all part of the 6-phosphofructokinase
+        complex.
+
+
+        Mechanism: The underlying biological mechanism appears to be related to the
+        metabolism of sugar. The 6-phosphofructokinase activity, adenyl ribonucleotide
+        binding activity, and fructose-6-phosphate binding activity suggest that the
+        genes are involved in the regulation of the glycolytic pathway, which is a
+        pathway in which sugar (glucose) is broken down in the presence of oxygen
+        to produce'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - the genes pfkmb
+      - pfkpb
+      - pfkma
+      - and pfklb appear to be involved in the same metabolic pathway
+      - namely glycolysis. more specifically
+      - all four of the genes have 6-phosphofructokinase activity
+      - adenyl ribonucleotide binding activity
+      - and fructose-6-phosphate binding activity
+      - and are active in the same processes including canonical glycolysis
+      - fructose 1,6-bisphosphate metabolic process
+      - and fructose 6-phosphate metabolic process. they act upstream or within the
+        glycolytic process and phosphorylation
+      - 'and are located in the cytoplasm and active in membranes. they are also all
+        part of the 6-phosphofructokinase complex.
+
+
+        mechanism: the underlying biological mechanism appears to be related to the
+        metabolism of sugar. the 6-phosphofructokinase activity'
+      - adenyl ribonucleotide binding activity
+      - and fructose-6-phosphate binding activity suggest that the genes are involved
+        in the regulation of the glycolytic pathway
+      - which is a pathway in which sugar (glucose) is broken down in the presence
+        of oxygen to produce
+      term_ids:
+      - the genes pfkmb
+      - pfkpb
+      - pfkma
+      - and pfklb appear to be involved in the same metabolic pathway
+      - namely glycolysis. more specifically
+      - all four of the genes have 6-phosphofructokinase activity
+      - adenyl ribonucleotide binding activity
+      - and fructose-6-phosphate binding activity
+      - and are active in the same processes including canonical glycolysis
+      - GO:0030388
+      - and fructose 6-phosphate metabolic process. they act upstream or within the
+        glycolytic process and phosphorylation
+      - 'and are located in the cytoplasm and active in membranes. they are also all
+        part of the 6-phosphofructokinase complex.
+
+
+        mechanism: the underlying biological mechanism appears to be related to the
+        metabolism of sugar. the 6-phosphofructokinase activity'
+      - adenyl ribonucleotide binding activity
+      - and fructose-6-phosphate binding activity suggest that the genes are involved
+        in the regulation of the glycolytic pathway
+      - MESH:D005947
+      annotations: true
+      response_token_length: 250
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v2
+    text-davinci-003.narrative_synopsis.v1:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkmb: \n\
+        \npfkpb: \n\npfkma: \n\npfklb: \n\n\n\n===\n\nSummary and enriched terms:"
+      response_text: ' The commonality among these four human genes is that they are
+        all involved in phosphofructokinase (PFK) activity, a key enzyme involved
+        in glycolysis. The enriched terms are phosphofructokinase activity; glycolysis;
+        carbohydrate metabolism; ATP synthesis.
+
+
+        Mechanism: PFK is a key enzyme involved in the glycolysis process, in which
+        carbohydrates are metabolized to produce energy in the form of ATP. PFK converts
+        fructose-6-phosphate to fructose-1,6-Bisphosphate, which is then broken down
+        further to generate energy molecules. During this process, ATP is synthesized
+        which is then used as a source of chemical energy for various cellular processes.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - the commonality among these four human genes is that they are all involved
+        in phosphofructokinase (pfk) activity
+      - 'a key enzyme involved in glycolysis. the enriched terms are phosphofructokinase
+        activity; glycolysis; carbohydrate metabolism; atp synthesis.
+
+
+        mechanism: pfk is a key enzyme involved in the glycolysis process'
+      - in which carbohydrates are metabolized to produce energy in the form of atp.
+        pfk converts fructose-6-phosphate to fructose-1,6-bisphosphate
+      - which is then broken down further to generate energy molecules. during this
+        process
+      - atp is synthesized which is then used as a source of chemical energy for various
+        cellular processes
+      term_ids:
+      - GO:0003872
+      - 'a key enzyme involved in glycolysis. the enriched terms are phosphofructokinase
+        activity; glycolysis; carbohydrate metabolism; atp synthesis.
+
+
+        mechanism: pfk is a key enzyme involved in the glycolysis process'
+      - in which carbohydrates are metabolized to produce energy in the form of atp.
+        pfk converts fructose-6-phosphate to fructose-1,6-bisphosphate
+      - which is then broken down further to generate energy molecules. during this
+        process
+      - atp is synthesized which is then used as a source of chemical energy for various
+        cellular processes
+      annotations: true
+      response_token_length: 150
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v1
+    text-davinci-003.narrative_synopsis.v2:
+      prompt: "I will give you a list of human genes  together with descriptions of\
+        \ their functions.\nPerform a term enrichment test on these genes.\ni.e. tell\
+        \ me what the commonalities are in their function.\nMake use of classification\
+        \ hierarchies when you do this.\nOnly report gene functions in common, not\
+        \ diseases.\ne.g if gene1 is involved in \"toe bone growth\" and gene2 is\
+        \ involved in \"finger morphogenesis\"\nthen the term \"digit development\"\
+        \ would be enriched as represented by gene1 and gene2.\nOnly include terms\
+        \ that are statistically over-represented.\nAlso include a hypothesis of the\
+        \ underlying biological mechanism or pathway.\n\nProvide results in the format\n\
+        \nSummary: <high level summary>\nMechanism: <mechanism>\nEnriched Terms: <term1>;\
+        \ <term2>; <term3>\n\nFor the list of terms, be sure to use a semi-colon separator,\
+        \ and do not number the list.\nAlways put the list of terms last, after mechanism,\
+        \ summary, or hypotheses.\n\n\nHere are the gene summaries:\n\n\npfkmb: \n\
+        \npfkpb: \n\npfkma: \n\npfklb: \n\n\n\n###\n\nSummary and enriched terms:"
+      response_text: '
+
+        Summary: The genes pfkmb, pfkpb, pfkma, and pfklb are involved in the control
+        of metabolic processes.
+
+        Mechanism: These genes are involved in controlling metabolic pathways by providing
+        substrates for energy production and regulating the flux of metabolites.
+
+        Enriched Terms: Metabolic regulation; Metabolic pathways; Energy production;
+        Metabolite flux; Enzyme regulation.'
+      truncation_factor: 1.0
+      summary: '
+
+        Summary: The genes pfkmb, pfkpb, pfkma, and pfklb are involved in the control
+        of metabolic processes.
+
+        Mechanism: These genes are involved in controlling metabolic pathways by providing
+        substrates for energy production and regulating the flux of metabolites.
+
+        '
+      term_strings:
+      - metabolic regulation
+      - metabolic pathways
+      - energy production
+      - metabolite flux
+      - enzyme regulation
+      term_ids:
+      - metabolic regulation
+      - MESH:M0496924
+      - energy production
+      - metabolite flux
+      - enzyme regulation
+      annotations: true
+      response_token_length: 85
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v2
+    standard:
+      term_strings:
+      - canonical glycolysis
+      - glucose catabolic process to pyruvate
+      - 6-phosphofructokinase complex
+      - glycolytic process through glucose-6-phosphate
+      - glucose catabolic process
+      - fructose-6-phosphate binding
+      - NADH regeneration
+      - 6-phosphofructokinase activity
+      - glycolytic process through fructose-6-phosphate
+      - hexose catabolic process
+      - AMP binding
+      - monosaccharide catabolic process
+      - fructose 6-phosphate metabolic process
+      - phosphofructokinase activity
+      - fructose 1,6-bisphosphate metabolic process
+      - carbohydrate kinase activity
+      - carbohydrate phosphorylation
+      - glycolytic process
+      - glucose metabolic process
+      - pyruvate metabolic process
+      - monosaccharide binding
+      - carbohydrate catabolic process
+      - hexose metabolic process
+      - monosaccharide metabolic process
+      - identical protein binding
+      - small molecule catabolic process
+      - transferase complex, transferring phosphorus-containing groups
+      - carbohydrate binding
+      - monocarboxylic acid metabolic process
+      - carbohydrate metabolic process
+      - carboxylic acid metabolic process
+      - oxoacid metabolic process
+      - organic acid metabolic process
+      - transferase complex
+      - organophosphate metabolic process
+      - carbohydrate derivative metabolic process
+      - phosphotransferase activity, alcohol group as acceptor
+      - cytosol
+      - phosphorylation
+      - small molecule metabolic process
+      - organic substance catabolic process
+      - kinase activity
+      - transferase activity, transferring phosphorus-containing groups
+      - catabolic process
+      - catalytic complex
+      - ATP binding
+      - adenyl ribonucleotide binding
+      - phosphate-containing compound metabolic process
+      - phosphorus metabolic process
+      - adenyl nucleotide binding
+      - purine ribonucleoside triphosphate binding
+      - purine ribonucleotide binding
+      - ribonucleotide binding
+      - purine nucleotide binding
+      - carbohydrate derivative binding
+      - nucleotide binding
+      - nucleoside phosphate binding
+      - anion binding
+      - transferase activity
+      - small molecule binding
+      term_ids:
+      - GO:0061621
+      - GO:0061718
+      - GO:0005945
+      - GO:0061620
+      - GO:0006007
+      - GO:0070095
+      - GO:0006735
+      - GO:0003872
+      - GO:0061615
+      - GO:0019320
+      - GO:0016208
+      - GO:0046365
+      - GO:0006002
+      - GO:0008443
+      - GO:0030388
+      - GO:0019200
+      - GO:0046835
+      - GO:0006096
+      - GO:0006006
+      - GO:0006090
+      - GO:0048029
+      - GO:0016052
+      - GO:0019318
+      - GO:0005996
+      - GO:0042802
+      - GO:0044282
+      - GO:0061695
+      - GO:0030246
+      - GO:0032787
+      - GO:0005975
+      - GO:0019752
+      - GO:0043436
+      - GO:0006082
+      - GO:1990234
+      - GO:0019637
+      - GO:1901135
+      - GO:0016773
+      - GO:0005829
+      - GO:0016310
+      - GO:0044281
+      - GO:1901575
+      - GO:0016301
+      - GO:0016772
+      - GO:0009056
+      - GO:1902494
+      - GO:0005524
+      - GO:0032559
+      - GO:0006796
+      - GO:0006793
+      - GO:0030554
+      - GO:0035639
+      - GO:0032555
+      - GO:0032553
+      - GO:0017076
+      - GO:0097367
+      - GO:0000166
+      - GO:1901265
+      - GO:0043168
+      - GO:0016740
+      - GO:0036094
+      method: standard
+      enrichment_results:
+      - class_id: GO:0061621
+        class_label: canonical glycolysis
+        rank: 1
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0061718
+        class_label: glucose catabolic process to pyruvate
+        rank: 2
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005945
+        class_label: 6-phosphofructokinase complex
+        rank: 3
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0061620
+        class_label: glycolytic process through glucose-6-phosphate
+        rank: 4
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006007
+        class_label: glucose catabolic process
+        rank: 5
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0070095
+        class_label: fructose-6-phosphate binding
+        rank: 6
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0006735
+        class_label: NADH regeneration
+        rank: 7
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 4.1602433604309716e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0003872
+        class_label: 6-phosphofructokinase activity
+        rank: 8
+        p_value: 1.313761061169383e-15
+        p_value_adjusted: 1.248073008110914e-13
+        sample_count: 4
+        sample_total: 4
+        background_count: 6
+        background_total: 22881
+      - class_id: GO:0061615
+        class_label: glycolytic process through fructose-6-phosphate
+        rank: 9
+        p_value: 1.313761061169383e-15
+        p_value_adjusted: 1.248073008110914e-13
+        sample_count: 4
+        sample_total: 4
+        background_count: 6
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019320
+        class_label: hexose catabolic process
+        rank: 10
+        p_value: 6.1308849522617e-15
+        p_value_adjusted: 5.824340704648615e-13
+        sample_count: 4
+        sample_total: 4
+        background_count: 8
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016208
+        class_label: AMP binding
+        rank: 11
+        p_value: 1.1035592913995231e-14
+        p_value_adjusted: 1.048381326829547e-12
+        sample_count: 4
+        sample_total: 4
+        background_count: 9
+        background_total: 22881
+      - class_id: GO:0046365
+        class_label: monosaccharide catabolic process
+        rank: 12
+        p_value: 1.1035592913995231e-14
+        p_value_adjusted: 1.048381326829547e-12
+        sample_count: 4
+        sample_total: 4
+        background_count: 9
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006002
+        class_label: fructose 6-phosphate metabolic process
+        rank: 13
+        p_value: 2.890274334591773e-14
+        p_value_adjusted: 2.7457606178621843e-12
+        sample_count: 4
+        sample_total: 4
+        background_count: 11
+        background_total: 22881
+      - class_id: GO:0008443
+        class_label: phosphofructokinase activity
+        rank: 14
+        p_value: 6.262261058375929e-14
+        p_value_adjusted: 5.949148005457132e-12
+        sample_count: 4
+        sample_total: 4
+        background_count: 13
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0030388
+        class_label: fructose 1,6-bisphosphate metabolic process
+        rank: 15
+        p_value: 1.1955225657085166e-13
+        p_value_adjusted: 1.1357464374230909e-11
+        sample_count: 4
+        sample_total: 4
+        background_count: 15
+        background_total: 22881
+      - class_id: GO:0019200
+        class_label: carbohydrate kinase activity
+        rank: 16
+        p_value: 1.3093818576292018e-12
+        p_value_adjusted: 1.2439127647477418e-10
+        sample_count: 4
+        sample_total: 4
+        background_count: 26
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0046835
+        class_label: carbohydrate phosphorylation
+        rank: 17
+        p_value: 1.537100441572994e-12
+        p_value_adjusted: 1.4602454194943442e-10
+        sample_count: 4
+        sample_total: 4
+        background_count: 27
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006096
+        class_label: glycolytic process
+        rank: 18
+        p_value: 8.004308225332953e-12
+        p_value_adjusted: 7.604092814066305e-10
+        sample_count: 4
+        sample_total: 4
+        background_count: 40
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006006
+        class_label: glucose metabolic process
+        rank: 19
+        p_value: 1.1889625188101457e-11
+        p_value_adjusted: 1.1295143928696383e-09
+        sample_count: 4
+        sample_total: 4
+        background_count: 44
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006090
+        class_label: pyruvate metabolic process
+        rank: 20
+        p_value: 3.459658378517607e-11
+        p_value_adjusted: 3.286675459591727e-09
+        sample_count: 4
+        sample_total: 4
+        background_count: 57
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0048029
+        class_label: monosaccharide binding
+        rank: 21
+        p_value: 3.715929369467559e-11
+        p_value_adjusted: 3.5301329009941807e-09
+        sample_count: 4
+        sample_total: 4
+        background_count: 58
+        background_total: 22881
+      - class_id: GO:0016052
+        class_label: carbohydrate catabolic process
+        rank: 22
+        p_value: 7.132715345566545e-11
+        p_value_adjusted: 6.776079578288217e-09
+        sample_count: 4
+        sample_total: 4
+        background_count: 68
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019318
+        class_label: hexose metabolic process
+        rank: 23
+        p_value: 7.57165167432948e-11
+        p_value_adjusted: 7.1930690906130055e-09
+        sample_count: 4
+        sample_total: 4
+        background_count: 69
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005996
+        class_label: monosaccharide metabolic process
+        rank: 24
+        p_value: 1.3852121461258206e-10
+        p_value_adjusted: 1.3159515388195297e-08
+        sample_count: 4
+        sample_total: 4
+        background_count: 80
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0042802
+        class_label: identical protein binding
+        rank: 25
+        p_value: 3.62220355346378e-09
+        p_value_adjusted: 3.441093375790591e-07
+        sample_count: 4
+        sample_total: 4
+        background_count: 179
+        background_total: 22881
+      - class_id: GO:0044282
+        class_label: small molecule catabolic process
+        rank: 26
+        p_value: 8.626327230483674e-09
+        p_value_adjusted: 8.195010868959491e-07
+        sample_count: 4
+        sample_total: 4
+        background_count: 222
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0061695
+        class_label: transferase complex, transferring phosphorus-containing groups
+        rank: 27
+        p_value: 1.0123344821821936e-08
+        p_value_adjusted: 9.61717758073084e-07
+        sample_count: 4
+        sample_total: 4
+        background_count: 231
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0030246
+        class_label: carbohydrate binding
+        rank: 28
+        p_value: 1.084779602534262e-08
+        p_value_adjusted: 1.030540622407549e-06
+        sample_count: 4
+        sample_total: 4
+        background_count: 235
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032787
+        class_label: monocarboxylic acid metabolic process
+        rank: 29
+        p_value: 2.3242031669574294e-08
+        p_value_adjusted: 2.207993008609558e-06
+        sample_count: 4
+        sample_total: 4
+        background_count: 284
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005975
+        class_label: carbohydrate metabolic process
+        rank: 30
+        p_value: 3.17868219834849e-08
+        p_value_adjusted: 3.0197480884310653e-06
+        sample_count: 4
+        sample_total: 4
+        background_count: 307
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019752
+        class_label: carboxylic acid metabolic process
+        rank: 31
+        p_value: 2.782920721731714e-07
+        p_value_adjusted: 2.6437746856451285e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 527
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0043436
+        class_label: oxoacid metabolic process
+        rank: 32
+        p_value: 2.868625601768371e-07
+        p_value_adjusted: 2.7251943216799526e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 531
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006082
+        class_label: organic acid metabolic process
+        rank: 33
+        p_value: 3.8118201499639744e-07
+        p_value_adjusted: 3.621229142465776e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 570
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1990234
+        class_label: transferase complex
+        rank: 34
+        p_value: 6.065335492174672e-07
+        p_value_adjusted: 5.7620687175659387e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 640
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0019637
+        class_label: organophosphate metabolic process
+        rank: 35
+        p_value: 6.375076549651356e-07
+        p_value_adjusted: 6.056322722168788e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 648
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1901135
+        class_label: carbohydrate derivative metabolic process
+        rank: 36
+        p_value: 1.0335060649059692e-06
+        p_value_adjusted: 9.818307616606707e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 731
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016773
+        class_label: phosphotransferase activity, alcohol group as acceptor
+        rank: 37
+        p_value: 4.083476330156341e-06
+        p_value_adjusted: 0.0003879302513648524
+        sample_count: 4
+        sample_total: 4
+        background_count: 1030
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005829
+        class_label: cytosol
+        rank: 38
+        p_value: 4.738975536916055e-06
+        p_value_adjusted: 0.00045020267600702523
+        sample_count: 4
+        sample_total: 4
+        background_count: 1069
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016310
+        class_label: phosphorylation
+        rank: 39
+        p_value: 5.352703358669393e-06
+        p_value_adjusted: 0.0005085068190735924
+        sample_count: 4
+        sample_total: 4
+        background_count: 1102
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0044281
+        class_label: small molecule metabolic process
+        rank: 40
+        p_value: 5.8144057040219595e-06
+        p_value_adjusted: 0.0005523685418820861
+        sample_count: 4
+        sample_total: 4
+        background_count: 1125
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1901575
+        class_label: organic substance catabolic process
+        rank: 41
+        p_value: 6.045483527310762e-06
+        p_value_adjusted: 0.0005743209350945223
+        sample_count: 4
+        sample_total: 4
+        background_count: 1136
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016301
+        class_label: kinase activity
+        rank: 42
+        p_value: 6.152765550173921e-06
+        p_value_adjusted: 0.0005845127272665224
+        sample_count: 4
+        sample_total: 4
+        background_count: 1141
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016772
+        class_label: transferase activity, transferring phosphorus-containing groups
+        rank: 43
+        p_value: 9.780800091754142e-06
+        p_value_adjusted: 0.0009291760087166435
+        sample_count: 4
+        sample_total: 4
+        background_count: 1281
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0009056
+        class_label: catabolic process
+        rank: 44
+        p_value: 1.0121509064774125e-05
+        p_value_adjusted: 0.0009615433611535419
+        sample_count: 4
+        sample_total: 4
+        background_count: 1292
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1902494
+        class_label: catalytic complex
+        rank: 45
+        p_value: 1.024758326954347e-05
+        p_value_adjusted: 0.0009735204106066296
+        sample_count: 4
+        sample_total: 4
+        background_count: 1296
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0005524
+        class_label: ATP binding
+        rank: 46
+        p_value: 3.295405843614856e-05
+        p_value_adjusted: 0.0031306355514341133
+        sample_count: 4
+        sample_total: 4
+        background_count: 1735
+        background_total: 22881
+      - class_id: GO:0032559
+        class_label: adenyl ribonucleotide binding
+        rank: 47
+        p_value: 3.5535964223608636e-05
+        p_value_adjusted: 0.0033759166012428204
+        sample_count: 4
+        sample_total: 4
+        background_count: 1768
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006796
+        class_label: phosphate-containing compound metabolic process
+        rank: 48
+        p_value: 3.826669487560599e-05
+        p_value_adjusted: 0.003635336013182569
+        sample_count: 4
+        sample_total: 4
+        background_count: 1801
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006793
+        class_label: phosphorus metabolic process
+        rank: 49
+        p_value: 3.9908626201620496e-05
+        p_value_adjusted: 0.003791319489153947
+        sample_count: 4
+        sample_total: 4
+        background_count: 1820
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0030554
+        class_label: adenyl nucleotide binding
+        rank: 50
+        p_value: 4.279272329101649e-05
+        p_value_adjusted: 0.004065308712646567
+        sample_count: 4
+        sample_total: 4
+        background_count: 1852
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0035639
+        class_label: purine ribonucleoside triphosphate binding
+        rank: 51
+        p_value: 9.081498058045038e-05
+        p_value_adjusted: 0.008627423155142786
+        sample_count: 4
+        sample_total: 4
+        background_count: 2235
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032555
+        class_label: purine ribonucleotide binding
+        rank: 52
+        p_value: 9.870382487388166e-05
+        p_value_adjusted: 0.009376863363018758
+        sample_count: 4
+        sample_total: 4
+        background_count: 2282
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0032553
+        class_label: ribonucleotide binding
+        rank: 53
+        p_value: 0.00010115000922518246
+        p_value_adjusted: 0.009609250876392333
+        sample_count: 4
+        sample_total: 4
+        background_count: 2296
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0017076
+        class_label: purine nucleotide binding
+        rank: 54
+        p_value: 0.0001165992602698791
+        p_value_adjusted: 0.011076929725638514
+        sample_count: 4
+        sample_total: 4
+        background_count: 2379
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0097367
+        class_label: carbohydrate derivative binding
+        rank: 55
+        p_value: 0.0001311638443488135
+        p_value_adjusted: 0.012460565213137282
+        sample_count: 4
+        sample_total: 4
+        background_count: 2450
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0000166
+        class_label: nucleotide binding
+        rank: 56
+        p_value: 0.00014450076082197464
+        p_value_adjusted: 0.01372757227808759
+        sample_count: 4
+        sample_total: 4
+        background_count: 2510
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:1901265
+        class_label: nucleoside phosphate binding
+        rank: 57
+        p_value: 0.00014450076082197464
+        p_value_adjusted: 0.01372757227808759
+        sample_count: 4
+        sample_total: 4
+        background_count: 2510
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0043168
+        class_label: anion binding
+        rank: 58
+        p_value: 0.00016999608597881283
+        p_value_adjusted: 0.01614962816798722
+        sample_count: 4
+        sample_total: 4
+        background_count: 2614
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0016740
+        class_label: transferase activity
+        rank: 59
+        p_value: 0.00020947058813390804
+        p_value_adjusted: 0.019899705872721263
+        sample_count: 4
+        sample_total: 4
+        background_count: 2754
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0036094
+        class_label: small molecule binding
+        rank: 60
+        p_value: 0.00021624827926665374
+        p_value_adjusted: 0.020543586530332104
+        sample_count: 4
+        sample_total: 4
+        background_count: 2776
+        background_total: 22881
+        ancestor_of_more_informative_result: true
+    standard_no_ontology:
+      term_strings:
+      - canonical glycolysis
+      - 6-phosphofructokinase complex
+      - fructose-6-phosphate binding
+      - 6-phosphofructokinase activity
+      - AMP binding
+      - monosaccharide binding
+      - fructose 6-phosphate metabolic process
+      - fructose 1,6-bisphosphate metabolic process
+      - glycolytic process
+      - identical protein binding
+      - metabolic process
+      - catalytic activity
+      - kinase activity
+      - phosphorylation
+      - ATP binding
+      - transferase activity
+      - nucleotide binding
+      - metal ion binding
+      - cytoplasm
+      term_ids:
+      - GO:0061621
+      - GO:0005945
+      - GO:0070095
+      - GO:0003872
+      - GO:0016208
+      - GO:0048029
+      - GO:0006002
+      - GO:0030388
+      - GO:0006096
+      - GO:0042802
+      - GO:0008152
+      - GO:0003824
+      - GO:0016301
+      - GO:0016310
+      - GO:0005524
+      - GO:0016740
+      - GO:0000166
+      - GO:0046872
+      - GO:0005737
+      method: standard_no_ontology
+      enrichment_results:
+      - class_id: GO:0061621
+        class_label: canonical glycolysis
+        rank: 1
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 8.758407074591519e-15
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0005945
+        class_label: 6-phosphofructokinase complex
+        rank: 2
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 8.758407074591519e-15
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0070095
+        class_label: fructose-6-phosphate binding
+        rank: 3
+        p_value: 4.3792035372957596e-16
+        p_value_adjusted: 8.758407074591519e-15
+        sample_count: 4
+        sample_total: 4
+        background_count: 5
+        background_total: 22881
+      - class_id: GO:0003872
+        class_label: 6-phosphofructokinase activity
+        rank: 4
+        p_value: 1.313761061169383e-15
+        p_value_adjusted: 2.627522122338766e-14
+        sample_count: 4
+        sample_total: 4
+        background_count: 6
+        background_total: 22881
+      - class_id: GO:0016208
+        class_label: AMP binding
+        rank: 5
+        p_value: 1.1035592913995231e-14
+        p_value_adjusted: 2.2071185827990462e-13
+        sample_count: 4
+        sample_total: 4
+        background_count: 9
+        background_total: 22881
+      - class_id: GO:0048029
+        class_label: monosaccharide binding
+        rank: 6
+        p_value: 1.8392654856514272e-14
+        p_value_adjusted: 3.6785309713028545e-13
+        sample_count: 4
+        sample_total: 4
+        background_count: 10
+        background_total: 22881
+      - class_id: GO:0006002
+        class_label: fructose 6-phosphate metabolic process
+        rank: 7
+        p_value: 2.890274334591773e-14
+        p_value_adjusted: 5.780548669183546e-13
+        sample_count: 4
+        sample_total: 4
+        background_count: 11
+        background_total: 22881
+      - class_id: GO:0030388
+        class_label: fructose 1,6-bisphosphate metabolic process
+        rank: 8
+        p_value: 1.1955225657085166e-13
+        p_value_adjusted: 2.3910451314170333e-12
+        sample_count: 4
+        sample_total: 4
+        background_count: 15
+        background_total: 22881
+      - class_id: GO:0006096
+        class_label: glycolytic process
+        rank: 9
+        p_value: 8.004308225332953e-12
+        p_value_adjusted: 1.6008616450665906e-10
+        sample_count: 4
+        sample_total: 4
+        background_count: 40
+        background_total: 22881
+      - class_id: GO:0042802
+        class_label: identical protein binding
+        rank: 10
+        p_value: 1.6094624008369067e-10
+        p_value_adjusted: 3.2189248016738134e-09
+        sample_count: 4
+        sample_total: 4
+        background_count: 83
+        background_total: 22881
+      - class_id: GO:0008152
+        class_label: metabolic process
+        rank: 11
+        p_value: 9.051485271387027e-10
+        p_value_adjusted: 1.8102970542774054e-08
+        sample_count: 4
+        sample_total: 4
+        background_count: 127
+        background_total: 22881
+      - class_id: GO:0003824
+        class_label: catalytic activity
+        rank: 12
+        p_value: 4.734776261652097e-08
+        p_value_adjusted: 9.469552523304194e-07
+        sample_count: 4
+        sample_total: 4
+        background_count: 339
+        background_total: 22881
+      - class_id: GO:0016301
+        class_label: kinase activity
+        rank: 13
+        p_value: 1.36819971772562e-06
+        p_value_adjusted: 2.7363994354512397e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 784
+        background_total: 22881
+      - class_id: GO:0016310
+        class_label: phosphorylation
+        rank: 14
+        p_value: 1.3893027093357179e-06
+        p_value_adjusted: 2.7786054186714358e-05
+        sample_count: 4
+        sample_total: 4
+        background_count: 787
+        background_total: 22881
+      - class_id: GO:0005524
+        class_label: ATP binding
+        rank: 15
+        p_value: 3.295405843614856e-05
+        p_value_adjusted: 0.0006590811687229713
+        sample_count: 4
+        sample_total: 4
+        background_count: 1735
+        background_total: 22881
+      - class_id: GO:0016740
+        class_label: transferase activity
+        rank: 16
+        p_value: 4.381933008276668e-05
+        p_value_adjusted: 0.0008763866016553336
+        sample_count: 4
+        sample_total: 4
+        background_count: 1863
+        background_total: 22881
+      - class_id: GO:0000166
+        class_label: nucleotide binding
+        rank: 17
+        p_value: 4.84152572605913e-05
+        p_value_adjusted: 0.000968305145211826
+        sample_count: 4
+        sample_total: 4
+        background_count: 1910
+        background_total: 22881
+      - class_id: GO:0046872
+        class_label: metal ion binding
+        rank: 18
+        p_value: 0.0006480719348089439
+        p_value_adjusted: 0.012961438696178877
+        sample_count: 4
+        sample_total: 4
+        background_count: 3652
+        background_total: 22881
+      - class_id: GO:0005737
+        class_label: cytoplasm
+        rank: 19
+        p_value: 0.0011178226777063649
+        p_value_adjusted: 0.022356453554127298
+        sample_count: 4
+        sample_total: 4
+        background_count: 4185
+        background_total: 22881
+    random:
+      term_strings:
+      - chordate embryonic development
+      - oxidoreductase activity, acting on paired donors, with incorporation or reduction
+        of molecular oxygen
+      - hydrolase activity
+      - actin filament binding
+      term_ids:
+      - GO:0043009
+      - GO:0016705
+      - GO:0016787
+      - GO:0051015
+      method: random
+    rank_based:
+      term_strings:
+      - nucleus
+      - cytoplasm
+      - membrane
+      - ATP binding
+      term_ids:
+      - GO:0005634
+      - GO:0005737
+      - GO:0016020
+      - GO:0005524
+      method: rank_based
+    closure:
+      term_strings:
+      - phosphorylation
+      - cytoplasm
+      - transferase activity
+      - metal ion binding
+      - 6-phosphofructokinase activity
+      - canonical glycolysis
+      - ATP binding
+      - fructose 1,6-bisphosphate metabolic process
+      - identical protein binding
+      - 6-phosphofructokinase complex
+      - nucleotide binding
+      - fructose-6-phosphate binding
+      - AMP binding
+      - metabolic process
+      - catalytic activity
+      - membrane
+      - kinase activity
+      - monosaccharide binding
+      - glycolytic process
+      - fructose 6-phosphate metabolic process
+      - occurrent
+      - process
+      - nucleotide binding
+      - molecular_function
+      - binding
+      - small molecule binding
+      - organic cyclic compound binding
+      - nucleoside phosphate binding
+      - heterocyclic compound binding
+      - catalytic activity
+      - carbohydrate metabolic process
+      - organic acid metabolic process
+      - pyruvate metabolic process
+      - glycolytic process
+      - phosphorus metabolic process
+      - phosphate-containing compound metabolic process
+      - biological_process
+      - metabolic process
+      - catabolic process
+      - cellular process
+      - carbohydrate catabolic process
+      - phosphorylation
+      - carboxylic acid metabolic process
+      - monocarboxylic acid metabolic process
+      - oxoacid metabolic process
+      - cellular metabolic process
+      - primary metabolic process
+      - small molecule metabolic process
+      - carbohydrate phosphorylation
+      - glycolytic process through fructose-6-phosphate
+      - organic substance metabolic process
+      - organic substance catabolic process
+      - 6-phosphofructokinase activity
+      - phosphofructokinase activity
+      - kinase activity
+      - transferase activity
+      - transferase activity, transferring phosphorus-containing groups
+      - phosphotransferase activity, alcohol group as acceptor
+      - carbohydrate kinase activity
+      - ATP binding
+      - purine nucleotide binding
+      - adenyl nucleotide binding
+      - ribonucleotide binding
+      - purine ribonucleotide binding
+      - adenyl ribonucleotide binding
+      - purine ribonucleoside triphosphate binding
+      - ion binding
+      - anion binding
+      - carbohydrate derivative binding
+      - continuant
+      - independent continuant
+      - material entity
+      - anatomical entity
+      - connected anatomical structure
+      - material anatomical entity
+      - biological entity
+      - cell
+      - cellular_component
+      - intracellular anatomical structure
+      - cellular anatomical entity
+      - anatomical structure
+      - material anatomical entity
+      - anatomical entity
+      - cytoplasm
+      - cytosol
+      - 6-phosphofructokinase complex
+      - protein-containing complex
+      - transferase complex, transferring phosphorus-containing groups
+      - catalytic complex
+      - transferase complex
+      - protein-containing material entity
+      - fructose 6-phosphate metabolic process
+      - organophosphate metabolic process
+      - carbohydrate derivative metabolic process
+      - membrane
+      - AMP binding
+      - cation binding
+      - fructose 1,6-bisphosphate metabolic process
+      - protein binding
+      - identical protein binding
+      - metal ion binding
+      - carbohydrate binding
+      - monosaccharide binding
+      - monosaccharide metabolic process
+      - glucose metabolic process
+      - glucose catabolic process
+      - NADH regeneration
+      - hexose metabolic process
+      - hexose catabolic process
+      - small molecule catabolic process
+      - monosaccharide catabolic process
+      - glycolytic process through glucose-6-phosphate
+      - canonical glycolysis
+      - glucose catabolic process to pyruvate
+      - fructose-6-phosphate binding
+      term_ids:
+      - GO:0016310
+      - GO:0005737
+      - GO:0016740
+      - GO:0046872
+      - GO:0003872
+      - GO:0061621
+      - GO:0005524
+      - GO:0030388
+      - GO:0042802
+      - GO:0005945
+      - GO:0000166
+      - GO:0070095
+      - GO:0016208
+      - GO:0008152
+      - GO:0003824
+      - GO:0016020
+      - GO:0016301
+      - GO:0048029
+      - GO:0006096
+      - GO:0006002
+      - BFO:0000003
+      - BFO:0000015
+      - GO:0000166
+      - GO:0003674
+      - GO:0005488
+      - GO:0036094
+      - GO:0097159
+      - GO:1901265
+      - GO:1901363
+      - GO:0003824
+      - GO:0005975
+      - GO:0006082
+      - GO:0006090
+      - GO:0006096
+      - GO:0006793
+      - GO:0006796
+      - GO:0008150
+      - GO:0008152
+      - GO:0009056
+      - GO:0009987
+      - GO:0016052
+      - GO:0016310
+      - GO:0019752
+      - GO:0032787
+      - GO:0043436
+      - GO:0044237
+      - GO:0044238
+      - GO:0044281
+      - GO:0046835
+      - GO:0061615
+      - GO:0071704
+      - GO:1901575
+      - GO:0003872
+      - GO:0008443
+      - GO:0016301
+      - GO:0016740
+      - GO:0016772
+      - GO:0016773
+      - GO:0019200
+      - GO:0005524
+      - GO:0017076
+      - GO:0030554
+      - GO:0032553
+      - GO:0032555
+      - GO:0032559
+      - GO:0035639
+      - GO:0043167
+      - GO:0043168
+      - GO:0097367
+      - BFO:0000002
+      - BFO:0000004
+      - BFO:0000040
+      - CARO:0000000
+      - CARO:0000003
+      - CARO:0000006
+      - CARO:0030000
+      - CL:0000000
+      - GO:0005575
+      - GO:0005622
+      - GO:0110165
+      - UBERON:0000061
+      - UBERON:0000465
+      - UBERON:0001062
+      - GO:0005737
+      - GO:0005829
+      - GO:0005945
+      - GO:0032991
+      - GO:0061695
+      - GO:1902494
+      - GO:1990234
+      - PR:000050567
+      - GO:0006002
+      - GO:0019637
+      - GO:1901135
+      - GO:0016020
+      - GO:0016208
+      - GO:0043169
+      - GO:0030388
+      - GO:0005515
+      - GO:0042802
+      - GO:0046872
+      - GO:0030246
+      - GO:0048029
+      - GO:0005996
+      - GO:0006006
+      - GO:0006007
+      - GO:0006735
+      - GO:0019318
+      - GO:0019320
+      - GO:0044282
+      - GO:0046365
+      - GO:0061620
+      - GO:0061621
+      - GO:0061718
+      - GO:0070095
+  number_of_genes_swapped_out: 1
