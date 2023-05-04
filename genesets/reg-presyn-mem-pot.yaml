@@ -1,0 +1,33 @@
+name: regulation of presynaptic membrane potential
+descriptions: Number of genes increased from 6 to 30 in one year
+gene_symbols:
+  - GABBR1
+  - GABRA2
+  - GABRA3
+  - GABRA5
+  - GABRB1
+  - GABRB2
+  - GABRR1
+  - GLRA1
+  - GRIA1
+  - GRIA3
+  - GRIA4
+  - GRIK2
+  - GRIK3
+  - GRIK4
+  - GRIK5
+  - GRIN2B
+  - GRIN2D
+  - GRIN3B
+  - KCNA1
+  - KCNA2
+  - KCNA4
+  - KCNC1
+  - KCNC2
+  - KCNJ11
+  - KCNJ3
+  - KCNJ8
+  - KCNJ9
+  - KCNMB4
+  - SCN10A
+  - SCN1A  

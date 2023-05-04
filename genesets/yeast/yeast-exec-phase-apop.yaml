@@ -1,0 +1,16 @@
+name: term-GO:0097194
+gene_symbols: []
+gene_ids:
+- SGD:S000000151
+- SGD:S000003744
+genes: null
+taxon: human
+taxon_id: null
+description: null
+source: null
+source_url: null
+target_term_ids: null
+number_of_genes_dropped: null
+original_name: null
+lacks_descriptions: null
+

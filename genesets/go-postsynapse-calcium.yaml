@@ -1,0 +1,36 @@
+name: go-postsynapse-calcium-transmembrane
+description: query for human genes in postsynapse also involved in calcium ion transmembrane transport
+gene_symbols:
+  - ATP2B1
+  - ATP2B2
+  - CACNA1C
+  - CACNG2
+  - CACNG3
+  - CACNG4
+  - CACNG5
+  - CACNG7
+  - CACNG8
+  - CHRNA10
+  - CHRNA7
+  - CHRNA9
+  - DRD2
+  - F2R
+  - GPM6A
+  - GRIN1
+  - GRIN2A
+  - GRIN2B
+  - GRIN2C
+  - GRIN2D
+  - GRIN3A
+  - GRIN3B
+  - HTR2A
+  - ITPR1
+  - NCS1
+  - P2RX4
+  - P2RX7
+  - PLCB1
+  - PSEN1
+  - SLC8A1
+  - SLC8A2
+  - SLC8A3
+  - TRPV1

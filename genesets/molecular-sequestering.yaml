@@ -1,0 +1,33 @@
+name: molecular sequestering
+description: in 2022-03-24, these only had 6 genes annotated
+gene_symbols:
+  - C1R
+  - CASQ2
+  - CASTOR1
+  - CDKN1A
+  - DDX56
+  - EPN1
+  - FTH1
+  - GOPC
+  - HSPBP1
+  - IMPACT
+  - INSIG1
+  - INSIG2
+  - LAPTM5
+  - LCN2
+  - NFKBIA
+  - PRDX4
+  - PRNP
+  - S100A7
+  - SEC14L1
+  - SESN2
+  - SLC39A4
+  - SPI1
+  - STAT3
+  - TCN1
+  - TMC8
+  - TRIM15
+  - TSSC4
+  - XAF1
+  - YWHAZ
+  - ZAR1
