@@ -1,0 +1,3374 @@
+- name: term-GO:0071456-0
+  gene_symbols:
+  - LHS1
+  - IXR1
+  - UPC2
+  gene_ids:
+  - SGD:S000001556
+  - SGD:S000001515
+  - SGD:S000002621
+  payloads:
+    gpt-3.5-turbo.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nLHS1; IXR1; UPC2; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: 'Summary: The three human genes, LHS1, IXR1, and UPC2, are enriched
+        for terms relating to lipid metabolism and homeostasis, and regulation of
+        transcription.
+
+        Mechanism: The mechanism underlying the common function of these genes may
+        involve the regulation of lipid transport, metabolism, and storage, as well
+        as the regulation of transcriptional responses to changes in lipid metabolism
+        and homeostasis.
+
+
+        Enriched Terms: regulation of lipid metabolic process; regulation of transcription,
+        DNA-templated; regulation of cholesterol biosynthetic process'
+      truncation_factor: 1.0
+      summary: 'Summary: The three human genes, LHS1, IXR1, and UPC2, are enriched
+        for terms relating to lipid metabolism and homeostasis, and regulation of
+        transcription.
+
+        Mechanism: The mechanism underlying the common function of these genes may
+        involve the regulation of lipid transport, metabolism, and storage, as well
+        as the regulation of transcriptional responses to changes in lipid metabolism
+        and homeostasis.
+
+
+        '
+      term_strings:
+      - regulation of lipid metabolic process
+      - regulation of transcription, dna-templated
+      - regulation of cholesterol biosynthetic process
+      term_ids:
+      - GO:0019216
+      - GO:0006355
+      - GO:0045540
+      response_token_length: 108
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nLHS1; IXR1; UPC2; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: There were no results given for this task.
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - there were no results given for this task
+      term_ids:
+      - there were no results given for this task
+      response_token_length: 9
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+        IXR1: Enables core promoter sequence-specific DNA binding activity and damaged
+        DNA binding activity. Involved in cellular response to hypoxia; regulation
+        of nucleobase-containing compound metabolic process; and regulation of ribosome
+        biogenesis. Predicted to be located in nucleus.
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Cellular response to hypoxia is enriched in these genes.
+
+        Mechanism: Hypoxia-induced transcriptional activation.
+
+        Enriched Terms: Cellular response to hypoxia; positive regulation of transcription
+        by RNA polymerase II.'
+      truncation_factor: 1.0
+      summary: 'Summary: Cellular response to hypoxia is enriched in these genes.
+
+        Mechanism: Hypoxia-induced transcriptional activation.
+
+        '
+      term_strings:
+      - cellular response to hypoxia
+      - positive regulation of transcription by rna polymerase ii
+      term_ids:
+      - GO:0071456
+      - GO:0045944
+      annotations: true
+      response_token_length: 47
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+        IXR1: Enables core promoter sequence-specific DNA binding activity and damaged
+        DNA binding activity. Involved in cellular response to hypoxia; regulation
+        of nucleobase-containing compound metabolic process; and regulation of ribosome
+        biogenesis. Predicted to be located in nucleus.
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Genes involved in response to hypoxia and nucleic acid
+        regulation.
+
+        Mechanism: Hypoxia response pathway and regulation of nucleic acid metabolism.
+
+        Enriched Terms: hypoxia response; nucleic acid metabolism; transcription regulation.'
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in response to hypoxia and nucleic acid regulation.
+
+        Mechanism: Hypoxia response pathway and regulation of nucleic acid metabolism.
+
+        '
+      term_strings:
+      - hypoxia response
+      - nucleic acid metabolism
+      - transcription regulation
+      term_ids:
+      - hypoxia response
+      - nucleic acid metabolism
+      - transcription regulation
+      annotations: true
+      response_token_length: 51
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+        IXR1: Transcriptional repressor that regulates hypoxic genes during normoxia;
+        involved in the aerobic repression of genes such as COX5b, TIR1, and HEM13;
+        binds DNA intrastrand cross-links formed by cisplatin; HMG (high mobility
+        group box) domain containing protein which binds and bends cisplatin-modified
+        DNA, blocking excision repair; IXR1 has a paralog, ABF2, that arose from the
+        whole genome duplication
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Regulation of gene expression and protein folding in
+        response to environmental changes
+
+        Mechanism: Transcriptional regulation and protein folding pathways
+
+        Enriched Terms: Transcriptional regulation; Protein folding; Molecular chaperones;
+        Endoplasmic reticulum; Response to environmental stress; Sterol biosynthesis
+
+
+        Hypothesis: These genes share a common theme of responding and adapting to
+        changes in their environment, whether it be oxygen levels (IXR1), sterol availability
+        (UPC2), or protein misfolding (LHS1). The enriched terms suggest that transcriptional
+        regulation and protein folding are key pathways involved in the response to
+        these environmental changes. Specifically, the enriched terms of "transcriptional
+        regulation" and "response to environmental stress" suggest that these genes
+        are involved in modulating the expression of downstream effector genes in
+        order to adapt to the environment. The enriched term of "protein folding"
+        suggests that these genes are involved in maintaining proper protein folding
+        and preventing protein aggregation under conditions of environmental stress.'
+      truncation_factor: 1.0
+      summary: 'Summary: Regulation of gene expression and protein folding in response
+        to environmental changes
+
+        Mechanism: Transcriptional regulation and protein folding pathways
+
+
+        Hypothesis:  These genes share a common theme of responding and adapting to
+        changes in their environment, whether it be oxygen levels (IXR1), sterol availability
+        (UPC2), or protein misfolding (LHS1). The enriched terms suggest that transcriptional
+        regulation and protein folding are key pathways involved in the response to
+        these environmental changes. Specifically, the enriched terms of "transcriptional
+        regulation" and "response to environmental stress" suggest that these genes
+        are involved in modulating the expression of downstream effector genes in
+        order to adapt to the environment. The enriched term of "protein folding"
+        suggests that these genes are involved in maintaining proper protein folding
+        and preventing protein aggregation under conditions of environmental stress.'
+      term_strings:
+      - transcriptional regulation
+      - protein folding
+      - molecular chaperones
+      - endoplasmic reticulum
+      - response to environmental stress
+      - sterol biosynthesis
+      term_ids:
+      - transcriptional regulation
+      - GO:0006457
+      - MESH:D018832
+      - GO:0005783
+      - response to environmental stress
+      - GO:0016126
+      annotations: true
+      response_token_length: 206
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+        IXR1: Transcriptional repressor that regulates hypoxic genes during normoxia;
+        involved in the aerobic repression of genes such as COX5b, TIR1, and HEM13;
+        binds DNA intrastrand cross-links formed by cisplatin; HMG (high mobility
+        group box) domain containing protein which binds and bends cisplatin-modified
+        DNA, blocking excision repair; IXR1 has a paralog, ABF2, that arose from the
+        whole genome duplication
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Regulation of gene expression and protein folding
+
+        Mechanism: Transcriptional regulation and protein folding/stabilization
+
+        Enriched Terms: Regulation of transcription; Protein folding; Response to
+        stress
+
+
+        Hypothesis: The common mechanism among these genes is the regulation of gene
+        expression and protein folding/stabilization in response to environmental
+        stress. These genes play a role in responding to different types of stress,
+        such as hypoxia, sterol depletion, and misfolded proteins in the endoplasmic
+        reticulum. The HMG domain of IXR1 and the Zn[2]-Cys[6] binuclear cluster in
+        UPC2 suggest that these genes may interact with DNA or other metal-containing
+        proteins to regulate gene expression. The involvement of UPC2 and ECM22 in
+        filamentation suggests a possible connection to cellular signaling and morphology.'
+      truncation_factor: 1.0
+      summary: 'Summary: Regulation of gene expression and protein folding
+
+        Mechanism: Transcriptional regulation and protein folding/stabilization
+
+
+        Hypothesis:  The common mechanism among these genes is the regulation of gene
+        expression and protein folding/stabilization in response to environmental
+        stress. These genes play a role in responding to different types of stress,
+        such as hypoxia, sterol depletion, and misfolded proteins in the endoplasmic
+        reticulum. The HMG domain of IXR1 and the Zn[2]-Cys[6] binuclear cluster in
+        UPC2 suggest that these genes may interact with DNA or other metal-containing
+        proteins to regulate gene expression. The involvement of UPC2 and ECM22 in
+        filamentation suggests a possible connection to cellular signaling and morphology.'
+      term_strings:
+      - regulation of transcription
+      - protein folding
+      - response to stress
+      term_ids:
+      - regulation of transcription
+      - GO:0006457
+      - GO:0006950
+      annotations: true
+      response_token_length: 171
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v2
+    text-davinci-003.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nLHS1; IXR1; UPC2; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: " These genes are primarily involved in transcriptional regulation,\
+        \ specifically the expression of proteins in response to a variety of stimuli.\
+        \ The enriched term is \"transcriptional regulation\"; this reflects the commonality\
+        \ of their functions, as all of these genes are involved in regulating the\
+        \ expression of proteins.\n\nMechanism: The transcriptional regulation process\
+        \ requires the binding of the gene product to specific DNA elements (promoters,\
+        \ enhancers, silencers), which then affects the rate of transcription, ultimately\
+        \ leading to the expression of the protein coded by the gene. \n\nEnriched\
+        \ Terms: Transcriptional Regulation"
+      truncation_factor: 1.0
+      summary: " These genes are primarily involved in transcriptional regulation,\
+        \ specifically the expression of proteins in response to a variety of stimuli.\
+        \ The enriched term is \"transcriptional regulation\"; this reflects the commonality\
+        \ of their functions, as all of these genes are involved in regulating the\
+        \ expression of proteins.\n\nMechanism: The transcriptional regulation process\
+        \ requires the binding of the gene product to specific DNA elements (promoters,\
+        \ enhancers, silencers), which then affects the rate of transcription, ultimately\
+        \ leading to the expression of the protein coded by the gene. \n\n"
+      term_strings:
+      - transcriptional regulation
+      term_ids:
+      - transcriptional regulation
+      response_token_length: 119
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v1
+    text-davinci-003.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nLHS1; IXR1; UPC2; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: " These genes are all involved in RNA splicing and degradation\
+        \ pathways, specifically, negative regulation of pre-mRNA splicing and mRNA\
+        \ degradation pathways.\nMechanism: These genes work together in a complex\
+        \ set of processes to regulate the expression of downstream genes. \nEnriched\
+        \ Terms: mRNA Splicing; mRNA Degradation; RNA Splicing; Negative Regulation\
+        \ of Pre-mRNA Splicing."
+      truncation_factor: 1.0
+      summary: " These genes are all involved in RNA splicing and degradation pathways,\
+        \ specifically, negative regulation of pre-mRNA splicing and mRNA degradation\
+        \ pathways.\nMechanism: These genes work together in a complex set of processes\
+        \ to regulate the expression of downstream genes. \n"
+      term_strings:
+      - mrna splicing
+      - mrna degradation
+      - rna splicing
+      - negative regulation of pre-mrna splicing
+      term_ids:
+      - GO:0000394
+      - GO:0006402
+      - GO:0008380
+      - GO:0048025
+      response_token_length: 79
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v2
+    text-davinci-003.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+        IXR1: Enables core promoter sequence-specific DNA binding activity and damaged
+        DNA binding activity. Involved in cellular response to hypoxia; regulation
+        of nucleobase-containing compound metabolic process; and regulation of ribosome
+        biogenesis. Predicted to be located in nucleus.
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: " Gene functions that may be related to hypoxia response and\
+        \ transcription regulation appear to be enriched in this dataset. \nMechanism:\
+        \ The genes in this dataset may be involved in a mechanism that allows for\
+        \ transcription and protein targeting to the endoplasmic reticulum in response\
+        \ to hypoxia.\nEnriched Terms: ATP binding activity; adenyl-nucleotide exchange\
+        \ factor activity; unfolded protein binding activity; cellular response to\
+        \ hypoxia; regulation of nucleobase-containing compound metabolic process;\
+        \ regulation of ribosome biogenesis; DNA-binding transcription activator activity;\
+        \ RNA polymerase II-specific; RNA polymerase II cis-regulatory region sequence-specific\
+        \ DNA binding activity; positive regulation of transcription by RNA polymerase\
+        \ II."
+      truncation_factor: 1.0
+      summary: " Gene functions that may be related to hypoxia response and transcription\
+        \ regulation appear to be enriched in this dataset. \nMechanism: The genes\
+        \ in this dataset may be involved in a mechanism that allows for transcription\
+        \ and protein targeting to the endoplasmic reticulum in response to hypoxia.\n"
+      term_strings:
+      - atp binding activity
+      - adenyl-nucleotide exchange factor activity
+      - unfolded protein binding activity
+      - cellular response to hypoxia
+      - regulation of nucleobase-containing compound metabolic process
+      - regulation of ribosome biogenesis
+      - dna-binding transcription activator activity
+      - rna polymerase ii-specific
+      - rna polymerase ii cis-regulatory region sequence-specific dna binding activity
+      - positive regulation of transcription by rna polymerase ii
+      term_ids:
+      - atp binding activity
+      - GO:0000774
+      - unfolded protein binding activity
+      - GO:0071456
+      - GO:0019219
+      - GO:0090069
+      - GO:0001216
+      - rna polymerase ii-specific
+      - rna polymerase ii cis-regulatory region sequence-specific dna binding activity
+      - GO:0045944
+      annotations: true
+      response_token_length: 153
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v1
+    text-davinci-003.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+        IXR1: Enables core promoter sequence-specific DNA binding activity and damaged
+        DNA binding activity. Involved in cellular response to hypoxia; regulation
+        of nucleobase-containing compound metabolic process; and regulation of ribosome
+        biogenesis. Predicted to be located in nucleus.
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: '
+
+        Summary: The genes LHS1, IXR1 and UPC2 are related to response to hypoxia,
+        post-translational protein targeting to the membrane, translocation, response
+        to unfolded protein, regulation of nucleobase-containing compound metabolic
+        process, regulation of ribosome biogenesis, and positive regulation of transcription
+        by RNA polymerase II.
+
+        Enriched Terms: Hypoxia response; Protein targeting; Transcription regulation;
+        Ribosome biogenesis; Nucleobase metabolism; Unfolded protein response.
+
+        Mechanism: The genes are likely involved in a common pathway related to protein
+        folding, metabolism, and regulation of transcription in response to hypoxic
+        conditions.'
+      truncation_factor: 1.0
+      summary: '
+
+        Summary: The genes LHS1, IXR1 and UPC2 are related to response to hypoxia,
+        post-translational protein targeting to the membrane, translocation, response
+        to unfolded protein, regulation of nucleobase-containing compound metabolic
+        process, regulation of ribosome biogenesis, and positive regulation of transcription
+        by RNA polymerase II.
+
+        '
+      term_strings:
+      - hypoxia response
+      - protein targeting
+      - transcription regulation
+      - ribosome biogenesis
+      - nucleobase metabolism
+      - 'unfolded protein response.
+
+        mechanism: the genes are likely involved in a common pathway related to protein
+        folding, metabolism, and regulation of transcription in response to hypoxic
+        conditions'
+      term_ids:
+      - hypoxia response
+      - GO:0006605
+      - transcription regulation
+      - GO:0042254
+      - GO:0009112
+      - 'unfolded protein response.
+
+        mechanism: the genes are likely involved in a common pathway related to protein
+        folding, metabolism, and regulation of transcription in response to hypoxic
+        conditions'
+      annotations: true
+      response_token_length: 140
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v2
+    text-davinci-003.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+        IXR1: Transcriptional repressor that regulates hypoxic genes during normoxia;
+        involved in the aerobic repression of genes such as COX5b, TIR1, and HEM13;
+        binds DNA intrastrand cross-links formed by cisplatin; HMG (high mobility
+        group box) domain containing protein which binds and bends cisplatin-modified
+        DNA, blocking excision repair; IXR1 has a paralog, ABF2, that arose from the
+        whole genome duplication
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: ' This list of genes appears to be related to regulation, response
+        pathways, and gene expression. Specifically, they are involved in the regulation
+        of transcription, hypoxic gene activation, sterol biosynthesis, protein folding,
+        and DNA excision repair. The underlying mechanism likely involves binding
+        and bending of DNA, sterol sensing and mobilization, and a folded protein
+        response pathway. Enriched terms: Transcriptional regulation; Hypoxic gene
+        activation; Sterol biosynthesis; Protein folding; DNA excision repair; DNA
+        binding and bending; Sterol sensing; Protein response pathway; Intrastrand
+        cross-linking.'
+      truncation_factor: 1.0
+      summary: ' This list of genes appears to be related to regulation, response
+        pathways, and gene expression. Specifically, they are involved in the regulation
+        of transcription, hypoxic gene activation, sterol biosynthesis, protein folding,
+        and DNA excision repair. The underlying mechanism likely involves binding
+        and bending of DNA, sterol sensing and mobilization, and a folded protein
+        response pathway. '
+      term_strings:
+      - transcriptional regulation
+      - hypoxic gene activation
+      - sterol biosynthesis
+      - protein folding
+      - dna excision repair
+      - dna binding and bending
+      - sterol sensing
+      - protein response pathway
+      - intrastrand cross-linking
+      term_ids:
+      - transcriptional regulation
+      - hypoxic gene activation
+      - GO:0016126
+      - GO:0006457
+      - dna excision repair
+      - dna binding and bending
+      - sterol sensing
+      - protein response pathway
+      - intrastrand cross-linking
+      annotations: true
+      response_token_length: 120
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v1
+    text-davinci-003.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+        IXR1: Transcriptional repressor that regulates hypoxic genes during normoxia;
+        involved in the aerobic repression of genes such as COX5b, TIR1, and HEM13;
+        binds DNA intrastrand cross-links formed by cisplatin; HMG (high mobility
+        group box) domain containing protein which binds and bends cisplatin-modified
+        DNA, blocking excision repair; IXR1 has a paralog, ABF2, that arose from the
+        whole genome duplication
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: " The three genes identified are all involved in the regulation\
+        \ of cellular functions during cellular stress, and contain the HMG (high\
+        \ mobility group box) domain. The mechanism involves the monitoring of metabolic\
+        \ pathways, and the binding and bending of DNA.\n\nMechanism: The three genes\
+        \ encode proteins that act as transcriptional repressors and molecular chaperones,\
+        \ and help regulate metabolic pathways under stress, including hypoxic genes\
+        \ and sterol biosynthetic genes. They monitor these pathways using HMG domains\
+        \ to bind and bend DNA, which blocks excision repair and translocation of\
+        \ polypeptides. \n\nEnriched Terms: Transcriptional Repression; Molecular\
+        \ Chaperone; Hypoxic Genes; Sterol Biosynthesis; HMG Domain; Intrastrand Cross-Link;\
+        \ DNA Bending; Polypeptide Translocation; Unfolded Protein Response Pathway."
+      truncation_factor: 1.0
+      summary: " The three genes identified are all involved in the regulation of\
+        \ cellular functions during cellular stress, and contain the HMG (high mobility\
+        \ group box) domain. The mechanism involves the monitoring of metabolic pathways,\
+        \ and the binding and bending of DNA.\n\nMechanism: The three genes encode\
+        \ proteins that act as transcriptional repressors and molecular chaperones,\
+        \ and help regulate metabolic pathways under stress, including hypoxic genes\
+        \ and sterol biosynthetic genes. They monitor these pathways using HMG domains\
+        \ to bind and bend DNA, which blocks excision repair and translocation of\
+        \ polypeptides. \n\n"
+      term_strings:
+      - transcriptional repression
+      - molecular chaperone
+      - hypoxic genes
+      - sterol biosynthesis
+      - hmg domain
+      - intrastrand cross-link
+      - dna bending
+      - polypeptide translocation
+      - unfolded protein response pathway
+      term_ids:
+      - transcriptional repression
+      - MESH:D018832
+      - hypoxic genes
+      - GO:0016126
+      - hmg domain
+      - intrastrand cross-link
+      - dna bending
+      - polypeptide translocation
+      - unfolded protein response pathway
+      annotations: true
+      response_token_length: 178
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v2
+    standard:
+      term_strings:
+      - cellular response to hypoxia
+      - response to hypoxia
+      - cellular response to decreased oxygen levels
+      - cellular response to oxygen levels
+      - response to decreased oxygen levels
+      - response to oxygen levels
+      - response to abiotic stimulus
+      - cellular response to chemical stimulus
+      term_ids:
+      - GO:0071456
+      - GO:0001666
+      - GO:0036294
+      - GO:0071453
+      - GO:0036293
+      - GO:0070482
+      - GO:0009628
+      - GO:0070887
+      method: standard
+      enrichment_results:
+      - class_id: GO:0071456
+        class_label: cellular response to hypoxia
+        rank: 1
+        p_value: 2.195927200292247e-11
+        p_value_adjusted: 5.028673288669245e-09
+        sample_count: 3
+        sample_total: 3
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:0001666
+        class_label: response to hypoxia
+        rank: 2
+        p_value: 2.195927200292247e-11
+        p_value_adjusted: 5.028673288669245e-09
+        sample_count: 3
+        sample_total: 3
+        background_count: 3
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0036294
+        class_label: cellular response to decreased oxygen levels
+        rank: 3
+        p_value: 4.3918544005986897e-10
+        p_value_adjusted: 1.0057346577370999e-07
+        sample_count: 3
+        sample_total: 3
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0071453
+        class_label: cellular response to oxygen levels
+        rank: 4
+        p_value: 4.3918544005986897e-10
+        p_value_adjusted: 1.0057346577370999e-07
+        sample_count: 3
+        sample_total: 3
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0036293
+        class_label: response to decreased oxygen levels
+        rank: 5
+        p_value: 4.3918544005986897e-10
+        p_value_adjusted: 1.0057346577370999e-07
+        sample_count: 3
+        sample_total: 3
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0070482
+        class_label: response to oxygen levels
+        rank: 6
+        p_value: 4.3918544005986897e-10
+        p_value_adjusted: 1.0057346577370999e-07
+        sample_count: 3
+        sample_total: 3
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0009628
+        class_label: response to abiotic stimulus
+        rank: 7
+        p_value: 7.85614915179022e-06
+        p_value_adjusted: 0.0017990581557599603
+        sample_count: 3
+        sample_total: 3
+        background_count: 130
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0070887
+        class_label: cellular response to chemical stimulus
+        rank: 8
+        p_value: 0.00011992573300385934
+        p_value_adjusted: 0.02746299285788379
+        sample_count: 3
+        sample_total: 3
+        background_count: 321
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+    standard_no_ontology:
+      term_strings:
+      - cellular response to hypoxia
+      - endoplasmic reticulum chaperone complex
+      term_ids:
+      - GO:0071456
+      - GO:0034663
+      method: standard_no_ontology
+      enrichment_results:
+      - class_id: GO:0071456
+        class_label: cellular response to hypoxia
+        rank: 1
+        p_value: 2.195927200292247e-11
+        p_value_adjusted: 7.02696704093519e-10
+        sample_count: 3
+        sample_total: 3
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:0034663
+        class_label: endoplasmic reticulum chaperone complex
+        rank: 2
+        p_value: 0.0009243567578311894
+        p_value_adjusted: 0.02957941625059806
+        sample_count: 1
+        sample_total: 3
+        background_count: 2
+        background_total: 6490
+    random:
+      term_strings:
+      - translation
+      - 6-phosphofructo-2-kinase activity
+      - fatty acid metabolic process
+      term_ids:
+      - GO:0006412
+      - GO:0003873
+      - GO:0006631
+      method: random
+    rank_based:
+      term_strings:
+      - cytoplasm
+      - nucleus
+      - mitochondrion
+      term_ids:
+      - GO:0005737
+      - GO:0005634
+      - GO:0005739
+      method: rank_based
+    closure:
+      term_strings:
+      - cytoplasm
+      - post-translational protein targeting to membrane, translocation
+      - ATP-dependent protein folding chaperone
+      - unfolded protein binding
+      - negative regulation of transcription by RNA polymerase II
+      - zinc ion binding
+      - regulation of DNA-templated transcription
+      - regulation of nitrogen compound metabolic process
+      - protein folding
+      - core promoter sequence-specific DNA binding
+      - DNA-binding transcription factor activity, RNA polymerase II-specific
+      - regulation of primary metabolic process
+      - response to unfolded protein
+      - negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway
+      - endoplasmic reticulum lumen
+      - sequence-specific DNA binding
+      - perinuclear region of cytoplasm
+      - endoplasmic reticulum
+      - hydrolase activity
+      - DNA-binding transcription activator activity, RNA polymerase II-specific
+      - RNA polymerase II cis-regulatory region sequence-specific DNA binding
+      - positive regulation of transcription by RNA polymerase II
+      - regulation of transcription by RNA polymerase II
+      - nucleotide binding
+      - cellular response to hypoxia
+      - DNA binding
+      - nucleus
+      - adenyl-nucleotide exchange factor activity
+      - membrane
+      - metal ion binding
+      - endoplasmic reticulum chaperone complex
+      - regulation of nucleotide-excision repair
+      - damaged DNA binding
+      - regulation of ribosome biogenesis
+      - ATP binding
+      - occurrent
+      - process
+      - negative regulation of transcription by RNA polymerase II
+      - regulation of DNA-templated transcription
+      - regulation of transcription by RNA polymerase II
+      - biological_process
+      - regulation of biosynthetic process
+      - negative regulation of biosynthetic process
+      - negative regulation of metabolic process
+      - regulation of gene expression
+      - regulation of macromolecule biosynthetic process
+      - negative regulation of macromolecule biosynthetic process
+      - negative regulation of macromolecule metabolic process
+      - regulation of nucleobase-containing compound metabolic process
+      - regulation of metabolic process
+      - regulation of cellular metabolic process
+      - negative regulation of cellular metabolic process
+      - regulation of cellular biosynthetic process
+      - negative regulation of cellular biosynthetic process
+      - negative regulation of DNA-templated transcription
+      - negative regulation of nucleobase-containing compound metabolic process
+      - negative regulation of biological process
+      - negative regulation of cellular process
+      - regulation of biological process
+      - regulation of cellular process
+      - regulation of nitrogen compound metabolic process
+      - negative regulation of nitrogen compound metabolic process
+      - regulation of RNA metabolic process
+      - negative regulation of RNA metabolic process
+      - regulation of macromolecule metabolic process
+      - biological regulation
+      - regulation of primary metabolic process
+      - negative regulation of RNA biosynthetic process
+      - regulation of nucleic acid-templated transcription
+      - negative regulation of nucleic acid-templated transcription
+      - regulation of RNA biosynthetic process
+      - nucleotide binding
+      - molecular_function
+      - binding
+      - small molecule binding
+      - organic cyclic compound binding
+      - nucleoside phosphate binding
+      - heterocyclic compound binding
+      - adenyl-nucleotide exchange factor activity
+      - purine nucleotide binding
+      - adenyl nucleotide binding
+      - ATPase regulator activity
+      - molecular function regulator activity
+      - transcription cis-regulatory region binding
+      - RNA polymerase II transcription regulatory region sequence-specific DNA binding
+      - RNA polymerase II cis-regulatory region sequence-specific DNA binding
+      - cis-regulatory region sequence-specific DNA binding
+      - transcription regulatory region nucleic acid binding
+      - nucleic acid binding
+      - DNA binding
+      - double-stranded DNA binding
+      - sequence-specific DNA binding
+      - sequence-specific double-stranded DNA binding
+      - nucleobase-containing compound metabolic process
+      - DNA-templated transcription
+      - cellular aromatic compound metabolic process
+      - nitrogen compound metabolic process
+      - metabolic process
+      - biosynthetic process
+      - macromolecule biosynthetic process
+      - cellular process
+      - gene expression
+      - RNA metabolic process
+      - heterocycle biosynthetic process
+      - aromatic compound biosynthetic process
+      - RNA biosynthetic process
+      - cellular nitrogen compound metabolic process
+      - nucleobase-containing compound biosynthetic process
+      - macromolecule metabolic process
+      - cellular metabolic process
+      - primary metabolic process
+      - cellular biosynthetic process
+      - cellular nitrogen compound biosynthetic process
+      - heterocycle metabolic process
+      - organic substance metabolic process
+      - nucleic acid metabolic process
+      - nucleic acid-templated transcription
+      - organic cyclic compound metabolic process
+      - organic cyclic compound biosynthetic process
+      - organic substance biosynthetic process
+      - DNA-binding transcription factor activity, RNA polymerase II-specific
+      - DNA-binding transcription factor activity
+      - transcription regulator activity
+      - core promoter sequence-specific DNA binding
+      - positive regulation of biosynthetic process
+      - positive regulation of metabolic process
+      - positive regulation of macromolecule biosynthetic process
+      - positive regulation of macromolecule metabolic process
+      - positive regulation of cellular metabolic process
+      - positive regulation of cellular biosynthetic process
+      - positive regulation of DNA-templated transcription
+      - positive regulation of nucleobase-containing compound metabolic process
+      - positive regulation of transcription by RNA polymerase II
+      - positive regulation of biological process
+      - positive regulation of cellular process
+      - positive regulation of nitrogen compound metabolic process
+      - positive regulation of RNA metabolic process
+      - positive regulation of RNA biosynthetic process
+      - positive regulation of nucleic acid-templated transcription
+      - DNA-binding transcription activator activity
+      - DNA-binding transcription activator activity, RNA polymerase II-specific
+      - damaged DNA binding
+      - ATP binding
+      - ribonucleotide binding
+      - purine ribonucleotide binding
+      - adenyl ribonucleotide binding
+      - purine ribonucleoside triphosphate binding
+      - ion binding
+      - anion binding
+      - carbohydrate derivative binding
+      - continuant
+      - independent continuant
+      - material entity
+      - anatomical entity
+      - connected anatomical structure
+      - material anatomical entity
+      - biological entity
+      - cell
+      - cellular_component
+      - intracellular anatomical structure
+      - cellular anatomical entity
+      - anatomical structure
+      - material anatomical entity
+      - anatomical entity
+      - nucleus
+      - organelle
+      - membrane-bounded organelle
+      - intracellular organelle
+      - intracellular membrane-bounded organelle
+      - cytoplasm
+      - endomembrane system
+      - endoplasmic reticulum
+      - endoplasmic reticulum lumen
+      - membrane-enclosed lumen
+      - organelle lumen
+      - intracellular organelle lumen
+      - protein folding
+      - response to stress
+      - response to unfolded protein
+      - response to organic substance
+      - response to topologically incorrect protein
+      - response to chemical
+      - response to stimulus
+      - zinc ion binding
+      - cation binding
+      - metal ion binding
+      - transition metal ion binding
+      - membrane
+      - catalytic activity
+      - hydrolase activity
+      - protein targeting
+      - protein targeting to membrane
+      - post-translational protein targeting to endoplasmic reticulum membrane
+      - transport
+      - intracellular protein transport
+      - protein localization
+      - protein transport
+      - macromolecule localization
+      - protein localization to organelle
+      - protein targeting to ER
+      - establishment of protein localization
+      - intracellular transport
+      - localization
+      - establishment of localization
+      - cellular localization
+      - establishment of localization in cell
+      - localization within membrane
+      - cellular macromolecule localization
+      - protein localization to endoplasmic reticulum
+      - organic substance transport
+      - nitrogen compound transport
+      - establishment of protein localization to organelle
+      - establishment of protein localization to endoplasmic reticulum
+      - protein localization to membrane
+      - establishment of protein localization to membrane
+      - post-translational protein targeting to membrane, translocation
+      - transmembrane transport
+      - intracellular protein transmembrane transport
+      - protein transmembrane transport
+      - protein-containing complex
+      - endoplasmic reticulum chaperone complex
+      - endoplasmic reticulum protein-containing complex
+      - protein-containing material entity
+      - perinuclear region of cytoplasm
+      - protein binding
+      - unfolded protein binding
+      - response to hypoxia
+      - response to abiotic stimulus
+      - cellular response to stress
+      - response to decreased oxygen levels
+      - cellular response to decreased oxygen levels
+      - cellular response to stimulus
+      - response to oxygen levels
+      - cellular response to chemical stimulus
+      - cellular response to oxygen levels
+      - cellular response to hypoxia
+      - regulation of cellular component biogenesis
+      - regulation of ribosome biogenesis
+      - protein folding chaperone
+      - ATP-dependent activity
+      - ATP-dependent protein folding chaperone
+      - regulation of signal transduction
+      - negative regulation of signal transduction
+      - regulation of cell communication
+      - negative regulation of cell communication
+      - regulation of cell death
+      - regulation of signaling
+      - negative regulation of signaling
+      - regulation of apoptotic process
+      - negative regulation of apoptotic process
+      - regulation of programmed cell death
+      - negative regulation of programmed cell death
+      - regulation of response to stimulus
+      - negative regulation of response to stimulus
+      - negative regulation of cell death
+      - regulation of response to stress
+      - regulation of cellular response to stress
+      - regulation of cellular response to hypoxia
+      - negative regulation of cellular response to hypoxia
+      - regulation of intracellular signal transduction
+      - negative regulation of intracellular signal transduction
+      - regulation of hypoxia-induced intrinsic apoptotic signaling pathway
+      - negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway
+      - regulation of apoptotic signaling pathway
+      - negative regulation of apoptotic signaling pathway
+      - regulation of intrinsic apoptotic signaling pathway
+      - negative regulation of intrinsic apoptotic signaling pathway
+      - regulation of DNA repair
+      - regulation of DNA metabolic process
+      - regulation of nucleotide-excision repair
+      term_ids:
+      - GO:0005737
+      - GO:0031204
+      - GO:0140662
+      - GO:0051082
+      - GO:0000122
+      - GO:0008270
+      - GO:0006355
+      - GO:0051171
+      - GO:0006457
+      - GO:0001046
+      - GO:0000981
+      - GO:0080090
+      - GO:0006986
+      - GO:1903298
+      - GO:0005788
+      - GO:0043565
+      - GO:0048471
+      - GO:0005783
+      - GO:0016787
+      - GO:0001228
+      - GO:0000978
+      - GO:0045944
+      - GO:0006357
+      - GO:0000166
+      - GO:0071456
+      - GO:0003677
+      - GO:0005634
+      - GO:0000774
+      - GO:0016020
+      - GO:0046872
+      - GO:0034663
+      - GO:2000819
+      - GO:0003684
+      - GO:0090069
+      - GO:0005524
+      - BFO:0000003
+      - BFO:0000015
+      - GO:0000122
+      - GO:0006355
+      - GO:0006357
+      - GO:0008150
+      - GO:0009889
+      - GO:0009890
+      - GO:0009892
+      - GO:0010468
+      - GO:0010556
+      - GO:0010558
+      - GO:0010605
+      - GO:0019219
+      - GO:0019222
+      - GO:0031323
+      - GO:0031324
+      - GO:0031326
+      - GO:0031327
+      - GO:0045892
+      - GO:0045934
+      - GO:0048519
+      - GO:0048523
+      - GO:0050789
+      - GO:0050794
+      - GO:0051171
+      - GO:0051172
+      - GO:0051252
+      - GO:0051253
+      - GO:0060255
+      - GO:0065007
+      - GO:0080090
+      - GO:1902679
+      - GO:1903506
+      - GO:1903507
+      - GO:2001141
+      - GO:0000166
+      - GO:0003674
+      - GO:0005488
+      - GO:0036094
+      - GO:0097159
+      - GO:1901265
+      - GO:1901363
+      - GO:0000774
+      - GO:0017076
+      - GO:0030554
+      - GO:0060590
+      - GO:0098772
+      - GO:0000976
+      - GO:0000977
+      - GO:0000978
+      - GO:0000987
+      - GO:0001067
+      - GO:0003676
+      - GO:0003677
+      - GO:0003690
+      - GO:0043565
+      - GO:1990837
+      - GO:0006139
+      - GO:0006351
+      - GO:0006725
+      - GO:0006807
+      - GO:0008152
+      - GO:0009058
+      - GO:0009059
+      - GO:0009987
+      - GO:0010467
+      - GO:0016070
+      - GO:0018130
+      - GO:0019438
+      - GO:0032774
+      - GO:0034641
+      - GO:0034654
+      - GO:0043170
+      - GO:0044237
+      - GO:0044238
+      - GO:0044249
+      - GO:0044271
+      - GO:0046483
+      - GO:0071704
+      - GO:0090304
+      - GO:0097659
+      - GO:1901360
+      - GO:1901362
+      - GO:1901576
+      - GO:0000981
+      - GO:0003700
+      - GO:0140110
+      - GO:0001046
+      - GO:0009891
+      - GO:0009893
+      - GO:0010557
+      - GO:0010604
+      - GO:0031325
+      - GO:0031328
+      - GO:0045893
+      - GO:0045935
+      - GO:0045944
+      - GO:0048518
+      - GO:0048522
+      - GO:0051173
+      - GO:0051254
+      - GO:1902680
+      - GO:1903508
+      - GO:0001216
+      - GO:0001228
+      - GO:0003684
+      - GO:0005524
+      - GO:0032553
+      - GO:0032555
+      - GO:0032559
+      - GO:0035639
+      - GO:0043167
+      - GO:0043168
+      - GO:0097367
+      - BFO:0000002
+      - BFO:0000004
+      - BFO:0000040
+      - CARO:0000000
+      - CARO:0000003
+      - CARO:0000006
+      - CARO:0030000
+      - CL:0000000
+      - GO:0005575
+      - GO:0005622
+      - GO:0110165
+      - UBERON:0000061
+      - UBERON:0000465
+      - UBERON:0001062
+      - GO:0005634
+      - GO:0043226
+      - GO:0043227
+      - GO:0043229
+      - GO:0043231
+      - GO:0005737
+      - GO:0012505
+      - GO:0005783
+      - GO:0005788
+      - GO:0031974
+      - GO:0043233
+      - GO:0070013
+      - GO:0006457
+      - GO:0006950
+      - GO:0006986
+      - GO:0010033
+      - GO:0035966
+      - GO:0042221
+      - GO:0050896
+      - GO:0008270
+      - GO:0043169
+      - GO:0046872
+      - GO:0046914
+      - GO:0016020
+      - GO:0003824
+      - GO:0016787
+      - GO:0006605
+      - GO:0006612
+      - GO:0006620
+      - GO:0006810
+      - GO:0006886
+      - GO:0008104
+      - GO:0015031
+      - GO:0033036
+      - GO:0033365
+      - GO:0045047
+      - GO:0045184
+      - GO:0046907
+      - GO:0051179
+      - GO:0051234
+      - GO:0051641
+      - GO:0051649
+      - GO:0051668
+      - GO:0070727
+      - GO:0070972
+      - GO:0071702
+      - GO:0071705
+      - GO:0072594
+      - GO:0072599
+      - GO:0072657
+      - GO:0090150
+      - GO:0031204
+      - GO:0055085
+      - GO:0065002
+      - GO:0071806
+      - GO:0032991
+      - GO:0034663
+      - GO:0140534
+      - PR:000050567
+      - GO:0048471
+      - GO:0005515
+      - GO:0051082
+      - GO:0001666
+      - GO:0009628
+      - GO:0033554
+      - GO:0036293
+      - GO:0036294
+      - GO:0051716
+      - GO:0070482
+      - GO:0070887
+      - GO:0071453
+      - GO:0071456
+      - GO:0044087
+      - GO:0090069
+      - GO:0044183
+      - GO:0140657
+      - GO:0140662
+      - GO:0009966
+      - GO:0009968
+      - GO:0010646
+      - GO:0010648
+      - GO:0010941
+      - GO:0023051
+      - GO:0023057
+      - GO:0042981
+      - GO:0043066
+      - GO:0043067
+      - GO:0043069
+      - GO:0048583
+      - GO:0048585
+      - GO:0060548
+      - GO:0080134
+      - GO:0080135
+      - GO:1900037
+      - GO:1900038
+      - GO:1902531
+      - GO:1902532
+      - GO:1903297
+      - GO:1903298
+      - GO:2001233
+      - GO:2001234
+      - GO:2001242
+      - GO:2001243
+      - GO:0006282
+      - GO:0051052
+      - GO:2000819
+- name: term-GO:0071456-1
+  gene_symbols:
+  - UPC2
+  - LHS1
+  gene_ids:
+  - SGD:S000002621
+  - SGD:S000001556
+  payloads:
+    gpt-3.5-turbo.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nUPC2; LHS1; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: "Summary: The genes UPC2 and LHS1 are involved in sterol biosynthesis\
+        \ and transport.\nMechanism: Sterol biosynthesis and transport pathway.\n\
+        Enriched Terms: Sterol biosynthesis; Sterol transport; Fatty acid biosynthesis.\
+        \ \n\nHypotheses: The enriched terms suggest that both UPC2 and LHS1 are involved\
+        \ in the regulation of sterol biosynthesis and transport. Both genes may play\
+        \ a role in the production of fatty acids which are essential for the synthesis\
+        \ of sterols. The pathway involving these genes may be important in maintaining\
+        \ cellular membrane integrity and in regulating cellular lipid levels."
+      truncation_factor: 1.0
+      summary: 'Summary: The genes UPC2 and LHS1 are involved in sterol biosynthesis
+        and transport.
+
+        Mechanism: Sterol biosynthesis and transport pathway.
+
+        '
+      term_strings:
+      - sterol biosynthesis
+      - sterol transport
+      - "fatty acid biosynthesis. \n\nhypotheses: the enriched terms suggest that\
+        \ both upc2 and lhs1 are involved in the regulation of sterol biosynthesis\
+        \ and transport. both genes may play a role in the production of fatty acids\
+        \ which are essential for the synthesis of sterols. the pathway involving\
+        \ these genes may be important in maintaining cellular membrane integrity\
+        \ and in regulating cellular lipid levels"
+      term_ids:
+      - GO:0016126
+      - GO:0015918
+      - "fatty acid biosynthesis. \n\nhypotheses: the enriched terms suggest that\
+        \ both upc2 and lhs1 are involved in the regulation of sterol biosynthesis\
+        \ and transport. both genes may play a role in the production of fatty acids\
+        \ which are essential for the synthesis of sterols. the pathway involving\
+        \ these genes may be important in maintaining cellular membrane integrity\
+        \ and in regulating cellular lipid levels"
+      response_token_length: 123
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nUPC2; LHS1; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: There were no genes provided for analysis.
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - there were no genes provided for analysis
+      term_ids:
+      - there were no genes provided for analysis
+      response_token_length: 8
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Genes involved in transcription regulation and protein
+        folding response.
+
+        Mechanism: Possible involvement in cellular stress response pathways.
+
+        Enriched Terms: Transcription regulation; Protein folding response.'
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in transcription regulation and protein folding
+        response.
+
+        Mechanism: Possible involvement in cellular stress response pathways.
+
+        '
+      term_strings:
+      - transcription regulation
+      - protein folding response
+      term_ids:
+      - transcription regulation
+      - protein folding response
+      annotations: true
+      response_token_length: 37
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: "Summary: Cellular response to stress and protein regulation\n\
+        Mechanism: Protein folding and transport\nEnriched terms: response to unfolded\
+        \ protein; protein transport; endoplasmic reticulum organization and biogenesis;\
+        \ regulation of protein metabolic process; chaperone-mediated protein folding.\
+        \ \n\nHypothesis: UPC2 and LHS1 are both involved in the regulation and response\
+        \ to protein stress, particularly in the endoplasmic reticulum. UPC2 may regulate\
+        \ transcription of genes involved in this process, while LHS1 may play a direct\
+        \ role in protein folding and transport. This suggests a potential pathway\
+        \ by which cells respond to protein stress and maintain proper protein function\
+        \ and organization."
+      truncation_factor: 1.0
+      summary: 'Summary: Cellular response to stress and protein regulation
+
+        Mechanism: Protein folding and transport
+
+
+        Hypothesis:  UPC2 and LHS1 are both involved in the regulation and response
+        to protein stress, particularly in the endoplasmic reticulum. UPC2 may regulate
+        transcription of genes involved in this process, while LHS1 may play a direct
+        role in protein folding and transport. This suggests a potential pathway by
+        which cells respond to protein stress and maintain proper protein function
+        and organization.'
+      term_strings:
+      - response to unfolded protein
+      - protein transport
+      - endoplasmic reticulum organization and biogenesis
+      - regulation of protein metabolic process
+      - chaperone-mediated protein folding
+      term_ids:
+      - GO:0006986
+      - GO:0015031
+      - GO:0007029
+      - GO:0051246
+      - GO:0061077
+      annotations: true
+      response_token_length: 137
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Genes involved in cellular homeostasis, regulation
+        of protein folding, and response to stress are enriched.
+
+        Mechanism: Protein quality control and stress response pathways.
+
+        Enriched Terms: Protein folding; Endoplasmic reticulum organization; Response
+        to stress.'
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in cellular homeostasis, regulation of protein
+        folding, and response to stress are enriched.
+
+        Mechanism: Protein quality control and stress response pathways.
+
+        '
+      term_strings:
+      - protein folding
+      - endoplasmic reticulum organization
+      - response to stress
+      term_ids:
+      - GO:0006457
+      - GO:0007029
+      - GO:0006950
+      annotations: true
+      response_token_length: 55
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: "Summary: Genes involved in regulation of cellular processes\
+        \ and protein folding.\nMechanism: Regulation of gene expression and protein\
+        \ processing.\nEnriched Terms: Gene expression regulation; Protein folding;\
+        \ Sterol biosynthesis; Filamentous growth; ER lumenal chaperone activity.\
+        \ \n\nHypothesis: These genes may play a role in regulating cellular processes\
+        \ that require precise protein folding and processing, such as sterol biosynthesis\
+        \ and filamentous growth. They are also involved in maintaining cellular homeostasis\
+        \ by regulating the expression of genes involved in these processes. The ER\
+        \ lumenal chaperone activity of LHS1 suggests a specific role in protein folding\
+        \ and quality control within this organelle."
+      truncation_factor: 1.0
+      summary: 'Summary: Genes involved in regulation of cellular processes and protein
+        folding.
+
+        Mechanism: Regulation of gene expression and protein processing.
+
+
+        Hypothesis:  These genes may play a role in regulating cellular processes
+        that require precise protein folding and processing, such as sterol biosynthesis
+        and filamentous growth. They are also involved in maintaining cellular homeostasis
+        by regulating the expression of genes involved in these processes. The ER
+        lumenal chaperone activity of LHS1 suggests a specific role in protein folding
+        and quality control within this organelle.'
+      term_strings:
+      - gene expression regulation
+      - protein folding
+      - sterol biosynthesis
+      - filamentous growth
+      - er lumenal chaperone activity
+      term_ids:
+      - MESH:D005786
+      - GO:0006457
+      - GO:0016126
+      - GO:0030447
+      - er lumenal chaperone activity
+      annotations: true
+      response_token_length: 140
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v2
+    text-davinci-003.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nUPC2; LHS1; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: '
+
+        Summary: The genes UPC2 and LHS1 share the common function of transcription
+        regulation in plants.
+
+        Mechanism: Transcriptional regulation is the process by which transcription
+        factors interact with cis-elements to control gene expression.
+
+        UPC2 and LHS1 likely interact with other transcription factors as part of
+        a larger transcription-regulatory network that acts to regulate gene expression
+        in plants.
+
+        Enriched Terms: Transcription Regulation; Transcriptional Regulation; Gene
+        Expression Regulation; Gene Control in Plants.'
+      truncation_factor: 1.0
+      summary: '
+
+        Summary: The genes UPC2 and LHS1 share the common function of transcription
+        regulation in plants.
+
+        Mechanism: Transcriptional regulation is the process by which transcription
+        factors interact with cis-elements to control gene expression.
+
+        UPC2 and LHS1 likely interact with other transcription factors as part of
+        a larger transcription-regulatory network that acts to regulate gene expression
+        in plants.
+
+        '
+      term_strings:
+      - transcription regulation
+      - transcriptional regulation
+      - gene expression regulation
+      - gene control in plants
+      term_ids:
+      - transcription regulation
+      - transcriptional regulation
+      - MESH:D005786
+      - gene control in plants
+      response_token_length: 104
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v1
+    text-davinci-003.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nUPC2; LHS1; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: ' Genes UPC2 and LHS1 are both involved in regulation of mRNA
+        stability.
+
+        Mechanism: mRNA destabilized by UPC2 and LHS1 likely leads to degradation
+        of target proteins, leading to inhibition of downstream pathways.
+
+        Enriched Terms: mRNA stability regulation; Protein degradation; mRNA Degradation;
+        mRNA Targeting.'
+      truncation_factor: 1.0
+      summary: ' Genes UPC2 and LHS1 are both involved in regulation of mRNA stability.
+
+        Mechanism: mRNA destabilized by UPC2 and LHS1 likely leads to degradation
+        of target proteins, leading to inhibition of downstream pathways.
+
+        '
+      term_strings:
+      - mrna stability regulation
+      - protein degradation
+      - mrna degradation
+      - mrna targeting
+      term_ids:
+      - mrna stability regulation
+      - GO:0030163
+      - GO:0006402
+      - mrna targeting
+      response_token_length: 68
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v2
+    text-davinci-003.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: " Genes UPC2 and LHS1 are involved in maintaining protein integrity\
+        \ in the endoplasmic reticulum via transcription, adenyl-nucleotide exchange,\
+        \ and protein binding activities, as well as cellular response to hypoxia.\n\
+        \nMechanism: These genes ensure that the proteins in the endoplasmic reticulum\
+        \ have maximal structural integrity during translation. The UPC2 and the LHS1\
+        \ gene products assist in transcription, adenyl-nucleotide exchange, and protein\
+        \ binding activities, allowing for regulation of the translation process.\
+        \ The UPC2 gene product is also involved in the cellular response to hypoxia.\
+        \ \n\nEnriched Terms: Protein targeting to membrane; Translocation; Response\
+        \ to unfolded protein; DNA-binding transcription activator activity; RNA polymerase\
+        \ II-specific activity; RNA polymerase II cis-regulatory region sequence-specific\
+        \ DNA binding activity; ATP binding activity; Adenyl-nucleotide exchange factor\
+        \ activity; Unfolded protein binding activity."
+      truncation_factor: 1.0
+      summary: " Genes UPC2 and LHS1 are involved in maintaining protein integrity\
+        \ in the endoplasmic reticulum via transcription, adenyl-nucleotide exchange,\
+        \ and protein binding activities, as well as cellular response to hypoxia.\n\
+        \nMechanism: These genes ensure that the proteins in the endoplasmic reticulum\
+        \ have maximal structural integrity during translation. The UPC2 and the LHS1\
+        \ gene products assist in transcription, adenyl-nucleotide exchange, and protein\
+        \ binding activities, allowing for regulation of the translation process.\
+        \ The UPC2 gene product is also involved in the cellular response to hypoxia.\
+        \ \n\n"
+      term_strings:
+      - protein targeting to membrane
+      - translocation
+      - response to unfolded protein
+      - dna-binding transcription activator activity
+      - rna polymerase ii-specific activity
+      - rna polymerase ii cis-regulatory region sequence-specific dna binding activity
+      - atp binding activity
+      - adenyl-nucleotide exchange factor activity
+      - unfolded protein binding activity
+      term_ids:
+      - GO:0006612
+      - translocation
+      - GO:0006986
+      - GO:0001216
+      - rna polymerase ii-specific activity
+      - rna polymerase ii cis-regulatory region sequence-specific dna binding activity
+      - atp binding activity
+      - GO:0000774
+      - unfolded protein binding activity
+      annotations: true
+      response_token_length: 206
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v1
+    text-davinci-003.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Enables DNA-binding transcription activator activity, RNA polymerase
+        II-specific and RNA polymerase II cis-regulatory region sequence-specific
+        DNA binding activity. Involved in cellular response to hypoxia and positive
+        regulation of transcription by RNA polymerase II. Located in membrane and
+        perinuclear region of cytoplasm.
+
+
+        LHS1: Enables ATP binding activity; adenyl-nucleotide exchange factor activity;
+        and unfolded protein binding activity. Involved in post-translational protein
+        targeting to membrane, translocation and response to unfolded protein. Located
+        in endoplasmic reticulum lumen. Human ortholog(s) of this gene implicated
+        in immunodeficiency 59. Orthologous to human HYOU1 (hypoxia up-regulated 1).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: ' Both UPC2 and LHS1 are involved in the response to hypoxia
+        and post-translational protein targeting to the membrane respectively. Both
+        are also involved in transcriptional and ATP binding activities. The enriched
+        terms, based on the functions of these two genes, are "hypoxia response",
+        "transcriptional activity", "ATP binding activity", and "protein targeting
+        to membrane".
+
+
+        Mechanism: UPC2 and LHS1 work together to directly regulate the transcription
+        and protein targeting in response to hypoxia and unfolded proteins. UPC2 activates
+        the transcription of genetic information to code for proteins and the subsequent
+        post-translational protein targeting while the ATP binding activity of LHS1
+        help promote and regulate the translocation of proteins.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - both upc2 and lhs1 are involved in the response to hypoxia and post-translational
+        protein targeting to the membrane respectively. both are also involved in
+        transcriptional and atp binding activities. the enriched terms
+      - based on the functions of these two genes
+      - are "hypoxia response"
+      - '"transcriptional activity"'
+      - '"atp binding activity"'
+      - '"protein targeting to membrane".
+
+
+        mechanism: upc2 lhs1 work together to directly regulate the transcription
+        protein targeting in response to hypoxia unfolded proteins. upc2 activates
+        the transcription of genetic information to code for proteins the subsequent
+        post-translational protein targeting while the atp binding activity of lhs1
+        help promote regulate the translocation of proteins'
+      term_ids:
+      - both upc2 and lhs1 are involved in the response to hypoxia and post-translational
+        protein targeting to the membrane respectively. both are also involved in
+        transcriptional and atp binding activities. the enriched terms
+      - based on the functions of these two genes
+      - are "hypoxia response"
+      - '"transcriptional activity"'
+      - '"atp binding activity"'
+      - '"protein targeting to membrane".
+
+
+        mechanism: upc2 lhs1 work together to directly regulate the transcription
+        protein targeting in response to hypoxia unfolded proteins. upc2 activates
+        the transcription of genetic information to code for proteins the subsequent
+        post-translational protein targeting while the atp binding activity of lhs1
+        help promote regulate the translocation of proteins'
+      annotations: true
+      response_token_length: 155
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v2
+    text-davinci-003.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: "\nThis group of genes is involved in sterol biosynthesis, sterol\
+        \ sensing, membrane relocation, filamentation, and protein folding within\
+        \ the endoplasmic reticulum. \nMechanism: The cell responds to sterol levels\
+        \ in its environment by activating a cascade of events which involve the sterol\
+        \ regulatory element binding protein (UPC2), induce sterol biosynthesis, and\
+        \ relocate membrane proteins to perinuclear foci. Furthermore, UPC2 acts in\
+        \ a redundant activator with another gene, ECM22, to up-regulate the expression\
+        \ of filamentous growth genes. Simultaneously, the chaperone Kar2p promotes\
+        \ the protein folding process in the ER lumen, regulated by the unfolded protein\
+        \ response pathway. \nEnriched terms: protein folding; ER lumen; sterol biosynthesis;\
+        \ sterol sensing; membrane relocation; filamentous growth."
+      truncation_factor: 1.0
+      summary: "\nThis group of genes is involved in sterol biosynthesis, sterol sensing,\
+        \ membrane relocation, filamentation, and protein folding within the endoplasmic\
+        \ reticulum. \nMechanism: The cell responds to sterol levels in its environment\
+        \ by activating a cascade of events which involve the sterol regulatory element\
+        \ binding protein (UPC2), induce sterol biosynthesis, and relocate membrane\
+        \ proteins to perinuclear foci. Furthermore, UPC2 acts in a redundant activator\
+        \ with another gene, ECM22, to up-regulate the expression of filamentous growth\
+        \ genes. Simultaneously, the chaperone Kar2p promotes the protein folding\
+        \ process in the ER lumen, regulated by the unfolded protein response pathway.\
+        \ \n"
+      term_strings:
+      - protein folding
+      - er lumen
+      - sterol biosynthesis
+      - sterol sensing
+      - membrane relocation
+      - filamentous growth
+      term_ids:
+      - GO:0006457
+      - GO:0005788
+      - GO:0016126
+      - sterol sensing
+      - membrane relocation
+      - GO:0030447
+      annotations: true
+      response_token_length: 179
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v1
+    text-davinci-003.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        UPC2: Sterol regulatory element binding protein; induces sterol biosynthetic
+        genes, upon sterol depletion; acts as a sterol sensor, binding ergosterol
+        in sterol rich conditions; relocates from intracellular membranes to perinuclear
+        foci upon sterol depletion; redundant activator of filamentation with ECM22,
+        up-regulating the expression of filamentous growth genes; contains a Zn[2]-Cys[6]
+        binuclear cluster; UPC2 has a paralog, ECM22, that arose from the whole genome
+        duplication
+
+
+        LHS1: Molecular chaperone of the endoplasmic reticulum lumen; involved in
+        polypeptide translocation and folding; nucleotide exchange factor for the
+        ER lumenal Hsp70 chaperone Kar2p; regulated by the unfolded protein response
+        pathway
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: ' This set of genes is involved in the regulation of sterol biosynthesis
+        and transport, as well as the activation of filament growth genes and the
+        maintenance of polypeptide folding and translocation in the endoplasmic reticulum
+        lumen. The underlying biological mechanism is likely related to the foldocing,
+        transport and biosynthesis of sterols and polypeptides. The enriched terms
+        include Sterol Regulation; Protein Folding; Polypeptide Transport; Filamentous
+        Growth; Sterol Sensor; Nucleotide Exchange; Unfolded Protein Response.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - this set of genes is involved in the regulation of sterol biosynthesis and
+        transport, as well as the activation of filament growth genes and the maintenance
+        of polypeptide folding and translocation in the endoplasmic reticulum lumen.
+        the underlying biological mechanism is likely related to the foldocing, transport
+        and biosynthesis of sterols and polypeptides. the enriched terms include sterol
+        regulation
+      - protein folding
+      - polypeptide transport
+      - filamentous growth
+      - sterol sensor
+      - nucleotide exchange
+      - unfolded protein response
+      term_ids:
+      - this set of genes is involved in the regulation of sterol biosynthesis and
+        transport, as well as the activation of filament growth genes and the maintenance
+        of polypeptide folding and translocation in the endoplasmic reticulum lumen.
+        the underlying biological mechanism is likely related to the foldocing, transport
+        and biosynthesis of sterols and polypeptides. the enriched terms include sterol
+        regulation
+      - GO:0006457
+      - polypeptide transport
+      - GO:0030447
+      - sterol sensor
+      - nucleotide exchange
+      - MESH:D056811
+      annotations: true
+      response_token_length: 114
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v2
+    standard:
+      term_strings:
+      - cellular response to hypoxia
+      - response to hypoxia
+      - cellular response to decreased oxygen levels
+      - cellular response to oxygen levels
+      - response to decreased oxygen levels
+      - response to oxygen levels
+      term_ids:
+      - GO:0071456
+      - GO:0001666
+      - GO:0036294
+      - GO:0071453
+      - GO:0036293
+      - GO:0070482
+      method: standard
+      enrichment_results:
+      - class_id: GO:0071456
+        class_label: cellular response to hypoxia
+        rank: 1
+        p_value: 1.42471756755758e-07
+        p_value_adjusted: 2.9776597161953422e-05
+        sample_count: 2
+        sample_total: 2
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:0001666
+        class_label: response to hypoxia
+        rank: 2
+        p_value: 1.42471756755758e-07
+        p_value_adjusted: 2.9776597161953422e-05
+        sample_count: 2
+        sample_total: 2
+        background_count: 3
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0036294
+        class_label: cellular response to decreased oxygen levels
+        rank: 3
+        p_value: 7.123587837782554e-07
+        p_value_adjusted: 0.00014888298580965537
+        sample_count: 2
+        sample_total: 2
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0071453
+        class_label: cellular response to oxygen levels
+        rank: 4
+        p_value: 7.123587837782554e-07
+        p_value_adjusted: 0.00014888298580965537
+        sample_count: 2
+        sample_total: 2
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0036293
+        class_label: response to decreased oxygen levels
+        rank: 5
+        p_value: 7.123587837782554e-07
+        p_value_adjusted: 0.00014888298580965537
+        sample_count: 2
+        sample_total: 2
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0070482
+        class_label: response to oxygen levels
+        rank: 6
+        p_value: 7.123587837782554e-07
+        p_value_adjusted: 0.00014888298580965537
+        sample_count: 2
+        sample_total: 2
+        background_count: 6
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+    standard_no_ontology:
+      term_strings:
+      - cellular response to hypoxia
+      - endoplasmic reticulum chaperone complex
+      term_ids:
+      - GO:0071456
+      - GO:0034663
+      method: standard_no_ontology
+      enrichment_results:
+      - class_id: GO:0071456
+        class_label: cellular response to hypoxia
+        rank: 1
+        p_value: 1.42471756755758e-07
+        p_value_adjusted: 3.989209189161224e-06
+        sample_count: 2
+        sample_total: 2
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:0034663
+        class_label: endoplasmic reticulum chaperone complex
+        rank: 2
+        p_value: 0.0006162853291433779
+        p_value_adjusted: 0.01725598921601458
+        sample_count: 1
+        sample_total: 2
+        background_count: 2
+        background_total: 6490
+    random:
+      term_strings:
+      - myosin II complex
+      - GPI anchor biosynthetic process
+      term_ids:
+      - GO:0016460
+      - GO:0006506
+      method: random
+    rank_based:
+      term_strings:
+      - cytoplasm
+      - nucleus
+      term_ids:
+      - GO:0005737
+      - GO:0005634
+      method: rank_based
+    closure:
+      term_strings:
+      - cytoplasm
+      - post-translational protein targeting to membrane, translocation
+      - ATP-dependent protein folding chaperone
+      - unfolded protein binding
+      - zinc ion binding
+      - regulation of DNA-templated transcription
+      - regulation of nitrogen compound metabolic process
+      - protein folding
+      - DNA-binding transcription factor activity, RNA polymerase II-specific
+      - regulation of primary metabolic process
+      - response to unfolded protein
+      - negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway
+      - endoplasmic reticulum lumen
+      - perinuclear region of cytoplasm
+      - endoplasmic reticulum
+      - hydrolase activity
+      - DNA-binding transcription activator activity, RNA polymerase II-specific
+      - RNA polymerase II cis-regulatory region sequence-specific DNA binding
+      - positive regulation of transcription by RNA polymerase II
+      - regulation of transcription by RNA polymerase II
+      - nucleotide binding
+      - cellular response to hypoxia
+      - DNA binding
+      - nucleus
+      - adenyl-nucleotide exchange factor activity
+      - membrane
+      - metal ion binding
+      - endoplasmic reticulum chaperone complex
+      - ATP binding
+      - occurrent
+      - process
+      - nucleotide binding
+      - molecular_function
+      - binding
+      - small molecule binding
+      - organic cyclic compound binding
+      - nucleoside phosphate binding
+      - heterocyclic compound binding
+      - adenyl-nucleotide exchange factor activity
+      - purine nucleotide binding
+      - adenyl nucleotide binding
+      - ATPase regulator activity
+      - molecular function regulator activity
+      - transcription cis-regulatory region binding
+      - RNA polymerase II transcription regulatory region sequence-specific DNA binding
+      - RNA polymerase II cis-regulatory region sequence-specific DNA binding
+      - cis-regulatory region sequence-specific DNA binding
+      - transcription regulatory region nucleic acid binding
+      - nucleic acid binding
+      - DNA binding
+      - double-stranded DNA binding
+      - sequence-specific DNA binding
+      - sequence-specific double-stranded DNA binding
+      - nucleobase-containing compound metabolic process
+      - DNA-templated transcription
+      - regulation of DNA-templated transcription
+      - regulation of transcription by RNA polymerase II
+      - cellular aromatic compound metabolic process
+      - nitrogen compound metabolic process
+      - biological_process
+      - metabolic process
+      - biosynthetic process
+      - macromolecule biosynthetic process
+      - regulation of biosynthetic process
+      - cellular process
+      - gene expression
+      - regulation of gene expression
+      - regulation of macromolecule biosynthetic process
+      - RNA metabolic process
+      - heterocycle biosynthetic process
+      - regulation of nucleobase-containing compound metabolic process
+      - regulation of metabolic process
+      - aromatic compound biosynthetic process
+      - regulation of cellular metabolic process
+      - regulation of cellular biosynthetic process
+      - RNA biosynthetic process
+      - cellular nitrogen compound metabolic process
+      - nucleobase-containing compound biosynthetic process
+      - macromolecule metabolic process
+      - cellular metabolic process
+      - primary metabolic process
+      - cellular biosynthetic process
+      - cellular nitrogen compound biosynthetic process
+      - heterocycle metabolic process
+      - regulation of biological process
+      - regulation of cellular process
+      - regulation of nitrogen compound metabolic process
+      - regulation of RNA metabolic process
+      - regulation of macromolecule metabolic process
+      - biological regulation
+      - organic substance metabolic process
+      - regulation of primary metabolic process
+      - nucleic acid metabolic process
+      - nucleic acid-templated transcription
+      - organic cyclic compound metabolic process
+      - organic cyclic compound biosynthetic process
+      - organic substance biosynthetic process
+      - regulation of nucleic acid-templated transcription
+      - regulation of RNA biosynthetic process
+      - DNA-binding transcription factor activity, RNA polymerase II-specific
+      - DNA-binding transcription factor activity
+      - transcription regulator activity
+      - positive regulation of biosynthetic process
+      - positive regulation of metabolic process
+      - positive regulation of macromolecule biosynthetic process
+      - positive regulation of macromolecule metabolic process
+      - positive regulation of cellular metabolic process
+      - positive regulation of cellular biosynthetic process
+      - positive regulation of DNA-templated transcription
+      - positive regulation of nucleobase-containing compound metabolic process
+      - positive regulation of transcription by RNA polymerase II
+      - positive regulation of biological process
+      - positive regulation of cellular process
+      - positive regulation of nitrogen compound metabolic process
+      - positive regulation of RNA metabolic process
+      - positive regulation of RNA biosynthetic process
+      - positive regulation of nucleic acid-templated transcription
+      - DNA-binding transcription activator activity
+      - DNA-binding transcription activator activity, RNA polymerase II-specific
+      - ATP binding
+      - ribonucleotide binding
+      - purine ribonucleotide binding
+      - adenyl ribonucleotide binding
+      - purine ribonucleoside triphosphate binding
+      - ion binding
+      - anion binding
+      - carbohydrate derivative binding
+      - continuant
+      - independent continuant
+      - material entity
+      - anatomical entity
+      - connected anatomical structure
+      - material anatomical entity
+      - biological entity
+      - cell
+      - cellular_component
+      - intracellular anatomical structure
+      - cellular anatomical entity
+      - anatomical structure
+      - material anatomical entity
+      - anatomical entity
+      - nucleus
+      - organelle
+      - membrane-bounded organelle
+      - intracellular organelle
+      - intracellular membrane-bounded organelle
+      - cytoplasm
+      - endomembrane system
+      - endoplasmic reticulum
+      - endoplasmic reticulum lumen
+      - membrane-enclosed lumen
+      - organelle lumen
+      - intracellular organelle lumen
+      - protein folding
+      - response to stress
+      - response to unfolded protein
+      - response to organic substance
+      - response to topologically incorrect protein
+      - response to chemical
+      - response to stimulus
+      - zinc ion binding
+      - cation binding
+      - metal ion binding
+      - transition metal ion binding
+      - membrane
+      - catalytic activity
+      - hydrolase activity
+      - protein targeting
+      - protein targeting to membrane
+      - post-translational protein targeting to endoplasmic reticulum membrane
+      - transport
+      - intracellular protein transport
+      - protein localization
+      - protein transport
+      - macromolecule localization
+      - protein localization to organelle
+      - protein targeting to ER
+      - establishment of protein localization
+      - intracellular transport
+      - localization
+      - establishment of localization
+      - cellular localization
+      - establishment of localization in cell
+      - localization within membrane
+      - cellular macromolecule localization
+      - protein localization to endoplasmic reticulum
+      - organic substance transport
+      - nitrogen compound transport
+      - establishment of protein localization to organelle
+      - establishment of protein localization to endoplasmic reticulum
+      - protein localization to membrane
+      - establishment of protein localization to membrane
+      - post-translational protein targeting to membrane, translocation
+      - transmembrane transport
+      - intracellular protein transmembrane transport
+      - protein transmembrane transport
+      - protein-containing complex
+      - endoplasmic reticulum chaperone complex
+      - endoplasmic reticulum protein-containing complex
+      - protein-containing material entity
+      - perinuclear region of cytoplasm
+      - protein binding
+      - unfolded protein binding
+      - response to hypoxia
+      - response to abiotic stimulus
+      - cellular response to stress
+      - response to decreased oxygen levels
+      - cellular response to decreased oxygen levels
+      - cellular response to stimulus
+      - response to oxygen levels
+      - cellular response to chemical stimulus
+      - cellular response to oxygen levels
+      - cellular response to hypoxia
+      - protein folding chaperone
+      - ATP-dependent activity
+      - ATP-dependent protein folding chaperone
+      - regulation of signal transduction
+      - negative regulation of signal transduction
+      - regulation of cell communication
+      - negative regulation of cell communication
+      - regulation of cell death
+      - regulation of signaling
+      - negative regulation of signaling
+      - regulation of apoptotic process
+      - negative regulation of apoptotic process
+      - regulation of programmed cell death
+      - negative regulation of programmed cell death
+      - negative regulation of biological process
+      - negative regulation of cellular process
+      - regulation of response to stimulus
+      - negative regulation of response to stimulus
+      - negative regulation of cell death
+      - regulation of response to stress
+      - regulation of cellular response to stress
+      - regulation of cellular response to hypoxia
+      - negative regulation of cellular response to hypoxia
+      - regulation of intracellular signal transduction
+      - negative regulation of intracellular signal transduction
+      - regulation of hypoxia-induced intrinsic apoptotic signaling pathway
+      - negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway
+      - regulation of apoptotic signaling pathway
+      - negative regulation of apoptotic signaling pathway
+      - regulation of intrinsic apoptotic signaling pathway
+      - negative regulation of intrinsic apoptotic signaling pathway
+      term_ids:
+      - GO:0005737
+      - GO:0031204
+      - GO:0140662
+      - GO:0051082
+      - GO:0008270
+      - GO:0006355
+      - GO:0051171
+      - GO:0006457
+      - GO:0000981
+      - GO:0080090
+      - GO:0006986
+      - GO:1903298
+      - GO:0005788
+      - GO:0048471
+      - GO:0005783
+      - GO:0016787
+      - GO:0001228
+      - GO:0000978
+      - GO:0045944
+      - GO:0006357
+      - GO:0000166
+      - GO:0071456
+      - GO:0003677
+      - GO:0005634
+      - GO:0000774
+      - GO:0016020
+      - GO:0046872
+      - GO:0034663
+      - GO:0005524
+      - BFO:0000003
+      - BFO:0000015
+      - GO:0000166
+      - GO:0003674
+      - GO:0005488
+      - GO:0036094
+      - GO:0097159
+      - GO:1901265
+      - GO:1901363
+      - GO:0000774
+      - GO:0017076
+      - GO:0030554
+      - GO:0060590
+      - GO:0098772
+      - GO:0000976
+      - GO:0000977
+      - GO:0000978
+      - GO:0000987
+      - GO:0001067
+      - GO:0003676
+      - GO:0003677
+      - GO:0003690
+      - GO:0043565
+      - GO:1990837
+      - GO:0006139
+      - GO:0006351
+      - GO:0006355
+      - GO:0006357
+      - GO:0006725
+      - GO:0006807
+      - GO:0008150
+      - GO:0008152
+      - GO:0009058
+      - GO:0009059
+      - GO:0009889
+      - GO:0009987
+      - GO:0010467
+      - GO:0010468
+      - GO:0010556
+      - GO:0016070
+      - GO:0018130
+      - GO:0019219
+      - GO:0019222
+      - GO:0019438
+      - GO:0031323
+      - GO:0031326
+      - GO:0032774
+      - GO:0034641
+      - GO:0034654
+      - GO:0043170
+      - GO:0044237
+      - GO:0044238
+      - GO:0044249
+      - GO:0044271
+      - GO:0046483
+      - GO:0050789
+      - GO:0050794
+      - GO:0051171
+      - GO:0051252
+      - GO:0060255
+      - GO:0065007
+      - GO:0071704
+      - GO:0080090
+      - GO:0090304
+      - GO:0097659
+      - GO:1901360
+      - GO:1901362
+      - GO:1901576
+      - GO:1903506
+      - GO:2001141
+      - GO:0000981
+      - GO:0003700
+      - GO:0140110
+      - GO:0009891
+      - GO:0009893
+      - GO:0010557
+      - GO:0010604
+      - GO:0031325
+      - GO:0031328
+      - GO:0045893
+      - GO:0045935
+      - GO:0045944
+      - GO:0048518
+      - GO:0048522
+      - GO:0051173
+      - GO:0051254
+      - GO:1902680
+      - GO:1903508
+      - GO:0001216
+      - GO:0001228
+      - GO:0005524
+      - GO:0032553
+      - GO:0032555
+      - GO:0032559
+      - GO:0035639
+      - GO:0043167
+      - GO:0043168
+      - GO:0097367
+      - BFO:0000002
+      - BFO:0000004
+      - BFO:0000040
+      - CARO:0000000
+      - CARO:0000003
+      - CARO:0000006
+      - CARO:0030000
+      - CL:0000000
+      - GO:0005575
+      - GO:0005622
+      - GO:0110165
+      - UBERON:0000061
+      - UBERON:0000465
+      - UBERON:0001062
+      - GO:0005634
+      - GO:0043226
+      - GO:0043227
+      - GO:0043229
+      - GO:0043231
+      - GO:0005737
+      - GO:0012505
+      - GO:0005783
+      - GO:0005788
+      - GO:0031974
+      - GO:0043233
+      - GO:0070013
+      - GO:0006457
+      - GO:0006950
+      - GO:0006986
+      - GO:0010033
+      - GO:0035966
+      - GO:0042221
+      - GO:0050896
+      - GO:0008270
+      - GO:0043169
+      - GO:0046872
+      - GO:0046914
+      - GO:0016020
+      - GO:0003824
+      - GO:0016787
+      - GO:0006605
+      - GO:0006612
+      - GO:0006620
+      - GO:0006810
+      - GO:0006886
+      - GO:0008104
+      - GO:0015031
+      - GO:0033036
+      - GO:0033365
+      - GO:0045047
+      - GO:0045184
+      - GO:0046907
+      - GO:0051179
+      - GO:0051234
+      - GO:0051641
+      - GO:0051649
+      - GO:0051668
+      - GO:0070727
+      - GO:0070972
+      - GO:0071702
+      - GO:0071705
+      - GO:0072594
+      - GO:0072599
+      - GO:0072657
+      - GO:0090150
+      - GO:0031204
+      - GO:0055085
+      - GO:0065002
+      - GO:0071806
+      - GO:0032991
+      - GO:0034663
+      - GO:0140534
+      - PR:000050567
+      - GO:0048471
+      - GO:0005515
+      - GO:0051082
+      - GO:0001666
+      - GO:0009628
+      - GO:0033554
+      - GO:0036293
+      - GO:0036294
+      - GO:0051716
+      - GO:0070482
+      - GO:0070887
+      - GO:0071453
+      - GO:0071456
+      - GO:0044183
+      - GO:0140657
+      - GO:0140662
+      - GO:0009966
+      - GO:0009968
+      - GO:0010646
+      - GO:0010648
+      - GO:0010941
+      - GO:0023051
+      - GO:0023057
+      - GO:0042981
+      - GO:0043066
+      - GO:0043067
+      - GO:0043069
+      - GO:0048519
+      - GO:0048523
+      - GO:0048583
+      - GO:0048585
+      - GO:0060548
+      - GO:0080134
+      - GO:0080135
+      - GO:1900037
+      - GO:1900038
+      - GO:1902531
+      - GO:1902532
+      - GO:1903297
+      - GO:1903298
+      - GO:2001233
+      - GO:2001234
+      - GO:2001242
+      - GO:2001243
+  number_of_genes_swapped_out: 1

@@ -1,0 +1,19 @@
+name: endocytosis
+description:  GO:0006907 GO:0035037 and selection of GO:0038024
+gene_symbols:
+  - AHSG
+  - CARMIL1
+  - DNM2
+  - DOCK2
+  - EHD4
+  - MAPKAPK2
+  - MAPKAPK3
+  - PPT1
+  - PYCARD
+  - RAB34
+  - SNX33
+  - SNX5
+  - UBE3A
+  - LRP1
+  - CD36
+  - LDLR

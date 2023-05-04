@@ -1,0 +1,2711 @@
+- name: term-GO:0097194-0
+  gene_symbols:
+  - YBL055C
+  - NUC1
+  gene_ids:
+  - SGD:S000000151
+  - SGD:S000003744
+  payloads:
+    gpt-3.5-turbo.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; NUC1; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: "Summary: The two human genes YBL055C and NUC1 are involved in\
+        \ nucleic acid metabolism and regulation.\nMechanism: DNA and RNA regulation\
+        \ and processing.\nEnriched Terms: RNA processing; DNA replication; nucleic\
+        \ acid metabolism; transcriptional regulation; mRNA splicing. \n\nHypothesis:\
+        \ YBL055C and NUC1 are both involved in the regulation and processing of nucleic\
+        \ acids, particularly DNA and RNA. Their enrichment in terms related to RNA\
+        \ processing and DNA replication suggest they play a role in these processes.\
+        \ Additionally, their involvement in mRNA splicing and transcriptional regulation\
+        \ further supports this hypothesis. It is possible that YBL055C and NUC1 may\
+        \ be involved in the same pathway or protein complex related to nucleic acid\
+        \ metabolism and regulation."
+      truncation_factor: 1.0
+      summary: 'Summary: The two human genes YBL055C and NUC1 are involved in nucleic
+        acid metabolism and regulation.
+
+        Mechanism: DNA and RNA regulation and processing.
+
+
+        Hypothesis:  YBL055C and NUC1 are both involved in the regulation and processing
+        of nucleic acids, particularly DNA and RNA. Their enrichment in terms related
+        to RNA processing and DNA replication suggest they play a role in these processes.
+        Additionally, their involvement in mRNA splicing and transcriptional regulation
+        further supports this hypothesis. It is possible that YBL055C and NUC1 may
+        be involved in the same pathway or protein complex related to nucleic acid
+        metabolism and regulation.'
+      term_strings:
+      - rna processing
+      - dna replication
+      - nucleic acid metabolism
+      - transcriptional regulation
+      - mrna splicing
+      term_ids:
+      - GO:0006396
+      - GO:0006260
+      - nucleic acid metabolism
+      - transcriptional regulation
+      - GO:0000394
+      response_token_length: 157
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; NUC1; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: 'Summary: NUC1 and YBL055C are both involved in DNA damage response
+        and repair mechanisms.
+
+        Mechanism: DNA damage repair pathways
+
+        Enriched Terms: DNA repair; DNA damage response; double-strand break repair'
+      truncation_factor: 1.0
+      summary: 'Summary: NUC1 and YBL055C are both involved in DNA damage response
+        and repair mechanisms.
+
+        Mechanism: DNA damage repair pathways
+
+        '
+      term_strings:
+      - dna repair
+      - dna damage response
+      - double-strand break repair
+      term_ids:
+      - GO:0006281
+      - GO:0006974
+      - GO:0006302
+      response_token_length: 46
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+        NUC1: Enables DNA endonuclease activity; DNA exonuclease activity; and RNA
+        nuclease activity. Involved in defense response to virus and nucleic acid
+        metabolic process. Located in cytosol; mitochondrial inner membrane; and nucleus.
+        Orthologous to human ENDOG (endonuclease G).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Both YBL055C and NUC1 are involved in nucleic acid
+        metabolism and endonuclease/exonuclease activity.
+
+
+        Mechanism: Nucleic acid metabolism and cycle
+
+
+        Enriched Terms: Nucleic acid metabolism; endonuclease activity; exonuclease
+        activity.'
+      truncation_factor: 1.0
+      summary: 'Summary: Both YBL055C and NUC1 are involved in nucleic acid metabolism
+        and endonuclease/exonuclease activity.
+
+
+        Mechanism: Nucleic acid metabolism and cycle
+
+
+        '
+      term_strings:
+      - nucleic acid metabolism
+      - endonuclease activity
+      - exonuclease activity
+      term_ids:
+      - nucleic acid metabolism
+      - GO:0004519
+      - GO:0004527
+      annotations: true
+      response_token_length: 62
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+        NUC1: Enables DNA endonuclease activity; DNA exonuclease activity; and RNA
+        nuclease activity. Involved in defense response to virus and nucleic acid
+        metabolic process. Located in cytosol; mitochondrial inner membrane; and nucleus.
+        Orthologous to human ENDOG (endonuclease G).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: NUC1 and YBL055C are both involved in DNA/RNA nuclease
+        activity and cellular response to stress.
+
+
+        Mechanism: DNA/RNA damage response
+
+
+        Enriched Terms: DNA/RNA nuclease activity; defense response to virus; nucleic
+        acid metabolic process; cellular response to oxidative stress.'
+      truncation_factor: 1.0
+      summary: 'Summary: NUC1 and YBL055C are both involved in DNA/RNA nuclease activity
+        and cellular response to stress.
+
+
+        Mechanism: DNA/RNA damage response
+
+
+        '
+      term_strings:
+      - dna/rna nuclease activity
+      - defense response to virus
+      - nucleic acid metabolic process
+      - cellular response to oxidative stress
+      term_ids:
+      - dna/rna nuclease activity
+      - GO:0051607
+      - GO:0090304
+      - GO:0034599
+      annotations: true
+      response_token_length: 66
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+        NUC1: Major mitochondrial nuclease; has RNAse and DNA endo- and exonucleolytic
+        activities; roles in mitochondrial recombination, apoptosis and maintenance
+        of polyploidy; involved in fragmentation of genomic DNA during PND (programmed
+        nuclear destruction); encodes ortholog of mammalian endoG
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: These genes are involved in cellular processes related
+        to fragmentation and destruction of cellular materials, as well as programmed
+        cell death (apoptosis).
+
+        Mechanism: The mechanism involves the activity of nucleases, enzymes that
+        cleave nucleic acids.
+
+        Enriched Terms: Apoptosis; Mitochondrial DNA fragmentation; DNA degradation;
+        Programmed nuclear destruction.'
+      truncation_factor: 1.0
+      summary: 'Summary: These genes are involved in cellular processes related to
+        fragmentation and destruction of cellular materials, as well as programmed
+        cell death (apoptosis).
+
+        Mechanism: The mechanism involves the activity of nucleases, enzymes that
+        cleave nucleic acids.
+
+        '
+      term_strings:
+      - apoptosis
+      - mitochondrial dna fragmentation
+      - dna degradation
+      - programmed nuclear destruction
+      term_ids:
+      - GO:0006915
+      - mitochondrial dna fragmentation
+      - GO:0006308
+      - programmed nuclear destruction
+      annotations: true
+      response_token_length: 72
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+        NUC1: Major mitochondrial nuclease; has RNAse and DNA endo- and exonucleolytic
+        activities; roles in mitochondrial recombination, apoptosis and maintenance
+        of polyploidy; involved in fragmentation of genomic DNA during PND (programmed
+        nuclear destruction); encodes ortholog of mammalian endoG
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: "Summary: \nGenes involved in DNA degradation and apoptosis.\n\
+        \nMechanism: \nThese genes are involved in the regulation of apoptosis and\
+        \ genomic DNA fragmentation during programmed nuclear destruction. \n\nEnriched\
+        \ Terms: \nDNA fragmentation; apoptosis; endonuclease activity; exonuclease\
+        \ activity; mitochondrial DNA maintenance."
+      truncation_factor: 1.0
+      summary: "Summary: \nGenes involved in DNA degradation and apoptosis.\n\nMechanism:\
+        \ \nThese genes are involved in the regulation of apoptosis and genomic DNA\
+        \ fragmentation during programmed nuclear destruction. \n\n"
+      term_strings:
+      - dna fragmentation
+      - apoptosis
+      - endonuclease activity
+      - exonuclease activity
+      - mitochondrial dna maintenance
+      term_ids:
+      - GO:0006309
+      - GO:0006915
+      - GO:0004519
+      - GO:0004527
+      - mitochondrial dna maintenance
+      annotations: true
+      response_token_length: 61
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v2
+    text-davinci-003.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; NUC1; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: " The two genes, YBL055C and NUC1, are both involved in DNA and\
+        \ RNA metabolism. Specifically, YBL055C is involved in error-prone DNA repair\
+        \ and NUC1 is involved in processing and editing of pre-mRNA. \n\nMechanism:\
+        \ The two genes may be involved in the regulation of genetic information flow,\
+        \ a process essential for maintaining genome stability and ensuring accurate\
+        \ gene expression. \n\nEnriched Terms: DNA Metabolism; RNA Metabolism; Error-prone\
+        \ DNA Repair; Processing and Editing of pre-mRNA."
+      truncation_factor: 1.0
+      summary: " The two genes, YBL055C and NUC1, are both involved in DNA and RNA\
+        \ metabolism. Specifically, YBL055C is involved in error-prone DNA repair\
+        \ and NUC1 is involved in processing and editing of pre-mRNA. \n\nMechanism:\
+        \ The two genes may be involved in the regulation of genetic information flow,\
+        \ a process essential for maintaining genome stability and ensuring accurate\
+        \ gene expression. \n\n"
+      term_strings:
+      - dna metabolism
+      - rna metabolism
+      - error-prone dna repair
+      - processing and editing of pre-mrna
+      term_ids:
+      - GO:0006259
+      - GO:0016070
+      - GO:0045020
+      - processing and editing of pre-mrna
+      response_token_length: 117
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v1
+    text-davinci-003.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; NUC1; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: '
+
+        The two genes, YBL055C and NUC1, are associated with DNA repair and the maintenance
+        of genomic stability. Specifically, they have been found to be involved in
+        transcription-coupled repair (TCR), mismatch repair (MMR), and DNA repair
+        pathways such as homologous recombination and nucleotide excision repair (NER).
+
+
+        Mechanism: These two genes interact in the regulation of DNA repair pathways.
+        They are involved in the maintenance of genome stability, as well as transcription-coupled
+        repair (TCR) and mismatch repair (MMR) in particular.
+
+
+        Enriched Terms: DNA repair; Transcription-coupled repair; Mismatch repair;
+        Homologous recombination; Nucleotide excision repair (NER).'
+      truncation_factor: 1.0
+      summary: '
+
+        The two genes, YBL055C and NUC1, are associated with DNA repair and the maintenance
+        of genomic stability. Specifically, they have been found to be involved in
+        transcription-coupled repair (TCR), mismatch repair (MMR), and DNA repair
+        pathways such as homologous recombination and nucleotide excision repair (NER).
+
+
+        Mechanism: These two genes interact in the regulation of DNA repair pathways.
+        They are involved in the maintenance of genome stability, as well as transcription-coupled
+        repair (TCR) and mismatch repair (MMR) in particular.
+
+
+        '
+      term_strings:
+      - dna repair
+      - transcription-coupled repair
+      - mismatch repair
+      - homologous recombination
+      - nucleotide excision repair (ner)
+      term_ids:
+      - GO:0006281
+      - GO:0006283
+      - GO:0006298
+      - GO:0035825
+      - GO:0006289
+      response_token_length: 159
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v2
+    text-davinci-003.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+        NUC1: Enables DNA endonuclease activity; DNA exonuclease activity; and RNA
+        nuclease activity. Involved in defense response to virus and nucleic acid
+        metabolic process. Located in cytosol; mitochondrial inner membrane; and nucleus.
+        Orthologous to human ENDOG (endonuclease G).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: " \n\nSummary: Genes NUC1 and YBL055C are both involved in DNA\
+        \ and RNA metabolism.\nMechanism: They are likely involved in defense responses\
+        \ to viral pathogens, and in cellular responses to oxidative stress. \nEnriched\
+        \ Terms: DNA Exonuclease Activity; DNA Endonuclease Activity; RNA Nuclease\
+        \ Activity; Apoptotic DNA Fragmentation; Defense Response to Virus; Nucleic\
+        \ Acid Metabolic Process."
+      truncation_factor: 1.0
+      summary: " \n\nSummary: Genes NUC1 and YBL055C are both involved in DNA and\
+        \ RNA metabolism.\nMechanism: They are likely involved in defense responses\
+        \ to viral pathogens, and in cellular responses to oxidative stress. \n"
+      term_strings:
+      - dna exonuclease activity
+      - dna endonuclease activity
+      - rna nuclease activity
+      - apoptotic dna fragmentation
+      - defense response to virus
+      - nucleic acid metabolic process
+      term_ids:
+      - GO:0004529
+      - GO:0004520
+      - GO:0004540
+      - GO:0006309
+      - GO:0051607
+      - GO:0090304
+      annotations: true
+      response_token_length: 93
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v1
+    text-davinci-003.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+        NUC1: Enables DNA endonuclease activity; DNA exonuclease activity; and RNA
+        nuclease activity. Involved in defense response to virus and nucleic acid
+        metabolic process. Located in cytosol; mitochondrial inner membrane; and nucleus.
+        Orthologous to human ENDOG (endonuclease G).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: ' Both YBL055C and NUC1 mediate 3''-5'' DNA exonuclease, DNA
+        endonucleas, and RNA nuclease activity. They are also involved in apoptotic
+        DNA fragmentation, defense response to virus, and nucleic acid metabolic process.
+        The enriched terms are nucleic acid metabolism; defense response to virus;
+        DNA fragmentation; 3''-5'' DNA exonuclease; DNA endonuclease; and RNA nuclease.
+
+
+        Mechanism: The mechanism by which YBL055C and NUC1 are involved in defense
+        response to virus, apoptotic DNA fragmentation, and nucleic acid metabolism
+        is likely related to their ability to hydrolyze nucleic acids at target sequence
+        locations, allowing them to affect the structural organization and activity
+        of nucleic acids within the cell. This could include disruption of viral genomes,
+        DNA damage repair, and gene expression regulation.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - both ybl055c and nuc1 mediate 3'-5' dna exonuclease
+      - dna endonucleas
+      - and rna nuclease activity. they are also involved in apoptotic dna fragmentation
+      - defense response to virus
+      - 'and nucleic acid metabolic process. the enriched terms are nucleic acid metabolism;
+        defense response to virus; dna fragmentation; 3''-5'' dna exonuclease; dna
+        endonuclease; and rna nuclease.
+
+
+        mechanism: the mechanism by which ybl055c and nuc1 are involved in defense
+        response to virus'
+      - apoptotic dna fragmentation
+      - and nucleic acid metabolism is likely related to their ability to hydrolyze
+        nucleic acids at target sequence locations
+      - allowing them to affect the structural organization and activity of nucleic
+        acids within the cell. this could include disruption of viral genomes
+      - dna damage repair
+      - gene expression regulation
+      term_ids:
+      - both ybl055c and nuc1 mediate 3'-5' dna exonuclease
+      - dna endonucleas
+      - and rna nuclease activity. they are also involved in apoptotic dna fragmentation
+      - GO:0051607
+      - 'and nucleic acid metabolic process. the enriched terms are nucleic acid metabolism;
+        defense response to virus; dna fragmentation; 3''-5'' dna exonuclease; dna
+        endonuclease; and rna nuclease.
+
+
+        mechanism: the mechanism by which ybl055c and nuc1 are involved in defense
+        response to virus'
+      - GO:0006309
+      - and nucleic acid metabolism is likely related to their ability to hydrolyze
+        nucleic acids at target sequence locations
+      - allowing them to affect the structural organization and activity of nucleic
+        acids within the cell. this could include disruption of viral genomes
+      - dna damage repair
+      - MESH:D005786
+      annotations: true
+      response_token_length: 182
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v2
+    text-davinci-003.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+        NUC1: Major mitochondrial nuclease; has RNAse and DNA endo- and exonucleolytic
+        activities; roles in mitochondrial recombination, apoptosis and maintenance
+        of polyploidy; involved in fragmentation of genomic DNA during PND (programmed
+        nuclear destruction); encodes ortholog of mammalian endoG
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: "\nSummary: This gene list encodes nucleases with possible roles\
+        \ in apoptosis, mitochondrial recombination and programmed nuclear destruction,\
+        \ as well as DNA endo- and exonucleolytic activities, and roles in maintenance\
+        \ of polyploidy. \nMechanism: These genes encode enzymes implicated in the\
+        \ breakdown of biomolecules such as DNA, RNA and proteins. \nEnriched Terms:\
+        \ Endonuclease; Exonuclease; EndoG; Apoptosis; Mitochondrial Recombination;\
+        \ Programmed Nuclear Destruction; Polyploidy."
+      truncation_factor: 1.0
+      summary: "\nSummary: This gene list encodes nucleases with possible roles in\
+        \ apoptosis, mitochondrial recombination and programmed nuclear destruction,\
+        \ as well as DNA endo- and exonucleolytic activities, and roles in maintenance\
+        \ of polyploidy. \nMechanism: These genes encode enzymes implicated in the\
+        \ breakdown of biomolecules such as DNA, RNA and proteins. \n"
+      term_strings:
+      - endonuclease
+      - exonuclease
+      - endog
+      - apoptosis
+      - mitochondrial recombination
+      - programmed nuclear destruction
+      - polyploidy
+      term_ids:
+      - endonuclease
+      - exonuclease
+      - endog
+      - GO:0006915
+      - mitochondrial recombination
+      - programmed nuclear destruction
+      - MONDO:0019934
+      annotations: true
+      response_token_length: 116
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v1
+    text-davinci-003.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+        NUC1: Major mitochondrial nuclease; has RNAse and DNA endo- and exonucleolytic
+        activities; roles in mitochondrial recombination, apoptosis and maintenance
+        of polyploidy; involved in fragmentation of genomic DNA during PND (programmed
+        nuclear destruction); encodes ortholog of mammalian endoG
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: ' The genes YBL055C and NUC1 are both part of the nuclease protein
+        family, and thus function as both 3''-->5'' exonucleases and DNA endonucleases.
+        Both are involved in apoptosis, mitochondrial recombination and maintenance
+        of polyploidy, as well as involvement in fragmentation of genomic DNA during
+        programmed nuclear destruction. Enriched terms include: nuclease; 3''-->5''
+        exonuclease; DNA endonuclease; apoptosis; mitochondrial recombination; maintenance
+        of polyploidy; fragmentation of genomic DNA.
+
+
+        Mechanism: Both genes are part of a larger protein family that performs endonucleolytic
+        and exonucleolytic activities, which allows for the functioning of apoptosis,
+        mitochondrial recombination, maintenance of polyploidy, and fragmentation
+        of genomic DNA during PND.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - the genes ybl055c and nuc1 are both part of the nuclease protein family
+      - and thus function as both 3'-->5' exonucleases and dna endonucleases. both
+        are involved in apoptosis
+      - mitochondrial recombination and maintenance of polyploidy
+      - 'as well as involvement in fragmentation of genomic dna during programmed
+        nuclear destruction. enriched terms include: nuclease; 3''-->5'' exonuclease;
+        dna endonuclease; apoptosis; mitochondrial recombination; maintenance of polyploidy;
+        fragmentation of genomic dna.
+
+
+        mechanism: both genes are part of a larger protein family that performs endonucleolytic
+        and exonucleolytic activities'
+      - which allows for the functioning of apoptosis
+      - mitochondrial recombination
+      - maintenance of polyploidy
+      - fragmentation of genomic dna during pnd
+      term_ids:
+      - the genes ybl055c and nuc1 are both part of the nuclease protein family
+      - and thus function as both 3'-->5' exonucleases and dna endonucleases. both
+        are involved in apoptosis
+      - mitochondrial recombination and maintenance of polyploidy
+      - 'as well as involvement in fragmentation of genomic dna during programmed
+        nuclear destruction. enriched terms include: nuclease; 3''-->5'' exonuclease;
+        dna endonuclease; apoptosis; mitochondrial recombination; maintenance of polyploidy;
+        fragmentation of genomic dna.
+
+
+        mechanism: both genes are part of a larger protein family that performs endonucleolytic
+        and exonucleolytic activities'
+      - which allows for the functioning of apoptosis
+      - mitochondrial recombination
+      - maintenance of polyploidy
+      - fragmentation of genomic dna during pnd
+      annotations: true
+      response_token_length: 176
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v2
+    standard:
+      term_strings:
+      - apoptotic DNA fragmentation
+      - apoptotic nuclear changes
+      - cellular component disassembly involved in execution phase of apoptosis
+      - execution phase of apoptosis
+      - DNA catabolic process
+      - DNA exonuclease activity
+      - apoptotic process
+      - programmed cell death
+      - cell death
+      - DNA nuclease activity
+      - exonuclease activity
+      - endonuclease activity
+      term_ids:
+      - GO:0006309
+      - GO:0030262
+      - GO:0006921
+      - GO:0097194
+      - GO:0006308
+      - GO:0004529
+      - GO:0006915
+      - GO:0012501
+      - GO:0008219
+      - GO:0004536
+      - GO:0004527
+      - GO:0004519
+      method: standard
+      enrichment_results:
+      - class_id: GO:0006309
+        class_label: apoptotic DNA fragmentation
+        rank: 1
+        p_value: 4.749058558526088e-08
+        p_value_adjusted: 5.651379684646044e-06
+        sample_count: 2
+        sample_total: 2
+        background_count: 2
+        background_total: 6490
+      - class_id: GO:0030262
+        class_label: apoptotic nuclear changes
+        rank: 2
+        p_value: 4.749058558526088e-08
+        p_value_adjusted: 5.651379684646044e-06
+        sample_count: 2
+        sample_total: 2
+        background_count: 2
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006921
+        class_label: cellular component disassembly involved in execution phase of
+          apoptosis
+        rank: 3
+        p_value: 4.749058558526088e-08
+        p_value_adjusted: 5.651379684646044e-06
+        sample_count: 2
+        sample_total: 2
+        background_count: 2
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0097194
+        class_label: execution phase of apoptosis
+        rank: 4
+        p_value: 4.749058558526088e-08
+        p_value_adjusted: 5.651379684646044e-06
+        sample_count: 2
+        sample_total: 2
+        background_count: 2
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006308
+        class_label: DNA catabolic process
+        rank: 5
+        p_value: 4.749058558549258e-07
+        p_value_adjusted: 5.651379684673617e-05
+        sample_count: 2
+        sample_total: 2
+        background_count: 5
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0004529
+        class_label: DNA exonuclease activity
+        rank: 6
+        p_value: 8.120890135088643e-06
+        p_value_adjusted: 0.0009663859260755484
+        sample_count: 2
+        sample_total: 2
+        background_count: 19
+        background_total: 6490
+      - class_id: GO:0006915
+        class_label: apoptotic process
+        rank: 7
+        p_value: 2.2083122297177758e-05
+        p_value_adjusted: 0.0026278915533641534
+        sample_count: 2
+        sample_total: 2
+        background_count: 31
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0012501
+        class_label: programmed cell death
+        rank: 8
+        p_value: 2.2083122297177758e-05
+        p_value_adjusted: 0.0026278915533641534
+        sample_count: 2
+        sample_total: 2
+        background_count: 31
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0008219
+        class_label: cell death
+        rank: 9
+        p_value: 2.2083122297177758e-05
+        p_value_adjusted: 0.0026278915533641534
+        sample_count: 2
+        sample_total: 2
+        background_count: 31
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0004536
+        class_label: DNA nuclease activity
+        rank: 10
+        p_value: 2.3555330450360933e-05
+        p_value_adjusted: 0.002803084323592951
+        sample_count: 2
+        sample_total: 2
+        background_count: 32
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0004527
+        class_label: exonuclease activity
+        rank: 11
+        p_value: 4.701567972966793e-05
+        p_value_adjusted: 0.005594865887830484
+        sample_count: 2
+        sample_total: 2
+        background_count: 45
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0004519
+        class_label: endonuclease activity
+        rank: 12
+        p_value: 0.0003621632056742016
+        p_value_adjusted: 0.04309742147522999
+        sample_count: 2
+        sample_total: 2
+        background_count: 124
+        background_total: 6490
+    standard_no_ontology:
+      term_strings:
+      - apoptotic DNA fragmentation
+      - endonuclease activity
+      - nuclease activity
+      - 3'-5'-DNA exonuclease activity
+      - DNA catabolic process
+      - defense response to virus
+      term_ids:
+      - GO:0006309
+      - GO:0004519
+      - GO:0004518
+      - GO:0008296
+      - GO:0006308
+      - GO:0051607
+      method: standard_no_ontology
+      enrichment_results:
+      - class_id: GO:0006309
+        class_label: apoptotic DNA fragmentation
+        rank: 1
+        p_value: 4.749058558526088e-08
+        p_value_adjusted: 1.3297363963873046e-06
+        sample_count: 2
+        sample_total: 2
+        background_count: 2
+        background_total: 6490
+      - class_id: GO:0004519
+        class_label: endonuclease activity
+        rank: 2
+        p_value: 0.0001776622806748708
+        p_value_adjusted: 0.0049745438588963825
+        sample_count: 2
+        sample_total: 2
+        background_count: 87
+        background_total: 6490
+      - class_id: GO:0004518
+        class_label: nuclease activity
+        rank: 3
+        p_value: 0.0002744006035125807
+        p_value_adjusted: 0.0076832168983522586
+        sample_count: 2
+        sample_total: 2
+        background_count: 108
+        background_total: 6490
+      - class_id: GO:0008296
+        class_label: 3'-5'-DNA exonuclease activity
+        rank: 4
+        p_value: 0.0009243567578325487
+        p_value_adjusted: 0.025881989219311362
+        sample_count: 1
+        sample_total: 2
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:0006308
+        class_label: DNA catabolic process
+        rank: 5
+        p_value: 0.0009243567578325487
+        p_value_adjusted: 0.025881989219311362
+        sample_count: 1
+        sample_total: 2
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:0051607
+        class_label: defense response to virus
+        rank: 6
+        p_value: 0.001540357143453214
+        p_value_adjusted: 0.04313000001668999
+        sample_count: 1
+        sample_total: 2
+        background_count: 5
+        background_total: 6490
+    random:
+      term_strings:
+      - purine nucleotide metabolic process
+      - ncRNA processing
+      term_ids:
+      - GO:0006163
+      - GO:0034470
+      method: random
+    rank_based:
+      term_strings:
+      - cytoplasm
+      - nucleus
+      term_ids:
+      - GO:0005737
+      - GO:0005634
+      method: rank_based
+    closure:
+      term_strings:
+      - membrane
+      - hydrolase activity
+      - single-stranded DNA endodeoxyribonuclease activity
+      - heterocycle metabolic process
+      - DNA recombination
+      - nucleic acid binding
+      - RNA catabolic process
+      - endonuclease activity
+      - cytoplasm
+      - RNA nuclease activity
+      - hydrolase activity, acting on ester bonds
+      - cellular response to oxidative stress
+      - apoptotic process
+      - apoptotic DNA fragmentation
+      - DNA exonuclease activity
+      - defense response to virus
+      - nuclease activity
+      - 3'-5'-DNA exonuclease activity
+      - organic cyclic compound metabolic process
+      - DNA catabolic process
+      - mitochondrion
+      - nucleus
+      - RNA phosphodiester bond hydrolysis
+      - cytosol
+      - mitochondrial inner membrane
+      - RNA phosphodiester bond hydrolysis, endonucleolytic
+      - DNA endonuclease activity
+      - RNA endonuclease activity
+      - metal ion binding
+      - occurrent
+      - process
+      - nucleobase-containing compound metabolic process
+      - DNA metabolic process
+      - cellular aromatic compound metabolic process
+      - nitrogen compound metabolic process
+      - biological_process
+      - metabolic process
+      - cellular process
+      - cellular nitrogen compound metabolic process
+      - macromolecule metabolic process
+      - cellular metabolic process
+      - primary metabolic process
+      - heterocycle metabolic process
+      - organic substance metabolic process
+      - nucleic acid metabolic process
+      - organic cyclic compound metabolic process
+      - single-stranded DNA endodeoxyribonuclease activity
+      - molecular_function
+      - catalytic activity
+      - nuclease activity
+      - endonuclease activity
+      - DNA endonuclease activity
+      - DNA nuclease activity
+      - hydrolase activity
+      - hydrolase activity, acting on ester bonds
+      - catalytic activity, acting on DNA
+      - catalytic activity, acting on a nucleic acid
+      - nucleic acid binding
+      - binding
+      - organic cyclic compound binding
+      - heterocyclic compound binding
+      - RNA metabolic process
+      - nucleic acid phosphodiester bond hydrolysis
+      - RNA phosphodiester bond hydrolysis
+      - RNA phosphodiester bond hydrolysis, endonucleolytic
+      - RNA endonuclease activity
+      - RNA nuclease activity
+      - catalytic activity, acting on RNA
+      - exonuclease activity
+      - DNA exonuclease activity
+      - continuant
+      - independent continuant
+      - material entity
+      - anatomical entity
+      - connected anatomical structure
+      - material anatomical entity
+      - biological entity
+      - cell
+      - cellular_component
+      - intracellular anatomical structure
+      - cellular anatomical entity
+      - anatomical structure
+      - material anatomical entity
+      - anatomical entity
+      - nucleus
+      - organelle
+      - membrane-bounded organelle
+      - intracellular organelle
+      - intracellular membrane-bounded organelle
+      - cytoplasm
+      - mitochondrion
+      - mitochondrial envelope
+      - organelle envelope
+      - envelope
+      - mitochondrial inner membrane
+      - membrane
+      - organelle inner membrane
+      - organelle membrane
+      - mitochondrial membrane
+      - cytosol
+      - DNA catabolic process
+      - catabolic process
+      - macromolecule catabolic process
+      - aromatic compound catabolic process
+      - nucleobase-containing compound catabolic process
+      - cellular catabolic process
+      - cellular nitrogen compound catabolic process
+      - heterocycle catabolic process
+      - organic cyclic compound catabolic process
+      - organic substance catabolic process
+      - apoptotic process
+      - cellular component disassembly involved in execution phase of apoptosis
+      - cell death
+      - programmed cell death
+      - cellular component organization
+      - cellular component disassembly
+      - apoptotic nuclear changes
+      - cellular component organization or biogenesis
+      - execution phase of apoptosis
+      - apoptotic DNA fragmentation
+      - DNA recombination
+      - RNA catabolic process
+      - 3'-5'-DNA exonuclease activity
+      - 3'-5' exonuclease activity
+      - exonuclease activity, active with either ribo- or deoxyribonucleic acids and
+        producing 5'-phosphomonoesters
+      - DNA exonuclease activity, producing 5'-phosphomonoesters
+      - response to stress
+      - response to oxidative stress
+      - cellular response to stress
+      - cellular response to oxidative stress
+      - response to chemical
+      - response to stimulus
+      - cellular response to stimulus
+      - cellular response to chemical stress
+      - cellular response to chemical stimulus
+      - ion binding
+      - cation binding
+      - metal ion binding
+      - defense response
+      - response to external stimulus
+      - response to biotic stimulus
+      - response to virus
+      - response to external biotic stimulus
+      - biological process involved in interspecies interaction between organisms
+      - defense response to virus
+      - response to other organism
+      - defense response to other organism
+      - defense response to symbiont
+      term_ids:
+      - GO:0016020
+      - GO:0016787
+      - GO:0000014
+      - GO:0046483
+      - GO:0006310
+      - GO:0003676
+      - GO:0006401
+      - GO:0004519
+      - GO:0005737
+      - GO:0004540
+      - GO:0016788
+      - GO:0034599
+      - GO:0006915
+      - GO:0006309
+      - GO:0004529
+      - GO:0051607
+      - GO:0004518
+      - GO:0008296
+      - GO:1901360
+      - GO:0006308
+      - GO:0005739
+      - GO:0005634
+      - GO:0090501
+      - GO:0005829
+      - GO:0005743
+      - GO:0090502
+      - GO:0004520
+      - GO:0004521
+      - GO:0046872
+      - BFO:0000003
+      - BFO:0000015
+      - GO:0006139
+      - GO:0006259
+      - GO:0006725
+      - GO:0006807
+      - GO:0008150
+      - GO:0008152
+      - GO:0009987
+      - GO:0034641
+      - GO:0043170
+      - GO:0044237
+      - GO:0044238
+      - GO:0046483
+      - GO:0071704
+      - GO:0090304
+      - GO:1901360
+      - GO:0000014
+      - GO:0003674
+      - GO:0003824
+      - GO:0004518
+      - GO:0004519
+      - GO:0004520
+      - GO:0004536
+      - GO:0016787
+      - GO:0016788
+      - GO:0140097
+      - GO:0140640
+      - GO:0003676
+      - GO:0005488
+      - GO:0097159
+      - GO:1901363
+      - GO:0016070
+      - GO:0090305
+      - GO:0090501
+      - GO:0090502
+      - GO:0004521
+      - GO:0004540
+      - GO:0140098
+      - GO:0004527
+      - GO:0004529
+      - BFO:0000002
+      - BFO:0000004
+      - BFO:0000040
+      - CARO:0000000
+      - CARO:0000003
+      - CARO:0000006
+      - CARO:0030000
+      - CL:0000000
+      - GO:0005575
+      - GO:0005622
+      - GO:0110165
+      - UBERON:0000061
+      - UBERON:0000465
+      - UBERON:0001062
+      - GO:0005634
+      - GO:0043226
+      - GO:0043227
+      - GO:0043229
+      - GO:0043231
+      - GO:0005737
+      - GO:0005739
+      - GO:0005740
+      - GO:0031967
+      - GO:0031975
+      - GO:0005743
+      - GO:0016020
+      - GO:0019866
+      - GO:0031090
+      - GO:0031966
+      - GO:0005829
+      - GO:0006308
+      - GO:0009056
+      - GO:0009057
+      - GO:0019439
+      - GO:0034655
+      - GO:0044248
+      - GO:0044270
+      - GO:0046700
+      - GO:1901361
+      - GO:1901575
+      - GO:0006915
+      - GO:0006921
+      - GO:0008219
+      - GO:0012501
+      - GO:0016043
+      - GO:0022411
+      - GO:0030262
+      - GO:0071840
+      - GO:0097194
+      - GO:0006309
+      - GO:0006310
+      - GO:0006401
+      - GO:0008296
+      - GO:0008408
+      - GO:0016796
+      - GO:0016895
+      - GO:0006950
+      - GO:0006979
+      - GO:0033554
+      - GO:0034599
+      - GO:0042221
+      - GO:0050896
+      - GO:0051716
+      - GO:0062197
+      - GO:0070887
+      - GO:0043167
+      - GO:0043169
+      - GO:0046872
+      - GO:0006952
+      - GO:0009605
+      - GO:0009607
+      - GO:0009615
+      - GO:0043207
+      - GO:0044419
+      - GO:0051607
+      - GO:0051707
+      - GO:0098542
+      - GO:0140546
+- name: term-GO:0097194-1
+  gene_symbols:
+  - YBL055C
+  gene_ids:
+  - SGD:S000000151
+  payloads:
+    gpt-3.5-turbo.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: Unfortunately, as no information was given on the species, it
+        is not possible to perform a term enrichment test on the given gene (YBL055C)
+        as it is not clear which classification hierarchy to use. Could you please
+        provide more information on the species? Thank you.
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - unfortunately
+      - as no information was given on the species
+      - it is not possible to perform a term enrichment test on the given gene (ybl055c)
+        as it is not clear which classification hierarchy to use. could you please
+        provide more information on the species? thank you
+      term_ids:
+      - unfortunately
+      - as no information was given on the species
+      - it is not possible to perform a term enrichment test on the given gene (ybl055c)
+        as it is not clear which classification hierarchy to use. could you please
+        provide more information on the species? thank you
+      response_token_length: 55
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: Sorry, as an AI language model, I do not have the capability
+        to perform term enrichment test on genes without any further information about
+        the type of analysis you want to perform. Please provide more information
+        or specific instructions so I can assist you to my fullest capacity.
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - sorry
+      - as an ai language model
+      - i do not have the capability to perform term enrichment test on genes without
+        any further information about the type of analysis you want to perform. please
+        provide more information or specific instructions so i can assist you to my
+        fullest capacity
+      term_ids:
+      - sorry
+      - as an ai language model
+      - i do not have the capability to perform term enrichment test on genes without
+        any further information about the type of analysis you want to perform. please
+        provide more information or specific instructions so i can assist you to my
+        fullest capacity
+      response_token_length: 52
+      model: gpt-3.5-turbo
+      method: no_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: DNA repair and response to stress
+
+        Mechanism: DNA repair pathway
+
+        Enriched Terms: DNA repair; cellular response to oxidative stress; apoptotic
+        DNA fragmentation'
+      truncation_factor: 1.0
+      summary: 'Summary: DNA repair and response to stress
+
+        Mechanism: DNA repair pathway
+
+        '
+      term_strings:
+      - dna repair
+      - cellular response to oxidative stress
+      - apoptotic dna fragmentation
+      term_ids:
+      - GO:0006281
+      - GO:0034599
+      - GO:0006309
+      annotations: true
+      response_token_length: 34
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: DNA repair
+
+        Mechanism: 3''-5''-DNA exonuclease and endonuclease activity
+
+        Enriched Terms: DNA repair; Cellular response to oxidative stress; Apoptosis'
+      truncation_factor: 1.0
+      summary: 'Summary: DNA repair
+
+        Mechanism: 3''-5''-DNA exonuclease and endonuclease activity
+
+        '
+      term_strings:
+      - dna repair
+      - cellular response to oxidative stress
+      - apoptosis
+      term_ids:
+      - GO:0006281
+      - GO:0034599
+      - GO:0006915
+      annotations: true
+      response_token_length: 41
+      model: gpt-3.5-turbo
+      method: ontological_synopsis
+      prompt_variant: v2
+    gpt-3.5-turbo.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: 'Summary: Role in nucleic acid metabolism and cell death
+
+        Mechanism: DNA repair and apoptosis
+
+        Enriched Terms: DNA repair; apoptosis; nucleic acid metabolism'
+      truncation_factor: 1.0
+      summary: 'Summary: Role in nucleic acid metabolism and cell death
+
+        Mechanism: DNA repair and apoptosis
+
+        '
+      term_strings:
+      - dna repair
+      - apoptosis
+      - nucleic acid metabolism
+      term_ids:
+      - GO:0006281
+      - GO:0006915
+      - nucleic acid metabolism
+      annotations: true
+      response_token_length: 34
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v1
+    gpt-3.5-turbo.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: Sorry, as an AI language model, I do not have access to the list
+        of human genes with descriptions of their functions. Please provide me with
+        the list, and I would be happy to perform a term enrichment test.
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - sorry
+      - as an ai language model
+      - i do not have access to the list of human genes with descriptions of their
+        functions. please provide me with the list
+      - i would be happy to perform a term enrichment test
+      term_ids:
+      - sorry
+      - as an ai language model
+      - i do not have access to the list of human genes with descriptions of their
+        functions. please provide me with the list
+      - i would be happy to perform a term enrichment test
+      annotations: true
+      response_token_length: 44
+      model: gpt-3.5-turbo
+      method: narrative_synopsis
+      prompt_variant: v2
+    text-davinci-003.no_synopsis.v1:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; \n\n\n===\n\nSummary and enriched terms:"
+      response_text: " \n\nSummary: The genes indicated are involved in yeast metabolism.\n\
+        Mechanism: Metabolism in yeast is regulated by mechanisms such as protein-protein\
+        \ interactions, transcriptional control and metabolic enzymes.\nEnriched Terms:\
+        \ Protein-Protein Interactions; Transcriptional Regulation; Metabolic Enzymes;\
+        \ Mitochondrial Function; Carbohydrate Metabolism; Fatty Acid Metabolism;\
+        \ Amino Acid Metabolism."
+      truncation_factor: 1.0
+      summary: " \n\nSummary: The genes indicated are involved in yeast metabolism.\n\
+        Mechanism: Metabolism in yeast is regulated by mechanisms such as protein-protein\
+        \ interactions, transcriptional control and metabolic enzymes.\n"
+      term_strings:
+      - protein-protein interactions
+      - transcriptional regulation
+      - metabolic enzymes
+      - mitochondrial function
+      - carbohydrate metabolism
+      - fatty acid metabolism
+      - amino acid metabolism
+      term_ids:
+      - protein-protein interactions
+      - transcriptional regulation
+      - metabolic enzymes
+      - mitochondrial function
+      - GO:0005975
+      - GO:0006631
+      - amino acid metabolism
+      response_token_length: 89
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v1
+    text-davinci-003.no_synopsis.v2:
+      prompt: "I will give you a list of human genes .\nPerform a term enrichment\
+        \ test on these genes.\ni.e. tell me what the commonalities are in their function.\n\
+        Make use of classification hierarchies when you do this.\nOnly report gene\
+        \ functions in common, not diseases.\ne.g if gene1 is involved in \"toe bone\
+        \ growth\" and gene2 is involved in \"finger morphogenesis\"\nthen the term\
+        \ \"digit development\" would be enriched as represented by gene1 and gene2.\n\
+        Only include terms that are statistically over-represented.\nAlso include\
+        \ a hypothesis of the underlying biological mechanism or pathway.\n\nProvide\
+        \ results in the format\n\nSummary: <high level summary>\nMechanism: <mechanism>\n\
+        Enriched Terms: <term1>; <term2>; <term3>\n\nFor the list of terms, be sure\
+        \ to use a semi-colon separator, and do not number the list.\nAlways put the\
+        \ list of terms last, after mechanism, summary, or hypotheses.\n\n\nHere are\
+        \ the genes:\nYBL055C; \n\n\n###\n\nSummary and enriched terms:"
+      response_text: '
+
+        This analysis found that the gene YBL055C is associated with carbohydrate
+        metabolism, specifically while also being involved in respiration. Specifically,
+        this gene was found to be enriched in terms relating to DNA binding and transcriptional
+        regulation, enzyme activity, and protein synthesis.
+
+
+        Mechanism: Based on these findings, an underlying biological mechanism likely
+        involves the regulation of genes associated with carbohydrate metabolic pathways
+        through transcriptional regulation.
+
+
+        Enriched Terms: DNA binding; Transcriptional regulation; Enzyme activity;
+        Protein synthesis.'
+      truncation_factor: 1.0
+      summary: '
+
+        This analysis found that the gene YBL055C is associated with carbohydrate
+        metabolism, specifically while also being involved in respiration. Specifically,
+        this gene was found to be enriched in terms relating to DNA binding and transcriptional
+        regulation, enzyme activity, and protein synthesis.
+
+
+        Mechanism: Based on these findings, an underlying biological mechanism likely
+        involves the regulation of genes associated with carbohydrate metabolic pathways
+        through transcriptional regulation.
+
+
+        '
+      term_strings:
+      - dna binding
+      - transcriptional regulation
+      - enzyme activity
+      - protein synthesis
+      term_ids:
+      - GO:0003677
+      - transcriptional regulation
+      - GO:0003824
+      - GO:0006412
+      response_token_length: 104
+      model: text-davinci-003
+      method: no_synopsis
+      prompt_variant: v2
+    text-davinci-003.ontological_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: ' This gene encodes two different enzymatic activities, 3''-5''
+        exonuclease and endonuclease, involved in processing and responding to DNA
+        damage, respectively. Its human ortholog (TATDN1) is involved in apoptotic
+        DNA fragmentation. The enriched terms associated with this gene include: DNA
+        repair; DNA exonuclease; DNA endonuclease; oxidative stress  response; apoptosis;
+        cytoplasmic localization.
+
+
+        Mechanism: DNA damage can be caused by oxidative stress or other causes resulting
+        in damaged DNA molecules requiring repair. The encoded 3''-5'' exonuclease
+        activity by YBL055C can remove small stretches of damaged DNA adjacent to
+        a nick. The terminal nucleotide may also be cleaved via endonuclease activity,
+        ensuring complete removal of the nucleotides. Once the damaged sequences are
+        removed, normal DNA repair processes can take place. Additionally, YBL055C
+        can be involved in apoptotic DNA fragmentation.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - this gene encodes two different enzymatic activities
+      - 3'-5' exonuclease and endonuclease
+      - involved in processing and responding to dna damage
+      - 'respectively. its human ortholog (tatdn1) is involved in apoptotic dna fragmentation.
+        the enriched terms associated with this gene include: dna repair; dna exonuclease;
+        dna endonuclease; oxidative stress  response; apoptosis; cytoplasmic localization.
+
+
+        mechanism: dna damage can be caused by oxidative stress or other causes resulting
+        in damaged dna molecules requiring repair. the encoded 3''-5'' exonuclease
+        activity by ybl055c can remove small stretches of damaged dna adjacent to
+        a nick. the terminal nucleotide may also be cleaved via endonuclease activity'
+      - ensuring complete removal of the nucleotides. once the damaged sequences are
+        removed
+      - normal dna repair processes can take place. additionally
+      - ybl055c can be involved in apoptotic dna fragmentation
+      term_ids:
+      - this gene encodes two different enzymatic activities
+      - 3'-5' exonuclease and endonuclease
+      - involved in processing and responding to dna damage
+      - 'respectively. its human ortholog (tatdn1) is involved in apoptotic dna fragmentation.
+        the enriched terms associated with this gene include: dna repair; dna exonuclease;
+        dna endonuclease; oxidative stress  response; apoptosis; cytoplasmic localization.
+
+
+        mechanism: dna damage can be caused by oxidative stress or other causes resulting
+        in damaged dna molecules requiring repair. the encoded 3''-5'' exonuclease
+        activity by ybl055c can remove small stretches of damaged dna adjacent to
+        a nick. the terminal nucleotide may also be cleaved via endonuclease activity'
+      - ensuring complete removal of the nucleotides. once the damaged sequences are
+        removed
+      - normal dna repair processes can take place. additionally
+      - ybl055c can be involved in apoptotic dna fragmentation
+      annotations: true
+      response_token_length: 200
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v1
+    text-davinci-003.ontological_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: Enables 3''-5''-DNA exonuclease activity and endonuclease activity.
+        Involved in apoptotic DNA fragmentation and cellular response to oxidative
+        stress. Located in cytoplasm. Orthologous to human TATDN1 (TatD DNase domain
+        containing 1).
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: "\nSummary: The genes are involved in DNA exonuclease activity,\
+        \ endonuclease activity, apoptotic DNA fragmentation, cellular response to\
+        \ oxidative stress and TatD DNase domain containing. \nMechanism: The enzyme\
+        \ activities enable the breakdown of DNA for apoptosis, which helps cells\
+        \ to remove damaged DNA in response to oxidative stress.\nEriched Terms: DNA\
+        \ exonuclease activity; Endonuclease activity; Apoptotic DNA fragmentation;\
+        \ Cellular response to oxidative stress; TatD DNase domain containing."
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - "summary: the genes are involved in dna exonuclease activity, endonuclease\
+        \ activity, apoptotic dna fragmentation, cellular response to oxidative stress\
+        \ and tatd dnase domain containing. \nmechanism: the enzyme activities enable\
+        \ the breakdown of dna for apoptosis, which helps cells to remove damaged\
+        \ dna in response to oxidative stress.\neriched terms: dna exonuclease activity"
+      - endonuclease activity
+      - apoptotic dna fragmentation
+      - cellular response to oxidative stress
+      - tatd dnase domain containing
+      term_ids:
+      - "summary: the genes are involved in dna exonuclease activity, endonuclease\
+        \ activity, apoptotic dna fragmentation, cellular response to oxidative stress\
+        \ and tatd dnase domain containing. \nmechanism: the enzyme activities enable\
+        \ the breakdown of dna for apoptosis, which helps cells to remove damaged\
+        \ dna in response to oxidative stress.\neriched terms: dna exonuclease activity"
+      - GO:0004519
+      - GO:0006309
+      - GO:0034599
+      - tatd dnase domain containing
+      annotations: true
+      response_token_length: 106
+      model: text-davinci-003
+      method: ontological_synopsis
+      prompt_variant: v2
+    text-davinci-003.narrative_synopsis.v1:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+
+
+        ===
+
+
+        Summary and enriched terms:'
+      response_text: " \nSummary: This gene is involved in both 3'-->5' exonuclease\
+        \ and endonuclease, which are both involved in apoptosis. \nMechanism: Apoptosis\n\
+        Enriched Terms: Exonuclease; Endonuclease; Apoptosis."
+      truncation_factor: 1.0
+      summary: " \nSummary: This gene is involved in both 3'-->5' exonuclease and\
+        \ endonuclease, which are both involved in apoptosis. \nMechanism: Apoptosis\n"
+      term_strings:
+      - exonuclease
+      - endonuclease
+      - apoptosis
+      term_ids:
+      - exonuclease
+      - endonuclease
+      - GO:0006915
+      annotations: true
+      response_token_length: 60
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v1
+    text-davinci-003.narrative_synopsis.v2:
+      prompt: 'I will give you a list of human genes  together with descriptions of
+        their functions.
+
+        Perform a term enrichment test on these genes.
+
+        i.e. tell me what the commonalities are in their function.
+
+        Make use of classification hierarchies when you do this.
+
+        Only report gene functions in common, not diseases.
+
+        e.g if gene1 is involved in "toe bone growth" and gene2 is involved in "finger
+        morphogenesis"
+
+        then the term "digit development" would be enriched as represented by gene1
+        and gene2.
+
+        Only include terms that are statistically over-represented.
+
+        Also include a hypothesis of the underlying biological mechanism or pathway.
+
+
+        Provide results in the format
+
+
+        Summary: <high level summary>
+
+        Mechanism: <mechanism>
+
+        Enriched Terms: <term1>; <term2>; <term3>
+
+
+        For the list of terms, be sure to use a semi-colon separator, and do not number
+        the list.
+
+        Always put the list of terms last, after mechanism, summary, or hypotheses.
+
+
+
+        Here are the gene summaries:
+
+
+
+        YBL055C: 3''-->5'' exonuclease and endonuclease with a possible role in apoptosis;
+        has similarity to mammalian and C. elegans apoptotic nucleases
+
+
+
+
+        ###
+
+
+        Summary and enriched terms:'
+      response_text: ' Based on the information provided, it appears that both YBL055C
+        genes are involved in cutting and shearing DNA in a process known as apoptosis.
+        Apoptosis is a form of cell death typically used to regulate the number of
+        cells in a given tissue. Enriched terms include: apoptosis; nucleases; endonuclease;
+        3''-->5'' exonuclease.
+
+
+        Mechanism: Apoptosis is a regulated cell death pathway controlled by a variety
+        of proteins, including YBL055C genes. These proteins function by cutting and
+        shearing DNA and typically result in the fragmentation of the nucleus and
+        other cell structures. This fragmentation reduces the size and complexity
+        of the cell, allowing for the controlled and regulated death of the cell.'
+      truncation_factor: 1.0
+      summary: COULD NOT PARSE
+      term_strings:
+      - 'based on the information provided, it appears that both ybl055c genes are
+        involved in cutting and shearing dna in a process known as apoptosis. apoptosis
+        is a form of cell death typically used to regulate the number of cells in
+        a given tissue. enriched terms include: apoptosis'
+      - nucleases
+      - endonuclease
+      - '3''-->5'' exonuclease.
+
+
+        mechanism: apoptosis is a regulated cell death pathway controlled by a variety
+        of proteins, including ybl055c genes. these proteins function by cutting and
+        shearing dna and typically result in the fragmentation of the nucleus and
+        other cell structures. this fragmentation reduces the size and complexity
+        of the cell, allowing for the controlled and regulated death of the cell'
+      term_ids:
+      - 'based on the information provided, it appears that both ybl055c genes are
+        involved in cutting and shearing dna in a process known as apoptosis. apoptosis
+        is a form of cell death typically used to regulate the number of cells in
+        a given tissue. enriched terms include: apoptosis'
+      - nucleases
+      - endonuclease
+      - '3''-->5'' exonuclease.
+
+
+        mechanism: apoptosis is a regulated cell death pathway controlled by a variety
+        of proteins, including ybl055c genes. these proteins function by cutting and
+        shearing dna and typically result in the fragmentation of the nucleus and
+        other cell structures. this fragmentation reduces the size and complexity
+        of the cell, allowing for the controlled and regulated death of the cell'
+      annotations: true
+      response_token_length: 152
+      model: text-davinci-003
+      method: narrative_synopsis
+      prompt_variant: v2
+    standard:
+      term_strings:
+      - apoptotic DNA fragmentation
+      - apoptotic nuclear changes
+      - cellular component disassembly involved in execution phase of apoptosis
+      - execution phase of apoptosis
+      term_ids:
+      - GO:0006309
+      - GO:0030262
+      - GO:0006921
+      - GO:0097194
+      method: standard
+      enrichment_results:
+      - class_id: GO:0006309
+        class_label: apoptotic DNA fragmentation
+        rank: 1
+        p_value: 0.0003081664098619151
+        p_value_adjusted: 0.02465331278895321
+        sample_count: 1
+        sample_total: 1
+        background_count: 2
+        background_total: 6490
+      - class_id: GO:0030262
+        class_label: apoptotic nuclear changes
+        rank: 2
+        p_value: 0.0003081664098619151
+        p_value_adjusted: 0.02465331278895321
+        sample_count: 1
+        sample_total: 1
+        background_count: 2
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0006921
+        class_label: cellular component disassembly involved in execution phase of
+          apoptosis
+        rank: 3
+        p_value: 0.0003081664098619151
+        p_value_adjusted: 0.02465331278895321
+        sample_count: 1
+        sample_total: 1
+        background_count: 2
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+      - class_id: GO:0097194
+        class_label: execution phase of apoptosis
+        rank: 4
+        p_value: 0.0003081664098619151
+        p_value_adjusted: 0.02465331278895321
+        sample_count: 1
+        sample_total: 1
+        background_count: 2
+        background_total: 6490
+        ancestor_of_more_informative_result: true
+    standard_no_ontology:
+      term_strings:
+      - apoptotic DNA fragmentation
+      - 3'-5'-DNA exonuclease activity
+      - organic cyclic compound metabolic process
+      - heterocycle metabolic process
+      - hydrolase activity, acting on ester bonds
+      term_ids:
+      - GO:0006309
+      - GO:0008296
+      - GO:1901360
+      - GO:0046483
+      - GO:0016788
+      method: standard_no_ontology
+      enrichment_results:
+      - class_id: GO:0006309
+        class_label: apoptotic DNA fragmentation
+        rank: 1
+        p_value: 0.0003081664098619151
+        p_value_adjusted: 0.003389830508481066
+        sample_count: 1
+        sample_total: 1
+        background_count: 2
+        background_total: 6490
+      - class_id: GO:0008296
+        class_label: 3'-5'-DNA exonuclease activity
+        rank: 2
+        p_value: 0.0004622496147935538
+        p_value_adjusted: 0.005084745762729092
+        sample_count: 1
+        sample_total: 1
+        background_count: 3
+        background_total: 6490
+      - class_id: GO:1901360
+        class_label: organic cyclic compound metabolic process
+        rank: 3
+        p_value: 0.0016949152542450009
+        p_value_adjusted: 0.01864406779669501
+        sample_count: 1
+        sample_total: 1
+        background_count: 11
+        background_total: 6490
+      - class_id: GO:0046483
+        class_label: heterocycle metabolic process
+        rank: 4
+        p_value: 0.0016949152542450009
+        p_value_adjusted: 0.01864406779669501
+        sample_count: 1
+        sample_total: 1
+        background_count: 11
+        background_total: 6490
+      - class_id: GO:0016788
+        class_label: hydrolase activity, acting on ester bonds
+        rank: 5
+        p_value: 0.002311248073966035
+        p_value_adjusted: 0.02542372881362638
+        sample_count: 1
+        sample_total: 1
+        background_count: 15
+        background_total: 6490
+    random:
+      term_strings:
+      - molecular_function
+      term_ids:
+      - GO:0003674
+      method: random
+    rank_based:
+      term_strings:
+      - cytoplasm
+      term_ids:
+      - GO:0005737
+      method: rank_based
+    closure:
+      term_strings:
+      - organic cyclic compound metabolic process
+      - endonuclease activity
+      - apoptotic DNA fragmentation
+      - hydrolase activity
+      - cytoplasm
+      - hydrolase activity, acting on ester bonds
+      - nuclease activity
+      - heterocycle metabolic process
+      - metal ion binding
+      - 3'-5'-DNA exonuclease activity
+      - cellular response to oxidative stress
+      - occurrent
+      - process
+      - molecular_function
+      - catalytic activity
+      - nuclease activity
+      - hydrolase activity
+      - hydrolase activity, acting on ester bonds
+      - endonuclease activity
+      - continuant
+      - independent continuant
+      - material entity
+      - anatomical entity
+      - connected anatomical structure
+      - material anatomical entity
+      - biological entity
+      - cell
+      - cellular_component
+      - intracellular anatomical structure
+      - cellular anatomical entity
+      - anatomical structure
+      - material anatomical entity
+      - anatomical entity
+      - cytoplasm
+      - apoptotic process
+      - cellular component disassembly involved in execution phase of apoptosis
+      - biological_process
+      - cell death
+      - cellular process
+      - programmed cell death
+      - cellular component organization
+      - cellular component disassembly
+      - apoptotic nuclear changes
+      - cellular component organization or biogenesis
+      - execution phase of apoptosis
+      - nucleobase-containing compound metabolic process
+      - DNA metabolic process
+      - DNA catabolic process
+      - apoptotic DNA fragmentation
+      - cellular aromatic compound metabolic process
+      - nitrogen compound metabolic process
+      - metabolic process
+      - catabolic process
+      - macromolecule catabolic process
+      - aromatic compound catabolic process
+      - cellular nitrogen compound metabolic process
+      - nucleobase-containing compound catabolic process
+      - macromolecule metabolic process
+      - cellular metabolic process
+      - primary metabolic process
+      - cellular catabolic process
+      - cellular nitrogen compound catabolic process
+      - heterocycle metabolic process
+      - heterocycle catabolic process
+      - organic substance metabolic process
+      - nucleic acid metabolic process
+      - organic cyclic compound metabolic process
+      - organic cyclic compound catabolic process
+      - organic substance catabolic process
+      - exonuclease activity
+      - DNA exonuclease activity
+      - DNA nuclease activity
+      - 3'-5'-DNA exonuclease activity
+      - 3'-5' exonuclease activity
+      - exonuclease activity, active with either ribo- or deoxyribonucleic acids and
+        producing 5'-phosphomonoesters
+      - DNA exonuclease activity, producing 5'-phosphomonoesters
+      - catalytic activity, acting on DNA
+      - catalytic activity, acting on a nucleic acid
+      - response to stress
+      - response to oxidative stress
+      - cellular response to stress
+      - cellular response to oxidative stress
+      - response to chemical
+      - response to stimulus
+      - cellular response to stimulus
+      - cellular response to chemical stress
+      - cellular response to chemical stimulus
+      - binding
+      - ion binding
+      - cation binding
+      - metal ion binding
+      term_ids:
+      - GO:1901360
+      - GO:0004519
+      - GO:0006309
+      - GO:0016787
+      - GO:0005737
+      - GO:0016788
+      - GO:0004518
+      - GO:0046483
+      - GO:0046872
+      - GO:0008296
+      - GO:0034599
+      - BFO:0000003
+      - BFO:0000015
+      - GO:0003674
+      - GO:0003824
+      - GO:0004518
+      - GO:0016787
+      - GO:0016788
+      - GO:0004519
+      - BFO:0000002
+      - BFO:0000004
+      - BFO:0000040
+      - CARO:0000000
+      - CARO:0000003
+      - CARO:0000006
+      - CARO:0030000
+      - CL:0000000
+      - GO:0005575
+      - GO:0005622
+      - GO:0110165
+      - UBERON:0000061
+      - UBERON:0000465
+      - UBERON:0001062
+      - GO:0005737
+      - GO:0006915
+      - GO:0006921
+      - GO:0008150
+      - GO:0008219
+      - GO:0009987
+      - GO:0012501
+      - GO:0016043
+      - GO:0022411
+      - GO:0030262
+      - GO:0071840
+      - GO:0097194
+      - GO:0006139
+      - GO:0006259
+      - GO:0006308
+      - GO:0006309
+      - GO:0006725
+      - GO:0006807
+      - GO:0008152
+      - GO:0009056
+      - GO:0009057
+      - GO:0019439
+      - GO:0034641
+      - GO:0034655
+      - GO:0043170
+      - GO:0044237
+      - GO:0044238
+      - GO:0044248
+      - GO:0044270
+      - GO:0046483
+      - GO:0046700
+      - GO:0071704
+      - GO:0090304
+      - GO:1901360
+      - GO:1901361
+      - GO:1901575
+      - GO:0004527
+      - GO:0004529
+      - GO:0004536
+      - GO:0008296
+      - GO:0008408
+      - GO:0016796
+      - GO:0016895
+      - GO:0140097
+      - GO:0140640
+      - GO:0006950
+      - GO:0006979
+      - GO:0033554
+      - GO:0034599
+      - GO:0042221
+      - GO:0050896
+      - GO:0051716
+      - GO:0062197
+      - GO:0070887
+      - GO:0005488
+      - GO:0043167
+      - GO:0043169
+      - GO:0046872
+  number_of_genes_swapped_out: 1

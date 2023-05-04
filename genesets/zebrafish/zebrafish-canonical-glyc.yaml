@@ -1,0 +1,19 @@
+name: term-GO:0061621
+gene_symbols: []
+gene_ids:
+- ZFIN:ZDB-GENE-070912-634
+- ZFIN:ZDB-GENE-040912-135
+- ZFIN:ZDB-GENE-050417-62
+- ZFIN:ZDB-GENE-081114-1
+- ZFIN:ZDB-GENE-091112-22
+genes: null
+taxon: human
+taxon_id: null
+description: null
+source: null
+source_url: null
+target_term_ids: null
+number_of_genes_dropped: null
+original_name: null
+lacks_descriptions: null
+

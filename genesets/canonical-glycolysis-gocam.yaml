@@ -1,0 +1,12 @@
+name: glycolysis-gocam
+gene_symbols:
+ - HK1
+ - GPI
+ - PFKM
+ - ALDOA
+ - TPI1
+ - GAPDH
+ - PGK1
+ - PGAM2
+ - ENO3
+ - PKM

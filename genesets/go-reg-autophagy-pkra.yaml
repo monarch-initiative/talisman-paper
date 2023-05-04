@@ -1,0 +1,21 @@
+name: go-reg-autophagy-pkra
+description: query for human genes in both regulation of autophagy AND protein kinase regulator activity (many of which were annotated in 2023)
+gene_symbols:
+  - AKT1
+  - CASP3
+  - CCNY
+  - CDK5R1
+  - HSPB1
+  - IRGM
+  - KAT5
+  - MLST8
+  - NOD2
+  - PIK3CA
+  - RPTOR
+  - SMCR8
+  - SNCA
+  - STING1
+  - STK11
+  - TAB2
+  - TRIB3
+

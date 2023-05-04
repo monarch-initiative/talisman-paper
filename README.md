@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/13996/monarch-initiative/enrichgpt-results.svg)](https://zenodo.org/badge/latestdoi/13996/monarch-initiative/enrichgpt-results)
 
 # Large Language Models for Gene Set Summarization
 
