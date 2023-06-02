@@ -3387,12 +3387,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes identified are associated with protein kinases, cellular signaling pathways, and development of skeletal and extracellular matrix components.
           Mechanism: These identified genes may be involved in complex regulation and signaling pathways, focusing on post-translational phosphorylation and transcriptional regulation, as well as the control of growth, development and remodeling of skeletal structures.
           Enriched Terms: protein kinases; cellular signaling pathways; skeletal development; extracellular matrix; transcriptional regulation; post-translational phosphorylation; growth regulation; development regulation; remodeling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The genes identified are associated with protein kinases, cellular signaling pathways, and development of skeletal and extracellular matrix components.
           Mechanism: These identified genes may be involved in complex regulation and signaling pathways, focusing on post-translational phosphorylation and transcriptional regulation, as well as the control of growth, development and remodeling of skeletal structures.
         term_strings:
@@ -4168,14 +4168,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The given list of genes are enriched for binding activities, such as GTP binding activity, enzyme binding activity, DNA-binding transcription factor binding activity, phosphotyrosine residue binding activity, cyclin binding activity and other related activities. These activities confer functions such as protein transcription, signal transduction, protein phosphorylation, cellular adhesion and cellular response to certain molecules.
 
           Mechanism: The mechanism underlying these enriched binding activities is likely related to receptor-ligand interaction, involving both intra-cellular and inter-cellular interaction between molecules. It is also likely to involve protein-protein interaction, involving proteins such as SMAD binding proteins, NF-kappaB binding proteins and growth factor binding proteins, which play important roles in regulating various cellular processes.
 
           Enriched Terms: GTP binding activity; enzyme binding activity; DNA-binding transcription factor binding activity; phosphotyrosine residue binding activity; cyclin binding activity; receptor-ligand interaction; protein-protein interaction; SMAD binding protein; NF-kappaB binding protein; growth factor binding protein.
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
            The given list of genes are enriched for binding activities, such as GTP binding activity, enzyme binding activity, DNA-binding transcription factor binding activity, phosphotyrosine residue binding activity, cyclin binding activity and other related activities. These activities confer functions such as protein transcription, signal transduction, protein phosphorylation, cellular adhesion and cellular response to certain molecules.
 
           Mechanism: The mechanism underlying these enriched binding activities is likely related to receptor-ligand interaction, involving both intra-cellular and inter-cellular interaction between molecules. It is also likely to involve protein-protein interaction, involving proteins such as SMAD binding proteins, NF-kappaB binding proteins and growth factor binding proteins, which play important roles in regulating various cellular processes.
@@ -4525,7 +4525,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: Enriched terms from a list of human genes indicate that many of these genes are involved in cellular response regulation, cell surface receptors, signal transcription, signal transduction, phosphorylation, and calcium binding pathways.
 
@@ -4533,7 +4533,7 @@
 
           Enriched Terms: Cellular response regulation; Signal transduction; Transcriptional regulations; Cell surface receptors; Phosphorylation; Calcium binding; Protein kinases; Transmembrane proteins; Protein tyrosine kinases; Protein tyrosine phosphatases; Nuclear proteins; Protein inhibitor of activated STATs; Integrin beta; Annexin family; ADP-binding cassette family; GTPase-activating proteins; Arfaptin family; WD repeat proteins; MAGUK family; cAMP-dependent pathways; RNA recognition motif; Microtubule-associated proteins; PAK family; Voltage-dependent calcium channels; Mitogen-responsive phosphoproteins; Nuclear histone/protein; CELF/BRUNOL family; Four-and-a-half-LIM-only proteins;
         truncation_factor: 0.10737418240000006
-        summary: |4+
+        summary: |2+
            
           Summary: Enriched terms from a list of human genes indicate that many of these genes are involved in cellular response regulation, cell surface receptors, signal transcription, signal transduction, phosphorylation, and calcium binding pathways.
 
@@ -4920,13 +4920,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes in the list are involved in a wide range of processes, including cell surface glycoprotein binding, cell adhesion, phosphoprotein production, transcription regulation, and signaling pathways.
           Mechanism: Many of the genes are associated with signaling pathways, including calcium-dependent signal transduction, phosphorylation, MAP kinase signaling, PI3 pathways, and G-protein signal transduction.
           Enriched Terms: Cell adhesion; Extracellular matrix glycoprotein; Nuclear phosphoprotein; Phosphoprotein; Cytoplasmic receptor; GTPase; Phosphatase; Receptor tyrosine kinase; Transcription; cAMP; Ion transport ATPase; Transmembrane protein.
         truncation_factor: 0.10737418240000006
-        summary: |4
+        summary: |2
 
           Summary: The genes in the list are involved in a wide range of processes, including cell surface glycoprotein binding, cell adhesion, phosphoprotein production, transcription regulation, and signaling pathways.
           Mechanism: Many of the genes are associated with signaling pathways, including calcium-dependent signal transduction, phosphorylation, MAP kinase signaling, PI3 pathways, and G-protein signal transduction.
@@ -30144,7 +30144,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list are enriched to be involved in cell adhesion and growth factor signaling; including extracellular matrix formation and receptor protein-tyrosine kinase signaling.  Enriched Terms: Signal transduction; Cell adhesion; Cell growth; Extracellular matrix formation; Receptor protein-tyrosine kinase signaling.
           Mechanism: These genes are likely to play a role in the formation and maintenance of the extracellular matrix, a complex network of proteins essential for adhesion of cells to one another as well as for regulating growth and development. Several of the identified genes have been previously associated with growth factor signaling in cells, including protein-tyrosine kinases which activate signaling cascades in response to extracellular stimuli.
         truncation_factor: 1.0
@@ -30200,14 +30200,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The gene set is enriched for terms related to cellular adhesion, intracellular signaling, cytoskeletal structure, transcriptional regulation, and extracellular matrix functions.
 
           Mechanism: This gene list includes many transcription factors, receptors, and proteins involved in intracellular and extracellular signaling pathways that are known to be important in a variety of biological roles, such as cellular adhesion, intracellular signal transduction, cytokinesis, transcriptional regulation, and extracellular matrix organization, likely contributing to the observed cell layer remodeling processes and close interactions between cells.
 
           Enriched Terms: Cellular Adhesion; Intracellular Signaling; Cytoskeletal Structure; Transcriptional Regulation; Extracellular Matrix Function.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The gene set is enriched for terms related to cellular adhesion, intracellular signaling, cytoskeletal structure, transcriptional regulation, and extracellular matrix functions.
 
           Mechanism: This gene list includes many transcription factors, receptors, and proteins involved in intracellular and extracellular signaling pathways that are known to be important in a variety of biological roles, such as cellular adhesion, intracellular signal transduction, cytokinesis, transcriptional regulation, and extracellular matrix organization, likely contributing to the observed cell layer remodeling processes and close interactions between cells.
@@ -30518,7 +30518,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes are enriched for molecular functions that control cellular processes such as signal transduction, extracellular matrix structural constituents, ligand binding, DNA and mRNA binding and transcription, and enzyme regulation and activity.
 
@@ -30526,7 +30526,7 @@
 
           Enriched Terms: Signal transduction; Extracellular matrix structural constituent; Ligand binding; DNA binding; mRNA binding; Transcription; Enzyme regulation; Enzyme activity; DNA-binding transcription factor activity; Protein homodimerization activity; Platelet-derived growth factor binding; Protein kinase activity; Transmembrane transporter activity; GTPase activator activity; DNA translocase activity; SH2 domain binding activity; Histone binding activity; Chromo shadow domain binding activity; Pre-mRNA binding activity; Gap junction channel activity; Histone deacetylase binding activity; Protein phosphatase
         truncation_factor: 0.2097152000000001
-        summary: |4+
+        summary: |2+
 
           The genes are enriched for molecular functions that control cellular processes such as signal transduction, extracellular matrix structural constituents, ligand binding, DNA and mRNA binding and transcription, and enzyme regulation and activity.
 
@@ -30873,12 +30873,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is associated with numerous cellular activities such as DNA-binding transcription factor activity, RNA binding activity, enzyme binding activity, cAMP-dependent protein kinase inhibitor activity, ion transporter activity, protein kinase activity, and signaling receptor activity. From an enrichment test, it appears that commonalities of the gene functions have to do with signal transduction and cell-cell communication, such as cell growth, development and differentiation, and generation of cell responses. The underlying biological mechanism could be related to the integration of signal transduction pathways, activating or repressing gene transcription in response to a variety of physiological and environmental triggers.
 
           Enriched Terms: Signal Transduction; Cell Growth; Cell Development; Cell Differentiation; Cell Responses; Signal Integration; Gene Transcription.
         truncation_factor: 0.2097152000000001
-        summary: |4+
+        summary: |2+
            This list of genes is associated with numerous cellular activities such as DNA-binding transcription factor activity, RNA binding activity, enzyme binding activity, cAMP-dependent protein kinase inhibitor activity, ion transporter activity, protein kinase activity, and signaling receptor activity. From an enrichment test, it appears that commonalities of the gene functions have to do with signal transduction and cell-cell communication, such as cell growth, development and differentiation, and generation of cell responses. The underlying biological mechanism could be related to the integration of signal transduction pathways, activating or repressing gene transcription in response to a variety of physiological and environmental triggers.
 
         term_strings:
@@ -31192,14 +31192,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Analysis of the list of human genes reveals that many of them possess functions related to signaling, cell structure and maintenance, growth factor binding, cell differentiation, cell surface interactions, and regulation of growth and metabolism.
 
           Mechanism: The listed genes are likely involved in numerous biological pathways and mechanisms that center around the regulation of cell characteristics and their functioning within the greater organism.
 
           Enriched Terms: signaling; cell structure and maintenance; growth factor binding; cell differentiation; cell surface interactions; regulation of growth and metabolism.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            Analysis of the list of human genes reveals that many of them possess functions related to signaling, cell structure and maintenance, growth factor binding, cell differentiation, cell surface interactions, and regulation of growth and metabolism.
 
           Mechanism: The listed genes are likely involved in numerous biological pathways and mechanisms that center around the regulation of cell characteristics and their functioning within the greater organism.
@@ -31513,14 +31513,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This term enrichment analysis revealed several commonly shared functions among the list of human genes, including GTP binding and regulation, phospholipid binding, transmembrane transport, transcription regulation, calcium channel activity, and protein kinase activity.
 
           Mechanism: These genes are likely involved in a variety of interdependent cellular processes, with many of them involved in pathways related to cell adhesion, migration, and signaling.
 
           Enriched terms: GTP binding; phospholipid binding; transmembrane transport; transcription regulation; calcium channel activity; protein kinase activity.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            This term enrichment analysis revealed several commonly shared functions among the list of human genes, including GTP binding and regulation, phospholipid binding, transmembrane transport, transcription regulation, calcium channel activity, and protein kinase activity.
 
           Mechanism: These genes are likely involved in a variety of interdependent cellular processes, with many of them involved in pathways related to cell adhesion, migration, and signaling.

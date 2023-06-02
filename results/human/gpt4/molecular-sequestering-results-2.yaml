@@ -1309,12 +1309,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This enrichment test indicates that the listed genes are involved in multiple pathways that are involved in cell proliferation, apoptosis, and molecular transport in diverse cell types. Specifically, some of the enriched terms associated with these genes include mechanisms involved in cell cycle checkpoints, cell adhesion/motility complexes, transcriptional complexes, protein modifications, and RNA processing complexes. 
           Mechanism: These pathways likely affect cell proliferation, apoptosis, and molecular transport by responding to a variety of environmental stimuli, including calcium-based signaling, growth factor-mediated signaling, and oxidative stress. 
           Enriched Terms: Cell cycle checkpoint; Cell adhesion/motility complex; Transcriptional complex; Protein modifications; RNA processing complex.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            This enrichment test indicates that the listed genes are involved in multiple pathways that are involved in cell proliferation, apoptosis, and molecular transport in diverse cell types. Specifically, some of the enriched terms associated with these genes include mechanisms involved in cell cycle checkpoints, cell adhesion/motility complexes, transcriptional complexes, protein modifications, and RNA processing complexes. 
           Mechanism: These pathways likely affect cell proliferation, apoptosis, and molecular transport by responding to a variety of environmental stimuli, including calcium-based signaling, growth factor-mediated signaling, and oxidative stress. 
         term_strings:
@@ -1485,13 +1485,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: We have identified 18 genes with related functions, such as calcium ion binding activity, protein sequestering activity, DNA-binding transcription factor activity, oxysterol-binding activity, and ubiquitin protein ligase binding activity.
           Mechanism: The enriched terms suggest that these genes are involved in processes related to calcium or ion transport, the regulation of the cell cycle and of protein phosphorylation, and intracellular signaling and responses to various external stimuli.
           Enriched Terms: Calcium ion binding activity; identical protein binding activity; serine-type endopeptidase activity; calcium ion sequestering activity; calcium-dependent protein binding activity; arginine binding activity; molecular sequestering activity; enzyme binding activity; protein kinase regulator activity; NF-κB binding activity; nuclear localization sequence binding activity; oxysterol binding activity; RAGE receptor binding activity; ubiquitin protein ligase binding activity; actin binding activity; RIG-I binding activity; transcription coactivator activity; zinc ion binding activity; and mRNA base-pairing translational repressor activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: We have identified 18 genes with related functions, such as calcium ion binding activity, protein sequestering activity, DNA-binding transcription factor activity, oxysterol-binding activity, and ubiquitin protein ligase binding activity.
           Mechanism: The enriched terms suggest that these genes are involved in processes related to calcium or ion transport, the regulation of the cell cycle and of protein phosphorylation, and intracellular signaling and responses to various external stimuli.
@@ -1630,7 +1630,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The human genes analyzed are involved in a variety of functions, including calcium ion binding activity; identical protein binding activity, protein sequestering activity; and ubiquitin protein ligase binding activity.
 
@@ -1638,7 +1638,7 @@
 
           Enriched Terms: Calcium Ion Binding Activity; Identical Protein Binding Activity; Protein Sequestering Activity; Ubiquitin Protein Ligase Binding Activity; Cellular Response; Regulation of Protein Phosphorylation; Regulation of Anion Channel Activity; Positive Regulation of Lysosomal Membrane Permeability; Regulation of Gene Expression; Response to Interferon-beta.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
           Summary: The human genes analyzed are involved in a variety of functions, including calcium ion binding activity; identical protein binding activity, protein sequestering activity; and ubiquitin protein ligase binding activity.
 
@@ -1917,7 +1917,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The list of genes has been analyzed, and include functions related to cell cycle progression, regulation of cell growth and survival, innate immunity, cholesterol and lipids metabolism, ubiquitination, antioxidant enzymes, intracellular transport, NF-κB inhibiting proteins, proteins associated with various inflammatory and neurological diseases, and proteins involved in embryogenesis, spermatogenesis, and hematopoiesis.
@@ -1926,7 +1926,7 @@
 
           Enriched Terms: Protein Binding; Intracellular Transport; Proteasomal Ubiquitin-dependent Protein Catabolic Process; Regulation of Cell Cycle Progression; Regulation of Cell Growth and Survival; Cholesterol and Lipids Metabolism; NF-κB Inhibiting Proteins; Embryogenesis; Spermatogenesis; Innate Immunity; Cytokines and Growth Factors; Antioxidant Enzymes; Hematopoiesis.
         truncation_factor: 0.8
-        summary: |4+
+        summary: |2+
 
 
           Summary: The list of genes has been analyzed, and include functions related to cell cycle progression, regulation of cell growth and survival, innate immunity, cholesterol and lipids metabolism, ubiquitination, antioxidant enzymes, intracellular transport, NF-κB inhibiting proteins, proteins associated with various inflammatory and neurological diseases, and proteins involved in embryogenesis, spermatogenesis, and hematopoiesis.
@@ -8983,13 +8983,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: This list of genes have been determined to be enriched for certain pathways, processes, and proteins.
           Mechanism: These genes regulate cell growth and development, particularly apoptosis and inflammation, as well as metabolic and proteolytic processes.
           Enriched Terms: Protein Synthesis; DNA Replication; Cell Division and Growth; Apoptosis; Protein Folding; Oxidative Stress Response; inflammation; Post-translational Modifications; Protein-Protein Interactions.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: This list of genes have been determined to be enriched for certain pathways, processes, and proteins.
           Mechanism: These genes regulate cell growth and development, particularly apoptosis and inflammation, as well as metabolic and proteolytic processes.
@@ -9046,7 +9046,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The human genes listed appear to be involved in a wide range of cellular processes, including signal transduction, ubiquitination, transcription regulation, stress response, apoptosis, calcium signaling, metabolic regulation, endoplasmic reticulum (ER) functions, and others. The enriched terms include signal transduction; ubiquitination; transcription regulation; stress response; apoptosis; calcium signaling; metabolic regulation; ER functions; membrane receptor signaling; immunological signaling; posttranslational modifications; and protein fold/stability.
 
           Mechanism: The genes listed are likely involved in the regulation of multiple pathways, possibly acting through the modulation of posttranslational modifications, transports across different cellular compartments (e.g. ER, mitochondria), and interaction/interplay between different proteins, including transcription factors. It is therefore possible that these genes play important roles in the modulation of diverse cellular processes.
@@ -9324,7 +9324,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes include those involved in calcium ion binding, protein sequestering, transcription co-activation/repression, intracellular iron/ cobalamin/choline transport, RAGE receptor binding, ubiquitin unit protein ligase binding, leucine binding, transmembrane transporter binding, actin binding, ribosome binding, arginine binding, molecular adaptor activity, enterobactin binding, and RNA stem-loop binding. The enriched terms are calcium ion binding, protein sequestering, transcription co-activation/repression, intracellular transport, RAGE receptor binding, ubiquitin unit protein ligase binding, leucine binding, transmembrane transporter binding, actin binding, ribosome binding, molecular adaptor activity and RNA stem-loop binding.
 
           Mechanism: These genes seem to be involved in mechanisms controlling the binding, transport, and sequestering of various molecules, including ions, proteins, and RNA. They are involved in mechanisms controlling transcription factors, calcium and iron transport, and processes related to defense and response to viruses, and cellular metabolism. 
@@ -9495,7 +9495,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The list of genes represents a variety of functions in relation to cellular growth, metabolism, transport, regulation, and immunity.
@@ -9504,7 +9504,7 @@
 
           Enriched Terms: Calcium Binding; Transmembrane Proteins; Protein Catabolic Process; Protein Ubiquitination; Cytosolic Factors; Ferritin; PA26-Related Proteins; Lipocalin Family Proteins; Peptidase S1 Family Proteins; DEAD Box Proteins; Proteolytic Subunits.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: The list of genes represents a variety of functions in relation to cellular growth, metabolism, transport, regulation, and immunity.
@@ -9624,14 +9624,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes included in this list have functions related to cellular processes, inflammation, immunity, metabolism, growth, development, and homeostasis. These processes are mediated by activities such as calcium binding, protein binding, signaling, transcription, ubiquitination, actin and ribosome binding, and by interacting with molecules like sterols, IAP, R binders, and transcription factors.
 
           Mechanism: The list of genes are involved in a variety of cellular processes through their interactions with various molecules and their own specific activities. The genes act as mediators and regulators of these processes, providing overall homeostatic and growth-related benefits to the cell.
 
           Enriched Terms: Cellular Processes; Calcium Binding; Protein Binding; Signaling; Transcription; Ubiquitination; Actin and Ribosome Binding; Sterol Interactions; IAP Interaction; R Binder Interactions; Transcription Factor Interactions.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes included in this list have functions related to cellular processes, inflammation, immunity, metabolism, growth, development, and homeostasis. These processes are mediated by activities such as calcium binding, protein binding, signaling, transcription, ubiquitination, actin and ribosome binding, and by interacting with molecules like sterols, IAP, R binders, and transcription factors.
 
           Mechanism: The list of genes are involved in a variety of cellular processes through their interactions with various molecules and their own specific activities. The genes act as mediators and regulators of these processes, providing overall homeostatic and growth-related benefits to the cell.

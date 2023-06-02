@@ -1706,13 +1706,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: Genes involved in DNA damage repair and meiotic recombination processes
           Mechanism: Genes in the list are involved in DNA damage recognition, DNA double-strand break repair, meiotic recombination, and chromosome segregation.
           Enriched Terms: DNA damage recognition; DNA repair; double-strand break repair; meiotic recombination; chromosome segregation; homologous recombination; RAD51 family proteins; DNA end-protection; Mus81-Mms4 complex; MutS family proteins; DNA proofreading; SPO11-associated pathway.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: Genes involved in DNA damage repair and meiotic recombination processes
           Mechanism: Genes in the list are involved in DNA damage recognition, DNA double-strand break repair, meiotic recombination, and chromosome segregation.
@@ -1938,7 +1938,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are involved in processes related to DNA binding, repair, replication, recombination, and regulation thereof. The enriched terms would be: DNA binding; double-stranded DNA binding; DNA damage repair; DNA recombination; protein binding; meiotic recombination; chromosome segregation; mitotic cell cycle; spindle assembly checkpoint signaling; protein homotetramerization; chromatin binding; and resolution of meiotic recombination intermediates. 
           Mechanism: The underlying biological mechanism is that these proteins work together to maintain genomic stability, regulate gene expression, and promote proper cell division, germline cell development, and meiosis.
         truncation_factor: 0.8
@@ -2114,13 +2114,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes provide evidence for a set of processes related to DNA and cellular replication, including DNA binding activity, chromatin binding, ATP dependent activity, protein export, and transcriptional regulation.
           Enriched Terms: DNA Binding; ATP Dependent Activity; Chromatin Binding; Nucleus; Protein Export; Transcriptional Regulation; Double-stranded DNA binding; Single-stranded DNA binding; DNA Repair; Nuclease Activity; Recombination; Chromosome Segregation; Mitotic Cell Cycle; Intrinsic Apoptotic Signaling; Regulation of Telomere Maintenance.
           Mechanism: The genes identified are likely playing roles in a variety of DNA metabolic pathways, including DNA repair, double-stranded DNA break repair, homologous recombination, transcriptional regulation, and mitotic cell cycle processes. These pathways likely enable cellular replication and maintenance of genomic integrity, as well as control of gene expression and apoptosis.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
 
           Summary: The list of genes provide evidence for a set of processes related to DNA and cellular replication, including DNA binding activity, chromatin binding, ATP dependent activity, protein export, and transcriptional regulation.
         term_strings:
@@ -2296,7 +2296,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The enriched terms from this list of human genes are related to DNA repair and meiotic recombination, including activities such as endonuclease activity, Bcl-2 homology domain 3 binding, chromatin binding, DNA binding, DNA helicase activity, single-stranded DNA binding, 3'-5' exodeoxyribonuclease activity, SH3 domain binding, SUMO transferase activity, double-stranded DNA binding, RING finger ubiquitin ligase activity, replication fork processing, regulation of homologous chromosome segregation, meiosis I cell cycle process, chromosome synapsis, and homologous chromosome pairing at meiosis.
@@ -2305,7 +2305,7 @@
 
           Enriched Terms: Endonuclease activity; Bcl-2 homology domain 3 binding; Chromatin binding; DNA binding; DNA helicase activity; Single-stranded DNA binding; 3'-5' exode
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
 
 
           Summary: The enriched terms from this list of human genes are related to DNA repair and meiotic recombination, including activities such as endonuclease activity, Bcl-2 homology domain 3 binding, chromatin binding, DNA binding, DNA helicase activity, single-stranded DNA binding, 3'-5' exodeoxyribonuclease activity, SH3 domain binding, SUMO transferase activity, double-stranded DNA binding, RING finger ubiquitin ligase activity, replication fork processing, regulation of homologous chromosome segregation, meiosis I cell cycle process, chromosome synapsis, and homologous chromosome pairing at meiosis.
@@ -2465,7 +2465,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The gene summaries indicate that most of the genes are involved in processes related to DNA binding, DNA repair, DNA recombination, and meiotic processes. The enriched terms include "DNA binding", "DNA repair", "DNA recombination", "meiosis", "double-stranded DNA binding", "single-stranded DNA binding", chromatin binding, endonuclease activity, DEAD-like helicase activity, and Bcl-2 homology domain activity.
 
           Mechanism: The mechanism underlying the enrichment of these gene functions appears to be related to the repair and maintenance of chromosomal integrity as well as the regulation of cell division, differentiation, and development. Through their combined activities, the genes appear to be involved in the maintenance of genome stability and the efficient transmission of genetic information from one generation to the next.
@@ -10072,14 +10072,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Our analysis indicates that the genes in this list are involved in DNA Repair, Replication, and Maintenance, with 15 terms associated with these processes found to be over-represented.
 
           Mechanism: The genes appear to be participating in key cellular processes related to the maintenance and integrity of the genome, including homologous recombination, scaffold/matrix attachment region (S/MAR) structures, chromosome conformation, DNA methylation, and centrosome dynamics.
 
           Enriched Terms: Homologous Recombination; Scaffold/Matrix Attachment Region; Chromosome Structure Maintenance; Centromere Dynamics; DNA Replication; DNA Damage Repair; DNA Methylation; Sister Chromatid Cohesion; Nucleotide Excision Repair; Microtubule-Associated Proteins; Chromatin Modiﬁcation; Genome Stability; DNA Repair Proteins; Rad51 Recombinases; DNA Polymerases.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Our analysis indicates that the genes in this list are involved in DNA Repair, Replication, and Maintenance, with 15 terms associated with these processes found to be over-represented.
 
           Mechanism: The genes appear to be participating in key cellular processes related to the maintenance and integrity of the genome, including homologous recombination, scaffold/matrix attachment region (S/MAR) structures, chromosome conformation, DNA methylation, and centrosome dynamics.
@@ -10149,7 +10149,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is enriched for terms related to recombination and chromosome segregation processes, as well as DNA replication and repair. These processes are likely related to maintenance of chromosomal integrity and stability. The enriched terms are: recombination; DNA replication; chromosome segregation; DNA repair; meiotic chromosome pairing and recombination; meiotic double strand break repair; homologous pairing; sister chromosome cohesion; cytokinesis.
 
           Mechanism: During meiosis and other recombination processes, the mentioned genes are believed to be involved in a variety of functions such as recognizing, repairing, and resecting double stranded breaks (DSBs) at recombination hotspots, regulating meiotic double strand break repair, mediating homologous pairing, maintaining sister chromosome cohesion, promoting sister chromatid exchange, and regulating cytokinesis. These genes may also be involved in the regulation of other processes, depending on the context of the cell cycle or cell type.
@@ -10492,14 +10492,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This list of genes contains proteins involved in processes related to cell division, development, and repair of DNA. 
           Mechanism: The genes work together to enable related processes such as mitotic spindle assembly checkpoint signaling, mitotic cell cycle, meiotic nuclear division, homologous chromosome pairing and segregation, and DNA replication and repair. 
           Enriched Terms: DNA binding activity, ATP-dependent activity (acting on DNA) and double-stranded DNA binding activity; homologous chromosome pairing, segregation, and recombination; protein sumoylation, modification, and export; positive regulation of transcription, apoptotic process, and cellular component organization; meiosis-related processes; response to DNA damage checkpoint signaling; and cytoplasmic and nuclear localization.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
 
           Summary: This list of genes contains proteins involved in processes related to cell division, development, and repair of DNA. 
@@ -10653,7 +10653,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: This gene list is involved in a variety of processes that lead to homologous chromosome pairing and recombination at meiosis, and plays a role in maintaining genome fidelity through double strand break repair and DNA mismatch correction.
 
@@ -10661,7 +10661,7 @@
 
           Enriched Terms: Oxidative Damage Repair; DNA Double Strand Break Repair; Holliday Junction Dissolution; Recombinase Activity Stimulation; Chromosome Segregation; Protein Export from Nucleus; Mitotic Sister Chromatid Separation; DNA Mismatch Repair; Homologous Chromosome Segregation; Chromatin Binding; Single-Stranded DNA Binding; Protein Sumoylation; Synaptonemal Complex Assembly; Chromosome Condensation; Regulation of Homologous Chromosome Segregation; Meiotic Telomere Clustering; Chromosome, Telomeric Region, and Nuclear Inner Membrane Location; Response to DNA Damage Stimulus; Protein Hom
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
            
           Summary: This gene list is involved in a variety of processes that lead to homologous chromosome pairing and recombination at meiosis, and plays a role in maintaining genome fidelity through double strand break repair and DNA mismatch correction.
 
@@ -10834,14 +10834,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            A wide variety of genes associated with a range of processes related to the homologous recombination and repair of DNA, the relief of torsional stress, and the assembly of the synaptonemal complex during meiosis, have been identified. These genes contribute to processes such as chromosome condensation, chromatid separation, DNA double-strand break repair, double-stranded DNA binding, and protein homotetramerization, among others.
 
           Mechanism: These genes are likely involved in the same biological mechanisms, such as homologous chromosome pairing at meiosis, meiotic spindle organization, DNA double-strand break repair via homologous recombination, and the resolution of meiotic recombination intermediates.
 
           Enriched Terms: DNA Double-Strand Break Repair; Homologous Chromosome Pairing at Meiosis; Meiotic Spindle Organization; Double-Stranded DNA Binding; Protein Homotetramerization; Resolution of Meiotic Recombination Intermediates; Chromosome Condensation; Chromatid Separation; DNA Mismatch Repair; Meiotic Recombination and Chromosome Segregation; Protein Export from Nucleus; Protein Sumoylation.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
            A wide variety of genes associated with a range of processes related to the homologous recombination and repair of DNA, the relief of torsional stress, and the assembly of the synaptonemal complex during meiosis, have been identified. These genes contribute to processes such as chromosome condensation, chromatid separation, DNA double-strand break repair, double-stranded DNA binding, and protein homotetramerization, among others.
 
           Mechanism: These genes are likely involved in the same biological mechanisms, such as homologous chromosome pairing at meiosis, meiotic spindle organization, DNA double-strand break repair via homologous recombination, and the resolution of meiotic recombination intermediates.

@@ -1072,12 +1072,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is related to muscle, central and peripheral nervous system development, as well as protein and lipid transport and metabolism. 
           Mechanism: The genes appear to be involved in regulatory pathways for growth and development of the skeletal and nervous systems via coordination of morphology, protein and lipid synthesis, and transport.
           Enriched Terms: Muscle development; Neuronal development; Protein transport; Lipid metabolism; Morphogenesis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            This list of genes is related to muscle, central and peripheral nervous system development, as well as protein and lipid transport and metabolism. 
           Mechanism: The genes appear to be involved in regulatory pathways for growth and development of the skeletal and nervous systems via coordination of morphology, protein and lipid synthesis, and transport.
         term_strings:
@@ -1125,14 +1125,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are mainly involved in protein synthesis, metabolism, ion channel transport, and muscle contraction or development.
 
           Mechanism: These genes function as transcriptional regulators, enzymes in metabolic pathways, ion channels, or as key mediators of neuromuscular development and contraction.
 
           Enriched Terms: Protein Synthesis; Metabolism; Ion Channel Transport; Muscle Contraction; Muscle Development.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            These genes are mainly involved in protein synthesis, metabolism, ion channel transport, and muscle contraction or development.
 
           Mechanism: These genes function as transcriptional regulators, enzymes in metabolic pathways, ion channels, or as key mediators of neuromuscular development and contraction.
@@ -1213,14 +1213,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in the list are all involved in many functions including DNA-binding, RNA polymerase II-specific activity, metal ion binding, ubiquitin protein ligase binding, and positive regulation of transcription by RNA polymerase II. These genes are also likely to be involved in several processes including positive regulation of immunoglobulin production, regulation of ERBB signaling pathway, regulation of intracellular protein transport, monoatomic cation transport, nucleic acid metabolic process, protein hexamerization, glycosaminoglycan catabolic process, nervous system development, heme transport, and mitochondrial transport.
 
           Mechanism: These genes likely coordinate a combination of transcription activities to maintain cell function, health, and development. They are also likely to be involved in transporting and processing essential molecules needed for maintaining normal neural and sensory functionality as well as involved in transporting and processing essential molecules for cell metabolism.
 
           Enriched Terms: DNA-binding; RNA polymerase II-specific activity; metal ion binding; ubiquitin protein ligase binding; positive regulation of transcription by RNA polymerase II; positive regulation of immunoglobulin production; regulation of ERBB signaling pathway; regulation of intracellular protein transport; monoatomic cation
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes in the list are all involved in many functions including DNA-binding, RNA polymerase II-specific activity, metal ion binding, ubiquitin protein ligase binding, and positive regulation of transcription by RNA polymerase II. These genes are also likely to be involved in several processes including positive regulation of immunoglobulin production, regulation of ERBB signaling pathway, regulation of intracellular protein transport, monoatomic cation transport, nucleic acid metabolic process, protein hexamerization, glycosaminoglycan catabolic process, nervous system development, heme transport, and mitochondrial transport.
 
           Mechanism: These genes likely coordinate a combination of transcription activities to maintain cell function, health, and development. They are also likely to be involved in transporting and processing essential molecules needed for maintaining normal neural and sensory functionality as well as involved in transporting and processing essential molecules for cell metabolism.
@@ -1310,13 +1310,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Analysis of the given list of genes suggests a common thread of involvement in the development and function of peripheral nerves, particularly with regard to varying forms of Charcot-Marie-Tooth disease, in addition to their role in nucleic acid and glycan metabolic pathways. 
           Enriched Terms: Transcription regulation; ubiquitin protein ligase binding; DNA binding; glycosaminoglycan catabolic process; ear development; locomotor rhythm; nervous system development; protein folding; negative regulation of apoptotic process; positive regulation of endothelial cell migration; positive regulation of immunoglobulin production; protein hexamerization; detection of mechanical stimulus involved in sensory perception; monoatomic cation transport; heme transport; cellular response to mechanical stimulus; myelination; cell-cell adhesion via plasma-membrane adhesion molecules; mitochondrial transport; transmission of nerve impulse; RNA splicing; cytoskeletal motor activity; nuclear import signal receptor activity; nuclear localization sequence binding activity; NLS-bearing protein import into nucleus; DNA-directed DNA polymerase activity; base-excision repair; gap-filling; protein ubiquitination.
 
           Mechanism: Analysis of the given list of genes suggests that there
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Analysis of the given list of genes suggests a common thread of involvement in the development and function of peripheral nerves, particularly with regard to varying forms of Charcot-Marie-Tooth disease, in addition to their role in nucleic acid and glycan metabolic pathways. 
         term_strings:
           - transcription regulation
@@ -1449,7 +1449,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: These genes are associated with functions related to development and maintenance of the nervous system, sensory systems, and erythropoiesis, as well as mitochodnrial mRNA synthesis and transcriptional regulation. 
 
@@ -1457,7 +1457,7 @@
 
           Enriched Terms: Transcriptional Regulation; Mitochondrial RNA Synthesis; Neurodevelopment; Erythropoiesis; Protein Modification; Nucleolar Function; Neuronal Network Formation; Sensory Receptor Function.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           Summary: These genes are associated with functions related to development and maintenance of the nervous system, sensory systems, and erythropoiesis, as well as mitochodnrial mRNA synthesis and transcriptional regulation. 
 
@@ -1546,7 +1546,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: List of genes are involved in transcription factors, degradation heparan sulfate, moonlighting proteins, immunoglobulin secretion, adapter or docking molecule, heme transporter, myelin upkeep, nuclear pore complex, mitochondrial DNA polymerase, ubiquitin ligase, and aminoacyl-tRNA synthetase.
@@ -1555,7 +1555,7 @@
 
           Mechanism: These genes work together in a joint mechanism to regulate biological processes like cell replication, neuronal development, protein folding, and enzymatic activity. In particular, their collective involvement in the coordination of transcriptional activity, ion transport, and DNA-binding suggests a complex integrated process by which these genes serve to facilitate normal cell functions.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: List of genes are involved in transcription factors, degradation heparan sulfate, moonlighting proteins, immunoglobulin secretion, adapter or docking molecule, heme transporter, myelin upkeep, nuclear pore complex, mitochondrial DNA polymerase, ubiquitin ligase, and aminoacyl-tRNA synthetase.
@@ -5523,12 +5523,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes are involved in neuronal development, cell metabolism, and signal transduction.
           Mechanism: They are likely involved in the process of myelination, maintenance of nerve cell metabolism, nerve cell maturation, and nerve impulse conduction.
           Enriched Terms: Myelination; Cell Metabolism; Signal Transduction; Nerve Cell Maturation; Nerve Impulse Conduction.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The list of genes are involved in neuronal development, cell metabolism, and signal transduction.
           Mechanism: They are likely involved in the process of myelination, maintenance of nerve cell metabolism, nerve cell maturation, and nerve impulse conduction.
         term_strings:
@@ -5576,12 +5576,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enrichment analysis revealed significant terms related to neuron development, signal transduction, and immune system function. 
           Mechanism: These genes are thought to contribute to neuronal formation, signal transduction, and immune system activation through a variety of pathways, the most prominent being Wnt signaling and Ras-MAPK signaling pathways.
           Enriched Terms: Neuron development; Signal transduction; Immune system; Wnt signaling; Ras-MAPK signaling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Enrichment analysis revealed significant terms related to neuron development, signal transduction, and immune system function. 
           Mechanism: These genes are thought to contribute to neuronal formation, signal transduction, and immune system activation through a variety of pathways, the most prominent being Wnt signaling and Ras-MAPK signaling pathways.
         term_strings:
@@ -5926,7 +5926,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The list of genes are involved in various processes including the formation and stabilization of the multilamellar structure of the compact myelin, cellCytoplasmic protein transport, tRNA synthetase activities, and protein ubiquitination activities.
 
@@ -5934,7 +5934,7 @@
 
           Enriched Terms: Peripheral Nerve Myelin; Transmembrane Transport; Protein Ubiquitination; tRNA Synthetase; Protein Interaction; Cell Development; Nerve Cell Development; Nucleic Acid Metabolism; Cytoplasmic Protein Transport.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
           Summary: The list of genes are involved in various processes including the formation and stabilization of the multilamellar structure of the compact myelin, cellCytoplasmic protein transport, tRNA synthetase activities, and protein ubiquitination activities.
 
@@ -6023,13 +6023,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: These genes are all involved in the maintenance of the myelin sheath in the peripheral nervous system, with roles in transcription regulation and protein ubiquitinization, as well as in the transport of molecules between the nucleus and the cytoplasm.
           Mechanism: This complex regulatory process involves proteins acting as adapters or docking molecules, as well as transcription factors and transporter proteins, as well as enzymes involved in protein degradation and ubiquitinization of inositol 1, 4, 5-trisphosphate receptors. 
           Enriched Terms: Peripheral Nervous System Maintenance; Transcription Regulation; Protein Ubiquitinization; Transport Proteins; Adapter/Docking Molecules; Transcription Factors; Protein Degradation; Ubiquitinization of Inositol Receptors.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: These genes are all involved in the maintenance of the myelin sheath in the peripheral nervous system, with roles in transcription regulation and protein ubiquitinization, as well as in the transport of molecules between the nucleus and the cytoplasm.
           Mechanism: This complex regulatory process involves proteins acting as adapters or docking molecules, as well as transcription factors and transporter proteins, as well as enzymes involved in protein degradation and ubiquitinization of inositol 1, 4, 5-trisphosphate receptors. 

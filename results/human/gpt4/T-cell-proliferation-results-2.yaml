@@ -2065,13 +2065,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The genes in the list are found to be involved primarily in cell signalling, development, and immunity processes.
           Mechanism: The numerous genes with enriched terms are involved in coordinating both intra- and extracellular activity through signal transduction pathways and receptor-mediated signaling, with downstream effects on cellular growth, differentiation, and function within various organs and systems in the body.
           Enriched Terms: Cell Signalling; Protein Interaction; Signal Transduction; Developmental Process; Regulatory Role in Immunity; Protein Degradation; Receptor-Mediated Signaling; Cellular Growth; Cell Differentiation; RNA Processing.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: The genes in the list are found to be involved primarily in cell signalling, development, and immunity processes.
           Mechanism: The numerous genes with enriched terms are involved in coordinating both intra- and extracellular activity through signal transduction pathways and receptor-mediated signaling, with downstream effects on cellular growth, differentiation, and function within various organs and systems in the body.
@@ -2130,13 +2130,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This list of genes are enriched for terms related to cell development and signaling, specifically those involved in receptor-mediated signaling and the regulation of cell morphology. 
           Mechanism: These genes likely act through regulating cell development and receptor-mediated signaling pathways to their respective functions, such as morphogenesis and gene expression.
           Enriched Terms: Morphogenesis; Cell development; Cell signaling; Receptor-mediated signaling; Regulation of gene expression.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This list of genes are enriched for terms related to cell development and signaling, specifically those involved in receptor-mediated signaling and the regulation of cell morphology. 
           Mechanism: These genes likely act through regulating cell development and receptor-mediated signaling pathways to their respective functions, such as morphogenesis and gene expression.
@@ -2330,14 +2330,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes mostly involves genes that enable signaling receptor binding activity, protein kinase binding activity, and ubiquitin protein ligase activity. These genes are enriched in processes such as intracellular signal transduction, cytokine production, and gene expression. The underlying biological mechanism involves intercellular communication through signaling cascades leading to the regulation of gene expression. 
 
           Mechanism: Intercellular communication through signaling cascades leading to regulation of gene expression.
 
           Enriched Terms: Signaling receptor binding activity; Protein kinase binding activity; Ubiquitin protein ligase activity; Intracellular signal transduction; Cytokine production; Gene expression.
         truncation_factor: 0.40960000000000013
-        summary: |4+
+        summary: |2+
            The list of genes mostly involves genes that enable signaling receptor binding activity, protein kinase binding activity, and ubiquitin protein ligase activity. These genes are enriched in processes such as intracellular signal transduction, cytokine production, and gene expression. The underlying biological mechanism involves intercellular communication through signaling cascades leading to the regulation of gene expression. 
 
           Mechanism: Intercellular communication through signaling cascades leading to regulation of gene expression.
@@ -2535,7 +2535,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: The list of genes are mainly involved in a variety of biological pathways and processes, such as intracellular signaling, cell proliferation, cell adhesion and migration, cell division and apoptosis. 
@@ -2544,7 +2544,7 @@
 
           Enriched Terms: Protein Binding Activity; Enzyme Binding Activity; Protein Kinase Binding Activity; Interleukin Binding Activity; Phosphorylation-Dependent Protein Binding Activity; DNA-binding Transcription Activator Activity; Protein Homodimerization Activity; Nucleic Acid Binding Activity; Transmembrane Receptor Protein Tyrosine Phosphatase Activity; Receptor Ligand Activity; Protein Tyrosine Phosphatase Activity; Cytokine Activity; Cytoskeletal Protein Binding Activity; Cytokin Receptor Activity; and Positive Regulation of Cell Migration.
         truncation_factor: 0.40960000000000013
-        summary: |4+
+        summary: |2+
            
 
           Summary: The list of genes are mainly involved in a variety of biological pathways and processes, such as intracellular signaling, cell proliferation, cell adhesion and migration, cell division and apoptosis. 
@@ -2762,7 +2762,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This list of human genes found in the summary have involvement in a variety of processes including cell division, adhesion, differentiation, and response to stress, in addition to roles in the immune system, transcriptional regulation, ligand binding, receptor binding, ubiquitin-protein ligase activity, phosphodiesterase activity, and protein phosphatase activity.
@@ -2771,7 +2771,7 @@
 
           Enriched Terms: Transmembrane signaling receptor activity; Calmodulin binding activity; Ubiquitin protein ligase activity; Calmodulin-dependent protein phosphatase activity; Protein phosphatase activity; Protein tyrosine phosphatase activity; Protein kinase activity; Transcriptional activation; Guanine nucleotide exchange activity; Ligand binding activity.
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
 
 
           Summary: This list of human genes found in the summary have involvement in a variety of processes including cell division, adhesion, differentiation, and response to stress, in addition to roles in the immune system, transcriptional regulation, ligand binding, receptor binding, ubiquitin-protein ligase activity, phosphodiesterase activity, and protein phosphatase activity.
@@ -2979,7 +2979,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The provided list of genes and associated descriptions demonstrates variation in generic cellular processes like protein degradation, protein and nucleic acid binding and kinase activity, as well as specific pathways involving cytokine and chemokine signaling, transcriptional regulation and regulation of immune cell activity. Across these processes, the significant terms enriched across the genes include: protein tyrosine kinase activity; protein/nucleic acid/oligomeric binding activities; protein ubiquitination; transcriptional and immune cell activation and proliferation; intracellular receptor signaling and NF-kappaB pathways; and cell cycle regulation.
 
@@ -25208,7 +25208,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes is enriched for terms related to development and immunity, such as “cell receptor signaling pathway”; “regulation of transcription”; “cytokine production”; “cytokine-cytokine receptor interaction”; “signal transduction”; and “death receptor signaling pathway”. 
           Mechanism: Many of the genes in the list are related to regulation and communication of development and immunity at the cellular level. This may include regulation of cell receptors, signal transduction pathways, transcription control, control of gene expression, and cytokine-cytokine receptor interaction. Additionally, some of the genes are involved in death receptor signaling pathways, which could be essential to the regulation and control of cell fate and development.
         truncation_factor: 1.0
@@ -25270,7 +25270,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: The genes included on the list are enriched in terms related to cellular signaling and communication, immune system regulation, apoptosis and cell cycle control, developmental processes and transcriptional regulation.
@@ -25279,7 +25279,7 @@
 
           Enriched terms: Cell signaling; Cellular communication; Cellular growth; Immune system regulation; Apoptosis; Cell cycle; Developmental processes; Transcription regulation; Cytokine signaling; Growth factor signal transduction; Oncogenesis pathways; Receptor activity; B-Cell receptor signaling; Extracellular matrix signaling; Cell migration; Cell differentiation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
 
           Summary: The genes included on the list are enriched in terms related to cellular signaling and communication, immune system regulation, apoptosis and cell cycle control, developmental processes and transcriptional regulation.
@@ -25484,7 +25484,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The genes are involved in a variety of processes, including intracellular iron ion homeostasis, regulation of DNA-templated transcription, cytokine-mediated signaling pathway, cell recognition, regulation of gene expression, cellular response to DNA damage, cell population proliferation, receptor-mediated endocytosis, signal transduction, and regulation of apoptotic processes.
@@ -25493,7 +25493,7 @@
 
           Enriched Terms: Protein-protein binding activity; signal transduction; receptor binding activity; ligand binding activity; positive regulation of gene expression; cell recognition; intracellular signal transduction; regulation of apoptotic process; positive regulation of cell population proliferation; regulation of protein phosphorylation; metal ion binding activity; nuclear-transcribed mRNA catabolic process; DNA binding activity.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
 
 
           Summary: The genes are involved in a variety of processes, including intracellular iron ion homeostasis, regulation of DNA-templated transcription, cytokine-mediated signaling pathway, cell recognition, regulation of gene expression, cellular response to DNA damage, cell population proliferation, receptor-mediated endocytosis, signal transduction, and regulation of apoptotic processes.
@@ -25693,14 +25693,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list is highly enriched in terms related to transcriptional activity and signal transduction, particularly for T-cells. Many of the genes are involved in immune response, including positive regulation of cytokine production, T-cell receptor signaling pathway, and leukocyte activation. Additionally, many of the genes facilitate enzyme or protein binding activities. 
 
           Mechanism: These genes are likely to interact to coordinate repression and activation of transcriptional and signal transduction pathways to regulate T-cell metabolic functions. 
 
           Enriched Terms: Transcriptional activity; signal transduction; immune response; cytokine production; T-cell receptor signaling; leukocyte activation; enzyme binding; protein binding; T-cell tolerance induction; receptor tyrosine kinase binding; cytoplasmic translation; cell adhesion; mitotic nuclear division; growth factor binding; phosphorylation-dependent protein binding; phosphotyrosine residue binding; transmembrane receptor protein tyrosine phosphatase; histone deacetylase binding; DNA-binding transcription factor; non-membrane spanning protein tyrosine kinase; FK506 binding; calcium channel inhibitor; phosphatidylinositol 3-kin
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            This gene list is highly enriched in terms related to transcriptional activity and signal transduction, particularly for T-cells. Many of the genes are involved in immune response, including positive regulation of cytokine production, T-cell receptor signaling pathway, and leukocyte activation. Additionally, many of the genes facilitate enzyme or protein binding activities. 
 
           Mechanism: These genes are likely to interact to coordinate repression and activation of transcriptional and signal transduction pathways to regulate T-cell metabolic functions. 
@@ -25918,14 +25918,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This analysis of human genes presented reveals a strong association between several important cellular processes such as signal transduction, cell growth and differentiation, gene regulation, transcriptional activation, ubiquitination, and apoptosis. Transmembrane proteins, E3 ubiquitin-protein ligases, transcription factors, cytokinines, and receptors are all likewise enriched. 
 
           Mechanism: The common enriched terms between these human genes indicate a correlation in the performance of several important cellular processes. Multiple transmembrane scaffolding proteins, receptor-interacting proteins, and ubiquitin-ligases, signaling proteins, and transcription factors play essential roles in the regulation of signal transduction, cell growth and differentiation, gene transcriptional regulation, apoptosis, and immune response. 
 
           Enriched Terms: Signal transduction; Cell growth; Differentiation; Gene regulation; Transcriptional activation; Ubiquitination; Apoptosis; Transmembrane proteins; E3 ubiquitin-protein ligases; Transcription factors; Cytokinines; Receptors.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            This analysis of human genes presented reveals a strong association between several important cellular processes such as signal transduction, cell growth and differentiation, gene regulation, transcriptional activation, ubiquitination, and apoptosis. Transmembrane proteins, E3 ubiquitin-protein ligases, transcription factors, cytokinines, and receptors are all likewise enriched. 
 
           Mechanism: The common enriched terms between these human genes indicate a correlation in the performance of several important cellular processes. Multiple transmembrane scaffolding proteins, receptor-interacting proteins, and ubiquitin-ligases, signaling proteins, and transcription factors play essential roles in the regulation of signal transduction, cell growth and differentiation, gene transcriptional regulation, apoptosis, and immune response. 
@@ -26121,7 +26121,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This enrichment analysis on the list of human genes suggests that they are predominantly involved in a range of signal transduction pathways which regulate cellular processes such as cell growth, differentiation, survival, and apoptosis. Specifically, the terms “receptor binding”, “protein phosphatase”, “ubiquitin-protein ligase”, “transcriptional activator”, “WD repeat protein”, “tumor necrosis factor (TNF) receptor”, “tumor necrosis factor (TNF) ligand”, “protein tyrosine kinase”, “heme enzyme”, and “solute carrier family” were found to be enriched across the list of genes. These proteins may play roles in the regulation of a variety of cellular processes, such as cell cycle arrest, apoptosis, proliferation, and differentiation.
 

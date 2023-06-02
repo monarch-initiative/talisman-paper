@@ -1499,7 +1499,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This examination of human genes reveals a number of gene functions that are significantly enriched and related to developmental processes, including cell proliferation and differentiation, tissue morphogenesis, and Wnt signalling pathways. 
           Mechanism: Cell proliferation and differentiation, tissue morphogenesis, and Wnt signalling pathways are all important in the normal and healthy development of cells and organs. These genes provide important functions that act in cooperative and downstream pathways to enable and promote these developmental processes.
           The enriched terms are: cellular differentiation; cellular proliferation; digit development; tissue morphogenesis; Wnt signalling pathway.
@@ -1562,7 +1562,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in this list are associated with the Wnt signaling pathway, modulating cell growth and mophogenesis. The enrichment terms corresponding to this list are Wnt signaling, cell growth, morphogenesis, transcriptional regulation, and epigenetics.
 
           Mechanism: The Wnt signaling pathway activates nuclear proteins such as LEF1 and TCF7, which then activate transcription of genes involved in cell growth and morphogenesis. The genes on the listed are associated with modulating the Wnt pathway, including epigenetic regulation and cell cycle regulation.
@@ -1716,7 +1716,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes summarized above are all involved in developmental processes, such as organizing and regulating cell adhesion, components of the Wnt pathway and regulation of gene expression. The enriched terms for these genes would be development-related terms, such as cell adhesion, canonical Wnt signaling pathway, protein phosphorylation, protein ubiquitination, DNA-templated transcription, protein deacetylation, transcription, and protein stability.
 
@@ -1886,13 +1886,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This gene dataset contains genes involved in cell migration, regulation of signal transduction, protein ubiquitination, cell cycle control, transcription regulation, and regulation of protein stability.
           Mechanism: These genes appear to commonally control a number of key pathway processes at the cellular level and can initiate their respective pathways through the binding of other proteins, and the control of chromatin composition through the modification of histones.
           Enriched Terms: Protein binding activity; DNA-binding transcription factor activity; RNA polymerase II-specific DNA-binding transcription factor binding activity; Notch binding activity; PDZ domain binding activity; Wnt receptor activity; ubiquitin protein ligase binding activity; beta-catenin binding activity; transcription coactivator activity; histone deacetylase binding activity; receptor antagonist activity; transcription corepressor binding activity; molecular adaptor activity; histone deacetylase activity; and cholesterol binding activity.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
 
           Summary: This gene dataset contains genes involved in cell migration, regulation of signal transduction, protein ubiquitination, cell cycle control, transcription regulation, and regulation of protein stability.
           Mechanism: These genes appear to commonally control a number of key pathway processes at the cellular level and can initiate their respective pathways through the binding of other proteins, and the control of chromatin composition through the modification of histones.
@@ -2047,7 +2047,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: A significant number of these genes are involved in the functioning of the Wnt signaling pathway, as well as cell cycle progression and gene transcriptional regulation.
@@ -2056,7 +2056,7 @@
 
           Enriched Terms: Wnt signalling pathway; transmembrane glycoprotein; histone deacetylase; transcription factor; Notch signaling pathway; protein binding; signal transduction; ubiquitin-dependent protein catabolic process; transcriptional regulation; DNA replication and repair.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
 
 
           Summary: A significant number of these genes are involved in the functioning of the Wnt signaling pathway, as well as cell cycle progression and gene transcriptional regulation.
@@ -2204,14 +2204,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes listed are involved mostly in processes and pathways related to embryonic development, transcriptional regulation, DNA repair, and cell-cell interactions, such as Wnt, Notch, and Hedgehog signaling, as well as the F-Box protein family. 
 
           Mechanism: The molecular mechanism of this list of genes is related to cellular signaling pathways that enable cells to interact and establish communication with each other for proper embryonic development, cell fate determination, and DNA repair. These pathways involve the use of proteins such as Notch, Wnt, and Hedgehog receptors and ligands, as well as the F-box proteins.
 
           Enriched Terms: Cell-cell Interactions; Embryonic Development; Transcriptional Regulation; DNA Repair; Wnt Signaling; Notch Signaling; Hedgehog Signaling; F-box Protein Family.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            The genes listed are involved mostly in processes and pathways related to embryonic development, transcriptional regulation, DNA repair, and cell-cell interactions, such as Wnt, Notch, and Hedgehog signaling, as well as the F-Box protein family. 
 
           Mechanism: The molecular mechanism of this list of genes is related to cellular signaling pathways that enable cells to interact and establish communication with each other for proper embryonic development, cell fate determination, and DNA repair. These pathways involve the use of proteins such as Notch, Wnt, and Hedgehog receptors and ligands, as well as the F-box proteins.
@@ -17796,13 +17796,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes appear to be involved in pathways for development, signal mediation, and regulation of transcription.
           Mechanism: A combination of Wnt, Notch, Hedgehog, and calcium-dependent pathways likely mediate the cellular functions of these genes.
           Enriched Terms: Development; Cell signalling; Protein binding and regulation; epigenetic modification; Transcriptional regulation; Wnt signalling; Notch signalling; Hedgehog signalling; Calcium-dependent pathways.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes appear to be involved in pathways for development, signal mediation, and regulation of transcription.
           Mechanism: A combination of Wnt, Notch, Hedgehog, and calcium-dependent pathways likely mediate the cellular functions of these genes.
@@ -17859,7 +17859,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes participating in the enrichment test are involved in morphogenesis, transcriptional regulation, and signal transduction pathways. Enriched terms include digit development, transcriptional regulation, cell proliferation, Wnt signaling pathway, morphogenesis, tumor suppression, Hedgehog signaling pathway, Notch signaling pathway, and receptor-mediated endocytosis.  
           Mechanism: These genes participate in a variety of pathways involved in morphogenesis, transcriptional regulation, and signal transduction. The Wnt and Notch pathways are involved in cell proliferation, morphogenesis, and tumor suppression, while the Hedgehog pathway regulates transcriptional activity. The receptor-mediated endocytosis pathway is involved in gene expression and signal transduction.
         truncation_factor: 1.0
@@ -18018,12 +18018,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes appear to be involved in processes related to cell proliferation, regulation of gene expression, and development. Specifically, there is enrichment of terms like protein binding, DNA-binding transcription factor, transcription regulator, histone deacetylase, and Wnt signaling pathway. 
           Mechanism: These genes likely participate in a complex signaling pathway or pathways involving interactions such as protein-DNA, protein-protein, protein-lipid, and protein-histone acetylation interactions, which likely lead to or regulate cellular proliferation, gene expression, and development.
           Enriched Terms: Protein binding; DNA-binding transcription factor; transcription regulator; historone deacetylase; Wnt signaling pathway.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
            The genes appear to be involved in processes related to cell proliferation, regulation of gene expression, and development. Specifically, there is enrichment of terms like protein binding, DNA-binding transcription factor, transcription regulator, histone deacetylase, and Wnt signaling pathway. 
           Mechanism: These genes likely participate in a complex signaling pathway or pathways involving interactions such as protein-DNA, protein-protein, protein-lipid, and protein-histone acetylation interactions, which likely lead to or regulate cellular proliferation, gene expression, and development.
         term_strings:
@@ -18302,7 +18302,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: This gene list appears to involve several functions related to development, cell fate regulation, and transcriptional regulation, including members of the WNT, NOTCH, DICKKOPF, AXIN, HDAC, and MYC family of proteins.
@@ -18311,7 +18311,7 @@
 
           Enriched Terms: Cell fatedetermination; Wnt signaling; Notch signaling; Hedgehog signaling; Transcription factor; Protein kinase; Cytoplasmic protein; Nuclear receptor co-repressor; Histone deacetylase; Transmembrane receptor; Epidermal growthfactor receptor ligands; Dishevelled protein; Transcriptional repressor; T-cell factor/lymphoid enhancer-binding factor; Histone acetyltransferase.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
            
 
           Summary: This gene list appears to involve several functions related to development, cell fate regulation, and transcriptional regulation, including members of the WNT, NOTCH, DICKKOPF, AXIN, HDAC, and MYC family of proteins.
@@ -18461,7 +18461,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This list of genes were found to be heavily enriched in terms related to the Notch signaling pathway, Wnt signaling pathway, and histone deacetylases, suggesting that they have an important role in embryonic development, cell fate determination, and transcriptional regulation.
 
@@ -18470,7 +18470,7 @@
 
           Enriched Terms: Notch signaling pathway; Wnt signaling pathway; histone deacetylases; transcriptional regulation; protein-protein interactions; chromatin remodeling.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
 
           This list of genes were found to be heavily enriched in terms related to the Notch signaling pathway, Wnt signaling pathway, and histone deacetylases, suggesting that they have an important role in embryonic development, cell fate determination, and transcriptional regulation.
 

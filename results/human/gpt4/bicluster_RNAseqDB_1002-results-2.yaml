@@ -1632,7 +1632,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Analysis of the gene list shows that they are all associated with sarcomere function, muscular contraction, skeletal muscles and thermogenesis. The enriched terms include sarcomere function, muscular contraction, skeletal muscles, thermogenesis, actin-myosin interaction, calcium handling, muscle development and differentiation, and mitochondrial function. 
 
           Mechanism: The underlying biological mechanism is associated with the activation of genes that are linked to the assembly, maintenance and contraction of the sarcomere, which is the fundamental unit of muscle contraction, as well as muscle development and differentiation, calcium handling, mitochondrial fluctuation, and thermogenesis. This contributes to the generation of force within the skeletal muscles.
@@ -1717,14 +1717,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The human genes listed are involved in skeletal muscle structure and contractility. The genes are enriched for processes such as myofibrillogenesis, actin filament organization, and muscle contraction.
 
           Mechanism: The genes likely act to regulate processes involved in myofibrillogenesis, such as Z-disc formation and maintenance, nuclear positioning, and muscle fiber organization. They also may act to modulate ion channel influx/efflux, thereby influencing muscle contraction and force. 
 
           Enriched terms: Myofibrillogenesis; actin filament organization; muscle contraction; Z-disc formation; nuclear positioning; muscle fiber organization; ion channel influx/efflux.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The human genes listed are involved in skeletal muscle structure and contractility. The genes are enriched for processes such as myofibrillogenesis, actin filament organization, and muscle contraction.
 
           Mechanism: The genes likely act to regulate processes involved in myofibrillogenesis, such as Z-disc formation and maintenance, nuclear positioning, and muscle fiber organization. They also may act to modulate ion channel influx/efflux, thereby influencing muscle contraction and force. 
@@ -1873,7 +1873,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The list of genes provided are involved in various functions and processes of muscle development and contraction. These functions and processes are related to skeletal muscle thin filament assembly, muscle contraction, muscle cell differentiation, actin nucleation, protein ubiquitination, and muscle organelle organization.
@@ -1882,7 +1882,7 @@
 
           Enriched Terms: Skeletal Muscle; Muscle Contraction; Protein Ubiquitination; Actin Nucleation; Calcium-Dependent Signaling; Gene Regulation; Protein Phosphorylation; Post-Translational Modifications; Muscle Cell Differentiation; Muscle Tissue Development; Muscular Dystrophy; and Muscle Organelle Organization.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: The list of genes provided are involved in various functions and processes of muscle development and contraction. These functions and processes are related to skeletal muscle thin filament assembly, muscle contraction, muscle cell differentiation, actin nucleation, protein ubiquitination, and muscle organelle organization.
@@ -2044,14 +2044,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes appears to be focused on muscle structure and development, as well as processes related to muscle contractions. This is supported by enriched terms related to muscle processes which include actin filament binding, microfilament motor activity, muscle alpha-actinin binding, actin monomer binding, tropomyosin binding, myosin binding, titin binding, and creatine kinase activity. This suggests a biological mechanism that centers around the development, assembly, and contraction of muscle tissue. A hypothesis of this mechanism is that these genes have a complex role in enabling specific activities related to muscle development and muscle contractions, as well as regulating their activity to ensure efficient functioning of muscle tissue.
 
           Summary: Genes related to muscle tissue structure, development, and contractions
           Mechanism: Complex role in enabling specific activities related to muscle development and muscle contractions, as well as regulating their activity to ensure efficient functioning of muscle tissue.
           Enriched Terms: Actin filament binding; microfilament motor activity; muscle alpha-actinin binding; actin monomer binding; tropomyosin binding; myosin binding; titin binding; creatine kinase activity;
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The list of genes appears to be focused on muscle structure and development, as well as processes related to muscle contractions. This is supported by enriched terms related to muscle processes which include actin filament binding, microfilament motor activity, muscle alpha-actinin binding, actin monomer binding, tropomyosin binding, myosin binding, titin binding, and creatine kinase activity. This suggests a biological mechanism that centers around the development, assembly, and contraction of muscle tissue. A hypothesis of this mechanism is that these genes have a complex role in enabling specific activities related to muscle development and muscle contractions, as well as regulating their activity to ensure efficient functioning of muscle tissue.
 
           Summary: Genes related to muscle tissue structure, development, and contractions
@@ -2382,7 +2382,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: This gene list is involved with various processes related to cell structures, cell motility and varying aspects of muscle contraction.
@@ -2391,7 +2391,7 @@
 
           Enriched Terms: Actin filament binding; Cell motility; Protein phosphatase-1; Myosin-binding proteins; Calpain; Actin nucleation; Tropomyosin binding; Calcium sensitivity; E3 ubiquitin ligase; Ribosomal protein; G protein-coupled receptor activity; Neuropeptide binding; Ribosylnicotinamide kinase activity; Ribosylnicotinate kinase activity; NAD metabolic process; Actin filament organization; Muscle contraction; Cardiac muscle tissue morphogenesis; Positive regulation of actin filament polymerization.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            
 
           Summary: This gene list is involved with various processes related to cell structures, cell motility and varying aspects of muscle contraction.
@@ -9055,12 +9055,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The human genes listed are involved in muscle development, contraction, and movement; some take part in calcium binding or signaling. 
           Mechanism: These genes likely play a role in communicating signals necessary for translocation of myosin during muscle contraction, the conversion of ATP to ADP for energy storage during muscular activity, and, in conjunction with the relevant structures, the regulation of calcium binding for proper muscle fiber relaxation. 
           Enriched Terms: Muscle Development; Muscle Contraction; Muscle Movement; Calcium Signaling; Calcium Binding; Myosin Translocation; ATP to ADP Conversion; Calcium Regulation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The human genes listed are involved in muscle development, contraction, and movement; some take part in calcium binding or signaling. 
           Mechanism: These genes likely play a role in communicating signals necessary for translocation of myosin during muscle contraction, the conversion of ATP to ADP for energy storage during muscular activity, and, in conjunction with the relevant structures, the regulation of calcium binding for proper muscle fiber relaxation. 
         term_strings:
@@ -9114,14 +9114,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            After performing a term enrichment test on the gene list, we find that the common functional terms associated with these genes are related to muscle development, functioning, and maintenance (muscle myosin, sarcomere, cytoskeletal structure, tropomyosin, and muscle contractility). Additionally, some of the genes are associated with actin filaments and cardiac muscle development. 
 
           Mechanism:  These genes may be involved in the maintenance of the proper functioning and development of the musculoskeletal system and other related body systems. Specifically, they could be involved in protein pathways related to muscle maintenance and development, including actin filament and tropomyosin regulation, control of muscle contractility, formation of sarcomeres, and stabilization of cytoskeletal structures. 
 
           Enriched Terms: Muscle Myosin; Sarcomere; Cytoskeletal Structure; Tropomyosin; Muscle Contractility; Actin Filaments; Cardiac Muscle Development.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            After performing a term enrichment test on the gene list, we find that the common functional terms associated with these genes are related to muscle development, functioning, and maintenance (muscle myosin, sarcomere, cytoskeletal structure, tropomyosin, and muscle contractility). Additionally, some of the genes are associated with actin filaments and cardiac muscle development. 
 
           Mechanism:  These genes may be involved in the maintenance of the proper functioning and development of the musculoskeletal system and other related body systems. Specifically, they could be involved in protein pathways related to muscle maintenance and development, including actin filament and tropomyosin regulation, control of muscle contractility, formation of sarcomeres, and stabilization of cytoskeletal structures. 
@@ -9262,7 +9262,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Enriched term description: Structural constituents of muscle; muscle contraction; regulation of muscle adaptation; regulation of myoblast differentiation; sarcomere organization; defect of muscle thin filament assembly; regulation of actin filament polymerization; regulation of skeletal muscle adaptation; regulation of calcium-dependent ATPase activity; regulation of myosin-based motility; and protein binding activities.
 
@@ -9270,7 +9270,7 @@
 
           Enriched Terms: Structural constituent of muscle; muscle contraction; regulation of muscle adaptation; regulation of myoblast differentiation; sarcomere
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           Enriched term description: Structural constituents of muscle; muscle contraction; regulation of muscle adaptation; regulation of myoblast differentiation; sarcomere organization; defect of muscle thin filament assembly; regulation of actin filament polymerization; regulation of skeletal muscle adaptation; regulation of calcium-dependent ATPase activity; regulation of myosin-based motility; and protein binding activities.
 
@@ -9409,13 +9409,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes with descriptions provided are mainly related to skeletal and cardiac muscle, with functions involving actin and tropomyosin binding activities, calcium ion binding activity, microfilament motor activity, enzyme binding activity, protein kinase activity, regulation and promotion of muscle contraction, detection of muscle stretch, and regulation of protein catabolic process and protein ubiquitination.
           Mechanism: The functional activity of the genes appear to be related to various processes in muscle, such as actin filament organization, myofibril assembly, cardiac muscle contraction, skeletal muscle contraction, protein destabilization, muscle cell differentiation, regulation of muscle adaptation, positive regulation of calcineurin-NFAT signaling cascade, and negativeregulation of protein phosphatase activity.
           Enriched Terms: Actin Binding Activity; Tropomyosin Binding Activity; Microfilament Motor Activity; Calcium Ion Binding Activity; Protein Kinase Activity; Regulation of Muscle Contraction; Detection of Muscle Stretch; Regulation of Protein Catabolic Process; Protein Ubiquitination.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           The genes with descriptions provided are mainly related to skeletal and cardiac muscle, with functions involving actin and tropomyosin binding activities, calcium ion binding activity, microfilament motor activity, enzyme binding activity, protein kinase activity, regulation and promotion of muscle contraction, detection of muscle stretch, and regulation of protein catabolic process and protein ubiquitination.
           Mechanism: The functional activity of the genes appear to be related to various processes in muscle, such as actin filament organization, myofibril assembly, cardiac muscle contraction, skeletal muscle contraction, protein destabilization, muscle cell differentiation, regulation of muscle adaptation, positive regulation of calcineurin-NFAT signaling cascade, and negativeregulation of protein phosphatase activity.
@@ -9560,14 +9560,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list is composed of proteins associated with the functioning and regulation of striated muscle, including molecules involved in actomyosin ATPase regulation, filaments and lattices of myofibrils, troponin protein complexes, chloride channels, sarcomere organization and structure, and energy homeostasis. The enriched terms are "striated muscle functions and regulation"; "actomyosin ATPase regulation"; "filaments and lattices of myofibrils"; "troponin protein complexes"; "Chloride channels"; "sarcomere organization and structure"; and "energy homeostasis".
 
           Mechanism: The underlying biological mechanism is the coordinated regulation of a variety of cellular and molecular processes within striated muscle, including the organization and formation of filaments, regulation of actomyosin ATPase activity, regulation of calcium sensitivity, and regulation of energy homeostasis. This regulation is facilitated by proteins encoded by the genes in the list, such as troponin proteins, myosin-binding proteins, and calsequestrins, which interact with each other and with other molecules to control these functions.
 
           Enriched Terms: Striated muscle functions and regulation; actomyosin ATP
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            This gene list is composed of proteins associated with the functioning and regulation of striated muscle, including molecules involved in actomyosin ATPase regulation, filaments and lattices of myofibrils, troponin protein complexes, chloride channels, sarcomere organization and structure, and energy homeostasis. The enriched terms are "striated muscle functions and regulation"; "actomyosin ATPase regulation"; "filaments and lattices of myofibrils"; "troponin protein complexes"; "Chloride channels"; "sarcomere organization and structure"; and "energy homeostasis".
 
           Mechanism: The underlying biological mechanism is the coordinated regulation of a variety of cellular and molecular processes within striated muscle, including the organization and formation of filaments, regulation of actomyosin ATPase activity, regulation of calcium sensitivity, and regulation of energy homeostasis. This regulation is facilitated by proteins encoded by the genes in the list, such as troponin proteins, myosin-binding proteins, and calsequestrins, which interact with each other and with other molecules to control these functions.
@@ -9699,7 +9699,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes is highly enriched for those involved in the regulation and control of muscle contraction, including functions related to actin and myosin, troponin and tropomyosin complexes, and the cross-bridge formation between the two proteins. Genes related to the calcium sensitivity of the muscle and energy homeostasis were also represented.
 
           Mechanism: These genes appear to be involved in the intricate regulation of the muscle contraction process, enabling calcium sensitivity and movement of actin and myosin filaments in the sarcomere. This is accomplished through the presence of myosin-binding proteins, calcium-sensing molecules, G protein-coupled receptors, and proteins that bind actin and tropomyosin. These protective and structural molecules facilitate the movement of the filaments in the sarcomere, and the regulation of muscle contraction.

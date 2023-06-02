@@ -3466,13 +3466,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes are involved in morphogenesis, development, transcription regulation, cellular signalling and ion transport.
           Mechanism: The genes are likely to be involved in a variety of biochemical and molecular pathways pertaining to the specified functions.
           Enriched Terms: Morphogenesis; Development; Transcription Regulation; Cell Signalling; Ion Transport.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes are involved in morphogenesis, development, transcription regulation, cellular signalling and ion transport.
           Mechanism: The genes are likely to be involved in a variety of biochemical and molecular pathways pertaining to the specified functions.
@@ -3521,12 +3521,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes associated with this list are enriched for functions related to development and signaling, including cell growth, differentiation, and migration; chromatin modulation; transcription regulation; cytoskeletal organization; intracellular trafficking and adhesion; signal transduction; and DNA/RNA metabolic processes.
           Mechanism: The genes are likely to be involved in multiple biological mechanisms and pathways, including processes related to healing, morphogenesis, angiogenesis, and muscle growth and development.
           Enriched Terms: Cell Growth; Differentiation; Migration; Chromatin Modulation; Transcription Regulation; Cytoskeletal Organization; Intracellular Trafficking; Cell Adhesion; Signal Transduction; DNA/RNA Metabolic Processes; Morphogenesis; Angiogenesis; Muscle Growth; Development.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Genes associated with this list are enriched for functions related to development and signaling, including cell growth, differentiation, and migration; chromatin modulation; transcription regulation; cytoskeletal organization; intracellular trafficking and adhesion; signal transduction; and DNA/RNA metabolic processes.
           Mechanism: The genes are likely to be involved in multiple biological mechanisms and pathways, including processes related to healing, morphogenesis, angiogenesis, and muscle growth and development.
         term_strings:
@@ -3889,13 +3889,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: A list of genes that are enriched for terms related to calcium ion binding, double-stranded DNA-binding, cellular defense, and embryonic development processes.
           Mechanism: The genes in this list are likely involved in the processes of calcium binding, cell adhesion and migration, and transcriptional regulation, which may underpin the roles of these genes in embryonic development, neuronal and vascular tissue formation, and cellular defense. 
           Enriched Terms: Calcium Ion Binding; Double-Stranded DNA-Binding; Cell Adhesion and Migration; Transcriptional Regulation
         truncation_factor: 0.2621440000000001
-        summary: |4
+        summary: |2
            
           Summary: A list of genes that are enriched for terms related to calcium ion binding, double-stranded DNA-binding, cellular defense, and embryonic development processes.
           Mechanism: The genes in this list are likely involved in the processes of calcium binding, cell adhesion and migration, and transcriptional regulation, which may underpin the roles of these genes in embryonic development, neuronal and vascular tissue formation, and cellular defense. 
@@ -4984,13 +4984,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The group of human genes in this list are related to the functions of ion regulation, transcription regulation, signal transduction, and protein binding.
           Mechanism: Many of the proteins encoded by these genes, involve important cellular functions such as signal transduction, cytoskeletal adaptor proteins, transcription factors, and glycoproteins. This suggests a mechanism for many of these genes as either directly or indirectly involved in signal transduction pathways and/or transcriptional modulation of cell processes.
           Enriched Terms: Signal transduction; Transcription regulation; Ion regulation; Protein binding; Cytoskeletal adaptor; Glycoprotein.
         truncation_factor: 0.13421772800000006
-        summary: |4
+        summary: |2
 
           Summary: The group of human genes in this list are related to the functions of ion regulation, transcription regulation, signal transduction, and protein binding.
           Mechanism: Many of the proteins encoded by these genes, involve important cellular functions such as signal transduction, cytoskeletal adaptor proteins, transcription factors, and glycoproteins. This suggests a mechanism for many of these genes as either directly or indirectly involved in signal transduction pathways and/or transcriptional modulation of cell processes.
@@ -19606,13 +19606,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is significantly enriched for genes involved in regulation of cell adhesion, tissue development, nervous system development, and transcription regulation.
           Mechanism: Several of these genes are involved in regulation of cell adhesion molecules, transcription factors, and signal transduction molecules which are important in the development of tissues and organs including the nervous system. Some of the genes encode transcription factors that are involved in the regulation of gene expression driving cellular growth and development.
 
           Enriched Terms: Cell Adhesion; Nervous System Development; Tissue Development; Transcription Regulation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This list of genes is significantly enriched for genes involved in regulation of cell adhesion, tissue development, nervous system development, and transcription regulation.
           Mechanism: Several of these genes are involved in regulation of cell adhesion molecules, transcription factors, and signal transduction molecules which are important in the development of tissues and organs including the nervous system. Some of the genes encode transcription factors that are involved in the regulation of gene expression driving cellular growth and development.
 
@@ -19659,13 +19659,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of human genes includes molecules associated with development and morphogenesis, cell adhesion and migration, transcriptional regulation, protein modification, and signal transduction.
           Mechanism: The genes in the list are likely to be involved in a cascade of molecular interactions that control cell division, migration, gene expression, and communication.
           Enriched Terms: Development and Morphogenesis; Cell Adhesion and Migration; Transcriptional Regulation; Protein Modification; Signal Transduction.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of human genes includes molecules associated with development and morphogenesis, cell adhesion and migration, transcriptional regulation, protein modification, and signal transduction.
           Mechanism: The genes in the list are likely to be involved in a cascade of molecular interactions that control cell division, migration, gene expression, and communication.
@@ -19983,14 +19983,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Structural proteins, molecular function inhibitors, DNA-binding transcription factors, protein kinase binding activities, calcium ion binding activities, GTPase activities, identical protein binding activities, DNA-binding transcription activators, metal ion binding activities, and RNA binding activities are all enriched within this list of human genes, potentially implicating a complex network of regulation systems related to cell structure and signaling pathways.
 
           Mechanism: Many of the genes listed play an important role in cell structure regulation and in signaling pathways, including the modulation of calcium ion fluxes and kinase activities, as well as through multiple structural activities such as collagen binding, actin binding, and dystroglycan binding. Additionally, the genes likely contribute to epigenetic regulation, as evidenced by both DNA-binding transcription factors and histone deacetylase binding activities.
 
           Enriched terms: structural protein binding activity; molecular function inhibitor activity; DNA-binding transcription factor activity; RNA polymerase II-specific transcription factor binding activity; protein kinase binding activity; calcium ion binding activity; GTPase activity; identical protein binding activity; DNA-binding transcription activator activity; metal ion binding activity; and RNA binding activity.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            Structural proteins, molecular function inhibitors, DNA-binding transcription factors, protein kinase binding activities, calcium ion binding activities, GTPase activities, identical protein binding activities, DNA-binding transcription activators, metal ion binding activities, and RNA binding activities are all enriched within this list of human genes, potentially implicating a complex network of regulation systems related to cell structure and signaling pathways.
 
           Mechanism: Many of the genes listed play an important role in cell structure regulation and in signaling pathways, including the modulation of calcium ion fluxes and kinase activities, as well as through multiple structural activities such as collagen binding, actin binding, and dystroglycan binding. Additionally, the genes likely contribute to epigenetic regulation, as evidenced by both DNA-binding transcription factors and histone deacetylase binding activities.
@@ -20322,14 +20322,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The human genes listed have been positively linked to processes such as regulation of cellular signaling, development, and morphogenesis; DNA binding and transcription factor activity; and binding activity for proteins, calcium ions, small GTPases, G-proteins, and other cell constituents.
 
           Mechanism: These pathways involve modulation and transmission of energy and signals between different cell constituents and are linked to a wide variety of cell processes. 
 
           Enriched Terms: transcription factor activity; DNA binding; RNA polymerase II-specific; regulation of cellular signaling; protein binding; calcium ion binding; GTPase binding; metal ion binding; clathrin adaptor activity; transmembrane transporter binding; chromatin binding; identical protein binding; and scaffold protein binding.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            The human genes listed have been positively linked to processes such as regulation of cellular signaling, development, and morphogenesis; DNA binding and transcription factor activity; and binding activity for proteins, calcium ions, small GTPases, G-proteins, and other cell constituents.
 
           Mechanism: These pathways involve modulation and transmission of energy and signals between different cell constituents and are linked to a wide variety of cell processes. 
@@ -20665,7 +20665,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes provided are involved in a variety of processes such as protein binding activity, DNA-binding transcription factor activity, GTP binding activity, and microtubule-associated protein binding activity among others. The terms that are statistically over-represented in this list and in related classification hierarchies are DNA-binding transcription factor activity, protein binding activity, GTP binding activity, and microtubule-associated protein binding activity.
 
@@ -20675,7 +20675,7 @@
           Enriched Terms:
           DNA-binding transcription factor activity; Protein binding activity; GTP binding activity; Microtubule-associated protein binding activity.
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
 
           The list of genes provided are involved in a variety of processes such as protein binding activity, DNA-binding transcription factor activity, GTP binding activity, and microtubule-associated protein binding activity among others. The terms that are statistically over-represented in this list and in related classification hierarchies are DNA-binding transcription factor activity, protein binding activity, GTP binding activity, and microtubule-associated protein binding activity.
 
@@ -20995,14 +20995,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list are largely associated with transcriptional regulation, DNA-binding, chromatin binding, protein-binding, cell fate determination, and neuronal calcium sensing.
 
           Mechanism: These genes likely encode a variety of transcription factors and adaptor proteins which are essential for controlling a wide range of cellular processes such as cell membrane and cytoskeleton function, DNA or chromatin binding, and gene expression control.
 
           Enriched Terms: Transcription factor activity; DNA-binding; chromatin binding; protein-binding; cell fate determination; neuronal calcium sensing; GTPase activatior binding; vascular endothelial growth factor receptor binding; sequence-specific double-stranded DNA binding; transcription coactivator activity; GTP binding; identical protein binding; microtubule binding; carbohydrate binding; 2-oxoglutarate binding; metal ion binding; transcriptional regulatory protein; Ras-association domain family; peripheral membrane protein; cytoplasmic linker protein 170 family; receptor protein tyrosine kinase; non-neuronal microtubule-associated protein; repulsive guidance molecule; downstream nuclear effector; protein domain specific binding; integrin receptor binding; proteolysis; 5'-nucle
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
            Genes in this list are largely associated with transcriptional regulation, DNA-binding, chromatin binding, protein-binding, cell fate determination, and neuronal calcium sensing.
 
           Mechanism: These genes likely encode a variety of transcription factors and adaptor proteins which are essential for controlling a wide range of cellular processes such as cell membrane and cytoskeleton function, DNA or chromatin binding, and gene expression control.

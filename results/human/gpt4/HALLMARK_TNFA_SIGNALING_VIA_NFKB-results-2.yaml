@@ -4476,12 +4476,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are mainly involved in developmental processes, inflammation, immunomodulation, inflammation, cell signalling and metabolic pathways.
           Mechanism: These genes are likely to be involved in pathways leading to the regulation of morphogenesis and tissue development, control of cell proliferation and apoptosis, regulation of immune system immune response, regulation of inflammation and activation of metabolic pathways.
           Enriched Terms: Developmental Processes; Inflammation; Immunomodulation; Cell Signaling; Metabolic Pathways; Morphogenesis; Tissue Development; Cell Proliferation; Apoptosis; Immune System Response; Metabolic Pathways.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            These genes are mainly involved in developmental processes, inflammation, immunomodulation, inflammation, cell signalling and metabolic pathways.
           Mechanism: These genes are likely to be involved in pathways leading to the regulation of morphogenesis and tissue development, control of cell proliferation and apoptosis, regulation of immune system immune response, regulation of inflammation and activation of metabolic pathways.
         term_strings:
@@ -4541,13 +4541,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in the given list are predominantly involved in the TLR signaling pathway, development, inflammation and immune-response regulation.
           Mechanism: The TLR signaling pathway consists of an intricate set of reactions starting with the recognition of a pathogen-associated molecular pattern (PAMP) by the TLR receptor, leading to the activation of various transcription factors, such as NFKB and MAPK, which work to activate a cascade of gene expression and ultimately the secreting of pro-inflammatory molecules.
 
           Enriched terms: TLR signaling pathway; Development; Inflammation; Immune-response Regulation; NFKB; MAPK; Gene Expression; Pro-inflammatory Molecules.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes in the given list are predominantly involved in the TLR signaling pathway, development, inflammation and immune-response regulation.
           Mechanism: The TLR signaling pathway consists of an intricate set of reactions starting with the recognition of a pathogen-associated molecular pattern (PAMP) by the TLR receptor, leading to the activation of various transcription factors, such as NFKB and MAPK, which work to activate a cascade of gene expression and ultimately the secreting of pro-inflammatory molecules.
 
@@ -5001,14 +5001,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes are involved in regulation of growth, development, and defense mechanisms, as evidenced by enrichments of terms including "DNA binding transcription factor," "signaling receptor binding," "enzyme binding," "cytokine receptor binding," "growth factor," and "transmembrane receptor." 
 
           Mechanism: These genes work in concert to regulate amino acid metabolism, transport, signaling, and other processes within cells, leading to growth, development, and defense mechanisms. 
 
           Enriched Terms: DNA binding transcription factor; signaling receptor binding; enzyme binding; cytokine receptor binding; growth factor; transmembrane receptor.
         truncation_factor: 0.10737418240000006
-        summary: |4+
+        summary: |2+
            The genes are involved in regulation of growth, development, and defense mechanisms, as evidenced by enrichments of terms including "DNA binding transcription factor," "signaling receptor binding," "enzyme binding," "cytokine receptor binding," "growth factor," and "transmembrane receptor." 
 
           Mechanism: These genes work in concert to regulate amino acid metabolism, transport, signaling, and other processes within cells, leading to growth, development, and defense mechanisms. 
@@ -5460,7 +5460,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes provided are involved in a broad set of functions related to gene transcription or regulation of transcription factors, cell signaling, binding activities and metabolic processes. The enriched terms for this gene set include DNA-binding transcription factor activity, RNA polymerase II transcription regulatory region sequence-specific binding, GTPase activity, chemokine receptor binding activity, signaling receptor binding activity, protein kinase binding activity, enzyme binding activity, identical protein binding activity and protease binding activity.
 
           Mechanism: The underlying biological mechanism for this list of genes is likely related to control of gene expression, as well as control of protein interactions that mediate cell signaling and metabolic processes. Additionally, the functions related to binding activities suggest many of the genes are involved in cell-to-cell communication and cell adhesion.
@@ -6409,13 +6409,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes contain a range of proteins that are involved in transcriptional regulation, cytokine activity, regulation of cell proliferation, and lipid metabolism.
           Mechanism: The genes are involved in a range of biological processes related to transcriptional regulation, cytokine activity, regulation of cell proliferation, and lipid metabolism.
           Enriched Terms: Transcriptional Regulation; Cytokine Activity; Cell Proliferation; Lipid Metabolism.
         truncation_factor: 0.06871947673600004
-        summary: |4
+        summary: |2
 
           Summary: The list of genes contain a range of proteins that are involved in transcriptional regulation, cytokine activity, regulation of cell proliferation, and lipid metabolism.
           Mechanism: The genes are involved in a range of biological processes related to transcriptional regulation, cytokine activity, regulation of cell proliferation, and lipid metabolism.
@@ -37805,12 +37805,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Gene list is enriched for terms related to the development, homeostasis, and organization of the immune system such as cytokine activity, immune regulation, and inflammatory responses.
           Mechanism: This gene list contains a number of genes related to inflammatory response pathways, including cytokines, chemokines, transcription factors, and adaptor proteins that drive cytokine production. These genes are likely to be involved in the development, homeostasis, and organization of the immune system.
           Enriched terms: Cytokine activity; Immune regulation; Inflammatory response; Chemokines; Transcription factors; Adaptor proteins.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Gene list is enriched for terms related to the development, homeostasis, and organization of the immune system such as cytokine activity, immune regulation, and inflammatory responses.
           Mechanism: This gene list contains a number of genes related to inflammatory response pathways, including cytokines, chemokines, transcription factors, and adaptor proteins that drive cytokine production. These genes are likely to be involved in the development, homeostasis, and organization of the immune system.
         term_strings:
@@ -38748,7 +38748,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Many of the genes described in this list appear to be involved in regulating or influencing expression of proteins and receptors, or generating molecules or signals that have a role in immune responses.
@@ -38757,7 +38757,7 @@
 
           Enriched Terms: DNA-binding transcription activator activity; RNA polymerase II-specific; enzyme binding activity; phosphatidylinositol-3,4-bisphosphate binding activity; identical protein binding activity; serine-type endopeptidase activity; GTP binding activity; cytokine receptor activity; CXCR chemokine receptor binding activity; signaling receptor binding activity; G protein-coupled receptor activity; transcription corepressor activity; NF-kappaB binding activity; protein kinase binding activity; heparin binding activity; phospholipid binding activity; caspase binding activity; FBXO family protein binding activity; ubiquitin-protein transferase activity; signaling receptor binding activity; protein serine/threonine/tyrosine kinase activity; calcium transporter activity; glutamine-
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
 
 
           Summary: Many of the genes described in this list appear to be involved in regulating or influencing expression of proteins and receptors, or generating molecules or signals that have a role in immune responses.
@@ -39207,14 +39207,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            There is enrichment of inflammatory and immune response pathways and regulators, growth factors, cytokines, chemokines, G protein-coupled receptors, transcription factors, and proteases involved in cell signalling, inflammation, and apoptosis.
 
           Mechanism: The genes found here are involved in processes such as the activation of proinflammatory interleukins and cytokines. These activate signalling pathways related to leukocyte activity and wound healing, promote cell development and survival, and enhance transcriptional regulation during inflammation responses and immune responses.
 
           Enriched Terms: Interleukin; Cytokine; Chemokine; G-protein coupled receptor; Transcription factor; Protease; Cell signalling; Inflammation; Apoptosis; Leukocyte; Wound healing; Cell survival; Cell development; Transcriptional regulation; Immune response.
         truncation_factor: 0.08589934592000005
-        summary: |4+
+        summary: |2+
            There is enrichment of inflammatory and immune response pathways and regulators, growth factors, cytokines, chemokines, G protein-coupled receptors, transcription factors, and proteases involved in cell signalling, inflammation, and apoptosis.
 
           Mechanism: The genes found here are involved in processes such as the activation of proinflammatory interleukins and cytokines. These activate signalling pathways related to leukocyte activity and wound healing, promote cell development and survival, and enhance transcriptional regulation during inflammation responses and immune responses.

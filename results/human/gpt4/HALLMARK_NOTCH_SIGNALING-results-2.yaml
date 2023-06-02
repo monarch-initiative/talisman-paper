@@ -1313,13 +1313,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes are involved primarily in aspects of embryonic development, regulation of cell cycle, and calcium signaling.
           Mechanism: The genes function primarily in regulating various aspects of cell signaling and cycle regulation during embryonic development, such as down-regulation of Notch signaling, regulation of Wnt signaling and Hedgehog signaling pathways, cell morphogenesis, and calcium signaling.
           Enriched Terms: Embryonic Development; Cell Cycle Regulation; Calcium Signaling; Notch Signaling Down-Regulation; Wnt Signaling; Hedgehog Signaling; Cell Morphogenesis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           The list of genes are involved primarily in aspects of embryonic development, regulation of cell cycle, and calcium signaling.
           Mechanism: The genes function primarily in regulating various aspects of cell signaling and cycle regulation during embryonic development, such as down-regulation of Notch signaling, regulation of Wnt signaling and Hedgehog signaling pathways, cell morphogenesis, and calcium signaling.
@@ -1372,12 +1372,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are associated with Notch receptor, transcription factor, and Wnt pathway signaling, which are involved in tissue and organ development.
           Mechanism: Notch receptor, Wnt, and transcription factor signaling pathways leads to a variety of processes such as morphogenesis, organogenesis, tissue development, cell fate determination, and cell interaction. 
           Enriched Terms: Morphogenesis; Organogenesis; Tissue Development; Cell Fate Determination; Cell Interaction; Notch Receptor Signaling; Wnt Signaling; Transcription Factor Signaling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            These genes are associated with Notch receptor, transcription factor, and Wnt pathway signaling, which are involved in tissue and organ development.
           Mechanism: Notch receptor, Wnt, and transcription factor signaling pathways leads to a variety of processes such as morphogenesis, organogenesis, tissue development, cell fate determination, and cell interaction. 
         term_strings:
@@ -1496,13 +1496,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: A variety of genes implicated in a wide range of biological processes, with a focus on gene expression, signal transduction, and cell cycle control.
           Mechanism: The genes involved in this list are related to protein modification and regulatory processes, and involve diverse functions such as Notch binding activity, Wnt receptor activity, ubiquitin and histone protein ligase activities, and transcription coactivator activity.
           Enriched Terms: Protein Modification Process; Gene Expression Regulation; Signal Transduction Regulation; DNA-templated Transcription Regulation; Notch Signaling Pathway; Protein Ubiquitination; SCF-dependent Proteasomal Ubiquitin-dependent Protein Catabolic Process; Positive Regulation of DNA-templated Transcription.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: A variety of genes implicated in a wide range of biological processes, with a focus on gene expression, signal transduction, and cell cycle control.
           Mechanism: The genes involved in this list are related to protein modification and regulatory processes, and involve diverse functions such as Notch binding activity, Wnt receptor activity, ubiquitin and histone protein ligase activities, and transcription coactivator activity.
@@ -1772,13 +1772,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: Genes related to the Notch and Wnt signaling pathways were found to be enriched in the gene data set.
            Mechansim: Notch and Wnt pathways are key signalling pathways involved in cell fate decisions and development of organisms.
            Enriched Terms: Cell fate decisions; Notch signalling pathway; Signal transduction; Wnt signalling pathway; Cell-cell interaction; Protein ubiquitination; Transcriptional control; Protein ligase activity; Protein phosphorylation.
         truncation_factor: 0.6400000000000001
-        summary: |4-
+        summary: |2-
            
           Summary: Genes related to the Notch and Wnt signaling pathways were found to be enriched in the gene data set.
            Mechansim: Notch and Wnt pathways are key signalling pathways involved in cell fate decisions and development of organisms.
@@ -1902,7 +1902,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: This term enrichment analysis focused on fourteen human genes that are involved in regulation of cellular process via Notch and Wnt signaling pathways. 
 
@@ -1910,7 +1910,7 @@
 
           Enriched Terms: Notch signaling pathway; Wnt signaling pathway; Protein ubiquitination; Transcriptional repressor; Transcriptional activation; Cell fate decisions; E3 ubiquitin ligase; Protein kinase
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
            
           Summary: This term enrichment analysis focused on fourteen human genes that are involved in regulation of cellular process via Notch and Wnt signaling pathways. 
 
@@ -12521,7 +12521,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Commonalities in the function of the listed genes are likely related to cell signalling pathways, as many of the genes are involved in WNT and Notch pathways. These pathways are involved in various aspects of development, such as differentiation, proliferation, and tissue morphogenesis. Enriched terms include WNT signaling pathway; Notch signaling pathway; regulation of gene expression; cell differentiation; cell proliferation; transcription factor activity; protein modification process; and regulation of transcription factor activity.
 
           Mechanism: It is hypothesized that the genes in this list are likely involved in various aspects of cell communication and signal transduction within the WNT and Notch pathways. These pathways are responsible for many developmental processes, such as cell differentiation, cell proliferation, tissue morphogenesis, and regulation of gene expression. It is likely that these genes, due to their common enrich terms, are involved in the regulation of transcription factor activity, protein modification process, and cell signaling pathways, ultimately playing important roles in the development of certain tissues or organs.
@@ -12661,12 +12661,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is associated with a variety of processes, such as DNA-templated transcription, cellular response, protein modification, and signal transduction/regulation. Enriched terms include transcription regulation, signal transduction/regulation, protein modification, cell differentiation, Notch signaling pathway, canonical Wnt signaling pathway, ubiquitin-dependent protein catabolic process, and Wnt receptor activity. Mechanism: The genes are likely involved in biological processes that involve transcription, proteolysis, or cell proliferation/differentiation. These processes often correlate with signal transduction and regulation, such as Notch signaling pathway, canonical Wnt signaling pathway, and Wnt receptor activity. The genes are likely to be involved in post-translational modification, such as SCF-dependent proteasomal ubiquitin-dependent protein catabolic process and protein ubiquitination, which allows for the regulation of protein activity and location. 
 
           Enriched Terms: Transcription Regulation; Signal Transduction/Regulation; Protein Modification; Cell Differentiation; Notch Signaling Pathway; Canonical Wnt Signaling Pathway; Ubiquitin-dependent Protein Catabolic Process; Wnt Receptor Activity;
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This list of genes is associated with a variety of processes, such as DNA-templated transcription, cellular response, protein modification, and signal transduction/regulation. Enriched terms include transcription regulation, signal transduction/regulation, protein modification, cell differentiation, Notch signaling pathway, canonical Wnt signaling pathway, ubiquitin-dependent protein catabolic process, and Wnt receptor activity. Mechanism: The genes are likely involved in biological processes that involve transcription, proteolysis, or cell proliferation/differentiation. These processes often correlate with signal transduction and regulation, such as Notch signaling pathway, canonical Wnt signaling pathway, and Wnt receptor activity. The genes are likely to be involved in post-translational modification, such as SCF-dependent proteasomal ubiquitin-dependent protein catabolic process and protein ubiquitination, which allows for the regulation of protein activity and location. 
 
         term_strings:
@@ -12780,14 +12780,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes encode for proteins involved in several processes, many of which are essential for development, such as Wnt signaling pathway, Notch signaling pathway, SCF-dependent proteasomal ubiquitin-dependent protein catabolic process, positive regulation of gene expression, transcription, and signal transduction. The common functions shared between these genes include Wnt receptor activity; Notch binding activity; transcription coactivator activity; ubiquitin protein ligase activity/binding activity; transcription corepressor activity; and protein kinase/ phospholipid binding activities. These gene functions can be linked to downstream pathways associated with development, cell adhesion, regulation of transcription, and signal transduction.
 
           Mechanism: Many of these genes encode for proteins that act as molecular adaptors and are involved in regulation, transcription, and signal transduction pathways. This suggests that the underlying mechanism between these genes is to regulate the expression of downstream genes, as well as modulate and respond to signaling activities that are important for development and various cell processes.
 
           Enriched Terms: Wnt receptor activity; Notch binding activity; transcription coactivator activity; ubiquitin protein ligase activity/binding activity; transcription corepressor activity;
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This list of genes encode for proteins involved in several processes, many of which are essential for development, such as Wnt signaling pathway, Notch signaling pathway, SCF-dependent proteasomal ubiquitin-dependent protein catabolic process, positive regulation of gene expression, transcription, and signal transduction. The common functions shared between these genes include Wnt receptor activity; Notch binding activity; transcription coactivator activity; ubiquitin protein ligase activity/binding activity; transcription corepressor activity; and protein kinase/ phospholipid binding activities. These gene functions can be linked to downstream pathways associated with development, cell adhesion, regulation of transcription, and signal transduction.
 
           Mechanism: Many of these genes encode for proteins that act as molecular adaptors and are involved in regulation, transcription, and signal transduction pathways. This suggests that the underlying mechanism between these genes is to regulate the expression of downstream genes, as well as modulate and respond to signaling activities that are important for development and various cell processes.
@@ -13022,13 +13022,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: This gene set is related to Notch signaling pathways, as well as other aspects of developmental cell fates, such as morphogenesis and cell cycle progression.
           Mechanism: These genes form complexes which interact with receptors, ligands, and other proteins, resulting in various activities such as transcriptional repression/activation, ubiquitination, and degradation.
           Enriched Terms: Notch Signaling Pathway; WNT Family; Membrane Protein; SCF Complexes; PDZ Domain; Transcriptional Activation; Ubiquitination; Cell Fate Decisions; Gamma-Secretase; Cell Cycle Progression; Morphogenesis.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
            
           Summary: This gene set is related to Notch signaling pathways, as well as other aspects of developmental cell fates, such as morphogenesis and cell cycle progression.
           Mechanism: These genes form complexes which interact with receptors, ligands, and other proteins, resulting in various activities such as transcriptional repression/activation, ubiquitination, and degradation.

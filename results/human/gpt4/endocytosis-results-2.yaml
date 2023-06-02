@@ -1033,12 +1033,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are involved in signaling pathways, vesicle/lipid trafficking, and cellular adhesion related processes.
           Mechanism: These genes act as regulators of nutrients, cell metabolism, and cytoskeletal organization. They are also involved in endocytosis, exocytosis, and the regulation of intercellular adhesion and motility.
           Enriched Terms: Signal Transduction; Vesicle/Lipid Trafficking; Cellular Adhesion; Nutrient Regulation; Cell Metabolism; Cytoskeletal Organization; Endocytosis/Exocytosis; Intercellular Adhesion/Motility.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            These genes are involved in signaling pathways, vesicle/lipid trafficking, and cellular adhesion related processes.
           Mechanism: These genes act as regulators of nutrients, cell metabolism, and cytoskeletal organization. They are also involved in endocytosis, exocytosis, and the regulation of intercellular adhesion and motility.
         term_strings:
@@ -1092,13 +1092,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: These genes are related to lipid metabolism, cell signaling pathways, and cell cycling.
           Mechanism: These genes are thought to have a role in regulating lipid metabolism, cell signaling pathways and cell cycling. 
           Enriched Terms: Lipid Metabolism; Cell Signaling; Cell Cycle; Cytoskeletal Dynamics.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: These genes are related to lipid metabolism, cell signaling pathways, and cell cycling.
           Mechanism: These genes are thought to have a role in regulating lipid metabolism, cell signaling pathways and cell cycling. 
@@ -1178,7 +1178,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The genes involved in this list have functions related to protein signaling, protein phosphorylation, protein ubiquitination, protein transport, cell projection organization, endocytosis and receptor-mediated endocytosis, phosphatidylinositol binding, membrane raft polarization, and plasma membrane tubulation.
 
@@ -1186,7 +1186,7 @@
 
           Enriched Terms: Protein signaling; Protein phosphorylation; Protein ubiquitination; Protein transport; Cell projection organization; Endocytosis; Receptor-mediated endocytosis; Phosphatidylinositol binding; Membrane raft polarization; Plasma membrane tubulation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
           Summary: The genes involved in this list have functions related to protein signaling, protein phosphorylation, protein ubiquitination, protein transport, cell projection organization, endocytosis and receptor-mediated endocytosis, phosphatidylinositol binding, membrane raft polarization, and plasma membrane tubulation.
 
@@ -1281,7 +1281,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: The list of genes identified in this analysis are involved in several processes including signalling, endocytosis, membrane transport, and protein metabolism.
@@ -1290,7 +1290,7 @@
 
           Enriched Terms: Protein Serine/Threonine Kinase Activity; Lysophosphatidic Acid Binding Activity; Sulfatide Binding Activity; Thiolester Hydrolase Activity; Cadherin Binding Activity; Endocytic Recycling; SH3 Domain Binding Activity; Protein Homooligomerization; Macropinosome Formation; Receptor Internalization; Transferring Transport; T Cell Receptor Binding Activity; Guanyl-nucleotide Exchange Factor Activity; Macropinocytosis; Myeloid Dendritic Cell Activation; Myoblast Fusion; Peptidyl-serine Phosphorylation; Regulation of Gene Expression; Vascular Endothelial Growth Factor Receptor Signalling Pathway; Regulation of Cellular Component Organization; Lysosomal Lumen Acidification; Positive Regulation of Endocytosis; Regulation of DNA-binding Transcription Factor Activity
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
 
           Summary: The list of genes identified in this analysis are involved in several processes including signalling, endocytosis, membrane transport, and protein metabolism.
@@ -1529,13 +1529,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This set of genes functions in a variety of cellular processes such as endocytosis, cytoskeletal remodeling, lysosomal degradation, nuclear export, protein homooligomerization, actin filament network formation, plasma membrane bounded cell projection organization, endoplasmic reticulum formation, mitochondrial organization and cholesterol receptor-mediated endocytosis.
           Mechanism: The genes work together to regulate cellular processes in the cell such as protein trafficking, signaling pathways, and membrane reorganization. 
           Enriched Terms: Cell Projection Organization; Protein Trafficking; Protein Kinase; Cell Motility; Membrane Reorganization; Endocytosis; Cytoskeletal Reorganization; Mitogen-Activated Protein Kinase; Lysosomal Degradation; Nuclear Export.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This set of genes functions in a variety of cellular processes such as endocytosis, cytoskeletal remodeling, lysosomal degradation, nuclear export, protein homooligomerization, actin filament network formation, plasma membrane bounded cell projection organization, endoplasmic reticulum formation, mitochondrial organization and cholesterol receptor-mediated endocytosis.
           Mechanism: The genes work together to regulate cellular processes in the cell such as protein trafficking, signaling pathways, and membrane reorganization. 
@@ -8192,13 +8192,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           The genes are mainly involved in the regulation of cellular signaling pathways and lipid metabolism, as well as the transport of molecules into and out of cells. 
           Mechanism: The function of these genes can be described as a network of interacting molecules that carry out complex biological functions, including cellular signal transduction, lipid metabolism, and transportation-related activities. 
           Enriched Terms: Signaling pathway regulation; Molecular transport; Lipid metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           The genes are mainly involved in the regulation of cellular signaling pathways and lipid metabolism, as well as the transport of molecules into and out of cells. 
           Mechanism: The function of these genes can be described as a network of interacting molecules that carry out complex biological functions, including cellular signal transduction, lipid metabolism, and transportation-related activities. 
@@ -8243,13 +8243,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This gene list is enriched for terms relating to Cell Signaling and Membrane Protein Interactions. 
           Mechanism: These genes are likely involved in cellular signal transduction, membrane protein interactions, receptor-ligand interactions, and cell surface receptor-mediated signaling. 
           Enriched Terms: Cell signaling; Membrane protein interactions; Cell surface receptor-mediated signaling; Receptor-ligand interactions; Lipid signaling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This gene list is enriched for terms relating to Cell Signaling and Membrane Protein Interactions. 
           Mechanism: These genes are likely involved in cellular signal transduction, membrane protein interactions, receptor-ligand interactions, and cell surface receptor-mediated signaling. 
@@ -8488,14 +8488,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This group of genes is related to receptor-mediated responses, including endocytosis, lysosome localization, receptor internalization, and vesicle transport. They are also involved in several cellular processes such as actin filament network formation, plasma membrane tubulation, and transcytosis.
 
           Mechanism: These genes likely play a role in regulating the cellular traffic of macromolecules, such as ligands, ion channels, and signaling molecules, through their mediation of membrane fusion and catabolic processes. This is accomplished through protein interactions, such as alpha-2 macroglobulin receptor activity, low-density lipoprotein particle receptor activity, and endopeptidase inhibitor activity, as well as phosphorylation and exchange factor activities.
 
           Enriched Terms: Protein serine/threonine kinase activity; Endopeptidase inhibitor activity; Phosphatidylinositol binding activity; GTP-dependent protein binding activity; Small GTPase binding activity; Sulfatide binding activity; Alpha-2 macroglobulin receptor activity; Low-density lipoprotein particle receptor activity; Very-low-density lipoprotein particle receptor activity; Cadherin
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This group of genes is related to receptor-mediated responses, including endocytosis, lysosome localization, receptor internalization, and vesicle transport. They are also involved in several cellular processes such as actin filament network formation, plasma membrane tubulation, and transcytosis.
 
           Mechanism: These genes likely play a role in regulating the cellular traffic of macromolecules, such as ligands, ion channels, and signaling molecules, through their mediation of membrane fusion and catabolic processes. This is accomplished through protein interactions, such as alpha-2 macroglobulin receptor activity, low-density lipoprotein particle receptor activity, and endopeptidase inhibitor activity, as well as phosphorylation and exchange factor activities.
@@ -8587,14 +8587,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes provided is associated with processes such as cytoskeletal reorganization, endocytosis, trafficking, signal transduction, protein catabolism, and cellular adhesion.
 
           Mechanism: The listed genes include proteins involved in signal transduction mediated by GTP-binding and phosphoinositide-binding domains, as well as proteins involved in vesicle trafficking, endocytosis, and macropinocytosis. These processes are essential for the coordination of cell function and structural integrity.
 
           Enriched Terms: GTP-binding; phosphoinositide-binding; cell adhesion; protein catabolism; vesicle trafficking; endocytosis; macropinocytosis; cytoskeletal reorganization.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The list of genes provided is associated with processes such as cytoskeletal reorganization, endocytosis, trafficking, signal transduction, protein catabolism, and cellular adhesion.
 
           Mechanism: The listed genes include proteins involved in signal transduction mediated by GTP-binding and phosphoinositide-binding domains, as well as proteins involved in vesicle trafficking, endocytosis, and macropinocytosis. These processes are essential for the coordination of cell function and structural integrity.
@@ -8682,7 +8682,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The enriched terms in this list of genes are related to cytoskeletal reorganization, protein transport, endocytosis, cellular component organization, and cellular processes such as endocytosis and cell motility.
@@ -8691,7 +8691,7 @@
 
           Enriched Terms: Cytoskeletal reorganization; Protein transport; Endocytosis; Cellular component organization; Endocytosis; Cell motility; Actin; Protein-protein interaction domains; GTPases; Microtubules; Cell adhesion molecules.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: The enriched terms in this list of genes are related to cytoskeletal reorganization, protein transport, endocytosis, cellular component organization, and cellular processes such as endocytosis and cell motility.

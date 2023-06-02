@@ -1400,13 +1400,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This term enrichment test on the list of human genes shows enrichment for terms related to extracellular matrix organization and cell adhesion, morphogenesis and morphological changes, and cell signaling. 
           Mechanism: The underlying biological mechanisms may involve a combination of protein-protein interactions, transcriptional regulation and extracellular matrix modifications.
           Enriched Terms: Extracellular matrix organization; Cell adhesion; Morphogenesis; Cell signaling; Cytoskeletal organization; Cell differentiation; Cell survival.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This term enrichment test on the list of human genes shows enrichment for terms related to extracellular matrix organization and cell adhesion, morphogenesis and morphological changes, and cell signaling. 
           Mechanism: The underlying biological mechanisms may involve a combination of protein-protein interactions, transcriptional regulation and extracellular matrix modifications.
@@ -1459,14 +1459,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes included in this list are related to cell proliferation,  tissue morphogenesis, motility regulation, vascular development, bone growth, and the immune system. The mechanism is the transcription of gene products that cause expression of varied proteins that mediate these functions.
 
           Mechanism: Transcription of gene products inducing the expression of varied proteins that mediate cell proliferation, tissue morphogenesis, motility regulation, vascular development, bone growth, and the immune system.
 
           Enriched Terms: Cell Proliferation; Tissue Morphogenesis; Motility Regulation; Vascular Development; Bone Growth; Immune System.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes included in this list are related to cell proliferation,  tissue morphogenesis, motility regulation, vascular development, bone growth, and the immune system. The mechanism is the transcription of gene products that cause expression of varied proteins that mediate these functions.
 
           Mechanism: Transcription of gene products inducing the expression of varied proteins that mediate cell proliferation, tissue morphogenesis, motility regulation, vascular development, bone growth, and the immune system.
@@ -1589,14 +1589,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes involved in this list are involved in a wide range of activities, such as protein binding, lipoprotein lipase activator activity, phospholipid binding, protein dimerization, modulation of chemical synaptic transmission, integrin binding, collagen binding, heparin binding, signaling receptor binding, non-membrane spanning protein tyrosine kinase activity, peptidoglycan binding, GTPase activator activity, and more. The commonalities in these genes' functions point to roles in signaling pathways, extracellular matrix structure and function, cell-cell and cell-matrix adhesion, lipid metabolism, and defense response.
 
           Mechanism: These genes are likely to be involved in a wide range of signaling pathways, particularly related to cell-cell and cell-matrix adhesion, as well as lipid metabolism, extracellular matrix structure, and defense response. These pathways result in a wide variety of physiological functions, from regulation of gene expression to regulation of BMP signaling, cell migration, and cell proliferation.
 
           Enriched Terms: Protein Binding; Lipoprotein Lipase Activator Activity; Phospholipid Binding; Protein Dimerization; Modulation of Chemical Synaptic Transmission
         truncation_factor: 0.8
-        summary: |4+
+        summary: |2+
            Genes involved in this list are involved in a wide range of activities, such as protein binding, lipoprotein lipase activator activity, phospholipid binding, protein dimerization, modulation of chemical synaptic transmission, integrin binding, collagen binding, heparin binding, signaling receptor binding, non-membrane spanning protein tyrosine kinase activity, peptidoglycan binding, GTPase activator activity, and more. The commonalities in these genes' functions point to roles in signaling pathways, extracellular matrix structure and function, cell-cell and cell-matrix adhesion, lipid metabolism, and defense response.
 
           Mechanism: These genes are likely to be involved in a wide range of signaling pathways, particularly related to cell-cell and cell-matrix adhesion, as well as lipid metabolism, extracellular matrix structure, and defense response. These pathways result in a wide variety of physiological functions, from regulation of gene expression to regulation of BMP signaling, cell migration, and cell proliferation.
@@ -1879,14 +1879,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The majority of the gene functions encompass proteins involved in cellular adhesion, signaling pathways, extracellular matrix proteins, and components of the complement cascade. Gene products have roles in tissue development and regeneration, wound healing, immune hypersensitivity reactions, apoptosis, motility, and angiogenesis.
 
           Mechanism: These genes are likely to be involved in multiple mechanisms related to homeostasis and wound healing, likely through cell-extracellular matrix binding and communication between cells through signal pathways.
 
           Enriched Terms: Cell Adhesion; Extracellular Matrix Proteins; Signal Pathways; Cellular Communication; Homeostasis; Wound Healing; Apoptosis; Motility; Angiogenesis.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
            The majority of the gene functions encompass proteins involved in cellular adhesion, signaling pathways, extracellular matrix proteins, and components of the complement cascade. Gene products have roles in tissue development and regeneration, wound healing, immune hypersensitivity reactions, apoptosis, motility, and angiogenesis.
 
           Mechanism: These genes are likely to be involved in multiple mechanisms related to homeostasis and wound healing, likely through cell-extracellular matrix binding and communication between cells through signal pathways.
@@ -2016,13 +2016,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This enrichment analysis of human genes suggests that these genes, or their encoded proteins, play a role in a multitude of processes including cell adhesion, signalling, metabolism, apoptosis, morphogenesis, hemostatsis, immunity and extracellular matrix maintenance.
           Mechanism: These genes are likely involved in modulating the interactions between cells and their macroenvironment and the modulation of cell-cell signalling pathways.
           Enriched Terms: Cell Adhesion; Cell Migration; Cell Signalling; Metabolism; Apoptosis; Morphogenesis; Hemostasis; Immunity; Extracellular Matrix Maintenance.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
           Summary: This enrichment analysis of human genes suggests that these genes, or their encoded proteins, play a role in a multitude of processes including cell adhesion, signalling, metabolism, apoptosis, morphogenesis, hemostatsis, immunity and extracellular matrix maintenance.
           Mechanism: These genes are likely involved in modulating the interactions between cells and their macroenvironment and the modulation of cell-cell signalling pathways.
@@ -12757,13 +12757,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes are involved in processes related to the ECM, connectivity between cells, cell-matrix interactions, chemokine signaling, inflammation, and pulmonology.
           Mechanism: The expression of these genes could have a role in regulating processes related to the extracellular matrix (ECM), intercellular interactions, cytokine signaling, inflammation, and pulmonary physiology.
           Enriched Terms: Cell Matrix Interactions; Chemokine Signaling; Inflammation; ECM; Pulmonary Physiology.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes are involved in processes related to the ECM, connectivity between cells, cell-matrix interactions, chemokine signaling, inflammation, and pulmonology.
           Mechanism: The expression of these genes could have a role in regulating processes related to the extracellular matrix (ECM), intercellular interactions, cytokine signaling, inflammation, and pulmonary physiology.
@@ -12812,13 +12812,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: Commonalities among these genes involve extracellular matrix components, tissue morphogenesis, glycoproteins, proteins involved in cell adhesion and motility, and components related to inflammation. 
           Mechanism: These genes may interact with one another to regulate the formation of extracellular matrix components, inflammation, and tissue morphogenesis. 
           Enriched Terms: Extracellular Matrix; Tissue Morphogenesis; Glycoproteins; Cell Adhesion; Cell Motility; Inflammation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: Commonalities among these genes involve extracellular matrix components, tissue morphogenesis, glycoproteins, proteins involved in cell adhesion and motility, and components related to inflammation. 
           Mechanism: These genes may interact with one another to regulate the formation of extracellular matrix components, inflammation, and tissue morphogenesis. 
@@ -12934,7 +12934,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This list of genes is involved in processes related to development, structural support and protection of tissues, cell migration, extracellular matrix structural support, and chemical regulation. The enriched terms for these genes include positive regulation of cell migration, positive regulation of intracellular signal transduction, regulation of signal transduction, negative regulation of cell adhesion, cellular response to tumor necrosis factor, positive regulation of endothelial cell proliferation, positive regulation of estradiol secretion, protein phosphorylation, collagen fibril organization, defense response to bacterium, cell surface receptor signaling pathway, negative regulation of amyloid-beta clearance, regulation of blood coagulation, extracellular matrix structural constituent, and regulation of cytokine production. These processes can be proposed to be regulated by biological pathways related to growth and development, extracellular matrix stability, signal transduction, and immune response. 
 
@@ -12942,7 +12942,7 @@
           Mechanism: Pathways related to growth and development, extracellular matrix stability, signal transduction, and immune response
           Enriched Terms: Positive regulation of cell migration; positive regulation of intr
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           This list of genes is involved in processes related to development, structural support and protection of tissues, cell migration, extracellular matrix structural support, and chemical regulation. The enriched terms for these genes include positive regulation of cell migration, positive regulation of intracellular signal transduction, regulation of signal transduction, negative regulation of cell adhesion, cellular response to tumor necrosis factor, positive regulation of endothelial cell proliferation, positive regulation of estradiol secretion, protein phosphorylation, collagen fibril organization, defense response to bacterium, cell surface receptor signaling pathway, negative regulation of amyloid-beta clearance, regulation of blood coagulation, extracellular matrix structural constituent, and regulation of cytokine production. These processes can be proposed to be regulated by biological pathways related to growth and development, extracellular matrix stability, signal transduction, and immune response. 
 
@@ -13053,12 +13053,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This is a group of genes involved in varied processes in the extracellular matrix, such as cell adhesion, development (digit and face morphogenesis), apoptotic processes, cytokine activity, extracellular matrix protein binding activity, collagen binding activity, and ion binding activity. The mechanism underlying these processes could involve roles for enzymes, integrins, Notch and fibronectin receptor activity, as well as growth factor receptor activity. 
           Enriched Terms: apoptotic process; cell adhesion; cell-matrix adhesion; collagen fibril organization; collagen binding activity; cytokine activity; digit development; endothelial cell migration; enzme binding activity; face morphogenesis; extracellular matrix structural component; fibronectin binding activity; ion binding activity; integrin binding activity; notch binding activity; peptidoglycan binding activity; protein binding activity; and signaling receptor binding activity.
           Mechanism: This set of genes could related to a mechanism involving enzymatic, structural, and receptor activities that facilitate cell adhesion and development, apoptosis, cytokine activities, and regulation of signal transduction. This could involve a pathway or set of pathways involving extracellular matrix components, receptors, adaptor
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            This is a group of genes involved in varied processes in the extracellular matrix, such as cell adhesion, development (digit and face morphogenesis), apoptotic processes, cytokine activity, extracellular matrix protein binding activity, collagen binding activity, and ion binding activity. The mechanism underlying these processes could involve roles for enzymes, integrins, Notch and fibronectin receptor activity, as well as growth factor receptor activity. 
         term_strings:
           - apoptotic process
@@ -13201,7 +13201,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            proteins involved in cell adhesion, migration, motility, cell cycle progression, differentiation, wound healing, metabolism, apoptosis, signal transduction, angiogenesis, transcriptional regulation, extracellular matrix promotion, lipoprotein binding, collagen binding, serine protease inhibition, and cytotoxicity.
 
           Mechanism: The above list of proteins functions through multiple signaling pathways to mediate intracellular processes such as cell adhesion, migration, motility, cell cycle progression, differentiation, wound healing, metabolism, apoptosis, signal transduction, angiogenesis, transcriptional regulation, extracellular matrix promotion, lipoprotein binding, collagen binding, serine protease inhibition, and cytotoxicity. These proteins interact with other proteins or receptors to initiate further signaling events, such as activating secondary pathways or binding to co-receptors to alter the function of the primary receptor. These processes contribute to the development and maintenance of tissues in various parts of the body, which then allows for the survival and growth of organisms.
@@ -13386,13 +13386,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes described are associated with functions related to cell adhesion, extracellular matrix maintenance, apoptosis, angiogenesis, cell migration, tissue development, collagen regulation, and cell signaling.
           Mechanism: These genes are likely involved in pathways related to cell adhesion, extracellular matrix maintenance, apoptosis, angiogenesis, cell migration, tissue development, collagen regulation, and cell signaling by modulating the activity of hormones, proteins, and other molecules in these pathways.
           Enriched Terms: Cell adhesion; Extracellular matrix maintenance; Apoptosis; Angiogenesis; Cell migration; Tissue development; Collagen regulation; Cell signaling.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
           The genes described are associated with functions related to cell adhesion, extracellular matrix maintenance, apoptosis, angiogenesis, cell migration, tissue development, collagen regulation, and cell signaling.
           Mechanism: These genes are likely involved in pathways related to cell adhesion, extracellular matrix maintenance, apoptosis, angiogenesis, cell migration, tissue development, collagen regulation, and cell signaling by modulating the activity of hormones, proteins, and other molecules in these pathways.

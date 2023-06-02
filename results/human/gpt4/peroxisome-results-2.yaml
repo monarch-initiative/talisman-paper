@@ -811,12 +811,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            PEX proteins are involved in peroxisome biogenesis and formation. 
           Mechanism: PEX proteins play a role in driving the biogenesis of peroxisomes, a type of organelle that plays a role in various metabolic functions. 
           Enriched Terms: Peroxisome biogenesis; Peroxisome formation; Membrane protein trafficking; Cellular lipid metabolism; Mitochondrial-peroxisomal crosstalk.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            PEX proteins are involved in peroxisome biogenesis and formation. 
           Mechanism: PEX proteins play a role in driving the biogenesis of peroxisomes, a type of organelle that plays a role in various metabolic functions. 
         term_strings:
@@ -864,7 +864,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This list of genes is enriched for terms related to protein homeostasis and peroxisome biogenesis. The genes are likely to have roles in maintaining and regulating the levels of specific proteins, as well as helping to form and breakdown peroxisomes in the cell.
 
@@ -872,7 +872,7 @@
 
           Enriched Terms: Protein Homeostasis; Peroxisome Biogenesis; Peroxisome Assembly; Peroxisome Maintenance; Protein Regulation; Protein Stabilisation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           This list of genes is enriched for terms related to protein homeostasis and peroxisome biogenesis. The genes are likely to have roles in maintaining and regulating the levels of specific proteins, as well as helping to form and breakdown peroxisomes in the cell.
 
@@ -938,12 +938,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are involved in peroxisome biogenesis, protein import into peroxisome and pexophagy. 
           Mechanism: The genes act as peroxisome targeting sequence binding and ubiquitin-dependent protein binding, enabling fatty acid metabolic processes, protein homodimerization and enzyme binding activity. They are located in endoplasmic reticulum, nucleoplasm, Golgi apparatus and membrane and active in cytosol, peroxisome and peroxisomal matrix. 
           Enriched Terms: Peroxisome biogenesis; Protein import into Peroxisome; Pexophagy; Peroxisome targeting sequence binding; Ubiquitin-dependent protein binding; Fatty acid metabolic process; Protein homodimerization; Enzyme binding activity; Protein stabilization; Protein unfolding.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            These genes are involved in peroxisome biogenesis, protein import into peroxisome and pexophagy. 
           Mechanism: The genes act as peroxisome targeting sequence binding and ubiquitin-dependent protein binding, enabling fatty acid metabolic processes, protein homodimerization and enzyme binding activity. They are located in endoplasmic reticulum, nucleoplasm, Golgi apparatus and membrane and active in cytosol, peroxisome and peroxisomal matrix. 
         term_strings:
@@ -1015,7 +1015,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These human genes all share the common activity of enabling activities related to peroxisome biogenesis, such as ATP binding, hydrolysis, ubiquitin-dependent protein binding activity, as well as protein import/unfolding, stabilization and targeting to peroxisome. Enriched terms: Peroxisome biogenesis; ATP binding activity; ATP hydrolysis activity; ubiquitin-dependent protein binding activity; protein import into peroxisome matrix; protein stabilization; protein unfolding; pexophagy; protein targeting to peroxisome; protein tetramerization.
 
           Mechanism: These gene functions are involved in a complex process involving the biogenesis and maintenance of peroxisomes, which are subcellular organelles that contain a variety of enzymes involved in metabolic processes. This process entails the function of multiple proteins working together to ferry important proteins into the peroxisomal membrane, where these proteins will become functional components of the organelle.
@@ -1099,7 +1099,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This set of genes are enriched for terms related to peroxisomal biogenesis and peroxisomal protein import. The AAA ATPase family, peroxisomal membrane proteins, C-terminal PTS1-type tripeptide peroxisomal targeting signals, and peroxisomal targeting signal 2 are all over-represented in the gene list.
 
           Mechanism: The mechanism behind these genes is the import of proteins into peroxisomes, resulting in peroxisomal biogenesis. The AAA ATPases, peroxisomal membrane proteins, C-terminal PTS1-type tripeptide peroxisomal targeting signals, and peroxisomal targeting signal 2 are all involved in either targeting or catalyzing this protein import.
@@ -1180,14 +1180,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene set contains a collection of genes involved in peroxisome biogenesis, and is associated with the various categories of peroxisome biogenesis disorders (PBDs). The genes included code for proteins that are essential for the assembly of functional peroxisomes and involved in the import of proteins into peroxisomes and peroxisome membrane vesicles, as well as the PTS1-type and PTS2-type tripeptide peroxisomal targeting signals and peroxisomal matrix proteins. The enriched terms are: peroxisome biogenesis; peroxisomal protein import; tripeptide peroxisomal targeting signal; peroxisomal matrix protein; AAA ATPase family; peroxisome integrity.
 
           Mechanism: Peroxins are proteins that are essential for the assembly of functional peroxisomes. These genes are involved in activities associated with the assembly, biogenesis, and integrity of peroxisomes, and in regulating the peroxisomal targeting signals and matrix proteins to be imported into the organelle. 
 
           Enriched Terms: Peroxisome biogenesis; peroxisomal protein import; tripeptide peroxis
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This gene set contains a collection of genes involved in peroxisome biogenesis, and is associated with the various categories of peroxisome biogenesis disorders (PBDs). The genes included code for proteins that are essential for the assembly of functional peroxisomes and involved in the import of proteins into peroxisomes and peroxisome membrane vesicles, as well as the PTS1-type and PTS2-type tripeptide peroxisomal targeting signals and peroxisomal matrix proteins. The enriched terms are: peroxisome biogenesis; peroxisomal protein import; tripeptide peroxisomal targeting signal; peroxisomal matrix protein; AAA ATPase family; peroxisome integrity.
 
           Mechanism: Peroxins are proteins that are essential for the assembly of functional peroxisomes. These genes are involved in activities associated with the assembly, biogenesis, and integrity of peroxisomes, and in regulating the peroxisomal targeting signals and matrix proteins to be imported into the organelle. 
@@ -3828,13 +3828,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           PEX genes are involved in the biogenesis and transport of peroxisomes.
           Mechanism: The PEX genes play a role in forming peroxisomes, packaging peroxisomal proteins into pre-peroxisomes, and transporting those proteins to maturing peroxisomes.
           Enriched Terms: Peroxisome Biogenesis; Peroxisome Transport; Peroxisome Protein Transport; Peroxisome Protein Assembly.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           PEX genes are involved in the biogenesis and transport of peroxisomes.
           Mechanism: The PEX genes play a role in forming peroxisomes, packaging peroxisomal proteins into pre-peroxisomes, and transporting those proteins to maturing peroxisomes.
@@ -3881,14 +3881,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes provided are mainly involved in peroxisomal biogenesis, as indicated by the enrichment of the terms "peroxisome" and "peroxisomal biogenesis and assembly". There appears to be a common pathway involving certain peroxisomal membrane proteins that help to assemble and biogenesis these cellular organelles.
 
           Mechanism: Peroxisomes are essential for metabolic processes, and these genes appear to be involved in the assembly and biogenesis of these organelles. The PEX proteins, which are encoded by the genes listed, are believed to have a role in peroxide metabolism, lipid catabolism, and in the regulation of other vital functions.
 
           Enriched Terms: Peroxisome; Peroxisomal Biogenesis and Assembly.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes provided are mainly involved in peroxisomal biogenesis, as indicated by the enrichment of the terms "peroxisome" and "peroxisomal biogenesis and assembly". There appears to be a common pathway involving certain peroxisomal membrane proteins that help to assemble and biogenesis these cellular organelles.
 
           Mechanism: Peroxisomes are essential for metabolic processes, and these genes appear to be involved in the assembly and biogenesis of these organelles. The PEX proteins, which are encoded by the genes listed, are believed to have a role in peroxide metabolism, lipid catabolism, and in the regulation of other vital functions.
@@ -3943,7 +3943,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4
+        response_text: |2
            The five genes are all related to peroxisomal biogenesis, protein import into peroxisomes, and pexophagy. The enriched terms include 'peroxisomal biogenesis', 'protein import into peroxisome', 'PEXophagy', 'ATP binding activity', 'ATP hydrolysis activity', 'ubiquitin-dependent protein binding activity', 'protein stabilization', 'protein unfolding', 'enzyme binding activity', 'peroxisome matrix targeting signal-2 binding activity', 'protein homodimerization activity', 'ether lipid biosynthetic process', 'peroxisome organization', 'lipid binding activity', 'ubiquitin protein ligase activity', 'fatty acid metabolic process', 'negative regulation of cell population proliferation', 'Cdc73/Paf1 complex'.
 
           Mechanism: The underlying biological mechanism is that the five genes regulate the biogenesis of peroxisomes, import of proteins, and pexophagy, through an array of enzymatic activities and protein-lipid complexes. These activities enable the peroxisome to function effectively as a cellular organelle, contributing to numerous metabolic pathways such as fatty acid metabolism. 
@@ -4054,14 +4054,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The five genes (PEX6, PEX7, PEX3, PEX5, and PEX2) are all involved in the peroxisomal biogenesis disorder, and are associated with a range of activities, including ATP binding activity, ATP hydrolysis activity, enzyme binding activity, ubiquitin-dependent protein binding activity, peroxisome matrix targeting signal-2 binding activity, protein homodimerization activity, lipid binding activity, peroxisome targeting sequence binding activity, protein sequestering activity, small GTPase binding activity, protein import into peroxisome matrix, protein import into peroxisome membrane, ubiquitin protein ligase activity, protein-lipid complex formation, pexophagy, protein targeting to peroxisome, and protein tetramerization. 
 
           Mechanism: These genes act through a variety of pathways to promote the organization, stabilization, and targeting of protein components into peroxisomes, as well as their interactions with other proteins, lipids, and ATP in order to enable the various metabolic processes necessary for peroxisome biogenesis. 
 
           Enriched Terms: ATP binding activity; ATP hydrolysis activity; enzyme binding
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The five genes (PEX6, PEX7, PEX3, PEX5, and PEX2) are all involved in the peroxisomal biogenesis disorder, and are associated with a range of activities, including ATP binding activity, ATP hydrolysis activity, enzyme binding activity, ubiquitin-dependent protein binding activity, peroxisome matrix targeting signal-2 binding activity, protein homodimerization activity, lipid binding activity, peroxisome targeting sequence binding activity, protein sequestering activity, small GTPase binding activity, protein import into peroxisome matrix, protein import into peroxisome membrane, ubiquitin protein ligase activity, protein-lipid complex formation, pexophagy, protein targeting to peroxisome, and protein tetramerization. 
 
           Mechanism: These genes act through a variety of pathways to promote the organization, stabilization, and targeting of protein components into peroxisomes, as well as their interactions with other proteins, lipids, and ATP in order to enable the various metabolic processes necessary for peroxisome biogenesis. 
@@ -4119,11 +4119,11 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The five human genes described in this example are all associated with peroxisomal biogenesis, particularly with receptor proteins for peroxisomal matrix enzymes targeted to the organelle by either PTS1 or PTS2, and their function is therefore related to the import of one or more classes of peroxisomal matrix proteins into the organelle. The mechanisms and pathways involved include: assembly of membrane vesicles before the matrix proteins are translocated, binding to PTS1 tripeptides, dependence on AAA ATPases, and involvement in peroxisome integrity and biosynthesis. 
           Enriched Terms: Peroxisomal Biogenesis; Protein Import; Matrix Proteins; PTS1; PTS2; Membrane Vesicles; AAA ATPases; Peroxisome Integrity; Peroxisome Biosynthesis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The five human genes described in this example are all associated with peroxisomal biogenesis, particularly with receptor proteins for peroxisomal matrix enzymes targeted to the organelle by either PTS1 or PTS2, and their function is therefore related to the import of one or more classes of peroxisomal matrix proteins into the organelle. The mechanisms and pathways involved include: assembly of membrane vesicles before the matrix proteins are translocated, binding to PTS1 tripeptides, dependence on AAA ATPases, and involvement in peroxisome integrity and biosynthesis. 
         term_strings:
           - peroxisomal biogenesis
@@ -4190,14 +4190,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes encode proteins that are part of the AAA (ATPases associated with diverse cellular activities) family of ATPases and are associated with peroxisomal protein import. They are involved in peroxisomal biosynthesis, integrity, targeting signal recognition and membrane assembly. The common enriched terms are protein import, peroxisome biogenesis, peroxins, and peroxisomal targeting signals.
 
           Mechanism: The mechanism by which these genes encode proteins which are involved in peroxisome biogenesis is through the recognition of peroxisomal membrane proteins and their transport across the membrane. Furthermore, these proteins are involved in the assembly of membrane vesicles, recognition of PTS1 and PTS2 peroxisomal target signals, and the assembly of functional peroxisomes. 
 
           Enriched Terms: Protein import; Peroxisome biogenesis; Peroxins; Peroxisomal targeting signals.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            These genes encode proteins that are part of the AAA (ATPases associated with diverse cellular activities) family of ATPases and are associated with peroxisomal protein import. They are involved in peroxisomal biosynthesis, integrity, targeting signal recognition and membrane assembly. The common enriched terms are protein import, peroxisome biogenesis, peroxins, and peroxisomal targeting signals.
 
           Mechanism: The mechanism by which these genes encode proteins which are involved in peroxisome biogenesis is through the recognition of peroxisomal membrane proteins and their transport across the membrane. Furthermore, these proteins are involved in the assembly of membrane vesicles, recognition of PTS1 and PTS2 peroxisomal target signals, and the assembly of functional peroxisomes. 

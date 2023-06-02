@@ -1644,13 +1644,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This list of genes is enriched for terms involving redox regulation, antioxidant defense and detoxification of reactive oxygen species, peroxisomal and mitochondrial biogenesis, and cell metabolism.
           Mechanism: The underlying biological mechanism involves the production and regulation of reactive oxygen species, adaptation to oxidative stress and related forms of damage, and the maintenance of redox homeostasis.
           Enriched Terms: Redox regulation; Antioxidant defense; Detoxification of reactive oxygen species; Peroxisomal biogenesis; Mitochondrial biogenesis; Cell metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This list of genes is enriched for terms involving redox regulation, antioxidant defense and detoxification of reactive oxygen species, peroxisomal and mitochondrial biogenesis, and cell metabolism.
           Mechanism: The underlying biological mechanism involves the production and regulation of reactive oxygen species, adaptation to oxidative stress and related forms of damage, and the maintenance of redox homeostasis.
@@ -1701,13 +1701,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes is associated primarily with metabolic processes, defense against oxidative damage and DNA repair.
           Mechanism: These processes are likely related to cellular level metabolic regulation, protection against oxidative damage, and DNA damage repair.
           Enriched Terms: Metabolic Process; Oxidative damage resistance; DNA repair; Cellular metabolic regulation; Apoptosis; Regulatory pathway; Protein folding; Glutathione metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes is associated primarily with metabolic processes, defense against oxidative damage and DNA repair.
           Mechanism: These processes are likely related to cellular level metabolic regulation, protection against oxidative damage, and DNA damage repair.
@@ -1861,7 +1861,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes identified provide a variety of functions that might generalize to protection from oxidative stress and detoxification, DNA/RNA binding and transcription, and maintaining cell-cell adhesion and organization of cellular components.
 
@@ -1869,7 +1869,7 @@
 
           Enriched Terms: Oxidative Stress Defense; Detoxification; DNA/RNA Binding; Transcription; Cell-Cell Adhesion; Cellular Component Organization; Calcium-Mediated Signaling; Protein Phosphorylation; Protein Glutathionylation; Heme Oxygenase Activity; Peptidyl-Proline Hydroxylation; Canonical Glycolysis; Plasma Membrane; Glutathione Biosynthesis; Organic Acid Metabolism.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
 
           The genes identified provide a variety of functions that might generalize to protection from oxidative stress and detoxification, DNA/RNA binding and transcription, and maintaining cell-cell adhesion and organization of cellular components.
 
@@ -2040,7 +2040,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The human genes provided are mostly involved in redox homeostasis, defense responses, and cell organization. There is also involvement in processes related to the maintenance of the blood-brain barrier, UV protection, and metabolism of hormones, lipids, and glucose. There are an abundance of terms related to transmembrane transport, oxidoreductases, heme and iron metabolism, peptidyl-proline hydroxylation, and gluthathione metabolism.
 
@@ -2241,7 +2241,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: All of the genes in the list are associated with molecules, enzymes, and proteins involved in cell metabolism and defense against oxidative stress.
@@ -2250,7 +2250,7 @@
 
           Enriched terms:  ATP-binding cassette (ABC) transporters; copper chaperone; catalase; cyclin-dependent kinase inhibitors; hypoxia inducible factor (HIF); nucleotide excision repair pathway; protein kinase activity; glutaredoxin; glutathione peroxidase; myeloperoxidase; NAD(P)H dehydrogenase (quinone); phosphofructokinase; thiol-specific antioxidant protein; protein phosphatase 2A; arginine/serine-rich splicing factor; iron/manganese superoxide dismutase; oxidoreductase activity; germinal centre kinase III (GCK III) subfamily; thioredoxin (Trx) system.
         truncation_factor: 0.40960000000000013
-        summary: |4+
+        summary: |2+
 
 
           Summary: All of the genes in the list are associated with molecules, enzymes, and proteins involved in cell metabolism and defense against oxidative stress.
@@ -12405,7 +12405,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are largely related to cell metabolism, specifically the oxidative-reduction process. The terms enriched in this group of genes include: anti-oxidant activity; oxido-reduction process; reactive oxygen species (ROS) metabolism; selenoprotein metabolism; NADH metabolism; peroxiredoxin metabolism; glutathione metabolism; and transferrin/iron metabolism.
 
           Mechanism: These genes together encode proteins that are involved in the regulation of cellular oxidative-reduction processes. These proteins regulate a range of metabolic processes, including anti-oxidant activity, ROS metabolism, NADH metabolism, selenoprotein metabolism, peroxiredoxin metabolism, glutathione metabolism, and transferrin/iron metabolism.
@@ -12622,11 +12622,11 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of human genes describe functions related to protein regulation, oxidative stress and anti-oxidant responses, energy metabolism, cell homeostasis, and cell communication/signalling pathways (including transcription). Mechanism: These genes are involved in numerous complex metabolic pathways, such as the pentose phosphate pathway, anaerobic glycolysis, and electron transport chain, involved in innate immune response, cell proliferation, and angiogenesis, and in intracellular and intercellular signalling pathways, contributing to cell adhesion and development. Enriched terms: oxidative stress response; cell homeostasis; electron transport chain; transcription; protein regulation; energy metabolism; cellular communication; angiogenesis; cell adhesion.
         truncation_factor: 0.8
-        summary: |4-
+        summary: |2-
 
           The list of human genes describe functions related to protein regulation, oxidative stress and anti-oxidant responses, energy metabolism, cell homeostasis, and cell communication/signalling pathways (including transcription). Mechanism: These genes are involved in numerous complex metabolic pathways, such as the pentose phosphate pathway, anaerobic glycolysis, and electron transport chain, involved in innate immune response, cell proliferation, and angiogenesis, and in intracellular and intercellular signalling pathways, contributing to cell adhesion and development. 
         term_strings:
@@ -12774,13 +12774,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enriched terms related to the list of genes are "cellular defense responses", "response to oxidative stress", "protein modification process" and "cell redox homeostasis". The commonalities among these genes include activities to support the defense of the cell from oxidative damage, as well as maintenance of the cellular redox balance. Hypothesis: The common functions for these genes are part of a larger biological mechanism or pathway to protect cells from damage caused by reactive oxygen species (ROS) and reactive nitrogen species (RNS).
 
           Mechanism: Mechanism to protect cells from reactive oxygen and nitrogen species (ROS and RNS). 
           Enriched terms: Cellular defense responses; response to oxidative stress; protein modification process; cell redox homeostasis.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
            Enriched terms related to the list of genes are "cellular defense responses", "response to oxidative stress", "protein modification process" and "cell redox homeostasis". The commonalities among these genes include activities to support the defense of the cell from oxidative damage, as well as maintenance of the cellular redox balance. Hypothesis: The common functions for these genes are part of a larger biological mechanism or pathway to protect cells from damage caused by reactive oxygen species (ROS) and reactive nitrogen species (RNS).
 
           Mechanism: Mechanism to protect cells from reactive oxygen and nitrogen species (ROS and RNS). 
@@ -12919,13 +12919,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes programs are mainly involved in oxidative stress response, antioxidant defense system, enzyme activity, gene expression, transcriptional regulation and cell biology. 
           Mechanism: The genes are likely functioning in a similar pathway to reduce oxidative stress, modulate enzyme activity, and regulate cell processes such as metabolism, growth, and development.
           Enriched terms: oxidoreductase activity; sequence-specific double-stranded DNA binding activity; positive regulation of transcription by RNA polymerase II; transcription-coupled nucleotide excision repair; redox regulation; glutathione-binding site; thiol-disulfide oxidoreductases; F-actin binding; heme catabolism; tyrosine-specific protein kinase activity; formation of mitochondrial reactive oxygen species; chromatin DNA binding activity; histone binding activity; mineral ion binding; copper chaperone.
         truncation_factor: 0.5120000000000001
-        summary: |4
+        summary: |2
 
           The list of genes programs are mainly involved in oxidative stress response, antioxidant defense system, enzyme activity, gene expression, transcriptional regulation and cell biology. 
           Mechanism: The genes are likely functioning in a similar pathway to reduce oxidative stress, modulate enzyme activity, and regulate cell processes such as metabolism, growth, and development.

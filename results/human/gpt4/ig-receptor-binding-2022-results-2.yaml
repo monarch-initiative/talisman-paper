@@ -2395,7 +2395,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Members of the immunoglobulin (Ig) gene superfamily - specifically, IGH, IGL, IGK, and TRB/TRD genes - are statistically significantly over-represented in this list of genes.
 
           Mechanism: Immunoglobulin gene superfamily members encode for proteins (antibodies) that are required for adaptive immunity. This suggests that the genes in this list may be involved in recognition, response and maintenance of the adaptive immune system at different levels, likely via antigen binding, signal transduction and B cell activation.
@@ -2455,13 +2455,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genetic pathways enriched in these genes involves immunoglobulin heavy/light chain combination, antigen specific receptors, J-chain, and T-lymphocyte receptors. 
           Mechanism: These genes mainly play a role in immune response, specifically the regulation of the combination of immunoglobulin heavy and light chains to form antigen-specific receptors, the formation of J-chain, the production of T-lymphocyte receptors, and the regulation of immune function.
           Enriched Terms: Immunoglobulin heavy chain combination; Immunoglobulin light chain combination; J-chain; Antigen-specific receptor; T-lymphocyte receptor; Regulation of immune function.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The genetic pathways enriched in these genes involves immunoglobulin heavy/light chain combination, antigen specific receptors, J-chain, and T-lymphocyte receptors. 
           Mechanism: These genes mainly play a role in immune response, specifically the regulation of the combination of immunoglobulin heavy and light chains to form antigen-specific receptors, the formation of J-chain, the production of T-lymphocyte receptors, and the regulation of immune function.
@@ -2951,13 +2951,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The human genes described in this list have enriched terms related to binding and receptor binding activity, antigen binding activity, immunoglobulin receptor binding activity, non-membrane spanning protein tyrosine kinase activity, phosphatidylcholine binding activity, and phosphotyrosine residue binding activity.
           Mechanism: These genes are involved in a variety of biological processes, including immunoglobulin receptor binding, protein phosphorylation, antigen binding, and cellular component organization. These genes likely work together to enable the body to respond to antigens as part of the immune system. This includes recognizing antigens and binding to them so that the body can mount an immune response.
           Enriched Terms: Immunoglobulin receptor binding activity; Antigen binding activity; Non-membrane spanning protein tyrosine kinase activity; Phosphatidylcholine binding activity; Phosphotyrosine residue binding activity.
         truncation_factor: 0.40960000000000013
-        summary: |4
+        summary: |2
 
           Summary: The human genes described in this list have enriched terms related to binding and receptor binding activity, antigen binding activity, immunoglobulin receptor binding activity, non-membrane spanning protein tyrosine kinase activity, phosphatidylcholine binding activity, and phosphotyrosine residue binding activity.
           Mechanism: These genes are involved in a variety of biological processes, including immunoglobulin receptor binding, protein phosphorylation, antigen binding, and cellular component organization. These genes likely work together to enable the body to respond to antigens as part of the immune system. This includes recognizing antigens and binding to them so that the body can mount an immune response.
@@ -3190,13 +3190,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Analysis of the 20 human genes revealed a significant enrichment of terms relating to immunity, including antigen binding activity, immunoglobulin receptor binding activity, antibody production, adaptive immune response, and protein homodimerization.
           Mechanism: These genes enable immune system detection and responses to foreign antigens, as well as the recognition and binding of antigens and immunoglobulins. Through somatic recombination of genes, antigen recognition and specificity can be achieved, eventually leading to the production of antibodies.
           Enriched Terms: Antigen binding activity; Immunoglobulin receptor binding activity; Antibody production; Adaptive immune response; Protein homodimerization.
         truncation_factor: 0.32768000000000014
-        summary: |4
+        summary: |2
 
           Analysis of the 20 human genes revealed a significant enrichment of terms relating to immunity, including antigen binding activity, immunoglobulin receptor binding activity, antibody production, adaptive immune response, and protein homodimerization.
           Mechanism: These genes enable immune system detection and responses to foreign antigens, as well as the recognition and binding of antigens and immunoglobulins. Through somatic recombination of genes, antigen recognition and specificity can be achieved, eventually leading to the production of antibodies.
@@ -8272,14 +8272,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Receptor regulation through T- and B-cell signaling pathways; 
 
           Mechanism: The genes in the list are involved in a number of different immune response pathways through both the innate and adaptive immune system. In particular, there is enrichment of genes related to T-cell and B-cell receptor regulation, including the IGHV, IGHG, and IGLV gene family signalling pathways. There is also enrichment of genes related to immunoglobulin production and assembly. In particular, genes related to the construction of immunoglobulin isotypes such as IGHV, IGCH, IGLV, FGR, JCHAIN,FES, HGHE, CLEC4D, TARM1, TRDC, TRBC1, and TRBC2, among others. These are involved in the recognition of foreign antigens and the production of IgM and IgG antibodies.
 
           Enriched Terms: Innate Immunology; Adaptive Immunology; Immunoglobulin Receptor Regulation; Immunoglobulin Isotype Construction; T-Cell Receptor Regulation; B-Cell Receptor Regulation;-Cell Proliferation; B-Cell Differentiation; Antigen Recognition; IgM Production
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Receptor regulation through T- and B-cell signaling pathways; 
 
           Mechanism: The genes in the list are involved in a number of different immune response pathways through both the innate and adaptive immune system. In particular, there is enrichment of genes related to T-cell and B-cell receptor regulation, including the IGHV, IGHG, and IGLV gene family signalling pathways. There is also enrichment of genes related to immunoglobulin production and assembly. In particular, genes related to the construction of immunoglobulin isotypes such as IGHV, IGCH, IGLV, FGR, JCHAIN,FES, HGHE, CLEC4D, TARM1, TRDC, TRBC1, and TRBC2, among others. These are involved in the recognition of foreign antigens and the production of IgM and IgG antibodies.
@@ -8337,14 +8337,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is associated with the development and maintenance of the immune system, including immunoglobulin, chemokine, and leukocyte components. Specifically, this list has functions associated with gene rearrangement, T and B cell development, antigen binding, signaling, and cell adhesion.
 
           Mechanism: This list of genes is associated with B cell and T cell development and utilization, through the rearrangement and formation of immunoglobulin, chemokine, and leukocyte components. The signal transduction pathways that drive these activities include antigen receptor signaling, glycoprotein binding, and cell adhesion.
 
           Enriched Terms: Immunoglobulin Repertoire; B Cell Development; T Cell Development; Antigen Binding; Gene Rearrangement; Signal Transduction; Chemokine Repertoire; Leukocyte Components; Glycoprotein Binding; Cell Adhesion.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This list of genes is associated with the development and maintenance of the immune system, including immunoglobulin, chemokine, and leukocyte components. Specifically, this list has functions associated with gene rearrangement, T and B cell development, antigen binding, signaling, and cell adhesion.
 
           Mechanism: This list of genes is associated with B cell and T cell development and utilization, through the rearrangement and formation of immunoglobulin, chemokine, and leukocyte components. The signal transduction pathways that drive these activities include antigen receptor signaling, glycoprotein binding, and cell adhesion.
@@ -8569,7 +8569,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The data set of human genes appears to consist of genes related to the immune system, in particular to the binding of antigens and immunoglobulin receptors. This is evidenced by the prediction of antigen and immunoglobulin receptor binding activities for the majority of genes. Enriched terms from this data set include immunoglobulin receptor binding activity, antigen binding activity, positive and negative regulation of immune response, defense response to other organisms, and peptidoglycan binding activity.
 
@@ -8578,7 +8578,7 @@
 
           Enriched Terms: immunoglobulin receptor binding activity; antigen binding activity; positive regulation of immune response; negative regulation of immune response; defense response to other organism; peptidoglycan binding activity.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
 
           The data set of human genes appears to consist of genes related to the immune system, in particular to the binding of antigens and immunoglobulin receptors. This is evidenced by the prediction of antigen and immunoglobulin receptor binding activities for the majority of genes. Enriched terms from this data set include immunoglobulin receptor binding activity, antigen binding activity, positive and negative regulation of immune response, defense response to other organisms, and peptidoglycan binding activity.
 
@@ -8798,14 +8798,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes are involved in immunoglobulin receptor binding activity and processes related to the activation of immune response. This suggests the underlying mechanism of a pathway that regulates adaptive immunity, allowing the body to recognize foreign agents and elicit an appropriate immune response. The enriched terms include: immunoglobulin receptor binding activity; antigen binding activity; activation of immune response; defense response; pattern recognition receptor activity; mannose binding activity; peptidoglycan binding activity; phosphatidylcholine binding activity; non-membrane spanning protein tyrosine kinase activity; Fc-gamma receptor I complex binding activity; phosphotyrosine residue binding activity; and protein homodimerization activity.
 
           Summary: Genes are involved in immunoglobulin receptor binding activity and processes related to the activation of immune response.
           Mechanism: Pathway that regulates adaptive immunity, allowing the body to recognize foreign agents and elicit an appropriate immune response.
           Enriched Terms: Immunoglobulin receptor binding activity; antigen binding activity; activation of immune response; defense response; pattern recognition receptor activity; mannose binding activity; peptidoglycan binding activity; phosphatidylcholine binding activity; non-membr
         truncation_factor: 0.5120000000000001
-        summary: |4
+        summary: |2
            The genes are involved in immunoglobulin receptor binding activity and processes related to the activation of immune response. This suggests the underlying mechanism of a pathway that regulates adaptive immunity, allowing the body to recognize foreign agents and elicit an appropriate immune response. The enriched terms include: immunoglobulin receptor binding activity; antigen binding activity; activation of immune response; defense response; pattern recognition receptor activity; mannose binding activity; peptidoglycan binding activity; phosphatidylcholine binding activity; non-membrane spanning protein tyrosine kinase activity; Fc-gamma receptor I complex binding activity; phosphotyrosine residue binding activity; and protein homodimerization activity.
 
           Summary: Genes are involved in immunoglobulin receptor binding activity and processes related to the activation of immune response.
@@ -9029,14 +9029,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This set of human gene summaries are largely related to prediction for immunoglobulin receptor binding activity and processes related to activation of immune response. The enriched terms found include: antigen binding activity; immunoglobulin receptor binding activity; activation of immune response; defense response to other organism; C-type lectin/C-type lectin-like domain activity; T cell receptor recognition; tyrosine-specific protein kinase activity; preB cell receptor activity; and phosphatidylcholine binding activity.
 
           Mechanism: The underlying biological mechanism involves the recognition of foreign antigens, which are processed and bound to major histocompatibility complex (MHC) molecules and then recognized by T-cell receptors. This recognition activates mechanisms related to immunoglobulin receptor binding, tyrosine-specific protein kinase activity, and preB cell receptor activity, which leads to activation of immune response, defense response, and C-type lectin/C-type lectin-like domain activity. Additionally, the antigens are complexes with phosphatidylcholine, which is further bound by these genes. 
 
           Enriched Terms: Antigen binding activity; immunoglobulin receptor binding activity
         truncation_factor: 0.40960000000000013
-        summary: |4+
+        summary: |2+
            This set of human gene summaries are largely related to prediction for immunoglobulin receptor binding activity and processes related to activation of immune response. The enriched terms found include: antigen binding activity; immunoglobulin receptor binding activity; activation of immune response; defense response to other organism; C-type lectin/C-type lectin-like domain activity; T cell receptor recognition; tyrosine-specific protein kinase activity; preB cell receptor activity; and phosphatidylcholine binding activity.
 
           Mechanism: The underlying biological mechanism involves the recognition of foreign antigens, which are processed and bound to major histocompatibility complex (MHC) molecules and then recognized by T-cell receptors. This recognition activates mechanisms related to immunoglobulin receptor binding, tyrosine-specific protein kinase activity, and preB cell receptor activity, which leads to activation of immune response, defense response, and C-type lectin/C-type lectin-like domain activity. Additionally, the antigens are complexes with phosphatidylcholine, which is further bound by these genes. 
@@ -9246,14 +9246,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The majority of human genes examined were involved in some form of antigen binding activity and immunoglobulin receptor binding activities. This may be related to the genes' involvement in processes such as activation of immune response; defense response to other organisms; positive regulation of cell survival; binding of peptidoglycan; binding of phosphotyrosine-containing proteins; and negative regulation of cell death.
 
           Mechanism: These genes appear to be involved in pathways related to immune system function. This could be through binding of antigens or immunoglobulins to cell surface receptors, acting as receptors themselves, or activating signal transduction pathways related to the immune system. Additionally, these genes are likely involved in processes such as cellular survival and death, as well as the binding of proteins or molecules involved in immune system activities.
 
           Enriched Terms: Antigen binding activity; Immunoglobulin receptor binding activity; Activation of immune response; Defense response to other organisms; Positive regulation of cell survival; Binding of peptidoglycan; Binding of phosphotyrosine-containing proteins; Negative regulation of cell death.
         truncation_factor: 0.40960000000000013
-        summary: |4+
+        summary: |2+
            The majority of human genes examined were involved in some form of antigen binding activity and immunoglobulin receptor binding activities. This may be related to the genes' involvement in processes such as activation of immune response; defense response to other organisms; positive regulation of cell survival; binding of peptidoglycan; binding of phosphotyrosine-containing proteins; and negative regulation of cell death.
 
           Mechanism: These genes appear to be involved in pathways related to immune system function. This could be through binding of antigens or immunoglobulins to cell surface receptors, acting as receptors themselves, or activating signal transduction pathways related to the immune system. Additionally, these genes are likely involved in processes such as cellular survival and death, as well as the binding of proteins or molecules involved in immune system activities.

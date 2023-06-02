@@ -753,12 +753,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in this list are all associated with a cellular carboxyl-methyl transferases, a type of protein involved in RNA and DNA metabolism. The proteins are associated with development and growth, particularly that of cell structural elements such as gene transcription and transcriptional regulation. 
           Mechanism: The mechanism involves carboxyl-methyl transferase proteins that modulate gene expression and the communication between transcription factors and the DNA strand.
           Enriched Terms: Cell Structural Element Development; Gene Transcription; RNA Metabolism; DNA Metabolism; Transcriptional Regulation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The genes in this list are all associated with a cellular carboxyl-methyl transferases, a type of protein involved in RNA and DNA metabolism. The proteins are associated with development and growth, particularly that of cell structural elements such as gene transcription and transcriptional regulation. 
           Mechanism: The mechanism involves carboxyl-methyl transferase proteins that modulate gene expression and the communication between transcription factors and the DNA strand.
         term_strings:
@@ -806,7 +806,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            After performing the enrichment test on the genes ZMPSTE24, BANF1, WRN, and LMNA, we identified that all of the genes have a role in the regulation of nuclear and chromatin structures. The individual genes are involved in a wide range of processes in these two areas. This includes gene expression, DNA replication, chromatin remodeling, telomere maintenance, as well as cell cycle checkpoints.
 
           The enriched terms are 'Nuclear Structure Regulation'; 'Chromatin Structure Regulation'; 'Gene Expression Regulation'; 'DNA Replication Regulation'; 'Chromatin Remodeling'; 'Telomere Maintenance'; and 'Cell Cycle Checkpoint Regulation'. 
@@ -902,14 +902,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of human genes appear to be involved in processes related to post-translational protein modification, DNA folding and nuclear envelope attachment, as well as other processes associated with cellular response to stress, gene transcription, and gene expression. The enriched terms are DNA binding; protein binding; metal ion binding; cellular response to radiation, hypoxia and starvation; regulation of apoptotic process; regulation of telomere maintenance; regulation of protein ADP-ribosylation; and regulation of viral genome replication.
 
           Mechanism: These genes may be involved in pathways that regulate several kinds of post-translational modification and gene expression patterns in response to environmental stressors. These pathways could include protein processing signals and transcription factors that regulate transcription and translation, as well as enzymes and proteins that control gene expression and DNA folding. In addition, these pathways may be involved in processes that enable cellular senescence and maintenance of DNA integrity. 
 
           Enriched Terms: DNA binding; protein binding; metal ion binding; cellular response to radiation, hypoxia, and starvation; regulation of apoptotic process; regulation of telomere maintenance; regulation of protein ADP-ribosylation; regulation of viral genome replication.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The list of human genes appear to be involved in processes related to post-translational protein modification, DNA folding and nuclear envelope attachment, as well as other processes associated with cellular response to stress, gene transcription, and gene expression. The enriched terms are DNA binding; protein binding; metal ion binding; cellular response to radiation, hypoxia and starvation; regulation of apoptotic process; regulation of telomere maintenance; regulation of protein ADP-ribosylation; and regulation of viral genome replication.
 
           Mechanism: These genes may be involved in pathways that regulate several kinds of post-translational modification and gene expression patterns in response to environmental stressors. These pathways could include protein processing signals and transcription factors that regulate transcription and translation, as well as enzymes and proteins that control gene expression and DNA folding. In addition, these pathways may be involved in processes that enable cellular senescence and maintenance of DNA integrity. 
@@ -975,12 +975,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The 4 genes have functions with related to proteins and DNA, including DNA binding; metal ion binding; and protein homodimerization activities. They are also involved in the regulation of apoptotic process, DNA metabolic processes, cellular responses to hypoxia and starvation, and regulation of telomere maintenance.
           Hypothesis: These four genes likely interact with each other in the components of the cell in which they are found, such as the nucleus, cytoplasm, centrosome, and membrane, which all help in fostering DNA binding, metal ion binding, protein homodimerization, and other genetic processes. 
           Enriched terms: Protein binding activity; DNA binding activity; metal ion binding activity; DNA helicase activity; protein homodimerization activity; cellular response to gamma radiation; negative regulation of protein ADP-ribosylation; mitotic nuclear membrane reassembly; negative regulation of viral genome replication; DNA geometric change; DNA metabolic process; cellular response to starvation; protein localization to nucleolus; regulation of apoptotic process; cellular response to hypoxia; regulation of telomere maintenance; metalloendopeptidase activity; regulation of defense response to virus; and with a positive effect
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The 4 genes have functions with related to proteins and DNA, including DNA binding; metal ion binding; and protein homodimerization activities. They are also involved in the regulation of apoptotic process, DNA metabolic processes, cellular responses to hypoxia and starvation, and regulation of telomere maintenance.
           Hypothesis: These four genes likely interact with each other in the components of the cell in which they are found, such as the nucleus, cytoplasm, centrosome, and membrane, which all help in fostering DNA binding, metal ion binding, protein homodimerization, and other genetic processes. 
         term_strings:
@@ -1066,14 +1066,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of human genes provided have a significant overlap between the proteins they encode and their effects on the maintenance of genome stability, DNA repair, replication, transcription, prelamin A proteolytic cleavage, DNA integration to the host cell genome, nuclear reassembly, and chromatin structure and gene expression. These involve mainly functions related to the nuclear membrane, chromatin, DNA and biogenesis, interaction and metabolism, as well as cellular processes involved in genetic architecture and gene expression. Furthermore, commonalities were identified between the associated diseases and characteristics, such as Werner Syndrome and mandibuloacral Dysplasia, Emery-Dreifuss muscular dystrophy, familial partial lipodystrophy, limb girdle muscular dystrophy, dilated cardiomyopathy, and Hutchinson-Gilford progeria syndrome.
 
           Mechanism: The function of these genes and the diseases they affect involve a wide variety of cellular processes related to storage and identification of genetic information, stability and rearrangements of the nuclear architecture, gene expression and turnover, and production of specialized proteins. These involve complex interactions between various components of the nucleus and between other parts of the cell.
 
           Enriched Terms: Chromatin; Nuclear Membr
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The list of human genes provided have a significant overlap between the proteins they encode and their effects on the maintenance of genome stability, DNA repair, replication, transcription, prelamin A proteolytic cleavage, DNA integration to the host cell genome, nuclear reassembly, and chromatin structure and gene expression. These involve mainly functions related to the nuclear membrane, chromatin, DNA and biogenesis, interaction and metabolism, as well as cellular processes involved in genetic architecture and gene expression. Furthermore, commonalities were identified between the associated diseases and characteristics, such as Werner Syndrome and mandibuloacral Dysplasia, Emery-Dreifuss muscular dystrophy, familial partial lipodystrophy, limb girdle muscular dystrophy, dilated cardiomyopathy, and Hutchinson-Gilford progeria syndrome.
 
           Mechanism: The function of these genes and the diseases they affect involve a wide variety of cellular processes related to storage and identification of genetic information, stability and rearrangements of the nuclear architecture, gene expression and turnover, and production of specialized proteins. These involve complex interactions between various components of the nucleus and between other parts of the cell.
@@ -3762,13 +3762,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes ZMPSTE24, BANF1, and LMNA are associated with proteins involved in metabolic and structural features of the nucleus.
           Mechanism: These genes are likely involved in metabolic processes as they primarily code for enzymes and/or proteins that are involved in nuclear envelope structural components and may influence cell differentiation.
           Enriched Terms: Molecular Metabolism; Protein Folding; Nucleolar Structures; Nuclear Envelope Organization and Maintenance; Mitochondrial Functions; DNA Replication and Repair.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The genes ZMPSTE24, BANF1, and LMNA are associated with proteins involved in metabolic and structural features of the nucleus.
           Mechanism: These genes are likely involved in metabolic processes as they primarily code for enzymes and/or proteins that are involved in nuclear envelope structural components and may influence cell differentiation.
@@ -3819,14 +3819,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The gene list is significantly enriched for terms related to the nuclear envelope, DNA replication, and histone modification. 
           Mechanism: The genes are likely involved in a specific nuclear envelope-mediated mechanism, such as nuclear structure maintenance, DNA replication, or histone modification.
           Enriched Terms: Nuclear Envelope; DNA Replication; Histone Modification; Chromatin Modification; Cell Signaling; DNA Transcription; Protein Folding.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
 
           Summary: The gene list is significantly enriched for terms related to the nuclear envelope, DNA replication, and histone modification. 
@@ -3887,14 +3887,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            All three genes are involved in binding activities, protein homodimerization, DNA-binding, and regulation of telomere maintenance. The underlying mechanism suggests that they are implicated in processes related to cellular senescence and aging, and possibly linked to diseases associated with aging such as progeria and heart disease.
 
           Mechanism: These genes are likely involved in protein-protein interactions that are necessary for maintaining the proper regulation of cellular senescence and integrity. The activity of these genes are also related to the response to hypoxia, DNA double-strand break attachment to nuclear envelope, and regulation of telomere maintenance, which suggest their important role in cellular aging processes.
 
           Enriched Terms: Protein binding activity; Double-stranded DNA binding activity; Protein homodimerization; Mitotic nuclear membrane reassembly; Negative regulation of protein ADP-ribosylation; Negative regulation of viral genome replication; Regulation of telomere maintenance; Cellular response to hypoxia; Positive effect on cellular senescence.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            All three genes are involved in binding activities, protein homodimerization, DNA-binding, and regulation of telomere maintenance. The underlying mechanism suggests that they are implicated in processes related to cellular senescence and aging, and possibly linked to diseases associated with aging such as progeria and heart disease.
 
           Mechanism: These genes are likely involved in protein-protein interactions that are necessary for maintaining the proper regulation of cellular senescence and integrity. The activity of these genes are also related to the response to hypoxia, DNA double-strand break attachment to nuclear envelope, and regulation of telomere maintenance, which suggest their important role in cellular aging processes.
@@ -3960,13 +3960,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The three genes are involved in different cellular processes, including regulation of defense response, nuclear membrane reassembly, DNA double-strand break attachment and telomere maintenance. 
           Mechanism: The genes are likely involved in interplay between the nucleus and the cytoplasm, as well as processes such as protein homodimerization and cellular senescence.
           Enriched Terms: Regulation of defense response; Mitotic nuclear membrane reassembly, DNA double-strand break attachment to nuclear envelope; Cellular response to hypoxia; Regulation of telomere maintenance; Protein homodimerization activity; Cellular senescence.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: The three genes are involved in different cellular processes, including regulation of defense response, nuclear membrane reassembly, DNA double-strand break attachment and telomere maintenance. 
           Mechanism: The genes are likely involved in interplay between the nucleus and the cytoplasm, as well as processes such as protein homodimerization and cellular senescence.
@@ -4027,14 +4027,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list encodes proteins that are all involved in post-translational proteolysis, chromatin structure, gene expression, and nuclear membrane stability.
 
           Mechanism: The proteins work together to facilitate post-translational processing, regulate gene expression, and maintain nuclear membrane integrity.
 
           Enriched Terms: Post-translational proteolysis; Chromatin structure; Gene expression; Nuclear stability; Nuclear membrane proteins.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This gene list encodes proteins that are all involved in post-translational proteolysis, chromatin structure, gene expression, and nuclear membrane stability.
 
           Mechanism: The proteins work together to facilitate post-translational processing, regulate gene expression, and maintain nuclear membrane integrity.
@@ -4092,7 +4092,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list suggests a common underlying biological mechanism related to nuclear stability, chromosome structure, chromatin structure, gene expression, and DNA binding. The enriched terms from this gene list include nuclear lamina, nuclear membrane, DNA binding, chromatin structure, gene expression, and nuclear stability.
 
           Mechanism: The mechanism underlying the commonalities associated with this gene list appears to be related to genes involved in nuclear organization and regulation. Nuclear lamina and nuclear membrane proteins serve to maintain the structure and organization of the nucleus, while DNA binding proteins enable DNA sequences to interact with nuclear components. Chromatin structure proteins affect how readily the genetic material is expressed, and gene expression proteins play a central role in determining which genes are expressed and repressed. Finally, nuclear stability proteins are involved in maintaining the structural integrity of the nucleus.

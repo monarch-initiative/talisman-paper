@@ -2048,13 +2048,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This list of genes is enriched for terms relating to RNA metabolism, transcriptional control, DNA metabolism, and protein degradation.
           Mechanism: These genes likely represent a interconnected set of pathways and processes involved in RNA metabolism, transcriptional control, DNA metabolism, and protein degradation.
           Enriched Terms: RNA metabolism; transcription control; DNA metabolism; protein degradation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This list of genes is enriched for terms relating to RNA metabolism, transcriptional control, DNA metabolism, and protein degradation.
           Mechanism: These genes likely represent a interconnected set of pathways and processes involved in RNA metabolism, transcriptional control, DNA metabolism, and protein degradation.
@@ -2101,12 +2101,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes indicates an enrichment of genes involved in transcriptional regulation, signal transduction and intracellular protein trafficking.
           Mechanism: The underlying biological process likely involves the coordination of DNA and protein interactions in order to regulate gene expression and alter cellular activities.
           Enriched Terms: Transcription Regulation; Signal Transduction; Intracellular Protein Transport; DNA Interactions; Protein Interactions.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The list of genes indicates an enrichment of genes involved in transcriptional regulation, signal transduction and intracellular protein trafficking.
           Mechanism: The underlying biological process likely involves the coordination of DNA and protein interactions in order to regulate gene expression and alter cellular activities.
         term_strings:
@@ -2293,14 +2293,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This list of genes is enriched for activities related to molecular transport, metabolism, and protein activity regulation, such as protein kinase activity, nucleotide binding, ubiquitin ligase binding, phosphatases binding, ATP binding, and DNA binding. 
           Mechanism: The specified genes are likely involved in relevant protein activity regulation including transcriptional regulation and signal transduction pathways, as well as structural and metabolic processes.
           Enriched Terms: ATP Binding Activity; Nucleotide Binding Activity; Protein Kinase Activity; DNA Binding Activity; DNA Transcription Activity; Protein Phosphatase activity; Aminopeptidase Activity; Ubiquitin Ligase Activity; Protein Serine/Threonine Kinase Activity; Transporter Activity; Protein Homodimerization Activity; RNA Nuclease Activity; Catalytic Activity; Metal Ion Binding Activity; Endopeptidase Activity.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
 
           Summary: This list of genes is enriched for activities related to molecular transport, metabolism, and protein activity regulation, such as protein kinase activity, nucleotide binding, ubiquitin ligase binding, phosphatases binding, ATP binding, and DNA binding. 
@@ -2510,14 +2510,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The list of genes includes those which enable DNA binding activity, protein serine/threonine kinase activity, RNA binding activity, protein phosphatase binding activity, glucosyltranserase activity, ATP binding activity, and other enzymatic activities. 
           Enriched Terms: Nucleic acid binding; DNA binding; Protein kinase activity; Transmembrane transporter activity; RNA binding; Protein phosphatase activity; Glucosyltransferase activity; ATP binding; Enzyme binding activity; Metal ion binding; Ubiquitin binding; Microtubule binding. 
           Mechanism: These genes are likely to be involved in DNA transcription, signal transduction and metabolic pathways, maintenance of cell membrane integrity, apoptosis and cell cycle regulation, and various other cellular processes.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
 
           Summary: The list of genes includes those which enable DNA binding activity, protein serine/threonine kinase activity, RNA binding activity, protein phosphatase binding activity, glucosyltranserase activity, ATP binding activity, and other enzymatic activities. 
@@ -2724,7 +2724,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The provided list of genes have been identified as having a variety of functions related to the regulation of proteins, signal transduction, and control of transcriptional activity. The common functions of the genes include: binding of signaling receptor, enzyme, and transcription factor activity; regulation of gene expression, signaling, transcription, and protein metabolism; and involvement in cell differentiation, organ development, and cytoplasmic structure organization. The enrichment terms reported are binding, regulation, and involvement in cellular processes.
 
@@ -2732,7 +2732,7 @@
 
           Enriched Terms: Binding; Regulation; Involvement in Cellular Processes.
         truncation_factor: 0.40960000000000013
-        summary: |4+
+        summary: |2+
 
           The provided list of genes have been identified as having a variety of functions related to the regulation of proteins, signal transduction, and control of transcriptional activity. The common functions of the genes include: binding of signaling receptor, enzyme, and transcription factor activity; regulation of gene expression, signaling, transcription, and protein metabolism; and involvement in cell differentiation, organ development, and cytoplasmic structure organization. The enrichment terms reported are binding, regulation, and involvement in cellular processes.
 
@@ -2919,7 +2919,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes are enriched for functions such as ATP-binding, ATP hydrolysis, transcription regulation, transcription factor, DNA-binding, ubiquitination, microtubule-binding, demethylation, metalloaminopeptidase, phosphorylation, and nucleotide excision repair. 
           Mechanism: These functions all act in concert to ensure proper cellular metabolism and various processes such as cellular signaling, protein degradation and assembly, transcriptional regulation, and DNA repair.
         truncation_factor: 0.40960000000000013
@@ -10711,14 +10711,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This enrichment test on the provided list of human genes revealed terms related to  vesicle-mediated transport, cytoskeleton remodeling, and cell cycle regulation (including transcription regulation) processes as being amongst the most commonly associated functions.
 
           Mechanism: The enrichment test revealed that the functions enriched amongst the list of genes include those related to vesicle-mediated transport, which includes proteins and pathways responsible for moving vesicles within and between cells. Other terms related to cell cycle regulation, including transcription regulation, were found to be enriched amongst the list of genes. In addition, proteins and pathways related to cytoskeleton remodeling were found to have been enriched amongst the list of genes.
 
           Enriched Terms: Vesicle-mediated transport; Cytoskeleton remodeling; Cell cycle regulation; Transcription regulation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This enrichment test on the provided list of human genes revealed terms related to  vesicle-mediated transport, cytoskeleton remodeling, and cell cycle regulation (including transcription regulation) processes as being amongst the most commonly associated functions.
 
           Mechanism: The enrichment test revealed that the functions enriched amongst the list of genes include those related to vesicle-mediated transport, which includes proteins and pathways responsible for moving vesicles within and between cells. Other terms related to cell cycle regulation, including transcription regulation, were found to be enriched amongst the list of genes. In addition, proteins and pathways related to cytoskeleton remodeling were found to have been enriched amongst the list of genes.
@@ -10766,7 +10766,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This list of genes is highly enriched for functions involved in RNA and protein metabolism, transcriptional and post-transcriptional regulation, and protein transport.
 
@@ -10774,7 +10774,7 @@
 
           Enriched Terms: mRNA Metabolism; Protein Metabolism; Transcriptional Regulation; Post-transcriptional Regulation; Protein Transport; Protein Modification; Protein Interaction; RNA Modification; RNA Processing; Signal Transduction.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           Summary: This list of genes is highly enriched for functions involved in RNA and protein metabolism, transcriptional and post-transcriptional regulation, and protein transport.
 
@@ -10962,7 +10962,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes are found to be predominantly associated with a range of activities, with the most common being protein binding (Found 12); DNA binding (Found 9); metal ion binding (Found 8); Transporter activity (Found 8); enzyme and peptidase binding activity (Found 7); and ubiquitin protein ligase activity (Found 7). There is also significant enrichment of terms related to transcription, DNA repair, signal transduction, RNA binding, and regulation of gene expression.
 
@@ -10970,7 +10970,7 @@
 
           Enriched Terms: Protein binding; DNA binding; metal ion binding; Transporter activity; enzyme and peptidase binding activity; ubiquitin protein ligase activity; transcription; DNA repair; signal transduction; RNA binding; regulation of gene expression; ATP binding activity; transcription activator activity; DNA duplex unwinding; phosphatidylinositol phosphate binding activity; protein self-ass
         truncation_factor: 0.8
-        summary: |4+
+        summary: |2+
 
           The list of genes are found to be predominantly associated with a range of activities, with the most common being protein binding (Found 12); DNA binding (Found 9); metal ion binding (Found 8); Transporter activity (Found 8); enzyme and peptidase binding activity (Found 7); and ubiquitin protein ligase activity (Found 7). There is also significant enrichment of terms related to transcription, DNA repair, signal transduction, RNA binding, and regulation of gene expression.
 
@@ -11171,14 +11171,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This set of genes appears to be involved in a variety of different processes related to protein transport, transcription regulation, and protein regulation, like endocytic recycling, vesicle tethering, protein ubiquitination, phospholipid binding, protein serine/threonine kinase activator activity, and phosphatase binding activity. The underlying biological mechanism appears to be the transport and regulation of proteins within and between cells, contributing to various cellular processes.
 
           Mechanism: Transport and regulation of proteins within and between cells.
 
           Enriched Terms: Protein transport; transcription regulation; protein ubiquitination; phospholipid binding; protein serine/threonine kinase activator activity; phosphatase binding activity; endocytic recycling; vesicle tethering; ATP binding activity; ABC-type glutathione S-conjugate transporter activity; DNA binding activity; RNA polymerase II transcription regulatory region sequence-specific DNA binding activity; metal ion binding activity; molecular adaptor activity; cytoskeletal protein binding activity.
         truncation_factor: 0.8
-        summary: |4+
+        summary: |2+
            This set of genes appears to be involved in a variety of different processes related to protein transport, transcription regulation, and protein regulation, like endocytic recycling, vesicle tethering, protein ubiquitination, phospholipid binding, protein serine/threonine kinase activator activity, and phosphatase binding activity. The underlying biological mechanism appears to be the transport and regulation of proteins within and between cells, contributing to various cellular processes.
 
           Mechanism: Transport and regulation of proteins within and between cells.
@@ -11378,7 +11378,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This human gene list is enriched for terms related to signaling, transcriptional regulation, protein binding, membrane-associated activity, and post-transcriptional modification. The genes are associated with pathways that facilitate protein-protein interactions, DNA binding, microtubule formation, signal transduction, cilium assembly, and ubiquitination. These genes represent components of processes such as cell cycle progression, vesicle transport, histone acetylation, and nucleotide excision repair.
 
@@ -11387,7 +11387,7 @@
 
           Enriched Terms: Signal transduction; Transcriptional regulation; Protein binding; Membrane-associated activity; Post-transcriptional modification; Protein-protein interactions; DNA binding; Microtubule formation; Cell cycle progression; Vesicle transport; Histone acet
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
 
           This human gene list is enriched for terms related to signaling, transcriptional regulation, protein binding, membrane-associated activity, and post-transcriptional modification. The genes are associated with pathways that facilitate protein-protein interactions, DNA binding, microtubule formation, signal transduction, cilium assembly, and ubiquitination. These genes represent components of processes such as cell cycle progression, vesicle transport, histone acetylation, and nucleotide excision repair.
 
@@ -11579,14 +11579,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of human genes appears to be involved in morphology, signal transduction, transcription, cellular metabolism, and other processes associated with development and protein interactions. Statistical analysis of the gene functions suggests enrichment of terms related to transcription regulation, post-transcriptional modifications, signal transduction, membrane transport, protein binding, and cell cycle progression. The underlying biological mechanism may in part be mediated by protein-protein interactions, including those involving WD-repeat proteins, ubiquitin ligases, and the Cullin-Ddb1 E3 ligase complex.
 
           Mechanism: The underlying mechanism may involve protein-protein interactions, including those involving WD-repeat proteins, ubiquitin ligases, and the Cullin-Ddb1 E3 ligase complex.
 
           Enriched Terms: Transcription Regulation; Post-transcriptional Modifications; Signal Transduction; Membrane Transport; Protein Binding; Cell Cycle Progression.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            The list of human genes appears to be involved in morphology, signal transduction, transcription, cellular metabolism, and other processes associated with development and protein interactions. Statistical analysis of the gene functions suggests enrichment of terms related to transcription regulation, post-transcriptional modifications, signal transduction, membrane transport, protein binding, and cell cycle progression. The underlying biological mechanism may in part be mediated by protein-protein interactions, including those involving WD-repeat proteins, ubiquitin ligases, and the Cullin-Ddb1 E3 ligase complex.
 
           Mechanism: The underlying mechanism may involve protein-protein interactions, including those involving WD-repeat proteins, ubiquitin ligases, and the Cullin-Ddb1 E3 ligase complex.

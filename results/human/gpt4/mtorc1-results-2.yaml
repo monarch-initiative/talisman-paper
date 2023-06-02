@@ -5591,14 +5591,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The genes listed are involved in various cellular functions related to protein binding, domain binding and enzyme activity
           Mechanism: The genes are involved in several processes, such as cellular signaling, protein homeodimerization, DNA or RNA binding, transcriptional regulation, and metal ion binding.
           Enriched Terms: Protein binding activity; DNA binding activity; enzyme binding activity; molecular adaptor activity; molecular function activator activity; protein homodimerization activity; domain binding activity; oxidoreductase activity; protein kinase binding activity; phosphatidylinositol binding activity; peptidase activator activity; transcription corepressor activity; nuclear androgen receptor binding activity; NF-kappaB binding activity; ubiquitin protein ligase binding activity; phosphotyrosine residue binding activity; transcriptional repressor activity; translation initiation factor activity; peptidyl-proinalyl cistrans isomerase activity.
         truncation_factor: 0.13421772800000006
-        summary: |4
+        summary: |2
 
 
           Summary: The genes listed are involved in various cellular functions related to protein binding, domain binding and enzyme activity
@@ -6537,14 +6537,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of human genes is enriched for functions related to cellular homeostasis, including protein synthesis, metabolism, protein folding, ubiquitination, transcription, DNA binding and damage control, development, and regulation of cellular pathways.
 
           Mechanism: These genes are enriched for factors involved in various cellular processes necessary for maintaining homeostasis. These include protein synthesis, redox balance, fatty acid and energy metabolism, protein folding, ubiquitination, protein-protein interaction, transcription, and DNA damage control. In addition, these genes are enriched for factors that regulate various cellular pathways, including apoptosis, the cell cycle, and protein degradation.
 
           Enriched Terms: Protein Synthesis; Metabolism; Protein Folding; Ubiquitination; Transcription; DNA Binding; Damage Control; Development; Cellular Pathway Regulation; Apoptosis; Cell Cycle; Protein Degradation.
         truncation_factor: 0.06871947673600004
-        summary: |4+
+        summary: |2+
            This list of human genes is enriched for functions related to cellular homeostasis, including protein synthesis, metabolism, protein folding, ubiquitination, transcription, DNA binding and damage control, development, and regulation of cellular pathways.
 
           Mechanism: These genes are enriched for factors involved in various cellular processes necessary for maintaining homeostasis. These include protein synthesis, redox balance, fatty acid and energy metabolism, protein folding, ubiquitination, protein-protein interaction, transcription, and DNA damage control. In addition, these genes are enriched for factors that regulate various cellular pathways, including apoptosis, the cell cycle, and protein degradation.
@@ -29471,14 +29471,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Molecular functions prominent amongst the gene list include protein binding, RNA binding, and enzyme/protein activity regulation. Pathway-wise, the list of genes is enriched for metabolic pathways, cell communication/signaling, and translation.
 
           Mechanism: The enrichment seen in the gene list may be due to the presence of genes in each pathway necessary for proper functioning. Furthermore, the enriched terms in the molecular function category suggest a high involvement of proteins in these pathway activities. For example, protein binding, enzyme/protein activity regulation, and RNA binding are critical for metabolic pathway activities, signaling pathways, and translation. 
 
           Enriched Terms: Protein Binding; RNA Binding; Enzyme/Protein Activity Regulation; Metabolic Pathways; Cell Communication/Signaling; Translation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Molecular functions prominent amongst the gene list include protein binding, RNA binding, and enzyme/protein activity regulation. Pathway-wise, the list of genes is enriched for metabolic pathways, cell communication/signaling, and translation.
 
           Mechanism: The enrichment seen in the gene list may be due to the presence of genes in each pathway necessary for proper functioning. Furthermore, the enriched terms in the molecular function category suggest a high involvement of proteins in these pathway activities. For example, protein binding, enzyme/protein activity regulation, and RNA binding are critical for metabolic pathway activities, signaling pathways, and translation. 
@@ -29530,13 +29530,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: Genes in this list are indicated to be involved in energetics and metabolism, protein synthesis and modificatin, development and differentiation processes, as well as stress response and immune regulation.
           Mechanism: These genes are involved in pathways that provide energy, support protein formation and modification, and enable development and differentiation. In addition, these pathways aid in regulating stress response and immune pathways.
           Enriched Terms: Energy Metabolism; Protein Synthesis; Protein Modification; Development; Differentiation; Stress Response; Immune Regulation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: Genes in this list are indicated to be involved in energetics and metabolism, protein synthesis and modificatin, development and differentiation processes, as well as stress response and immune regulation.
           Mechanism: These genes are involved in pathways that provide energy, support protein formation and modification, and enable development and differentiation. In addition, these pathways aid in regulating stress response and immune pathways.
@@ -29950,14 +29950,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list enable various protein binding activities, including DNA binding, RNA binding, phosphorylation binding, and peptidase activities; as well as other activities such as hydrolase, oxidoreductase, and transporter activities.
 
           Mechanism: Genes in this list are likely to be involved in a variety of pathways and processes related to structural constituents of cytoskeleton and endoplasmic reticulum, protein folding, apoptosis, transcriptional regulation, and energy metabolism.
 
           Enriched terms: Protein binding activity; DNA binding activity; RNA binding activity; phosphorylation binding activity; peptidase activity; hydrolase activity; oxidoreductase activity; transporter activity; structural constituent of cytoskeleton; endoplasmic reticulum; protein folding; apoptosis; transcriptional regulation; energy metabolism.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            Genes in this list enable various protein binding activities, including DNA binding, RNA binding, phosphorylation binding, and peptidase activities; as well as other activities such as hydrolase, oxidoreductase, and transporter activities.
 
           Mechanism: Genes in this list are likely to be involved in a variety of pathways and processes related to structural constituents of cytoskeleton and endoplasmic reticulum, protein folding, apoptosis, transcriptional regulation, and energy metabolism.
@@ -30387,13 +30387,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: A number of genes associated with biological processes including binding, enzyme activity, ATP hydrolysis, receptor activity, and transcriptional regulation are enriched.
           Mechanism: Genes associated with binding, enzyme activity, ATP hydrolysis, receptor activity, and transcriptional regulation are involved in multiple pathways and aid in the regulation and functioning of the cell.
           Enriched Terms: Binding; Enzyme Activity; ATP Hydrolysis; Receptor Activity; Transcriptional Regulation; Protein Homodimerization; DNA Binding; Chromatin Binding; Modification; Structural Constituent; Transport; Hydrolysis; Regulation.
         truncation_factor: 0.13421772800000006
-        summary: |4
+        summary: |2
            
           Summary: A number of genes associated with biological processes including binding, enzyme activity, ATP hydrolysis, receptor activity, and transcriptional regulation are enriched.
           Mechanism: Genes associated with binding, enzyme activity, ATP hydrolysis, receptor activity, and transcriptional regulation are involved in multiple pathways and aid in the regulation and functioning of the cell.
@@ -30820,13 +30820,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The genes included in this list have a range of functions associated with metabolic enzymes, cell signaling, protein synthesis, and transcription.
           Mechanism: The commonalities in these gene functions are likely to represent cellular processes related to protein regulation and metabolic activity.
           Enriched Terms: Protein binding; Protein homeostasis; Peptide synthesis; Lipid metabolism; Metabolic enzymes; Cell signaling; Transcription; ATP binding; Protein synthesis; DNA binding.
         truncation_factor: 0.08589934592000005
-        summary: |4
+        summary: |2
            
           Summary: The genes included in this list have a range of functions associated with metabolic enzymes, cell signaling, protein synthesis, and transcription.
           Mechanism: The commonalities in these gene functions are likely to represent cellular processes related to protein regulation and metabolic activity.
@@ -31247,7 +31247,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: A variety of different proteins involved in various aspects of cellular metabolism, including proteins involved in transcription, epigenetics, chromatin binding, DNA binding, RNA binding, endoplasmic reticulum transport, fatty acid metabolism, heme binding, lysosome activity, phospholipid biosynthesis, proteasome activity, signal transduction pathway, and stress response.
@@ -31256,7 +31256,7 @@
 
           Enriched Terms: Phospholipid biosynthesis; Transcription; RNA binding; Endoplasmic reticulum transport; Stress response; Lipid metabolism; Chromatin binding; Signal transduction pathway; Proteasome activity; DNA binding; Epigenetics; Heme binding; Lysosome activity.
         truncation_factor: 0.08589934592000005
-        summary: |4+
+        summary: |2+
 
 
           Summary: A variety of different proteins involved in various aspects of cellular metabolism, including proteins involved in transcription, epigenetics, chromatin binding, DNA binding, RNA binding, endoplasmic reticulum transport, fatty acid metabolism, heme binding, lysosome activity, phospholipid biosynthesis, proteasome activity, signal transduction pathway, and stress response.

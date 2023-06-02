@@ -1749,14 +1749,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes analyzed in this term enrichment test is related to pathways associated with cell growth and development, such as MAPK, TGF-β, Wnt/β-catenin, Hippo and transcriptional regulations. Specifically, pathway enrichment of genes included muscle and tissue morphogenesis, regulator of G-protein signaling and inflammatory response pathway.
 
           Mechanism: The general mechanism is that the genes are involved in signaling pathways for cell processes such as growth, differentiation and apoptosis. These signals modulate the expression of downstream genes and ultimately lead to changes in cell shape and other cellular activities.
 
           Enriched Terms: MAPK pathway; TGF-β signaling pathway; Wnt/β-catenin pathway; Hippo signaling pathway; transcriptional regulation; muscle morphogenesis; tissue morphogenesis; regulation of G-protein signaling; inflammatory response.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The list of genes analyzed in this term enrichment test is related to pathways associated with cell growth and development, such as MAPK, TGF-β, Wnt/β-catenin, Hippo and transcriptional regulations. Specifically, pathway enrichment of genes included muscle and tissue morphogenesis, regulator of G-protein signaling and inflammatory response pathway.
 
           Mechanism: The general mechanism is that the genes are involved in signaling pathways for cell processes such as growth, differentiation and apoptosis. These signals modulate the expression of downstream genes and ultimately lead to changes in cell shape and other cellular activities.
@@ -1814,7 +1814,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this set are related to morphogenesis, cell adhesion, immune signaling, and transcriptional regulation. Enriched terms include: morphogenesis, cell adhesion, immune signaling, transcriptional regulation, digit development, cell cycle, protein-protein interaction, growth factor activity, and regulation of transcriptional activity.
 
           Mechanism: Morphogenesis can be regulated by the activity of kinases, cell adhesion can be mediated by the expression of cell adhesion molecules, and immune signaling can be regulated by the activity of cytokines, cytokine receptors, and transcription factors. The transcriptional regulation of these genes can be mediated by transcription factors and the regulation of transcriptional activity can be mediated by modulators of TFs, such as kinases and ubiquitin ligases. Protein-protein interactions can occur between the different genes, and signaling from growth factors can affect the expression of genes in this set.
@@ -2014,14 +2014,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            We have evidence of enrichment for processes related to signal transduction, regulation of transcription, regulation of protein metabolism, regulation of macromolecule metabolism, regulation of cellular processes, interaction with transcription factors, and interaction with SMAD proteins.
 
           Mechanism: The underlying biological mechanism for these processes is likely related to the activation or inhibition of various proteins and enzymes that interact with signaling pathways, transcription factors, or SMAD proteins. 
 
           Enriched terms: Signal transduction; regulation of transcription; regulation of protein metabolism; regulation of macromolecule metabolism; regulation of cellular process; interaction with transcription factors; interaction with SMAD proteins.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            We have evidence of enrichment for processes related to signal transduction, regulation of transcription, regulation of protein metabolism, regulation of macromolecule metabolism, regulation of cellular processes, interaction with transcription factors, and interaction with SMAD proteins.
 
           Mechanism: The underlying biological mechanism for these processes is likely related to the activation or inhibition of various proteins and enzymes that interact with signaling pathways, transcription factors, or SMAD proteins. 
@@ -2185,14 +2185,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in this list are involved in the regulation of diverse biochemical processes, including transcription, signal transduction, cell cycle, metabolism, and cell adhesion. The commonalities in their functions involve binding activities (e.g. ATP binding, activin binding, SMAD binding), and protein phosphatase/kinase activities. Many of these genes are also involved in regulation of intracellular signaling pathways, such as SMAD signaling and BMP signaling, and in the regulation of transcription by RNA polymerase II.
 
           Mechanism: The mechanism underlying these commonalities is likely related to the role of these genes in regulation of intracellular processes, as well as their binding activities, which may be necessary for the functional regulation of their target proteins.
 
           Enriched Terms: ATP Binding; Activin Binding; SMAD Binding; Protein Phosphatase/Kinase Activity; SMAD Signaling; BMP Signaling; Transcription; RNA Polymerase II; Protein Binding; Signal Transduction; Cell Cycle; Metabolism; Cell Adhesion.
         truncation_factor: 0.5120000000000001
-        summary: |4+
+        summary: |2+
            The genes in this list are involved in the regulation of diverse biochemical processes, including transcription, signal transduction, cell cycle, metabolism, and cell adhesion. The commonalities in their functions involve binding activities (e.g. ATP binding, activin binding, SMAD binding), and protein phosphatase/kinase activities. Many of these genes are also involved in regulation of intracellular signaling pathways, such as SMAD signaling and BMP signaling, and in the regulation of transcription by RNA polymerase II.
 
           Mechanism: The mechanism underlying these commonalities is likely related to the role of these genes in regulation of intracellular processes, as well as their binding activities, which may be necessary for the functional regulation of their target proteins.
@@ -2368,12 +2368,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is enriched for proteins involved in receptor signaling pathways and transcriptional regulation as well as cell signaling, adhesion and growth. These proteins can serve as part of complexes, act as enzymes, bind hormones, and influence cellular processes. 
           Mechanism: Many of the genes identified in this list encode proteins in the TGF-Beta superfamily which are involved in the regulation of growth, differentiation and development, as well as apoptosis and transcription. These proteins work together in a complex network to regulate these cellular processes.  
           Enriched Terms: Transmembrane proteins; Receptor signaling pathways; Transcription regulation; Cell signaling; Cell adhesion; Cell growth; TGF-Beta Superfamily; Protein phosphatases; Ubiquitin ligases; Tight junction adaptors.
         truncation_factor: 0.40960000000000013
-        summary: |4
+        summary: |2
            This list of genes is enriched for proteins involved in receptor signaling pathways and transcriptional regulation as well as cell signaling, adhesion and growth. These proteins can serve as part of complexes, act as enzymes, bind hormones, and influence cellular processes. 
           Mechanism: Many of the genes identified in this list encode proteins in the TGF-Beta superfamily which are involved in the regulation of growth, differentiation and development, as well as apoptosis and transcription. These proteins work together in a complex network to regulate these cellular processes.  
         term_strings:
@@ -2541,7 +2541,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The human gene summaries represent a variety of cell signaling, cell growth and differentiation, transcription regulation, adhesion and migration, and apoptosis-related functions. Several genes in the list (ACVR1, APC, ARID4B, BMPR1A, BMPR2, CDH1, IFNGR2, JUNB, LEFTY2, MAP3K7, NCOR2, PPM1A, PP1CA, RAHB, SMAD1, SMAD3, SMAD6, SMURF1, SMURF2, TGFB1, TGFBR1, and XIAP) are involved in the transforming growth factor-beta (TGF-beta) pathway. This pathway regulates cell growth and differentiation by inducing or inhibiting the exchange of molecules and signals between neighboring cells. Genes in the list (BCAR3, CDK9, CDKN1C, CTNNB1, ENG, FNTA, FURIN, HIPK2, ID1-3, KLF10, LTBP2, PMEPA1, PPP1R15A, SERPINE1, SKI, SKIL, SLC20A
         truncation_factor: 0.40960000000000013
@@ -21080,14 +21080,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The 17 genes in the given list are highly enriched for terms associated with development and growth, mediated by a variety of transcription factors, signal transduction pathways, and cytoskeletal components. Specifically, the genes encode transcription factors such as CTNNB1, JUNB, FURIN, SMAD1, ID1, ID2, and MAP3K7; cytoskeletal components such as APC, CDH1, and SPTBN1; and signal transduction pathways like RhoA, SMAD6, and TGFB1.
 
           Mechanism: The underlying biological mechanism likely involves the regulation of gene expression in order for cells to develop and grow. This could involve the action of these specific transcription factors, cytoskeletal components, and signal transduction pathways in promoting the expression of genes that control cell growth and development.
 
           Enriched Terms: transcription factor; signal transduction; cytoskeleton; gene expression; development; growth.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The 17 genes in the given list are highly enriched for terms associated with development and growth, mediated by a variety of transcription factors, signal transduction pathways, and cytoskeletal components. Specifically, the genes encode transcription factors such as CTNNB1, JUNB, FURIN, SMAD1, ID1, ID2, and MAP3K7; cytoskeletal components such as APC, CDH1, and SPTBN1; and signal transduction pathways like RhoA, SMAD6, and TGFB1.
 
           Mechanism: The underlying biological mechanism likely involves the regulation of gene expression in order for cells to develop and grow. This could involve the action of these specific transcription factors, cytoskeletal components, and signal transduction pathways in promoting the expression of genes that control cell growth and development.
@@ -21139,12 +21139,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is enriched for terms related to growth and development of bones/cartilage, maintenance of cell architecture, regulation of cellular responses to growth/differentiation factors (such as TGFB and BMPs), and several proteins involved in signal transduction pathways, such as MAPK, WNT, and SMAD.
           Mechanism: These genes are likely to be involved in pathways or processes relating to bone/cartilage growth and development, regulation of the cell cycle, cell morphology maintenance, and signaling pathways involved in growth and differentiation.
           Enriched Terms: Bone Morphogenesis; Cartilage Growth and Development; Cell Architecture Regulation; Cellular Responses to Growth/Differentiation Factors; Signal Transduction; MAPK Pathway; WNT Signaling Pathway; SMAD Signaling Pathway.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            This list of genes is enriched for terms related to growth and development of bones/cartilage, maintenance of cell architecture, regulation of cellular responses to growth/differentiation factors (such as TGFB and BMPs), and several proteins involved in signal transduction pathways, such as MAPK, WNT, and SMAD.
           Mechanism: These genes are likely to be involved in pathways or processes relating to bone/cartilage growth and development, regulation of the cell cycle, cell morphology maintenance, and signaling pathways involved in growth and differentiation.
         term_strings:
@@ -21297,13 +21297,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This list of human genes is associated with a wide variety of functions, including enzyme binding activity, transcription regulator binding activity, protein phosphatase binding activity, and mRNA metabolic process regulation. Many of the genes are involved in pathways regulating signal transduction, cell proliferation and apoptosis, and protein localization. There appears to be an enrichment of genes involved in SMAD protein signal transduction and transcription regulation by RNA polymerase II, as well as an enrichment of genes functioning in positive regulation of macromolecule metabolic process and cell population proliferation. The underlying biological mechanism may involve pathways associated with regulation of gene expression, transcription control, and signal transduction.
 
           Enriched Terms: SMAD protein signal transduction; transcription regulation by RNA polymerase II; positive regulation of macromolecule metabolic process; cell population proliferation; regulation of gene expression; transcription control; signal transduction.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
 
           This list of human genes is associated with a wide variety of functions, including enzyme binding activity, transcription regulator binding activity, protein phosphatase binding activity, and mRNA metabolic process regulation. Many of the genes are involved in pathways regulating signal transduction, cell proliferation and apoptosis, and protein localization. There appears to be an enrichment of genes involved in SMAD protein signal transduction and transcription regulation by RNA polymerase II, as well as an enrichment of genes functioning in positive regulation of macromolecule metabolic process and cell population proliferation. The underlying biological mechanism may involve pathways associated with regulation of gene expression, transcription control, and signal transduction.
 
@@ -21456,7 +21456,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The genes in this list are involved in various processes related to gene expression, such as transcription regulation, SMAD protein signal transduction, protein ubiquitination, and negative/positive regulation of several pathways or processes.
@@ -21464,7 +21464,7 @@
           Mechanism: The commonalities in function involve signaling pathways, regulatory processes, and protein complexes as it relates to gene expression, protein phosphorylation, and ubiquitination. 
           Enriched Terms: transcription regulation; SMAD protein signal transduction; protein ubiquitination; negative/positive regulation of pathways or processes; protein phosphorylation; receptor activity; binding activity; catenin binding activity; GTP binding activity; SMAD binding activity; inhibition of activity; signal transduction; transcription repressor activity; phosphotyrosine residue binding activity; ubiquitin-protein transferase activity; calcium-dependent protein phosphatase activity.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
 
           Summary: The genes in this list are involved in various processes related to gene expression, such as transcription regulation, SMAD protein signal transduction, protein ubiquitination, and negative/positive regulation of several pathways or processes.
@@ -21637,7 +21637,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This gene list includes genes involved in various processes such as transcriptional regulation, regulation of cell proliferation, adhesion, cytoskeletal organization, apoptosis, and signal transduction. An enrichment of terms related to transcriptional regulation (e.g. Serine/Threonine phosphorylation, transcriptional corepressors, retinoblastoma-binding protein-1, polypeptides, transcription coactivators, receptor-regulated SMAD proteins) and molecules involved in signal transduction pathways (e.g. Small GTP-binding proteins, G1 cyclin/Cdk complexes, MAP kinases, activin receptors, TGF-beta receptors, TGF-beta superfamily, SMAD proteins) were found in this gene list. Further analysis revealed that genes related to the Bone Morphogenetic Protein (BMP) signalling pathway are also enriched. The underlying biological mechanism suggested here is that these genes contribute to the regulation of cell growth and differentiation through BMP signal transduction pathways by regulating TGF-beta complex.
 
@@ -21828,13 +21828,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: Genes in the list encode proteins involved in cell and tissue development, cell signaling, transcriptional regulation and other cellular processes.
           Mechanism: The enriched terms point to regulation of cell growth, adhesion, morphogenesis, development, and transcriptional regulation by these proteins, suggesting a mechanism involving growth factor and Wnt pathways as well as signal transduction, ubiquitination, SMAD pathways, and histone acetylation and deacetylation.
           Enriched Terms: Cell Growth; Adhesion; Morphogenesis; Development; Transcriptional Regulation; Wnt Pathway; Signal Transduction; Ubiquitination; SMAD Pathway; Histone Acetylation/Deacetylation.
         truncation_factor: 0.40960000000000013
-        summary: |4
+        summary: |2
 
           Summary: Genes in the list encode proteins involved in cell and tissue development, cell signaling, transcriptional regulation and other cellular processes.
           Mechanism: The enriched terms point to regulation of cell growth, adhesion, morphogenesis, development, and transcriptional regulation by these proteins, suggesting a mechanism involving growth factor and Wnt pathways as well as signal transduction, ubiquitination, SMAD pathways, and histone acetylation and deacetylation.

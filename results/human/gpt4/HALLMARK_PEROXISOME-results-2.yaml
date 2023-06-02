@@ -2641,7 +2641,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enrichment test suggested genes are skewed towards genes involved in development, metabolic control, transport, cell cycle and homeostasis, as well as transcriptional regulation.
 
           Mechanism: These genes appear to be involved in a diverse range of processes, suggesting multiple pathways contributing to the physiological functions of these genes. For instance, ABCB1, ABCB4 and ABCB9 are involved in medication transport; ABCC5 and ABCC8 are involved in ATP coupling; ACAA1 is involved in fatty acid metabolism; ALB is involved in heme metabolism; ALDH1A1, ALDH9A1, ATXN1 and BCL10 are involved in transcriptional regulation; CTBP1 and CTPS1 are involved in ubiquitination; DHCR24 and DHRS3 are involved in cholesterol biosynthesis; FABP6 is involved in bile acid transport; FADS1 is involved in fatty acid desaturase; FIS1 and GNPAT are involved in lipoic acid synthesis and mitochondrial fatty acid metabolism; GSTK1 is involved in GST-mediated detoxification; HMGCL is involved in steroidogenesis; HRAS, HSD11B2, HSD17B11
@@ -2716,12 +2716,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The human genes given in the list are involved in metabolic biochemical pathways associated with lipid metabolism, stress response, mRNA transcription, DNA repair, skeletal and cartilage development, and cell migration.  
           Mechanism: Metabolic enzymes and transport proteins appear to regulate these pathways, allowing for the synthesis and degradation of cellular compounds, as well as transporting molecules into and out of the cell to maintain physiological homeostasis.
           Enriched Terms: Lipid metabolism; Stress response; mRNA transcription; DNA repair; Skeletal and cartilage development; Cell migration; Metabolic enzymes; Transport proteins.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The human genes given in the list are involved in metabolic biochemical pathways associated with lipid metabolism, stress response, mRNA transcription, DNA repair, skeletal and cartilage development, and cell migration.  
           Mechanism: Metabolic enzymes and transport proteins appear to regulate these pathways, allowing for the synthesis and degradation of cellular compounds, as well as transporting molecules into and out of the cell to maintain physiological homeostasis.
         term_strings:
@@ -2984,14 +2984,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list is comprised of genes involved in a wide variety of functions, including molecular binding activities, enzyme activities, transporter activities, and domain binding activities. All of these genes are involved in diverse metabolic processes, such as fatty acid metabolism, cholesterol metabolism, protein transport, and DNA and RNA metabolic processes, suggesting a complex set of interrelated pathways that are likely to be a part of a larger biological system. Enriched terms include: molecular binding activity; enzyme activity; transporter activity; domain binding activity; lipid transport; protein transport; DNA metabolic process; and RNA metabolic process.
 
           Mechanism: This set of genes likely interacts in a complex system involving multiple pathways and activities that enable metabolic processes such as fatty acid metabolism, cholesterol metabolism, protein transport, and DNA and RNA metabolic processes. The mechanism can be visualized as a network of proteins that interact in various ways to enable these processes. At a higher level, these pathways may interact to regulate signaling pathways, cell growth, and replication.
 
           Enriched Terms: Molecular binding activity; enzyme activity; transporter activity; domain binding activity; lipid transport; protein transport; DNA metabolic process; RNA metabolic process.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            This list is comprised of genes involved in a wide variety of functions, including molecular binding activities, enzyme activities, transporter activities, and domain binding activities. All of these genes are involved in diverse metabolic processes, such as fatty acid metabolism, cholesterol metabolism, protein transport, and DNA and RNA metabolic processes, suggesting a complex set of interrelated pathways that are likely to be a part of a larger biological system. Enriched terms include: molecular binding activity; enzyme activity; transporter activity; domain binding activity; lipid transport; protein transport; DNA metabolic process; and RNA metabolic process.
 
           Mechanism: This set of genes likely interacts in a complex system involving multiple pathways and activities that enable metabolic processes such as fatty acid metabolism, cholesterol metabolism, protein transport, and DNA and RNA metabolic processes. The mechanism can be visualized as a network of proteins that interact in various ways to enable these processes. At a higher level, these pathways may interact to regulate signaling pathways, cell growth, and replication.
@@ -3257,7 +3257,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            After Term enrichment analysis on the gene summaries, the following terms were found to be enriched: ATP binding activity, ATPase-coupled activity, protein homodimerization activity, identical protein binding activity, enzyme binding activity, lipid transporter activity, ATP hydrolysis activity, and metal ion binding activity.
 
           Mechanism: The enriched terms suggest a biological mechanism that involves energy production and transport, signaling pathways, and protein interactions and formation of protein complexes. These processes are necessary for various cellular processes such as metabolism, respiration, detoxification, and growth.
@@ -3544,7 +3544,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The summary of these genes is that they are all associated with either an ATP-binding cassette (ABC) transporter, an antioxidant enzyme, a hormone binding protein, a nuclear receptor transcription factor, a fatty acid desaturase, a carnitine acyltransferase, an isocalate dehydrogenase, a peroxisomal membrane protein, or a flavin adenine dinecleotide (FAD)-dependent oxidoreductase. The most enriched terms are: ATP-binding cassette (ABC) transporter, antioxidant enzyme, hormone binding protein, nuclear receptor transcription factor, fatty acid desaturase, carnitine acyltransferase, isocalate dehydrogenase, peroxisomal membrane protein, and FAD-dependent oxidoreductase.
 
@@ -3850,14 +3850,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes is enriched for proteins involved in the transport of various molecules and the enzymatic degradation of molecules across extra- and intra-cellular membranes (e.g. ATP-binding cassette transporters, oxidoreductases, dehydrogenases/reductases, hydratases/isomerases, enzymes responsible for fatty acid beta-oxidation, enzymes catalyzing the breakdown of malonyl-CoA, etc). Specific biological pathways or mechanisms of which the genes are a part involve cell adhesion, nucleotide excision repair, hormone metabolism and synthesis, nucleic-acid binding, antioxidant activity, and transcription factors. 
 
           Summary: The list of genes is enriched for proteins involved in transport and enzymes that catalyze the degradation of molecules.
           Mechanism: Mechanisms of which the genes are a part involve cell adhesion, nucleotide excision repair, hormone metabolism and synthesis, nucleic-acid binding, antioxidant activity, and transcription factors.
           Enriched Terms: ATP-binding cassette transporters; oxidoreductase; dehydrogenase/reductase; hydratase/isomerase; enzymes responsible for fatty acid beta-oxidation; enzymes catalyzing the
         truncation_factor: 0.1677721600000001
-        summary: |4
+        summary: |2
            The list of genes is enriched for proteins involved in the transport of various molecules and the enzymatic degradation of molecules across extra- and intra-cellular membranes (e.g. ATP-binding cassette transporters, oxidoreductases, dehydrogenases/reductases, hydratases/isomerases, enzymes responsible for fatty acid beta-oxidation, enzymes catalyzing the breakdown of malonyl-CoA, etc). Specific biological pathways or mechanisms of which the genes are a part involve cell adhesion, nucleotide excision repair, hormone metabolism and synthesis, nucleic-acid binding, antioxidant activity, and transcription factors. 
 
           Summary: The list of genes is enriched for proteins involved in transport and enzymes that catalyze the degradation of molecules.
@@ -20424,13 +20424,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This list of human genes is related to molecular pathways related to development and metabolism.
           Mechanism: The genes likely represent a biological mechanism related to digit morphogenesis and development, and are involved in skeletogenesis, fatty acid metabolism, immune response, and gene expression processes.
           Enriched Terms: Development; Morphogenesis; Skeletogenesis; Metabolism; Fatty Acid Metabolism; Gene Expression; Immune Response.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This list of human genes is related to molecular pathways related to development and metabolism.
           Mechanism: The genes likely represent a biological mechanism related to digit morphogenesis and development, and are involved in skeletogenesis, fatty acid metabolism, immune response, and gene expression processes.
@@ -20483,13 +20483,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: 24 human genes were found to be significantly enriched for cellular morphogenesis, metabolism, and signaling pathways processes.
           Mechanism: These genes are likely to interact in complex pathways to regulate the morphogenesis, metabolism, and signaling pathways in the body.
           Enriched Terms: Cellular Morphogenesis; Metabolism; Transmembrane Transport; Oxidation-Reduction Process; Protein Kinase Activity; Oxidoreductase Activity; Cell-Cell Signaling; Receptor Activation; Regulatory Protein Activity; Lipid Metabolism; Nervous System Development; Ion Binding; Nucleic Acid Metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: 24 human genes were found to be significantly enriched for cellular morphogenesis, metabolism, and signaling pathways processes.
           Mechanism: These genes are likely to interact in complex pathways to regulate the morphogenesis, metabolism, and signaling pathways in the body.
@@ -21030,14 +21030,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in this list are predominantly involved in metabolically active processes, including fatty acid and cholesterol metabolism, cellular respiration, oxidation-reduction processes, transcription regulation, and protein degradation. Also, some genes are related to enzyme binding activity and carbohydrate binding activity. The enriched terms include fatty acid metabolism, cholesterol metabolism, cellular respiration, oxidation-reduction processes, transcription regulation, protein degradation, enzyme binding activity and carbohydrate binding activity. 
 
           Mechanism: The genes on this list are primarily involved in metabolic processes that enable the body to synthesize important molecules, process lipids, regulate gene expression, and degrade proteins. They are also involved in responses to external stimuli, such as starvation and chemical substances, and in the maintenance of organelle functions. The underlying biological mechanism is that these genes work together to enable the body's metabolic processes, allowing it to maintain cellular homeostasis. 
 
           Enriched Terms: Fatty acid metabolism; Cholesterol metabolism; Cellular respiration; Oxidation-reduction processes; Transcription regulation; Protein degradation; Enzyme binding activity; Carbohydrate binding activity.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            The genes in this list are predominantly involved in metabolically active processes, including fatty acid and cholesterol metabolism, cellular respiration, oxidation-reduction processes, transcription regulation, and protein degradation. Also, some genes are related to enzyme binding activity and carbohydrate binding activity. The enriched terms include fatty acid metabolism, cholesterol metabolism, cellular respiration, oxidation-reduction processes, transcription regulation, protein degradation, enzyme binding activity and carbohydrate binding activity. 
 
           Mechanism: The genes on this list are primarily involved in metabolic processes that enable the body to synthesize important molecules, process lipids, regulate gene expression, and degrade proteins. They are also involved in responses to external stimuli, such as starvation and chemical substances, and in the maintenance of organelle functions. The underlying biological mechanism is that these genes work together to enable the body's metabolic processes, allowing it to maintain cellular homeostasis. 
@@ -21283,14 +21283,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes includes members involved in various processes such as cellular signal transduction, energy metabolism and production, gene expression and transcription, lipid metabolism, enzyme regulation, and detoxification/antioxidant pathways. Enriched terms include ATP-binding, ATPases, transcription factors, nuclear receptors, carboxylases, dehydrogenases, oxidoreductases, and phosphate binding proteins.
 
           Mechanism: Many of the genes in this list are part of isozymes, families or categories of proteins that function together to execute enzymatic, metabolic or regulatory pathways to facilitate physiological and biochemical activities in cells. The proteins interact with various co-factors or substrates to achieve their function. 
 
           Enriched Terms: ATP-binding; ATPases; transcription factors; nuclear receptors; carboxylases; dehydrogenases; oxidoreductases; phosphate binding proteins.
         truncation_factor: 0.2097152000000001
-        summary: |4+
+        summary: |2+
            This list of genes includes members involved in various processes such as cellular signal transduction, energy metabolism and production, gene expression and transcription, lipid metabolism, enzyme regulation, and detoxification/antioxidant pathways. Enriched terms include ATP-binding, ATPases, transcription factors, nuclear receptors, carboxylases, dehydrogenases, oxidoreductases, and phosphate binding proteins.
 
           Mechanism: Many of the genes in this list are part of isozymes, families or categories of proteins that function together to execute enzymatic, metabolic or regulatory pathways to facilitate physiological and biochemical activities in cells. The proteins interact with various co-factors or substrates to achieve their function. 
@@ -21536,7 +21536,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Many of the genes described are involved in processes related to metabolic or enzymatic regulation such as oxidoreductase activity, ligase activity, and transporter activity.
@@ -21545,7 +21545,7 @@
 
           Enriched Terms: Oxidoreductase activity; Ligase activity; Transport Activity; Carrier Protein; Lipocalin/Cytosolic Fatty Acid Binding Protein; Solute Carrier Protein; Nucleic Acid Binding Protein; Protein Binding; ATP-Binding Cassette (ABC) Transporter; Caspase Recruitment Domain (CARD); Nuclear Receptor Transcription Factor; Aryl Hydrocarbon Receptor (AhR) Transcriptional Regulator; Hydratase/Isomerase Superfamily; Voltage-Dependent Calcium Channel; Adenosine Triphosphatase (ATPase) associated with diverse cellular activities; Sulfotransferase Activity; All-Trans-Retinol; Iodothyronine Deiodinase Family; Phosphoprotein; Sterol Carrier Protein; Cytoplasmic Domain; Retinoid X Receptor (
         truncation_factor: 0.2097152000000001
-        summary: |4+
+        summary: |2+
 
 
           Summary: Many of the genes described are involved in processes related to metabolic or enzymatic regulation such as oxidoreductase activity, ligase activity, and transporter activity.

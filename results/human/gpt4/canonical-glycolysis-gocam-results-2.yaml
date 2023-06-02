@@ -901,14 +901,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            An analysis of gene functions in these 10 genes shows an enrichment of terms associated with metabolism, including glycolysis, aerobic glycolysis, and gluconeogenesis.
 
           Mechanism: This suggests a possible underlying biological mechanism in which glycolysis and gluconeogenesis pathways are deployed by cells in order to provide sufficient energy to cope with various metabolic demands.
 
           Enriched Terms: Glycolysis; Aerobic glycolysis; Gluconeogenesis.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            An analysis of gene functions in these 10 genes shows an enrichment of terms associated with metabolism, including glycolysis, aerobic glycolysis, and gluconeogenesis.
 
           Mechanism: This suggests a possible underlying biological mechanism in which glycolysis and gluconeogenesis pathways are deployed by cells in order to provide sufficient energy to cope with various metabolic demands.
@@ -954,7 +954,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Based on the list of genes provided, common terms enriched amongst the genes include ATP synthesis, glycolysis, energy metabolism, and metabolic pathways.
 
@@ -963,7 +963,7 @@
 
           Enriched Terms: ATP Synthesis; Glycolysis; Energy Metabolism; Metabolic Pathways.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           Based on the list of genes provided, common terms enriched amongst the genes include ATP synthesis, glycolysis, energy metabolism, and metabolic pathways.
 
@@ -1034,13 +1034,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The majority of the genes commonly enable enzymatic activities, often related to cellular metabolism and related pathways.
           Mechanism: Many of the genes enable the production of energy stores (ATP, fructose 6-phosphate, glyceraldehyde-3-phosphate, fructose 1,6-bisphosphate, triosephosphate, and phosphoglycerate) through regulation of several metabolic processes, such as glycolysis, carbohydrate phosphorylation, fructose 6-phosphate metabolic process, fructose 1,6-bisphosphate metabolic process, and phosphoglycerate kinetic. Additionally, two of the genes involved in transcription (PKM, GAPDH) suggest a role in gene expression. 
           Enriched Terms: Protein Metabolism; Enzymatic Activity; Protein Transcription; Cell Metabolism; Carbohydrate Phosphorylation and Metabolism; Protein Homeostasis; Cell Signaling; Protein Localization; Cell Homeostasis; Cellular Energy Production.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: The majority of the genes commonly enable enzymatic activities, often related to cellular metabolism and related pathways.
           Mechanism: Many of the genes enable the production of energy stores (ATP, fructose 6-phosphate, glyceraldehyde-3-phosphate, fructose 1,6-bisphosphate, triosephosphate, and phosphoglycerate) through regulation of several metabolic processes, such as glycolysis, carbohydrate phosphorylation, fructose 6-phosphate metabolic process, fructose 1,6-bisphosphate metabolic process, and phosphoglycerate kinetic. Additionally, two of the genes involved in transcription (PKM, GAPDH) suggest a role in gene expression. 
@@ -1121,13 +1121,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes listed are primarily involved in energy regulation, carbohydrate metabolism, cell homeostasis, cell signaling, and protein catabolism.
           Mechanism: The enriched genes encode for proteins in energy regulation pathways, such as glycolysis and gluconeogenesis, as well as for proteins that help to modulate cellular signaling, such as glucose and phosphate binding proteins.
           Enriched Terms: Protein binding activity; ATP binding activity; Peptidoglycan binding activity; Glucose 6-phosphate metabolic process; Positive regulation of immunoglobulin production; Positive regulation of endothelial cell migration; Fructose 6-phosphate metabolic process; Glycolytic process through fructose-6-phosphate; Fructose 1,6-bisphosphate metabolic process; Glyceraldehyde-3-phosphate biosynthetic process; Fructose binding activity; Fructose-bisphosphate aldolase activity; Glycogen storage disease VII; Triose-phosphate isomerase activity; Disordered domain specific binding activity; Endopeptidase inhibitor activity; Carbohydrate phosphorylation; Establishment of protein localization to mitochondrion; Maintenance of protein location in
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The genes listed are primarily involved in energy regulation, carbohydrate metabolism, cell homeostasis, cell signaling, and protein catabolism.
           Mechanism: The enriched genes encode for proteins in energy regulation pathways, such as glycolysis and gluconeogenesis, as well as for proteins that help to modulate cellular signaling, such as glucose and phosphate binding proteins.
@@ -1226,14 +1226,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes provided in this list are all involved in glycolysis pathways and are associated with various forms of anemia.
           Mechanism: These genes encode proteins that catalyze glycolysis and the conversion of glucose to glucose-6-phosphate, the first step in carbohydrate metabolism. This metabolic process is involved in the production of energy and the regulation of cellular homeostasis.
 
           Enriched Terms: Glycolysis; Phosphorylation; Hexokinase; Glucose Phosphate Isomerase; Phosphofructokinase; Aldolase; Fructose-1,6-bisphosphate; Triosephosphate Isomerase; Glyceraldehyde-3-phosphate Dehydrogenase; Phosphoglycerate Mutase; Pyruvate Kinase; Enolase.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           Summary: The genes provided in this list are all involved in glycolysis pathways and are associated with various forms of anemia.
           Mechanism: These genes encode proteins that catalyze glycolysis and the conversion of glucose to glucose-6-phosphate, the first step in carbohydrate metabolism. This metabolic process is involved in the production of energy and the regulation of cellular homeostasis.
@@ -1319,13 +1319,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes is involved in metabolic pathways, such as glycogenesis, glycolysis, phosphorolation and gluconeogenesis.
           Mechanism: These genes function in the conversion of energy sources, such as glucose and fructose, into energy sources used by the body.
           Enriched Terms: Glucose metabolism; Glycolysis; Phosphorylation; Fructose metabolism; Gluconeogenesis; Aldolase activity; Glycogen storage; Isomerase activity; Pyruvate kinase activity; Hexokinase activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes is involved in metabolic pathways, such as glycogenesis, glycolysis, phosphorolation and gluconeogenesis.
           Mechanism: These genes function in the conversion of energy sources, such as glucose and fructose, into energy sources used by the body.
@@ -4975,12 +4975,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enzyme activity related to glycolysis and carbohydrate metabolism.
           Mechanism: These genes are likely involved in regulating glycolysis and carbohydrate metabolism.
           Enriched Terms: Glycolysis; Carbohydrate Metabolism; Pyruvate Carboxylase Regulation; Pyruvate Kinase Activity; Hexokinase Activity; Phosphoglycerate Kinase Activity; 6-Phosphofructokinase Activity; Aldolase Activity; Enolase Activity; Phosphoglycerate Mutase Activity; TriosePhosphate Isomerase Activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Enzyme activity related to glycolysis and carbohydrate metabolism.
           Mechanism: These genes are likely involved in regulating glycolysis and carbohydrate metabolism.
         term_strings:
@@ -5040,12 +5040,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in this set are primarily involved in metabolic processes such as gluconeogenesis, glycolysis, and pentose phosphate pathways.
           Mechanism: This set of genes play a role in the regulation of metabolite flux through metabolic pathways such as gluconeogenesis, glycolysis, and pentose phosphate pathways.
           Enriched Terms: Metabolism; Glycolysis; Gluconeogenesis; Pentose Phosphate Pathway; Glycolytic Enzymes; Gluconeogenic Enzymes; Pyruvate Kinase; Hexokinase; Aldolase; Enolase; Phosphofructokinase; Phosphoglycerate Kinase; Glyceraldehyde 3-phosphate Dehydrogenase; Phosphoglyceromutase; Triosephosphate Isomerase.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The genes in this set are primarily involved in metabolic processes such as gluconeogenesis, glycolysis, and pentose phosphate pathways.
           Mechanism: This set of genes play a role in the regulation of metabolite flux through metabolic pathways such as gluconeogenesis, glycolysis, and pentose phosphate pathways.
         term_strings:
@@ -5132,13 +5132,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes listed are involved in metabolic processes, such as glycolysis, the phosphorylation of carbohydrates, and acts as transcription co-activators mainly in the nucleus.
           Mechanism: The genes use their enzymatic activities and protein binding activities to enable metabolic process, cellular homeostasis, and transcription co-activator activities.
           Enriched Terms: Metabolism; Carbohydrate Phosphorylation; Transcription Co-Activator; Protein Binding; Glycolytic Process; Phosphoglycerate Kinase Activity; Phosphotransferase Activity; Fructose-Bisphosphate Aldolase Activity; Triose-Phosphate Isomerase Activity; Protein Homodimerization Activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The genes listed are involved in metabolic processes, such as glycolysis, the phosphorylation of carbohydrates, and acts as transcription co-activators mainly in the nucleus.
           Mechanism: The genes use their enzymatic activities and protein binding activities to enable metabolic process, cellular homeostasis, and transcription co-activator activities.
@@ -5217,13 +5217,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes includes several proteins involved in various metabolic processes, motility, organelle maintenance, and cellular homeostasis, such as phosphotransferase activity, alcohol group as acceptor; hexokinase activity; fructose binding activity; protein homodimerization activity; transcription and coactivator activity; peptidoglycan binding activity; glucose phosphorylation; protein localization; programmed cell death; sprouting angiogenesis; transcriptional regulation; and glycolysis. 
           Enriched Terms: Metabolic Processes; Motility; Organelle Maintenance; Cellular Homeostasis; Phosphotransferase Activity; Alcohol Group as Acceptor; Hexokinase Activity; Fructose Binding Activity; Protein Homodimerization Activity; Transcription Coactivator Activity; Peptidoglycan Binding Activity; Glucose Phosphorylation; Protein Localization; Programmed Cell Death; Sprouting Angiogenesis; Transcriptional Regulation; Glycolysis. 
           Mechanism: These genes likely regulate genetic expressions towards metabolic processes, motility, organelle maintenance, and cellular homeostasis by modulating activities related to phosphotransferase activity, alcohol group as acceptor; hexokin
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           The list of genes includes several proteins involved in various metabolic processes, motility, organelle maintenance, and cellular homeostasis, such as phosphotransferase activity, alcohol group as acceptor; hexokinase activity; fructose binding activity; protein homodimerization activity; transcription and coactivator activity; peptidoglycan binding activity; glucose phosphorylation; protein localization; programmed cell death; sprouting angiogenesis; transcriptional regulation; and glycolysis. 
         term_strings:
@@ -5321,14 +5321,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Glycolytic enzyme functions such as pyruvate kinase, hexokinases, fructose-bisphosphate aldolase, enolases, phosphofructokinases, phosphoglycerate kinase, glyceraldehyde-3-phosphate dehydrogenase, phosphoglycerate mutase, triosephosphate isomerase, and other related glycolysis enzymes are enriched in this gene list. The underlying biological mechanism is a pathway of glycosis, in which molecules of glucose are broken down into pyruvate and then further oxidized in the mitochondria to generate ATP for metabolic processes.
 
           Mechanism: Glycolysis pathway
 
           Enriched Terms: Pyruvate kinase; Hexokinases; Fructose-bisphosphate aldolase; Enolases; Phosphofructokinases; Phosphoglycerate kinase; Glyceraldehyde-3-phosphate dehydrogenase; Phosphoglycerate mutase; Triosephosphate isomerase.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Glycolytic enzyme functions such as pyruvate kinase, hexokinases, fructose-bisphosphate aldolase, enolases, phosphofructokinases, phosphoglycerate kinase, glyceraldehyde-3-phosphate dehydrogenase, phosphoglycerate mutase, triosephosphate isomerase, and other related glycolysis enzymes are enriched in this gene list. The underlying biological mechanism is a pathway of glycosis, in which molecules of glucose are broken down into pyruvate and then further oxidized in the mitochondria to generate ATP for metabolic processes.
 
           Mechanism: Glycolysis pathway
@@ -5406,7 +5406,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The gene summaries all involve glycolytic enzymes with roles in carbohydrate metabolism (breakdown and production). They have been found to be involved in bacterial pathogenesis, and several of the mutations in these genes are associated with hemolytic anemia, Glycogen Storage Disease, and multiple types of cancer. The enrichment terms for the genes are glycolytic enzymes, carbohydrate metabolism, phosphorylation, fructose-bisphosphate aldolase, hexokinase, pyruvate kinase, triosephosphate isomerase, phosphate-fructokinase, phosphoglycerate mutase, and glyceraldehyde-3-phosphate dehydrogenase. 
 
           Mechanism: These glycolytic enzymes are all involved in the breakdown and production of carbohydrates as well as regulating phosphorylation reactions which are essential for energy production in cells. The interactions between these gene products and thyroid hormones or Opa proteins suggest an involvement in cellular metabolism and bacterial pathogenesis. The mutations associated with these genes in hemolytic anemia, Glycogen Storage Disease, and cancers may also indicate that the abnormal activation or inhibition of any of these enzymes can have far-reaching effects on cell physiology

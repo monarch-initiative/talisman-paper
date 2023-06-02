@@ -2760,12 +2760,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in the list may be generally involved in processes such as mRNA transcription, ribosome biogenesis and protein folding, as well as nucleolar and spliceosomal activity. 
           Mechanism: These genes likely regulate cellular processes such as protein production and transport, RNA processing, and cell cycle control. 
           Enriched Terms: mRNA Transcription; Ribosome Biogenesis; Protein Folding; Nucleolar Activity; Spliceosomal Activity; Protein Production; Protein Transport; RNA Processing; Cell Cycle Control.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The genes in the list may be generally involved in processes such as mRNA transcription, ribosome biogenesis and protein folding, as well as nucleolar and spliceosomal activity. 
           Mechanism: These genes likely regulate cellular processes such as protein production and transport, RNA processing, and cell cycle control. 
         term_strings:
@@ -2821,13 +2821,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: A significant enrichment of genes involved in translation and protein folding is found in the gene list, indicating a common pathway for these genes.
           Mechanism: The genes in this list are likely all involved in the same pathway, centered around translation and protein folding.
           Enriched Terms: translation; ribosome biogenesis; translation initiation; protein folding; translation elongation; peptide transport; peptide assembly; chaperone mediated protein folding.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: A significant enrichment of genes involved in translation and protein folding is found in the gene list, indicating a common pathway for these genes.
           Mechanism: The genes in this list are likely all involved in the same pathway, centered around translation and protein folding.
@@ -3107,14 +3107,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes and their functions are related to the synthesis and processing of nucleic acids and proteins, including RNA binding, transcriptional regulation, protein and mRNA folding, mRNA degradation, and translation regulation.
 
           Mechanism: The general underlying biological mechanism is related to the regulation of gene expression and the synthesis and processing of proteins and nucleic acids.
 
           Enriched Terms: Protein folding; RNA binding; Transcription activator; DNA binding; Unfolded protein binding; Telomerase activity; Nucleic acid binding; Transmembrane transporter binding; ATP binding; mRNA degradation; Translation regulation; Peptidyl-prolyl cis-trans isomerase activity; mRNA 3'-UTR AU-rich region binding.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            The list of genes and their functions are related to the synthesis and processing of nucleic acids and proteins, including RNA binding, transcriptional regulation, protein and mRNA folding, mRNA degradation, and translation regulation.
 
           Mechanism: The general underlying biological mechanism is related to the regulation of gene expression and the synthesis and processing of proteins and nucleic acids.
@@ -3406,14 +3406,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The majority of the genes in this list enable or involve in various functions related to RNA or protein processing, as demonstrated by the enriched terms related to RNA processing, protein binding, and DNA binding/transcription activities. Many of the genes contribute to various cellular processes, such as cellular response, cell homeostasis, and transcription from RNA polymerase II. A mechanism underlying this group of genes is that the genes are involved in multiple interactions between different enzymes and cell components for post-translational and transcriptional processing within the cell.
 
           Mechanism: A mechanism underlying this group of genes is that the genes are involved in multiple interactions between different enzymes and cell components for post-translational and transcriptional processing within the cell.
 
           Enriched Terms: RNA binding activity; DNA binding activity; protein binding activity; molecular condensate scaffold activity; identical protein binding activity; DNA-binding transcription factor binding activity; protein homodimerization activity; ATPase binding activity; ATP hydrolysis activity; enzymatic activity; transcription coactivator activity; translation activator activity; protein phosphatase binding activity; peptidyl-prolyl primase activity; transcription cis-regulatory region sequence-specific activity;
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            The majority of the genes in this list enable or involve in various functions related to RNA or protein processing, as demonstrated by the enriched terms related to RNA processing, protein binding, and DNA binding/transcription activities. Many of the genes contribute to various cellular processes, such as cellular response, cell homeostasis, and transcription from RNA polymerase II. A mechanism underlying this group of genes is that the genes are involved in multiple interactions between different enzymes and cell components for post-translational and transcriptional processing within the cell.
 
           Mechanism: A mechanism underlying this group of genes is that the genes are involved in multiple interactions between different enzymes and cell components for post-translational and transcriptional processing within the cell.
@@ -3709,13 +3709,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: A list of human genes involved in RNA-binding and protein-binding activities, along with protein metabolism, synthesizing and chaperone activity.
           Mechanism: The transcription factors and proteins help to regulate and stimulate gene expression and the protein folding process, which affects the synthesis and metabolism of proteins. This can lead to changes in cell function and structural integrity of cells.
           Enriched Terms: RNA-binding; Protein-binding; Protein metabolism; Synthesis; Chaperone activity; Transcription factors; Protein folding.
         truncation_factor: 0.1677721600000001
-        summary: |4
+        summary: |2
            
           Summary: A list of human genes involved in RNA-binding and protein-binding activities, along with protein metabolism, synthesizing and chaperone activity.
           Mechanism: The transcription factors and proteins help to regulate and stimulate gene expression and the protein folding process, which affects the synthesis and metabolism of proteins. This can lead to changes in cell function and structural integrity of cells.
@@ -20656,7 +20656,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes are involved in a wide variety of processes related to protein synthesis, transcription, RNA binding, and DNA processing. The enriched terms associated with these genes are translation initiation; RNA processing; protein binding; mRNA metabolism; DNA replication; transcriptional regulation; ubiquitination; splicing; translational regulation; and RNA modification.
 
           Mechanism: The genes identified in this list are involved in diverse mechanisms associated with protein production and regulation, most of which involve the transfer of genetic material between various components of the cell. Proteins are synthesized by translation initiation, which is the process by which mRNAs are converted into proteins. RNA processing involves the modification of mRNA molecules to create functional RNAs that can be translated into proteins. Protein binding involves the association of proteins with molecular components to form larger complexes that can regulate gene expression. mRNA metabolism involves the processing of mRNA molecules for storage and transport, as well as the translation of mRNA into proteins. DNA replication is the process by which DNA is duplicated so that it can be passed on to daughter cells. Transcriptional regulation is the regulation of gene expression through the binding of transcription factors to regulatory regions. Ubiquitination is the process by which proteins are marked for degradation, while
@@ -20727,14 +20727,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list are involved in a variety of functions related to protein biosynthesis and degradation, RNA processing, and RNA metabolism. Specifically, genes are enriched for function related to transcription, mRNA translation, mRNA stability, nuclear-cytoplasmic transport, and cell-specific translation and degradation. 
 
           Mechanism: The proteins encoded by these genes regulate a variety of metabolic processes throughout cells, such as transcription, mRNA translation, mRNA stability, and nuclear-cytoplasmic transport. The expression levels of these genes also play a role in gene regulation and can be altered in response to various physiological and environmental stimuli. 
 
           Enriched Terms: protein biosynthesis; protein degradation; RNA processing; RNA metabolism; transcription; mRNA translation; mRNA stability; nuclear-cytoplasmic transport; cell-specific translation; cell-specific degradation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Genes in this list are involved in a variety of functions related to protein biosynthesis and degradation, RNA processing, and RNA metabolism. Specifically, genes are enriched for function related to transcription, mRNA translation, mRNA stability, nuclear-cytoplasmic transport, and cell-specific translation and degradation. 
 
           Mechanism: The proteins encoded by these genes regulate a variety of metabolic processes throughout cells, such as transcription, mRNA translation, mRNA stability, and nuclear-cytoplasmic transport. The expression levels of these genes also play a role in gene regulation and can be altered in response to various physiological and environmental stimuli. 
@@ -20997,14 +20997,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This analysis suggests that genes identified have 3 main functions in common: transcription factor binding activity, RNA binding activity and protein homodimerization activity, with functions related to translation also being enriched. The enriched underlying mechanism or pathway is mRNA processing, transcriptional regulation and cellular homeostasis.
 
           Mechanism: mRNA processing, transcriptional regulation and cellular homeostasis
 
           Enriched Terms: Transcription factor binding activity; RNA binding activity; protein homodimerization activity; ATP binding activity; identical protein binding activity; protein heterodimerization activity; DNA binding activity, etc.
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            This analysis suggests that genes identified have 3 main functions in common: transcription factor binding activity, RNA binding activity and protein homodimerization activity, with functions related to translation also being enriched. The enriched underlying mechanism or pathway is mRNA processing, transcriptional regulation and cellular homeostasis.
 
           Mechanism: mRNA processing, transcriptional regulation and cellular homeostasis
@@ -21262,7 +21262,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: The listed genes are involved in functions such as enzyme binding activity, molecular function inhibitor activity, identical protein binding activity, transcription factor activity, RNA binding activity, cell redox homeostasis and protein-folding chaperone binding activity.
@@ -21271,7 +21271,7 @@
 
           Enriched Terms: Enzyme binding activity; Molecular function inhibitor activity; Identical protein binding activity; Transcription factor activity; RNA binding activity; Cell redox homeostasis; Protein-folding chaperone binding activity; ATP binding activity; DNA binding activity; GTPase activator activity; Protein disulfide isomerase activity; Protein-disulfide reductase activity; 5'-UTR binding activity; RNA helicase activity; 14-3-3 protein binding activity; SNARE binding activity; Histone methyltransferase binding activity; Protein kinase inhibitor activity; Heat shock protein binding activity; Ubiquitin binding activity; DNA-binding transcription activator activity, RNA polymerase II-specific;
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            
 
           Summary: The listed genes are involved in functions such as enzyme binding activity, molecular function inhibitor activity, identical protein binding activity, transcription factor activity, RNA binding activity, cell redox homeostasis and protein-folding chaperone binding activity.
@@ -21559,12 +21559,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Protein post-translational modification, protein folding, mRNA/RNA processing, chaperone activity, enzyme regulation, and metal ion binding;
           Mechanism: Protein post-translational modifications such as phosphorylation, ubiquitination, and acetylation are essential for the efficient folding and processing of proteins in the endoplasmic reticulum, facilitated by chaperone proteins such as HSP90, HSP70, and members of the FK506-binding protein family. mRNA/RNA processing is enabled by enzymes such as RNA helicases and exoribonucleases. Regulation of enzyme activities is provided by adapter protein motifs and transcriptional factors. Metal ion binding is involved in catalyzing protein post-translational modifications. 
           Enriched Terms: Protein post-translational modification; Protein folding; mRNA/RNA processing; Chaperone activity; Enzyme regulation; Metal ion binding.
         truncation_factor: 0.2097152000000001
-        summary: |4
+        summary: |2
            Protein post-translational modification, protein folding, mRNA/RNA processing, chaperone activity, enzyme regulation, and metal ion binding;
           Mechanism: Protein post-translational modifications such as phosphorylation, ubiquitination, and acetylation are essential for the efficient folding and processing of proteins in the endoplasmic reticulum, facilitated by chaperone proteins such as HSP90, HSP70, and members of the FK506-binding protein family. mRNA/RNA processing is enabled by enzymes such as RNA helicases and exoribonucleases. Regulation of enzyme activities is provided by adapter protein motifs and transcriptional factors. Metal ion binding is involved in catalyzing protein post-translational modifications. 
         term_strings:
@@ -21818,13 +21818,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes included in this list are primarily involved in various aspects of protein synthesis (translation initiation and protein folding), mRNA decay (decapping and degredation), signal transduction, and chaperone binding activities. 
           Mechanism: These genes are involved in various transcription processes, primarily involved in mRNA metabolism, protein folding, and signal transduction. 
           Enriched Terms: Translation initiation; Protein Folding; Decapping; Degradation; Signal Transduction; Chaperone Binding; mRNA Metabolism; 14-3-3 Protein Binding; Metal Ion Binding Activity; mRNA 3'-UTR AU-Rich Region Binding Activity; Aminoacylation of tRNA; Oxidoreductase Activity; RNA-Binding; ATP Hydrolysis Activity; Protein Heterodimerization Activity; Microtubule Binding Activity; Metal binding; DEAD Box Protein Activity; Double-Stranded RNA Binding Activity; Peptidase Activity; Transcription Activation; Nucleic Acid Binding; Unfolded Protein Binding; DNA Binding; ATP Binding.
         truncation_factor: 0.2097152000000001
-        summary: |4
+        summary: |2
 
           Summary: The genes included in this list are primarily involved in various aspects of protein synthesis (translation initiation and protein folding), mRNA decay (decapping and degredation), signal transduction, and chaperone binding activities. 
           Mechanism: These genes are involved in various transcription processes, primarily involved in mRNA metabolism, protein folding, and signal transduction. 

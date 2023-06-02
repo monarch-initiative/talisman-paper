@@ -1467,13 +1467,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This gene set is enriched in functions related to pancreas development, glucose metabolism, cell motility, and neural development. 
           Mechanism: It is hypothesized that these genes function in a network to control developmental processes relevant to pancreas development, glucose metabolism, cell motility and neural development.
           Enriched Terms: Pancreas Development; Glucose Metabolism; Cell Motility; Neural Development.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This gene set is enriched in functions related to pancreas development, glucose metabolism, cell motility, and neural development. 
           Mechanism: It is hypothesized that these genes function in a network to control developmental processes relevant to pancreas development, glucose metabolism, cell motility and neural development.
@@ -1520,12 +1520,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes play diverse roles in the development of the pancreas, nervous system, and musculoskeletal system. Major term enrichment was found for pancreas development, nervous system development, development of neural structures, organogenesis, and transcriptional regulation. 
           Mechanism: These genes are likely involved in a variety of biological mechanisms including, the regulation of morphogenesis, cell-to-cell adhesion, and protein synthesis pathways, as well as hormonal metabolism and signaling.
           Enriched Terms: Pancreas Development; Nervous System Development; Development of Neural Structures; Organogenesis; Transcription Regulation; Morphogenesis; Cell-to-Cell Adhesion; Protein Synthesis; Hormonal Metabolism; Hormonal Signaling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Genes play diverse roles in the development of the pancreas, nervous system, and musculoskeletal system. Major term enrichment was found for pancreas development, nervous system development, development of neural structures, organogenesis, and transcriptional regulation. 
           Mechanism: These genes are likely involved in a variety of biological mechanisms including, the regulation of morphogenesis, cell-to-cell adhesion, and protein synthesis pathways, as well as hormonal metabolism and signaling.
         term_strings:
@@ -1664,13 +1664,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: This list of genes is primarily involved in regulation of cellular processes including cell migration, cellular senescence, cellular biosynthetic process, apoptotic process, detection of glucose, cell-cell adhesion, neuron migration, insulin secretion, and gastrointestinal processes, as well as involvement in multiple diseases such as diabetes, tuberculosis, malignant astrocytoma, and cancer (multiple). 
           Mechanism: These genes are generally involved in control of transcription by RNA polymerase II, ATPase-coupled ion transport, protein kinase and peptidase activity, DNA binding activity, calcium-ion regulated exocytosis, and regulation of secretion by cell.
           Enriched terms: Transcription; Transcription Activator Activity; ATPase-Coupled Ion Transport; Protein Kinase Activity; Peptidase Activity; DNA Binding Activity; Calcium-Ion Regulated Exocytosis; Regulation of Secretion by Cell.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: This list of genes is primarily involved in regulation of cellular processes including cell migration, cellular senescence, cellular biosynthetic process, apoptotic process, detection of glucose, cell-cell adhesion, neuron migration, insulin secretion, and gastrointestinal processes, as well as involvement in multiple diseases such as diabetes, tuberculosis, malignant astrocytoma, and cancer (multiple). 
           Mechanism: These genes are generally involved in control of transcription by RNA polymerase II, ATPase-coupled ion transport, protein kinase and peptidase activity, DNA binding activity, calcium-ion regulated exocytosis, and regulation of secretion by cell.
@@ -1807,7 +1807,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Genes involved in glucose transport, metabolism, and regulation, with many implicated in type 1 and type 2 diabetes. Regulation of gene expression transcription and protein function are heavily represented.
@@ -1816,7 +1816,7 @@
 
           Enriched Terms: ATP binding activity; ATPase-coupled monoatomic cation transmembrane transporter activity; cell migration; cellular biosynthetic process; cellular response to glucose stimulus; cellular senescence; defense response to bacterium; endoplasmic reticulum membrane; E-box binding activity; hexose transmembrane transporter activity; mast cell chemotaxis; mast cell degranulation; peptidase activity; phosphorylase kinase regulator activity; positive regulation of cell differentiation; positively regulation of cellular biosynthetic process; positively regulation of glycolytic process; positively regulation of insulin secretion; positively regulation of macromolecule metabolic process; positively regulation of type B pancreatic cell development; positive regulation of cellular
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: Genes involved in glucose transport, metabolism, and regulation, with many implicated in type 1 and type 2 diabetes. Regulation of gene expression transcription and protein function are heavily represented.
@@ -2211,7 +2211,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Enriched terms: Transcription Factor; Homeobox Domain; Signal Peptide Cleavage; Protein Kinase; ATP-Binding; Chromogranin/Secretogranin; Peptide Hormone; Protease; Pyruvate Kinase; Glucose-6-Phosphatase; Adenosine Deaminase; Hexokinase; Nuclear Receptor; DNA-Binding; G-Protein Linked Receptor; Cysteine-Rich Protein; GTP-Bound Proteins; Signal Recognition Particle; BHLH transcription Factor; Doublecortin; Calcium-Binding Protein
 
@@ -2219,7 +2219,7 @@
 
           Mechanism: These genes are involved in transcriptional regulation and signaling processes through binding of DNA and G-protein linked receptors, homeobox domains, cysteine-rich proteins
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
 
         term_strings:
           - transcription factor
@@ -12137,13 +12137,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This list of genes is related to various morphological, metabolic and signalling processes in the human body.
           Mechanism: These genes are involved in a range of biological activities, including transcriptional control, endocrine regulation, receptor signaling, metabolic and morphological processes.
           Enriched Terms: Transcription Regulation; Receptor Signaling; Endocrine Regulation; Metabolism; Morphogenesis; Neurogenesis; Cell Signaling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: This list of genes is related to various morphological, metabolic and signalling processes in the human body.
           Mechanism: These genes are involved in a range of biological activities, including transcriptional control, endocrine regulation, receptor signaling, metabolic and morphological processes.
@@ -12196,14 +12196,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes is mostly involved in the regulation of metabolic pathways, such as glucose and insulin metabolism, and development of the nervous system, including morphogenesis and differentiation of neurons. In addition, many of the genes are known to be involved in transcriptional and epigenetic regulation.
 
           Mechanism: The genes are likely to act in concert to regulate metabolic pathways and development processes in humans. This likely involves complex interactions among the genes involved in transcriptional and epigenetic regulation and metabolic pathways, as well as the proteins produced by the genes.
 
           Enriched Terms: Metabolism; Glucose Metabolism; Insulin Metabolism; Nervous System Development; Morphogenesis; Neuron Differentiation; Transcriptional Regulation; Epigenetic Regulation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The list of genes is mostly involved in the regulation of metabolic pathways, such as glucose and insulin metabolism, and development of the nervous system, including morphogenesis and differentiation of neurons. In addition, many of the genes are known to be involved in transcriptional and epigenetic regulation.
 
           Mechanism: The genes are likely to act in concert to regulate metabolic pathways and development processes in humans. This likely involves complex interactions among the genes involved in transcriptional and epigenetic regulation and metabolic pathways, as well as the proteins produced by the genes.
@@ -12332,7 +12332,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is predominantly involved in glucose and insulin metabolism and related conditions (e.g., diabetes, obesity, inflammation, hypertension), as well as different aspects of transcriptional activity and regulation. The enrichment terms associated with these genes include DNA binding; sequence-specific DNA binding; protein homodimerization; calcium ion binding; ATP binding; ATPase-coupled cation transport; phosphorylase kinase activity; pyruvate kinase activity; serine-type endopeptidase activity; glucokinase activity; GTP binding; protease binding; glucose-6-phosphatase activity; MAP-kinase-kinase activity; transcriptional coactivator activity; RNA binding; protein serine/threonine kinase activity; dehydroascorbic acid transmembrane transporter activity; hexose transmembrane transporter activity; and SNARE binding activity.
 
           Mechanism: These genes are expressed in a variety of tissue types to facilitate glucose and insulin metabolism, signal transduction, and other metabolic processes. The majority are implicated in various aspects of transcriptional activity by binding to regulatory elements and proteins, modulating the activity of metabolic enzymes, and controlling trans
@@ -12499,12 +12499,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The human genes listed are predominantly involved in cellular responses to stimuli, protein targeting, cell adhesion, cell differentiation and migration, regulation of transcription by RNA polymerase II, regulation of DNA-templated transcription, and regulation of insulin secretion involved in cellular response to glucose stimulus. Mechanism: The underlying biological mechanism involves the modulation of gene expression in response to external stimuli, which can lead to changes in cellular processes such as cell adhesion, differentiation, migration, and insulin secretion.
 
           Enriched terms: Cellular response to stimuli; Protein targeting; Cell adhesion; Cell differentiation; Cell migration; Regulation of transcription by RNA polymerase II; Regulation of DNA-templated transcription; Regulation of insulin secretion involved in cellular response to glucose stimulus.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The human genes listed are predominantly involved in cellular responses to stimuli, protein targeting, cell adhesion, cell differentiation and migration, regulation of transcription by RNA polymerase II, regulation of DNA-templated transcription, and regulation of insulin secretion involved in cellular response to glucose stimulus. Mechanism: The underlying biological mechanism involves the modulation of gene expression in response to external stimuli, which can lead to changes in cellular processes such as cell adhesion, differentiation, migration, and insulin secretion.
 
         term_strings:
@@ -12633,14 +12633,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list are associated with function in the pancreas, glucose regulation, and metabolism, as well as development of the nervous system.
 
           Mechanism: The majority of these genes are associated with transcription factors or enzymes involved in glucose regulation, and/or development and regulation of the pancreas.
 
           Enriched Terms: Transcription Factors; exopeptidases; chromogranin/secretogranins; homeobox proteins; zinc-finger DNA-binding proteins; G-protein-coupled receptors; pyruvate kinase; proprotein convertases; hexokinases; RAS-like GTPase; BHLH proteins; ATP-binding cassette transporters.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
            Genes in this list are associated with function in the pancreas, glucose regulation, and metabolism, as well as development of the nervous system.
 
           Mechanism: The majority of these genes are associated with transcription factors or enzymes involved in glucose regulation, and/or development and regulation of the pancreas.

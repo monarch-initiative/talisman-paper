@@ -4350,14 +4350,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This list of genes is enriched for terms related to mitochondrial activity, electron transport chain, oxidative phosphorylation, and metabolic regulation/activation.
           Mechanism: This list of genes are likely to be involved in the various steps of mitochondrial activity, electron transport chain, oxidative phosphorylation, and metabolic regulation/activation. 
           Enriched Terms: Mitochondrial activity; Electron Transport Chain; Oxidative Phosphorylation; Metabolic Regulation; Metabolic Activation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
 
           Summary: This list of genes is enriched for terms related to mitochondrial activity, electron transport chain, oxidative phosphorylation, and metabolic regulation/activation.
@@ -4407,7 +4407,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes provided are primarily involved in energy metabolism, respiration, and the electron transport chain. Specifically, terms such as "oxidative phosphorylation", "mitochondrial electron transport chain", and "tricarboxylic acid cycle" are found to be significantly over-represented.
 
           Mechanism: The genes provided are involved in the production of ATP through metabolic pathways such as oxidative phosphorylation, mitochondrial electron transport chain, and the tricarboxylic acid cycle. These molecules, along with other regulatory proteins, facilitate the flow of electrons to generate energy in the form of ATP. This energy is used by cells to carry out metabolic reactions and various cellular processes.
@@ -4879,7 +4879,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The genes listed are involved in several cellular processes and pathways, such as electron transfer, heme binding, and protein binding activities; oxidoreductase activity; ATPase activity and binding activity; molecular adaptor activities; acyl binding activities; and several other functions. 
@@ -4888,7 +4888,7 @@
 
           Enriched Terms: Electron transfer; heme binding; protein binding; oxidoreductase activity; ATPase activity & binding activity; molecular adaptor activity; acyl binding activity; NADH dehydrogenase activity; GTP binding activity; iron-sulfur cluster binding activity; FAD binding activity; NAD(P)H oxidase activity; fatty acid oxidation; RNA binding activity; 4 iron, 4 sulfur cluster binding activity; ubiquitin protein ligase binding activity; cytochrome-c oxidase activity; proton-transporting ATP synthase activity; lipoic acid binding activity; MHC class I protein binding activity; angiostatin binding activity; deltarasin binding activity; ubiquitin protein binding activity; NADP binding activity.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
 
 
           Summary: The genes listed are involved in several cellular processes and pathways, such as electron transfer, heme binding, and protein binding activities; oxidoreductase activity; ATPase activity and binding activity; molecular adaptor activities; acyl binding activities; and several other functions. 
@@ -5380,14 +5380,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enzymes and proteins involved in electron transport and oxidative processes, including binding, transfer, and enzymatic activities; some that interact with lipids, heme, MHC class I proteins, GTPase, and ubiquitin proteins.
 
           Mechanism: Electron transport and oxidative processes are essential for physiological energy production, primarily through the citric acid cycle and the electron transport chain. The proteins and enzymes identified are necessary for the transfer of electrons, energy production, and energy storage. They also cause proteins to undergo conformational changes, influencing metabolite and lipid interactions as part of redox reactions.
 
           Enriched Terms: acetyl-CoA transferase activity; acyl-CoA dehydrogenase activity; aldehyde dehydrogenase activity; ATPase binding activity; cytochrome-c oxidase activity; electron transfer activity; enoyl-CoA hydratase activity; FAD binding activity; GTPase activity; heme binding activity; identical protein binding activity; lipid binding activity; metal ion binding activity; NADPH-hemoprotein reductase activity; oxidoreductase activity; pyruvate dehydrogenase (acetyl-transferring) activity; pro
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            Enzymes and proteins involved in electron transport and oxidative processes, including binding, transfer, and enzymatic activities; some that interact with lipids, heme, MHC class I proteins, GTPase, and ubiquitin proteins.
 
           Mechanism: Electron transport and oxidative processes are essential for physiological energy production, primarily through the citric acid cycle and the electron transport chain. The proteins and enzymes identified are necessary for the transfer of electrons, energy production, and energy storage. They also cause proteins to undergo conformational changes, influencing metabolite and lipid interactions as part of redox reactions.
@@ -5863,14 +5863,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: After performing a term enrichment test, it was found that the majority of the genes were involved in mitochondrial processes, as well as enzyme functions such as dehydrogenases and oxidoreductases, and ATP synthesis. 
           Mechanism: This suggests that these genes are functioning on a systemic, metabolic level, and are involved in the overall production, usage and storage of energy within a cell.
           Constructing a functional mitochondrion would likely require the activities of all these genes.
           Enriched Terms: Mitochondria; Enzymes; Dehydrogenases; Oxidoreductases; ATP Synthesis.
         truncation_factor: 0.054975581388800036
-        summary: |4
+        summary: |2
 
           Summary: After performing a term enrichment test, it was found that the majority of the genes were involved in mitochondrial processes, as well as enzyme functions such as dehydrogenases and oxidoreductases, and ATP synthesis. 
           Mechanism: This suggests that these genes are functioning on a systemic, metabolic level, and are involved in the overall production, usage and storage of energy within a cell.
@@ -6322,7 +6322,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes encode proteins that are involved in the metabolism of glucose, fatty acids, and amino acids by various catalytic steps and systems related to energy production in a cell. Enriched terms: Glucose metabolism; fatty acid metabolism; amino acid metabolism; mitochondrial respiratory chain; iron-sulfur protein; NADH-ubiquinone oxidoreductase; NADH dehydrogenase; pyruvate dehydrogenase; electron transport chain; oxidative decarboxylation; NAD+/NADH oxidoreductase; ATP synthase; cytochrome oxidase; 3-hydroxyacyl-CoA dehydrogenase; matrix processing; Shuttling mechanism.
 
           Mechanism: The gene products involved in this metabolic pathways work to convert small molecules such as glucose and fatty acids into energy-containing molecules, such as ATP and NADH, through a combination of redox reactions, electron transfer processes, and other catalytic systems. These processes involve the participation of numerous proteins, including membrane-associated proteins, enzymes, and enzyme complexes. These proteins form a complex network of interactions that enable the conversion of energy from one form to another, ultimately leading to ATP production.
@@ -25520,13 +25520,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: These genes are significantly associated with the biological processes of oxidative phosphorylation, respiratory electron transport chain, energy transfer, and mitochondrial ATP production and metabolism.
           Mechanism: These genes are part of biological pathways that are involved in the production of energy through oxidative phosphorylation and the respiratory electron transport chain, providing energy to cells and enabling them to carry out metabolic processes.
           Enriched Terms: Oxidative Phosphorylation; Respiratory Electron Transport Chain; Energy Transfer; Mitochondrial ATP Production; Metabolic Processes.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: These genes are significantly associated with the biological processes of oxidative phosphorylation, respiratory electron transport chain, energy transfer, and mitochondrial ATP production and metabolism.
           Mechanism: These genes are part of biological pathways that are involved in the production of energy through oxidative phosphorylation and the respiratory electron transport chain, providing energy to cells and enabling them to carry out metabolic processes.
@@ -25575,12 +25575,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enrichment tests show that the genes in the list are enriched for functions involved in metabolic processes, such as oxidation-reduction processes, mitochondrial respiration, mitochondrial metabolism, and ATP production. 
           Mechanism: The common function of these genes is likely related to energy production, where the cells convert energy from the foods we consume into energy molecules (ATP, NADH, etc) that can be used for general cellular activities. 
           Enriched Terms: Oxidation-Reduction Process; Mitochondrial Respiration; Mitochondrial Metabolism; ATP Production.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Enrichment tests show that the genes in the list are enriched for functions involved in metabolic processes, such as oxidation-reduction processes, mitochondrial respiration, mitochondrial metabolism, and ATP production. 
           Mechanism: The common function of these genes is likely related to energy production, where the cells convert energy from the foods we consume into energy molecules (ATP, NADH, etc) that can be used for general cellular activities. 
         term_strings:
@@ -25987,7 +25987,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This analysis identifies gene functions that are commonly involved in metabolic activity, energized processes, and RNA binding.
@@ -25996,7 +25996,7 @@
 
           Enriched Terms: NADH dehydrogenase activity; ATPase binding activity; RNA binding activity; FAD binding activity; ubiquitin protein ligase binding activity; NADP+ binding activity; iron-sulfur cluster binding activity; heme binding activity; proton-transporting ATPase activity; cytochrome-c oxidase activity; GTP binding activity; acetyl-CoA C-acetyltransferase activity; NADPH-hemoprotein reductase activity; glutathione peroxidase activity; amino acid transmembrane transporter activity; ATP:ADP antiporter activity; acyl carnitine transmembrane transporter activity; oligonucleotide binding activity; protein homodimerization activity; pyruvate dehydrogenase (acetyl-transferring) activity; 2 iron, 2 sulfur cluster binding activity; enoyl-CoA hy
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
 
 
           Summary: This analysis identifies gene functions that are commonly involved in metabolic activity, energized processes, and RNA binding.
@@ -26444,7 +26444,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes provided are related to processes involved in mitochondrial electron transport and energy production. They are involved in processes related to protein binding activities, oxidative phosphorylation, electron transfer, DNA binding activities, and NADH dehydrogenase activity.
 
@@ -26454,7 +26454,7 @@
           Enriched terms: 
           Protein binding activity; oxidative phosphorylation; electron transfer; DNA binding activity; NADH dehydrogenase activity; acyl-CoA C-acetyltransferase activity; anion binding activity; ATPase binding activity; cytochrome-c oxidase activity; FAD binding activity; glutathione peroxidase activity; heme binding activity; lipid binding activity; magnesium ion binding activity; monoamine oxidase activity; NAD(P)H oxidase activity; NADPH-hemoprotein reductase activity
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
 
           The list of genes provided are related to processes involved in mitochondrial electron transport and energy production. They are involved in processes related to protein binding activities, oxidative phosphorylation, electron transfer, DNA binding activities, and NADH dehydrogenase activity.
 
@@ -26892,12 +26892,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            A large set of proteins related to mitochondrial energy production as well as regulation and maintenance of mitochondrial structures and functions. 
           Mechanism: The majority of the genes are related to the electron transport chain, which drives ATP synthesis, as well as other processes necessary for energy production.
           Enriched Terms: Electron transport chain; Mitochondrial energy production; ATP synthesis; Mitochondrial regulation and maintenance; Iron-sulfur clusters; Iron-sulfur protein subunits; 2-oxoglutarate decarboxylation; NAD/NADH-dependent activity; Voltage-dependent anion channels; NADH-ubiquinone oxidoreductase; Glutathione peroxidase; Endoplasmic reticulum membrane oxidoreductase; Pyruvate dehydrogenase complex; Pyruvate dehydrogenase; 3-hydroxyacyl-CoA dehydrogenase; Succinyl-CoA synthetase; Branched-chain alpha-keto acid dehydrogenase; Glutamate dehydrogenase; Malate dehydrogenase; Acyl-CoA dehydrogenase; Glucose phosphate isomerase; helicase; Amino Acid synthesis
         truncation_factor: 0.06871947673600004
-        summary: |4
+        summary: |2
            A large set of proteins related to mitochondrial energy production as well as regulation and maintenance of mitochondrial structures and functions. 
           Mechanism: The majority of the genes are related to the electron transport chain, which drives ATP synthesis, as well as other processes necessary for energy production.
         term_strings:

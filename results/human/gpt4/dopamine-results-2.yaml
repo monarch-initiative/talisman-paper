@@ -1227,14 +1227,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes is enriched for terms related to signal transmission and transduction, specifically the G Protein-Coupled Receptor (GPCR) family, which is associated with cell-signaling pathways and regulation of receptor activities. The specific terms enriched include G alpha subunit signaling, related GPCR activation and signaling, G Protein-Coupled Receptor (GPCR) function, and dimerization. 
 
           Mechanism: This set of genes is involved in pathways that involve the G protein-coupled receptor (GPCR) family. GPCRs can bind to extracellular molecules, such as hormones and neurotransmitters, and then activate signaling pathways inside the cell, leading to the activation of intracellular proteins, including G proteins. The G proteins then facilitate the exchange of proteins such as cAMP, DAG, and calcium ions into the cell, in order to create a signal cascade and ultimately effect changes to the cell’s behavior.
 
           Enriched Terms: G alpha subunit signaling; GPCR activation and signaling; GPCR function; dimerization.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This list of genes is enriched for terms related to signal transmission and transduction, specifically the G Protein-Coupled Receptor (GPCR) family, which is associated with cell-signaling pathways and regulation of receptor activities. The specific terms enriched include G alpha subunit signaling, related GPCR activation and signaling, G Protein-Coupled Receptor (GPCR) function, and dimerization. 
 
           Mechanism: This set of genes is involved in pathways that involve the G protein-coupled receptor (GPCR) family. GPCRs can bind to extracellular molecules, such as hormones and neurotransmitters, and then activate signaling pathways inside the cell, leading to the activation of intracellular proteins, including G proteins. The G proteins then facilitate the exchange of proteins such as cAMP, DAG, and calcium ions into the cell, in order to create a signal cascade and ultimately effect changes to the cell’s behavior.
@@ -1282,14 +1282,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list is enriched for terms related to G-Protein Coupled Receptors (GPCRs), G-protein subunits, adenylate cyclase, calcium channels, and kinases.
 
           Mechanism: The GPCRs and G protein-coupled subunits are involved in signal transduction pathways that regulate a variety of cellular activities. They activate adenylate cyclases, which catalyze the synthesis of the secondary messenger cAMP. This acts downstream to activate pathways and processes such as G-protein mediated second messenger systems and cation channels. Kinases are involved in the regulation of the G-protein by phosphorylating the Gα subunits and other associated components, leading to changes in their activity, and ultimately, signaling cascades.
 
           Enriched Terms: G-protein coupled receptor (GPCR); G-protein subunit; adenylate cyclase; calcium channel; kinase.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This gene list is enriched for terms related to G-Protein Coupled Receptors (GPCRs), G-protein subunits, adenylate cyclase, calcium channels, and kinases.
 
           Mechanism: The GPCRs and G protein-coupled subunits are involved in signal transduction pathways that regulate a variety of cellular activities. They activate adenylate cyclases, which catalyze the synthesis of the secondary messenger cAMP. This acts downstream to activate pathways and processes such as G-protein mediated second messenger systems and cation channels. Kinases are involved in the regulation of the G-protein by phosphorylating the Gα subunits and other associated components, leading to changes in their activity, and ultimately, signaling cascades.
@@ -1544,7 +1544,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes in the given list are predominantly involved in G protein-coupled receptor signaling pathways, regulation of cytosolic calcium ion concentration, regulation of transcription by RNA polymerase II, regulation of neuronal death and apoptotic processes, cAMP biosynthetic processes and protein phosphorylation pathways. The underlying biological mechanism for these processes is likely related to cellular and tissue homeostasis, i.e. the maintenance of physiological equilibrium. 
 
@@ -1552,7 +1552,7 @@
 
           Enriched Terms: G protein-coupled receptor signaling pathway; regulation of cytosolic calcium ion concentration; regulation of transcription by RNA polymerase II; regulation of neuron death; apoptotic process; cAMP biosynthetic process; protein phosphorylation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           The genes in the given list are predominantly involved in G protein-coupled receptor signaling pathways, regulation of cytosolic calcium ion concentration, regulation of transcription by RNA polymerase II, regulation of neuronal death and apoptotic processes, cAMP biosynthetic processes and protein phosphorylation pathways. The underlying biological mechanism for these processes is likely related to cellular and tissue homeostasis, i.e. the maintenance of physiological equilibrium. 
 
@@ -1790,7 +1790,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The summaries of the provided gene functions describe proteins linked to the activity and regulation of G-protein coupled receptor signaling pathways, including dopamine, endothelin, and serotonin receptors, as well as proteins involved in calcium ion regulation, DNA binding, and apoptosis. Statistically over-represented terms include: G-protein coupled signaling; calcium ion regulation; transmembrane signaling; DNA binding; and apoptotic process. 
 
@@ -12516,14 +12516,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            It appears that the list of Human genes are associated with various functions under the "regulated signal transduction" and "cell adhesion" categories. 
 
           Mechanism: The genes are likely involved in signal transduction pathways through G-proteins, as well as in regulating various adhesion proteins that are critical for cellular activities and intercellular communication. 
 
           Enriched Terms: Regulated signal transduction; Cell adhesion; G-protein activity; Cell migration; Cellular adhesion; Cell proliferation; Membrane-associated GTPase activity; Signal transduction, GTPase-dependent signal transduction; GTP-binding.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            It appears that the list of Human genes are associated with various functions under the "regulated signal transduction" and "cell adhesion" categories. 
 
           Mechanism: The genes are likely involved in signal transduction pathways through G-proteins, as well as in regulating various adhesion proteins that are critical for cellular activities and intercellular communication. 
@@ -12581,14 +12581,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: This list of genes is involved primarily in signal transduction, G-protein-coupled receptor signaling, and cytoskeleton organization.
           Mechanism: These genes signal and interact through G-proteins, calcium channels, and kinases to regulate the organization, movement, and expression of structural proteins.
           Enriched Terms: Signal Transduction; G-Protein Coupled Receptor Signaling; Cytoskeleton Organization; Ion Transport Dynamics; Calcium Channel Regulation; Protein Kinase Activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
 
           Summary: This list of genes is involved primarily in signal transduction, G-protein-coupled receptor signaling, and cytoskeleton organization.
@@ -12693,7 +12693,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The gene list provided contains several genes with similar function related to G-protein coupled receptor activity and signaling; this includes activities and processes associated with dopamine, adenylate cyclase, and GTPase receptor signaling pathways.
@@ -12702,7 +12702,7 @@
 
           Enriched Terms: Protein kinase activity; G-protein beta/gamma-subunit complex binding activity; GTPase activity; GTPase binding activity; signaling receptor binding activity; enzyme binding activity; protein serine/threonine kinase activity; adenylate cyclase activity; protein homodimerization activity; protein-macromolecule adaptor activity; NF-kappaB binding activity; enzyme activator activity; clathrin light chain binding activity; G protein-coupled receptor binding activity; ubiquitin protein ligase binding activity; angiotensin receptor binding activity; sequence-specific double-stranded DNA binding activity; neurotransmitter receptor activity; catecholamine binding activity; dopamine binding activity; G-protein
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: The gene list provided contains several genes with similar function related to G-protein coupled receptor activity and signaling; this includes activities and processes associated with dopamine, adenylate cyclase, and GTPase receptor signaling pathways.
@@ -12974,14 +12974,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of genes encodes proteins which are involved in the modulation and transmission of signaling pathways. Many of the genes collaborate in the regulation of calcium concentrations as well as hormone and G-protein coupled receptor responses. The genes have roles in remodelling the cytoskeleton and in integrating signals from receptors or transmembrane proteins. Mutations in these genes are associated with various diseases.
 
           Mechanism: Transmembrane proteins interact with G-protein coupled receptors (GPCRs) or receptors and effector proteins to relay signals across membranes. Heterotrimeric G-proteins (composed of an alpha, beta and gamma subunit) regulate the activation of protein kinases and second messengers. cAMP and cGMP, formed by adenylyl cyclases, serve as secondary messengers to regulate cellular activity, and cAMP-dependent protein kinases are involved in controlling calcium concentrations.
 
           Enriched terms: G-protein coupled receptor; heterotrimeric G-protein; adenylyl cyclase; calcium regulation; protein kinase; second messenger; transmembrane protein; signal transmission.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This list of genes encodes proteins which are involved in the modulation and transmission of signaling pathways. Many of the genes collaborate in the regulation of calcium concentrations as well as hormone and G-protein coupled receptor responses. The genes have roles in remodelling the cytoskeleton and in integrating signals from receptors or transmembrane proteins. Mutations in these genes are associated with various diseases.
 
           Mechanism: Transmembrane proteins interact with G-protein coupled receptors (GPCRs) or receptors and effector proteins to relay signals across membranes. Heterotrimeric G-proteins (composed of an alpha, beta and gamma subunit) regulate the activation of protein kinases and second messengers. cAMP and cGMP, formed by adenylyl cyclases, serve as secondary messengers to regulate cellular activity, and cAMP-dependent protein kinases are involved in controlling calcium concentrations.
@@ -13091,7 +13091,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The list of genes contains a wide variety of proteins that are involved in signal transduction pathways, consisting of G-protein coupled receptors (GPCR), G-proteins, adenylyl cyclases, and serine/threonine protein kinases. The enriched terms would include: signal transduction, G-protein coupled receptor signaling, G-protein activity, adenylyl cyclase activity, phospholipase C-beta activation, phospholipase C-beta-mediated signaling pathway, serine/threonine protein kinase activity, regulation of transcription, protein kinase A inhibition, calcium ion inhibition, cAMP synthesis/metabolism, phospholipase C-beta-mediated signaling pathway, and dopamine receptor signaling. The underlying biological mechanism involves the coupling of GPCR and G-proteins, leading to the activation of adenylyl cyclase, the production of cAMP, and the activation of protein kinases. This signaling cascade leads to a wide variety of cellular responses, functions as a key signaling effector of the transmembrane receptor and/or G-protein coupled receptor signaling pathways, and mediates the downstream responses of GPCRs and/
         truncation_factor: 1.0

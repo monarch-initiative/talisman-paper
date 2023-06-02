@@ -1317,7 +1317,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes appear to be involved in the development, functioning and regulation of the nervous system, specifically neurons and their associated pathways and processes. The terms "neurotransmission"; "neuronal cell membrane regulation"; "neurotransmitter release"; "calcium signaling"; "neuronal ion channel regulation"; and "neuronal excitability regulation" are significantly enriched in this gene set.
 
           Mechanism: It appears that this gene set may be involved in a broad range of processes related to neurophysiology, including the regulation of neuronal membrane excitability and ion channels, neuronal cell membrane regulation, neurotransmitter release, and calcium signaling. These processes are all complex and interrelated, and are likely to have a direct impact on neural development and function.
@@ -1380,7 +1380,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The enriched terms of the human genes ATP2B1, ATP2B2, CACNA1C, CACNG2, CACNG3, CACNG4, CACNG5, CACNG7, CACNG8, CHRNA10, CHRNA7, CHRNA9, DRD2, F2R, GPM6A, GRIN1, GRIN2A, GRIN2B, GRIN2C, GRIN2D, GRIN3A, GRIN3B, HTR2A, ITPR1, NCS1, P2RX4, P2RX7, PLCB1, PSEN1, SLC8A1, SLC8A2, SLC8A3, TRPV1 include neuron development; neurotransmitter signaling; signal transduction; transmembrane transport; neural plasticity; ion transport; calcium signaling; glutamate receptor signaling; and synaptic signaling. 
 
@@ -1569,13 +1569,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This gene set is strongly enriched for genes involved in regulation of presynaptic cytosolic calcium ion concentration, membrane depolarization, regulation of glutamate receptor activity, regulation of neurotransmitter receptor activity, and regulation of phospholipid metabolism.
           The underlying biological mechanism or pathway could involve regulation of synaptic neurotransmitter release, intracellular phospholipid metabolism, and calcium ion homeostasis.
           Enriched terms: Calcium ion transmembrane import into cytosol; Calcium ion export across plasma membrane; Cellular response to ATP; G protein-coupled receptor signaling pathway; Ionotropic glutamate receptor signaling pathway; L-type Voltage-gated calcium channel complex; NMDA selective glutamate receptor complex; Regulation of phosphatidylinositol 3-kinase signaling; Regulation of phospholipase C activity; Regulation of presynaptic cytosolic calcium ion concentration; Regulation of synaptic vesicle exocytosis; Regulation of tumor necrosis factor production; Voltage-gated calcium channel activity; Regulation of AMPA receptor activity; Regulation of nitric oxide metabolic process.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           This gene set is strongly enriched for genes involved in regulation of presynaptic cytosolic calcium ion concentration, membrane depolarization, regulation of glutamate receptor activity, regulation of neurotransmitter receptor activity, and regulation of phospholipid metabolism.
           The underlying biological mechanism or pathway could involve regulation of synaptic neurotransmitter release, intracellular phospholipid metabolism, and calcium ion homeostasis.
@@ -1712,14 +1712,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: This list of genes is primarily associated with regulation of intracellular calcium concentrations and ion channel activity.
           Mechanism: Calcium concentration regulation is the primary mechanism enabling functions, such as postsynaptic neurotransmitter receptor activity, regulation of AMPA receptor activity, G protein-coupled receptor signaling, calcium ion transmembrane transport, and ligand-gated monoatomic ion channel activity.
           Enriched Terms: Calcium Channel Activity; Voltage-Gated Calcium Channel Activity; Regulation of Intracellular Calcium Concentrations; Postsynaptic Neurotransmitter Receptor Activity; Regulation of AMPA Receptor Activity; G Protein-Coupled Receptor Signaling; Calcium Ion Transmembrane Transport; Ligand-Gated Monoatomic Ion Channel Activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
 
           Summary: This list of genes is primarily associated with regulation of intracellular calcium concentrations and ion channel activity.
@@ -1843,7 +1843,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes discussed are involved in various forms of calcium ion transport, regulation and channels, as well as postsynaptic ion channels and nicotinic acetylcholine receptors. 
 
@@ -1851,7 +1851,7 @@
 
           Enriched Terms: Calcium ion transport; Calcium ion regulation; Postsynaptic Ion Channel; Nicotinic Acetylcholine Receptor; Glutamate Receptor Channel; G Protein-Coupled Receptor; Plasma Membrane Protein; Ligand-Gated Ion Channel.
         truncation_factor: 0.6400000000000001
-        summary: |4+
+        summary: |2+
 
           The genes discussed are involved in various forms of calcium ion transport, regulation and channels, as well as postsynaptic ion channels and nicotinic acetylcholine receptors. 
 
@@ -1976,12 +1976,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes encode proteins involved in calcium homeostasis, calcium-channel activity, and receptor function in cell membranes.
           Mechanism: The genes are involved in the biosynthesis and maintenance of calcium-related proteins, ion channels, and receptors, which are essential components to facilitate information flow and cell-signaling across cell membranes.
           Enriched Terms: Calcium homeostasis; Calcium-channel activity; Ion channel; G-protein coupled receptor; Ligand-gated ion channel.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
            These genes encode proteins involved in calcium homeostasis, calcium-channel activity, and receptor function in cell membranes.
           Mechanism: The genes are involved in the biosynthesis and maintenance of calcium-related proteins, ion channels, and receptors, which are essential components to facilitate information flow and cell-signaling across cell membranes.
         term_strings:
@@ -15181,13 +15181,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The genes analyzed are related to various neurological processes such as ion transport, excitatory neurotransmitter release, and signal transduction.
           Mechanism: These genes are likely to be involved in a variety of neurological processes, including ion transportation, excitatory neurotransmission release, signal transduction, and calcium signaling.
           Enriched Terms: Ion transport; Neurotransmitter release; Signal transduction; Calcium signaling.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The genes analyzed are related to various neurological processes such as ion transport, excitatory neurotransmitter release, and signal transduction.
           Mechanism: These genes are likely to be involved in a variety of neurological processes, including ion transportation, excitatory neurotransmission release, signal transduction, and calcium signaling.
@@ -15234,7 +15234,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes related to ion channel and G-protein coupled receptor (GPCR) function are enriched among the genes provided. Terms 'ion channel activity'; 'G-protein coupled receptor activity; 'signal transduction'; 'neurotransmission'; and 'calcium ion transport' are all statistically over-represented in this gene list.
 
           Mechanism: The genes CACNA1C, CHRNA7, GRIN3A, CACNG2, PSEN1, GPM6A, NCS1, CACNG3, GRIN3B, DRD2, F2R, HTR2A, CACNG7, SLC8A2, PLCB1, ATP2B1, GRIN2D, GRIN2B, TRPV1, GRIN2A, CHRNA10, P2RX4, SLC8A1, CACNG5, CACNG8, SLC8A3, ITPR1, P2RX7, ATP2B2, and GRIN2C are all related to ion transport, GPCR signaling, and neurotransmission. This suggests these mechanisms are involved in the regulation
@@ -15408,7 +15408,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Genes in this list are primarily involved in ionotropic glutamate receptor signaling, voltage-gated calcium channel activity, neurotransmitter receptor activity, extracellular ligand-gated ion channel activity, ATP hydrolysis activity, and P-type calcium transporter activity.
@@ -15417,7 +15417,7 @@
 
           Enriched Terms: Voltage-gated calcium channel activity; Ionotropic glutamate receptor signaling; Regulation of presynaptic membrane potential; Regulation of postsynaptic neurotransmitter receptor activity; Calcium:monoatomic cation antiporter activity; Calcium:sodium antiporter activity; P-type calcium transporter activity; Extracellular ligand-gated monoatomic ion channel activity.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: Genes in this list are primarily involved in ionotropic glutamate receptor signaling, voltage-gated calcium channel activity, neurotransmitter receptor activity, extracellular ligand-gated ion channel activity, ATP hydrolysis activity, and P-type calcium transporter activity.
@@ -15537,14 +15537,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The majority of the genes provided have functions related to calcium, ion channels (either voltage-gated or ligand-gated) as well as neurotransmitter/receptor binding and activity, and ATPase binding. Furthermore, many of these genes were also predicted to be located in postsynaptic density or in the plasma membrane. The underlying biological mechanism is likely related to the regulation of intracellular calcium concentrations in order to activate and/or modulate key cellular processes.  
 
           Mechanism: Regulation of intracellular calcium concentrations, likely via voltage-gated and/or ligand-gated ion channels, proteins responsible for neurotransmitter/receptor binding and activity, and ATPase binding. 
 
           Enriched Terms: Calcium, Ion Channel, Voltage-Gated, Ligand-Gated, Neurotransmitter binding, Receptor Activity, ATPase binding, Postsynaptic Density, Plasma Membrane.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The majority of the genes provided have functions related to calcium, ion channels (either voltage-gated or ligand-gated) as well as neurotransmitter/receptor binding and activity, and ATPase binding. Furthermore, many of these genes were also predicted to be located in postsynaptic density or in the plasma membrane. The underlying biological mechanism is likely related to the regulation of intracellular calcium concentrations in order to activate and/or modulate key cellular processes.  
 
           Mechanism: Regulation of intracellular calcium concentrations, likely via voltage-gated and/or ligand-gated ion channels, proteins responsible for neurotransmitter/receptor binding and activity, and ATPase binding. 
@@ -15664,14 +15664,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Hormone-receptor-like transmembrane proteins from multiple families such as CACNA and CHRNA, and GPM6A act as ion channels for calcium and/or Na+, and regulate synaptic transmission and plasticity stages.
 
           Mechanism: These ion channels regulate the intracellular and extracellular concentration of calcium ions, cations, and other ions across the cell membrane. This signals activation of intracellular enzymes and pathways that underlie neuronal function, such as neural developmental and migration, learning and memory, and synaptic transmission and plasticity.
 
           Enriched Terms: ion channels; transmembrane proteins; calcium ion; cations; synaptic transmission; synaptic plasticity; calcium homeostasis; cell membrane; neural development; neural migration; learning; memory.
         truncation_factor: 0.8
-        summary: |4+
+        summary: |2+
            Hormone-receptor-like transmembrane proteins from multiple families such as CACNA and CHRNA, and GPM6A act as ion channels for calcium and/or Na+, and regulate synaptic transmission and plasticity stages.
 
           Mechanism: These ion channels regulate the intracellular and extracellular concentration of calcium ions, cations, and other ions across the cell membrane. This signals activation of intracellular enzymes and pathways that underlie neuronal function, such as neural developmental and migration, learning and memory, and synaptic transmission and plasticity.

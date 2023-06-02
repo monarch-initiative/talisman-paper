@@ -2685,12 +2685,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Gene expression, DNA repair and maintenance, growth factors, cellular signaling pathways and lipid metabolism 
           Mechanism: Regulation of gene expression through the activation of transcription and DNA repair and maintenance pathways is likely involved. The enriched terms related to growth factors suggests that the list of genes may be involved in cell proliferation and differentiation. Signaling pathways and lipid metabolism may be involved in cell-cell communication and energy-related processes, respectively.
           Enriched Terms: Gene expression; DNA repair & maintenance; growth factors; cellular signaling pathways; lipid metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Gene expression, DNA repair and maintenance, growth factors, cellular signaling pathways and lipid metabolism 
           Mechanism: Regulation of gene expression through the activation of transcription and DNA repair and maintenance pathways is likely involved. The enriched terms related to growth factors suggests that the list of genes may be involved in cell proliferation and differentiation. Signaling pathways and lipid metabolism may be involved in cell-cell communication and energy-related processes, respectively.
         term_strings:
@@ -2738,13 +2738,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes is enriched for terms related to signal transduction pathways and development, such as morphogenesis and cell differentiation.
           Mechanism: Signal transduction pathways are likely involved in the regulation of the gene functions, with particular importance of tyrosine kinase activity and modulation of relevant receptor activities.
           Hypothesis: The genes may be involved in the regulation of tissue development and cell differentiation.
           Enriched Terms: Signal transduction pathways; Morphogenesis; Cell differentiation; Tyrosine kinase activity; Receptor activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The list of genes is enriched for terms related to signal transduction pathways and development, such as morphogenesis and cell differentiation.
           Mechanism: Signal transduction pathways are likely involved in the regulation of the gene functions, with particular importance of tyrosine kinase activity and modulation of relevant receptor activities.
           Hypothesis: The genes may be involved in the regulation of tissue development and cell differentiation.
@@ -3004,14 +3004,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes are found to be enriched for functions related to protein binding and kinase activities, signal sequence and receptor binding, cell cycle and apoptosis regulation, and signal transduction.
 
           Mechanism: This enrichment suggests that these genes are involved in a variety of cellular processes that are associated with metabolism and signal transduction, such as cell cycle regulation, cell migration and differentiation, apoptosis, and signal cascade regulation. 
 
           Enriched Terms: Protein binding activity; Kinase activity; Signal sequence binding; Receptor binding; Cell cycle regulation; Apoptosis regulation; Signal transduction; RNA binding activity; Protein phosphatase activity; Phospholipase activity; GTPase activity; 1-phosphatidylinositol phospholipase activity; Phosphotyrosine residue binding activity; Adenyl-nucleotide exchange factor activity; Guanyl ribonucleotide binding activity; Cysteine-type endopeptidase inhibitor activity; Phosphoprotein binding; Transmembrane transporter binding; Cytoskeletal protein binding; Low-density lipoprotein particle receptor binding; Transcription coactivator activity; Nuclear androgen receptor binding; Nuclear receptor coactiv
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
            The list of genes are found to be enriched for functions related to protein binding and kinase activities, signal sequence and receptor binding, cell cycle and apoptosis regulation, and signal transduction.
 
           Mechanism: This enrichment suggests that these genes are involved in a variety of cellular processes that are associated with metabolism and signal transduction, such as cell cycle regulation, cell migration and differentiation, apoptosis, and signal cascade regulation. 
@@ -3309,14 +3309,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of human genes are involved in diverse signaling pathways, regulatory processes and enzyme activities related to cell structure, cell motility, faical recognition, gene/protein expression and other metabolic pathways. The gene functions include enzyme binding activity, protein kinase binding activity, phospholipid binding activity, phosphatase activity and GTPase activity. The enriched terms include cellular process regulation, enzyme activity, protein and peptide regulation, and protein domain modification.
 
           Mechanism: This list of human genes modoify cellular processes by various functions such as enzyme binding activities, protein kinase binding activities, phospholipid binding activities, phosphatase activities, and GTPase activities. These functions help regulate and modify various signaling pathways and gene/protein expressions involved in cell structural, motility, and facial recognition, as well as metabolic processes.
 
           Enriched Terms: Cellular Process Regulations; Enzyme Activities; Protein and Peptide Regulation; Protein Domain Modification.
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
            This list of human genes are involved in diverse signaling pathways, regulatory processes and enzyme activities related to cell structure, cell motility, faical recognition, gene/protein expression and other metabolic pathways. The gene functions include enzyme binding activity, protein kinase binding activity, phospholipid binding activity, phosphatase activity and GTPase activity. The enriched terms include cellular process regulation, enzyme activity, protein and peptide regulation, and protein domain modification.
 
           Mechanism: This list of human genes modoify cellular processes by various functions such as enzyme binding activities, protein kinase binding activities, phospholipid binding activities, phosphatase activities, and GTPase activities. These functions help regulate and modify various signaling pathways and gene/protein expressions involved in cell structural, motility, and facial recognition, as well as metabolic processes.
@@ -3576,12 +3576,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Summary: This gene list includes many genes involved in protein regulation and signalling with a heavy focus on serine/threonine protein kinase family.
            Mechanism: Multiple genes listed play a role in the regulation of ubiquination, phospholipids, protein-protein interactions, transcription, and cell signalling.
            Enriched Terms: phosphorylation; protein synthesis; mRNA expression; protein binding; cell signalling; ubiquitination; protein phosphatase.
         truncation_factor: 0.13421772800000006
-        summary: |4-
+        summary: |2-
            Summary: This gene list includes many genes involved in protein regulation and signalling with a heavy focus on serine/threonine protein kinase family.
            Mechanism: Multiple genes listed play a role in the regulation of ubiquination, phospholipids, protein-protein interactions, transcription, and cell signalling.
            
@@ -3846,13 +3846,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The majority of genes in this list encode proteins involved in signal transduction pathways and interact with other proteins via phosphorylation or protein-protein binding.  
           Mechanism: Many of the gene products in this list are involved in signal transduction via phosphorylation, protein-protein interaction, GTP binding and/or cAMP binding.  
           Enriched Terms: Protein Kinase; Phosphatase; GTP Binding; Protein-Protein Interaction; cAMP Binding; Transcription Factor; Peptidyl-Prolyl cis/trans Isomerase; Cytoskeletal Function; Protein Tyrosine Phosphatase; Protein Phosphatase; Protein Chaperone; Guanine Nucleotide Exchange Factor; Receptor Interacting Protein; Transmembrane Glycoprotein; Interleukin Receptor; CXC Chemokine Receptor; Inositol Trisphosphate Receptor; Plexin Domain; Phosphoinositide 3-Kinase; Ubiquitin Activation/Conjugation; Small GTPase.
         truncation_factor: 0.13421772800000006
-        summary: |4
+        summary: |2
            
           Summary: The majority of genes in this list encode proteins involved in signal transduction pathways and interact with other proteins via phosphorylation or protein-protein binding.  
           Mechanism: Many of the gene products in this list are involved in signal transduction via phosphorylation, protein-protein interaction, GTP binding and/or cAMP binding.  
@@ -25591,14 +25591,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes provided are significantly enriched for functions related to cellular protein interaction, signal transduction, and the regulation of gene expression, as well as cytokine stimulation, inflammation, and response to wounding, and cell cycle regulation.
 
           Mechanism: The genes are involved in a wide variety of signal transduction pathways that ultimately modulate interactions between cellular proteins and effect gene expression. These pathways may then influence cell cycle progression, cytokine stimulation, inflammation, and cell response to wounding.
 
           Enriched Terms: Cellular Protein Interaction; Signal Transduction; Gene Expression Regulation; Cytokine Stimulation; Inflammation; Wound Response; Cell Cycle Regulation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes provided are significantly enriched for functions related to cellular protein interaction, signal transduction, and the regulation of gene expression, as well as cytokine stimulation, inflammation, and response to wounding, and cell cycle regulation.
 
           Mechanism: The genes are involved in a wide variety of signal transduction pathways that ultimately modulate interactions between cellular proteins and effect gene expression. These pathways may then influence cell cycle progression, cytokine stimulation, inflammation, and cell response to wounding.
@@ -25994,13 +25994,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The list of genes are involved in a variety of functions such as protein binding activity, enzyme binding activity, signal transduction, cell cycle regulation, transcriptional regulation, signal receptor binding, DNA binding and ubiquitination.
           Mechanism: The genes in this list possess a variety of functions related to protein binding, enzyme binding, signal transduction, cell cycle regulation, transcriptional regulation, signal receptor binding, DNA binding and ubiquitination that contribute to diverse biological processes including cell differentiation, cell migration, and apoptosis.
           Enriched Terms: Protein binding activity; Enzyme binding activity; Signal transduction; Cell cycle regulation; Transcriptional regulation; Signal receptor binding; DNA binding; Ubiquitination; Cell differentiation; Cell migration; Apoptosis.
         truncation_factor: 0.2621440000000001
-        summary: |4
+        summary: |2
            
           Summary: The list of genes are involved in a variety of functions such as protein binding activity, enzyme binding activity, signal transduction, cell cycle regulation, transcriptional regulation, signal receptor binding, DNA binding and ubiquitination.
           Mechanism: The genes in this list possess a variety of functions related to protein binding, enzyme binding, signal transduction, cell cycle regulation, transcriptional regulation, signal receptor binding, DNA binding and ubiquitination that contribute to diverse biological processes including cell differentiation, cell migration, and apoptosis.
@@ -26253,7 +26253,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: These genes enable diverse protein-related functions, including binding activities, kinase activities, transcription activation activities, and phosphorylation activities.
@@ -26262,7 +26262,7 @@
 
           Enriched Terms: Protein binding activity; Protein Serine/Threonine Kinase activity; Enzyme binding activity; Protein Kinase activity; DNA-binding Transcription Factor Activity; Phosphatase Activity; Transcription Activator Activity; GTPase Activity; Cyclin binding activity; Cysteine-type Endopeptidase Inhibitor Activity; ATP Binding Activity; GTP Binding Activity; Phosphoprotein Binding Activity; Nuclear Receptor Binding Activity; 20-HETE binding activity; Adenyl-nucleotide Exchange Factor Activity; Kinase Binding Activity; TIR Domain Binding Activity; Signaling Receptor Binding Activity; Actin Monomer Binding Activity; Ubiquitin Binding Activity; Ubiquitin Protein Ligase Binding Activity; 14-3-3 Protein Binding Activity; Histone Deacetylase Binding Activity; Tumor
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
 
 
           Summary: These genes enable diverse protein-related functions, including binding activities, kinase activities, transcription activation activities, and phosphorylation activities.
@@ -26546,7 +26546,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: Members of the MAP Kinase (MAPK), RAS, Protein Kinase (PKC), G Protein-Coupled Receptor Kinase (GRK), phosphatidylinositol (PtdIns), and TNF Receptor Associated Factor (TRAF) families of proteins are enriched.
 
@@ -26554,7 +26554,7 @@
 
           Enriched terms: RAS; MAP Kinase (MAPK); G Protein-Coupled Receptor Kinase (GRK); Protein Kinase (PKC);Phosphatidylinositol (PtdIns); TNF Receptor Associated Factor (TRAF); Signal Transduction; Cell Cycle Regulation; Cytoskeletal Growth; cytosolic Protein Regulation; Protein Modification.
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
            
           Summary: Members of the MAP Kinase (MAPK), RAS, Protein Kinase (PKC), G Protein-Coupled Receptor Kinase (GRK), phosphatidylinositol (PtdIns), and TNF Receptor Associated Factor (TRAF) families of proteins are enriched.
 

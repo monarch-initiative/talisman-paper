@@ -4344,14 +4344,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Analysis of this gene list revealed a significant enrichment of terms in functions related to cytoskeleton alteration, calcium homeostasis modulation, ubiquitin-proteasome pathway activation, cell cycle control, and transcriptional and post-transcriptional regulation.
 
           Mechanism: These functions likely act in concert to mediate the regulation of cellular growth, differentiation, and survival.
 
           Enriched Terms: Cytoskeletal reorganization; Calcium homeostasis; Ubiquitin-proteasome pathway; Cell cycle control; Transcriptional regulation; mRNA processing; DNA damage responses.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Analysis of this gene list revealed a significant enrichment of terms in functions related to cytoskeleton alteration, calcium homeostasis modulation, ubiquitin-proteasome pathway activation, cell cycle control, and transcriptional and post-transcriptional regulation.
 
           Mechanism: These functions likely act in concert to mediate the regulation of cellular growth, differentiation, and survival.
@@ -4405,7 +4405,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Analysis of this list of genes suggests a function related to cell cycle regulation, apoptosis, and protein translation. The enriched terms include 'cell cycle regulation', 'apoptosis', 'protein translation', 'transcription regulation', 'intracellular protein transport', 'protein synthesis', and 'DNA repair'.
 
           Mechanism:  The list of genes may be associated with a mechanism related to the regulation of cell cycle transitions and the integration of external signals to regulate gene transcription, protein translation and stability, and cellular apoptosis. This could involve some combination of signal transduction, transcriptional control, post-translational modifications, and DNA repair.
@@ -4883,14 +4883,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Genes appear to be involved in functions related to DNA-binding transcription activity, protein binding activity, and protein kinase binding activity. 
           Mechanism: The genes are thought to be involved in pathways related to DNA transcription, protein-protein interactions, and cell signaling.
           Enriched Terms: DNA-binding transcription factor activity; protein binding activity; protein kinase binding activity; protein homodimerization activity; enzyme binding activity; cell adhesion mediator activity; signaling receptor binding activity; actin binding activity; cyclin binding activity; structural molecule activity; small GTPase regulator activity.
         truncation_factor: 0.10737418240000006
-        summary: |4
+        summary: |2
 
 
           Summary: Genes appear to be involved in functions related to DNA-binding transcription activity, protein binding activity, and protein kinase binding activity. 
@@ -5352,12 +5352,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes encode proteins with functions in DNA binding activities, RNA polymerase II-specific functions, transcription regulation, protein binding activity, and enzyme binding activity.
           The commonalities in their functions suggest the underlying biological mechanism involves DNA transcription and regulation.
           Enriched Terms: DNA binding activity; RNA polymerase II-specific DNA-binding transcription factor binding activity; transcription regulation; protein binding activity; enzyme binding activity.
         truncation_factor: 0.10737418240000006
-        summary: |4
+        summary: |2
            These genes encode proteins with functions in DNA binding activities, RNA polymerase II-specific functions, transcription regulation, protein binding activity, and enzyme binding activity.
           The commonalities in their functions suggest the underlying biological mechanism involves DNA transcription and regulation.
         term_strings:
@@ -5805,14 +5805,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Human genes in this list are generally involved in cell cycle progression, transcription, signaling and regulation, protein synthesis and processing, and homeostasis. Specifically, enrichment of the terms "cell cycle," "transcription," "signaling," "protein synthesis," "regulation," and "homeostasis" was observed.
 
           Mechanism: These genes are likely involved in the creation, maintenance, duplication, and regulation of the complex network of proteins and processes occurring within cells, and the modulation of these processes in response to changes in the environment.
 
           Enriched Terms: Cell Cycle; Transcription; Signaling; Protein Synthesis; Regulation; Homeostasis
         truncation_factor: 0.06871947673600004
-        summary: |4+
+        summary: |2+
            Human genes in this list are generally involved in cell cycle progression, transcription, signaling and regulation, protein synthesis and processing, and homeostasis. Specifically, enrichment of the terms "cell cycle," "transcription," "signaling," "protein synthesis," "regulation," and "homeostasis" was observed.
 
           Mechanism: These genes are likely involved in the creation, maintenance, duplication, and regulation of the complex network of proteins and processes occurring within cells, and the modulation of these processes in response to changes in the environment.
@@ -6264,14 +6264,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Human gene functions related to cell cycle regulation, transcriptional regulation, protein binding, DNA binding, and cell signaling. 
           Mechanism: Regulation of biological processes and pathways by association of proteins to various binding targets including proteins, DNA, and electron transfer. 
           Enriched Terms: Protein Binding; DNA Binding; Transcriptional Regulation; Cell Cycle Regulation; Cell Signaling.
         truncation_factor: 0.06871947673600004
-        summary: |4
+        summary: |2
 
 
           Summary: Human gene functions related to cell cycle regulation, transcriptional regulation, protein binding, DNA binding, and cell signaling. 
@@ -31404,7 +31404,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Molecule and protein synthesis and regulation, including transcription factors, protein ubiquitination, and circadian rhythm;
 
           Mechanism: The enrichment of these genes likely indicates they are involved in the cellular processes of synthesizing and controlling molecules and proteins which are essential for a variety of biological activities, such as DNA methylation, gene expression, intracellular trafficking, protein phosphorylation, and signal transduction. Gene transcription factors, such as FOS, FOXO3, DDIT3, TBX1, and IER3, likely play a key role in this process. Protein ubiquitination is a post-translational modification which allows many types of cellular processes, and is likely regulated by the enriched genes EI24 and WWP1. The regulation of the biological clock is another likely cellular activity which is driven by rhythm- regulating genes such as PERP, IFI30, RPL18, and RPS27L. 
@@ -31412,7 +31412,7 @@
           Enriched Terms: 
           Transcription Factors; Protein Ubiquitination; Circadian rhythm regulation; DNA Methylation; Gene Expression; Intracellular Trafficking; Protein Phosphorylation; Signal Transduction.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Molecule and protein synthesis and regulation, including transcription factors, protein ubiquitination, and circadian rhythm;
 
           Mechanism: The enrichment of these genes likely indicates they are involved in the cellular processes of synthesizing and controlling molecules and proteins which are essential for a variety of biological activities, such as DNA methylation, gene expression, intracellular trafficking, protein phosphorylation, and signal transduction. Gene transcription factors, such as FOS, FOXO3, DDIT3, TBX1, and IER3, likely play a key role in this process. Protein ubiquitination is a post-translational modification which allows many types of cellular processes, and is likely regulated by the enriched genes EI24 and WWP1. The regulation of the biological clock is another likely cellular activity which is driven by rhythm- regulating genes such as PERP, IFI30, RPL18, and RPS27L. 
@@ -31468,11 +31468,11 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list reveals genes enriched for terms related to cell signaling and regulation, growth and development, and inflammation. The underlying biological mechanism involves processes such as cell cycle regulation, transcriptional modulation, and epigenetic control.
           Enriched Terms: Cell signaling; Cell regulation; Cell cycle; Transcriptional modulation; Epigenetic control; Growth and development; Inflammation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            This gene list reveals genes enriched for terms related to cell signaling and regulation, growth and development, and inflammation. The underlying biological mechanism involves processes such as cell cycle regulation, transcriptional modulation, and epigenetic control.
         term_strings:
           - cell signaling
@@ -31884,7 +31884,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Common among the genes in the list are functions related to protein binding activity, DNA/RNA binding activity, transcription/transcription factor activity, molecular adaptor activity, and enzyme binding activity. These processes may indicate a mechanism of signaling and regulation, likely mediated by the binding of specific proteins or nucleic acids to specific targets.
 
@@ -31892,7 +31892,7 @@
 
           Enriched Terms: protein binding activity; DNA binding activity; RNA binding activity; transcription factor activity; molecular adaptor activity; enzyme binding activity.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
 
           Common among the genes in the list are functions related to protein binding activity, DNA/RNA binding activity, transcription/transcription factor activity, molecular adaptor activity, and enzyme binding activity. These processes may indicate a mechanism of signaling and regulation, likely mediated by the binding of specific proteins or nucleic acids to specific targets.
 
@@ -32307,14 +32307,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes given represent functions related to molecular adaptations and processes involved in DNA transcription, protein binding, binding activity, and activity regulation.  The term “binding activity” is statistically significantly over-represented, along with terms related to protein activity and protein regulation, including “protein homodimerization activity”, “identical protein binding activity”, “signaling receptor binding activity”, “protein dimerization activity”, and “transcription regulator activity”.
 
           Mechanism: Many of these genes serve to mediate or regulate cellular processes by acting as transcription factors, binding to proteins or other targets, or by binding and breaking down nucleic acids. The regulation and binding processes maintained by these genes are essential for cellular maintenance, growth, and repair.
 
           Enriched Terms: Binding Activity; Protein Homodimerization Activity; Identical Protein Binding Activity; Signaling Receptor Binding Activity; Protein Dimerization Activity; Transcription Regulator Activity.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            The list of genes given represent functions related to molecular adaptations and processes involved in DNA transcription, protein binding, binding activity, and activity regulation.  The term “binding activity” is statistically significantly over-represented, along with terms related to protein activity and protein regulation, including “protein homodimerization activity”, “identical protein binding activity”, “signaling receptor binding activity”, “protein dimerization activity”, and “transcription regulator activity”.
 
           Mechanism: Many of these genes serve to mediate or regulate cellular processes by acting as transcription factors, binding to proteins or other targets, or by binding and breaking down nucleic acids. The regulation and binding processes maintained by these genes are essential for cellular maintenance, growth, and repair.
@@ -32728,12 +32728,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list are involved in a variety of signaling pathways, cell cycle regulation, DNA binding and repair, transcription regulation, cell adhesion, and metabolism. 
           Mechanism: Genes encoding signaling molecules, transcription factors, tumor suppressors, and regulators of cell cycle, protein kinases, metabolism, and DNA repair, as well as proteins involved in cellular structures such as receptors, histones, and ribosomes are all highly enriched. 
           Enriched Terms: Signal Transduction; Cell Cycle Regulation; DNA Binding; Cell Adhesion; Protein Kinase; Transcription Regulation; Metabolism; Ribosomes; Histones; Receptors.
         truncation_factor: 0.08589934592000005
-        summary: |4
+        summary: |2
            Genes in this list are involved in a variety of signaling pathways, cell cycle regulation, DNA binding and repair, transcription regulation, cell adhesion, and metabolism. 
           Mechanism: Genes encoding signaling molecules, transcription factors, tumor suppressors, and regulators of cell cycle, protein kinases, metabolism, and DNA repair, as well as proteins involved in cellular structures such as receptors, histones, and ribosomes are all highly enriched. 
         term_strings:
@@ -33153,14 +33153,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enriched terms in the list of genes above include DNA binding, transcription regulation, signaling pathways, cell cycle regulation, and enzyme binding functions. These proteins are involved in a variety of processes linked to cell growth, development, death, and repair. The underlying biological mechanism revolves around the coordination of these processes which rely on DNA binding and transcription regulation.
 
           Mechanism: The overall biological mechanism involves the coordination of these processes by DNA binding and transcription regulation, enabling signaling pathways, cell cycle regulation, and enzyme binding functions.
 
           Enriched Terms: DNA binding; transcription regulation; signaling pathways; cell cycle regulation; enzyme binding.
         truncation_factor: 0.08589934592000005
-        summary: |4+
+        summary: |2+
            Enriched terms in the list of genes above include DNA binding, transcription regulation, signaling pathways, cell cycle regulation, and enzyme binding functions. These proteins are involved in a variety of processes linked to cell growth, development, death, and repair. The underlying biological mechanism revolves around the coordination of these processes which rely on DNA binding and transcription regulation.
 
           Mechanism: The overall biological mechanism involves the coordination of these processes by DNA binding and transcription regulation, enabling signaling pathways, cell cycle regulation, and enzyme binding functions.

@@ -2429,12 +2429,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These human genes are involved in cellular functions related to glycosaminoglycan metabolism, lysosomal and catabolic pathways, as well as digit and skeletal development. The genes are enriched for functions in carbohydrate digestion and absorption; glycosaminoglycan and glycan metabolism; lysosomal, peroxisomal, and catabolic processes; and digit, skeletal, and limb morphogenesis. 
           Mechanism: The genes likely act by providing enzymes, carriers, and structural proteins that together play essential roles in the transport and metabolism of carbohydrates, as well as help form and shape the skeleton and digits during embryonic development. 
           Enriched Terms: Carbohydrate digestion and absorption; glycosaminoglycan and glycan metabolism; lysosomal, peroxisomal, and catabolic processes; digit, skeletal, and limb morphogenesis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            These human genes are involved in cellular functions related to glycosaminoglycan metabolism, lysosomal and catabolic pathways, as well as digit and skeletal development. The genes are enriched for functions in carbohydrate digestion and absorption; glycosaminoglycan and glycan metabolism; lysosomal, peroxisomal, and catabolic processes; and digit, skeletal, and limb morphogenesis. 
           Mechanism: The genes likely act by providing enzymes, carriers, and structural proteins that together play essential roles in the transport and metabolism of carbohydrates, as well as help form and shape the skeleton and digits during embryonic development. 
         term_strings:
@@ -2484,12 +2484,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are apparently associated with lysozymes, mucins, glycosyltransferases, and hyaluronidases, enzymes and proteins with roles in the breakdown and regulation of glycosylation.
           Mechanism: The mechanism behind this gene cluster's biological role seems to be in the regulation of cell processes related to glycosylation, such as enzyme production and its breakdown.
           Enriched Terms: Lysozyme; Mucin; Glycosyltransferase; Hyaluronidase; Glycosylation; Enzyme; Protein.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            These genes are apparently associated with lysozymes, mucins, glycosyltransferases, and hyaluronidases, enzymes and proteins with roles in the breakdown and regulation of glycosylation.
           Mechanism: The mechanism behind this gene cluster's biological role seems to be in the regulation of cell processes related to glycosylation, such as enzyme production and its breakdown.
         term_strings:
@@ -2722,7 +2722,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes in this list share functions involving glycoprotein and carbohydrate metabolic processes and structural functions related to extracellular matrix organization. Enriched terms include: dihydroceramidase activity; N-acylsphingosine amidohydrolase activity; O-acetyl-ADP-ribose deacetylase activity; 4-alpha-glucanotransferase activity; amylo-alpha-1,6-glucosidase activity; alpha-amylase activity; hyaluronic acid binding activity; hyalurononglucosaminidase activity; chitinase activity; endochitinase activity; clathrin heavy chain binding activity; beta-glucosidase activity; glucosylceramidase activity; galactosylceramidase activity; hydrolase activity, hydrolyzing O-glycosyl compounds; acetylglucosaminyltransferase activity; beta-N-acetylhexosaminidase activity; identical protein binding activity; syndecan binding activity; heparan sulfate proteoglycan binding activity; lysozyme activity; beta-mannosidase activity
         truncation_factor: 0.5120000000000001
@@ -2992,7 +2992,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes in the list are involved in many processes relating to glycan metabolism and synthesis, such as glycoside catabolic process, glycosaminoglycan catabolic process, glycolipid catabolic process, glycogen catabolic process, and sucrose catabolic process. Other enriched terms are dihydroceramidase activity, hyaluronic acid binding activity, hyalurononglucosaminidase activity, hyaluronan metabolic process, L-arabinose metabolic process, mannosyl-oligosaccharide 1,2-alpha-mannosidase activity, protein N-linked glycosylation, and protein homodimerization activity.
 
           Mechanism: Glycan metabolism and synthesis involves several enzymes with diverse activities such as alpha-glucosidases, alpha-mannosidases, beta-glucosidases, beta-N-acetylhexosaminidases, and N-acetylglucosaminyltransferases. These enzymes hydrolyze and transfer carbohydrate building blocks to form and modify carbohydrates for a variety of cellular functions. 
@@ -3267,7 +3267,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Proteins encoded by the genes are involved in the degradation of polysaccharides and glycoproteins to produce basic sugars, the recognition and degradation of misfolded proteins by endoplasmic reticulum-associated degradation, and the hydrolysis of glycosaminoglycans and heparosan sulfate. Enriched terms: Glycosidase activity; Glycogen degradation; Glycoprotein degradation; Misfolded protein binding; Endoplasmic reticulum-associated degradation; Glycosaminoglycan hydrolysis; Heparan sulfate hydrolysis; Cell surface hyaluronidase.
           Hpyothesis: The genes listed serve key roles in the degradation of polysaccharides and glycoproteins, the recognition of misfolded proteins and their subsequent degradation by endoplasmic reticulum-associated degradation, the hydrolysis of glycosaminoglycans, and the hydrolysis of heparan sulfate for the maintenance of cell proteins and structure.
         truncation_factor: 0.2621440000000001
@@ -3512,7 +3512,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: Genes included in this list encode enzymes that hydrolyze glycosyl bonds and are involved in glycosylation processes, such as N-Linked Oligosaccharide, O-linked N-acetylglucosamine, and Polysaccharide processes.
 
@@ -3520,7 +3520,7 @@
 
           Enriched Terms: Glycosyl Hydrolase; Glycosyl Bond Hydrolysis; Oligosaccharide Processing; Glycoprotein; Polysaccharide; N-Linked Oligosaccharide; O-linked N-acetylglucosamine; β-1,4-glucosidase; β-glucosidase; β-hexosaminidase.
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
 
           Summary: Genes included in this list encode enzymes that hydrolyze glycosyl bonds and are involved in glycosylation processes, such as N-Linked Oligosaccharide, O-linked N-acetylglucosamine, and Polysaccharide processes.
 
@@ -14078,12 +14078,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Protein glycosylation is the most significantly enriched term for this list of genes. 
           Mechanism: Protein post-translational modifications, and in particular, protein glycosylation pathways are likely to be involved in the gene functions.
           Enriched Terms: Protein glycosylation; Glycosyltransferase; Glycogen synthesis; Glycosphingolipid metabolism; Protein N-terminal domain; Carbohydrate metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            Protein glycosylation is the most significantly enriched term for this list of genes. 
           Mechanism: Protein post-translational modifications, and in particular, protein glycosylation pathways are likely to be involved in the gene functions.
         term_strings:
@@ -14133,7 +14133,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: The genes identified are significantly associated with a number of functions related to the development of the digit (e.g. toe and finger morphogenesis, digit development), with additional functions in carbohydrate metabolism, enzyme readout, lysosomal hydrolases, and glycoprotein biosynthesis and processing.
@@ -14142,7 +14142,7 @@
 
           Enriched Terms: Digit Development; Carbohydrate Metabolism; Enzyme Readout; Lysosomal Hydrolases; Glycoprotein Biosynthesis; Glycoprotein Processing.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: The genes identified are significantly associated with a number of functions related to the development of the digit (e.g. toe and finger morphogenesis, digit development), with additional functions in carbohydrate metabolism, enzyme readout, lysosomal hydrolases, and glycoprotein biosynthesis and processing.
@@ -14359,7 +14359,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary:
@@ -14367,7 +14367,7 @@
           Mechanism: The enzymes in the list may play a role in carbohydrate metabolism by hydrolyzing O-glycosyl compounds, enabling oligosaccharide glucosidase and mannosidase activities, and enabling amylase activity.
           Enriched Terms: Glycoprotein binding; Catabolic processes; Hydrolase activity, hydrolyzing O-glycosyl compounds; Enabling oligosaccharide glucosidase and mannosidase activities; Enabling amylase activity; Carbohydrate metabolism; Digestion.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
 
           Summary:
@@ -14586,13 +14586,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes is enriched for terms related to enzyme activity, such as glucosidase activity, hyalurononglucosaminidase activity, alpha-mannosidase activity, lysozyme activity, beta-galactosidase activity, chickinase activity, and beta-N-acetylhexosaminidase activity. 
           Mechanism: These genes may participate in a variety of metabolic and cellular processes, including N-glycan processing, glycoprotein metabolism, carbohydrate metabolism, DNA repair, lipid transport, and sensory perception of sound. 
           Enriched Terms: Enzyme activity; Glucosidase; Hyalurononglucosaminidase; Alpha-mannosidase; Lysozyme; Beta-galactosidase; Chickinase; Beta-N-acetylhexosaminidase; N-glycan processing; Glycoprotein metabolism; Carbohydrate metabolism; DNA repair; Lipid transport; Sensory perception of sound.
         truncation_factor: 0.6400000000000001
-        summary: |4
+        summary: |2
 
           Summary: The list of genes is enriched for terms related to enzyme activity, such as glucosidase activity, hyalurononglucosaminidase activity, alpha-mannosidase activity, lysozyme activity, beta-galactosidase activity, chickinase activity, and beta-N-acetylhexosaminidase activity. 
           Mechanism: These genes may participate in a variety of metabolic and cellular processes, including N-glycan processing, glycoprotein metabolism, carbohydrate metabolism, DNA repair, lipid transport, and sensory perception of sound. 
@@ -14823,7 +14823,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The identified human genes are involved in the hydrolysis of glycosidic bonds and the degradation of glycosaminoglycans and hyaluronan, which are components of extracellular matrices and cell walls of fungi. These genes are associated with various reactions such as enzyme hydrolysis, N-glycan biosynthesis, alpha-glucosidase, beta-hexosaminidase, and beta-galactosidase activities. These activities are involved in processes such as cell adhesion, myelination, glycolysis, and N-glycan trimming.
 
@@ -14831,7 +14831,7 @@
 
           Enriched Terms: Enzymatic Hydrolysis; Glycosaminoglycans degradation; Alpha-amylases; Hyaluronidases
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
 
           The identified human genes are involved in the hydrolysis of glycosidic bonds and the degradation of glycosaminoglycans and hyaluronan, which are components of extracellular matrices and cell walls of fungi. These genes are associated with various reactions such as enzyme hydrolysis, N-glycan biosynthesis, alpha-glucosidase, beta-hexosaminidase, and beta-galactosidase activities. These activities are involved in processes such as cell adhesion, myelination, glycolysis, and N-glycan trimming.
 
@@ -15044,7 +15044,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The gene list includes genes encoding proteins responsible for the hydrolysis of glycosaminoglycans, oligosaccharides and glycolipids, the metabolism of sphingolipids, glycoproteins, glycosides, glycoglycerolipids and chitin. These proteins are involved in endoplasmic reticulum quality control, N-glycan biosynthesis and degradation, and cell proliferation and survival. 
 
@@ -15052,7 +15052,7 @@
 
           Enriched Terms: glycosyl hydrolase; hyaluronidase; glycosaminoglycans; oligosaccharides; glycolipids; sphingolipids; glycoproteins; glycosides; glycoglycerolipids; chitin; N-acetylglucosamine; sucrase-isomaltase; endoplasmic reticulum quality control; N-glycan biosynthesis; mannosyl-oligosaccharide 1,2
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
 
           The gene list includes genes encoding proteins responsible for the hydrolysis of glycosaminoglycans, oligosaccharides and glycolipids, the metabolism of sphingolipids, glycoproteins, glycosides, glycoglycerolipids and chitin. These proteins are involved in endoplasmic reticulum quality control, N-glycan biosynthesis and degradation, and cell proliferation and survival. 
 

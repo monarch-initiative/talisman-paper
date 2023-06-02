@@ -4379,14 +4379,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enrichment analysis of this list has revealed that many of the genes are involved in energy metabolism and fatty acid metabolism, such as ATP1B3, ACOX1, ACADM, SLC19A1, SLC25A10, PGM1, UCP2, GPX3 and GPX4. They are also related to adipogenesis, with genes such as ADIPOR2, APLP2, LEP, ADIG and ADIPOQ. Lastly, several of the genes are involved in cholesterol and bile acid synthesis, such as DHCR7, DHRS7, CYP4B1 and HMGCR.
 
           Mechanism: The genes identified as being involved in energy metabolism and fatty acid metabolism appear to share a common mechanism in which these molecules are generated from multiple sources to form energy. The genes involved in adipogenesis appear to be related to the regulation and development of fat cells and adipose tissue. Similarly, the genes involved in cholesterol and bile acid synthesis appear to be related to the synthesis of these molecules from multiple sources.
 
           Enriched Terms: Energy metabolism; Fatty acid metabolism; Adipogenesis; Cholesterol synthesis; Bile acid synthesis.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Enrichment analysis of this list has revealed that many of the genes are involved in energy metabolism and fatty acid metabolism, such as ATP1B3, ACOX1, ACADM, SLC19A1, SLC25A10, PGM1, UCP2, GPX3 and GPX4. They are also related to adipogenesis, with genes such as ADIPOR2, APLP2, LEP, ADIG and ADIPOQ. Lastly, several of the genes are involved in cholesterol and bile acid synthesis, such as DHCR7, DHRS7, CYP4B1 and HMGCR.
 
           Mechanism: The genes identified as being involved in energy metabolism and fatty acid metabolism appear to share a common mechanism in which these molecules are generated from multiple sources to form energy. The genes involved in adipogenesis appear to be related to the regulation and development of fat cells and adipose tissue. Similarly, the genes involved in cholesterol and bile acid synthesis appear to be related to the synthesis of these molecules from multiple sources.
@@ -4436,13 +4436,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: A term enrichment test on the above list of genes based on biological classification hierarchies has identified terms related to metabolic and cellular functions that are statistically over-represented.
           Mechanism: These commonalities likely indicate a shared pathway, mechanism or process as related to metabolic and cell regulation functions.
           Enriched Terms: Metabolic regulation; RNA transport; Protein synthesis; Cell membrane transport; Transcription regulation; Apoptosis; Protein folding; Triglyceride biosynthesis; Nucleic acid binding; Fatty acid synthesis; Glycolytic process; Cell redox homeostasis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: A term enrichment test on the above list of genes based on biological classification hierarchies has identified terms related to metabolic and cellular functions that are statistically over-represented.
           Mechanism: These commonalities likely indicate a shared pathway, mechanism or process as related to metabolic and cell regulation functions.
@@ -4906,7 +4906,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes listed are enriched for functions related to protein binding, protein homodimerization, ATP binding, and DNA binding activities, as well as functions related to enzyme and receptor activities, GTPase and phosphorylation activities, and metal ion and lipid bindings.
 
           Additionally, several of the genes are enriched for functions related to metabolic processes, including NADH dehydrogenase and glycerophosphocholine O-acyltransferase activities, as well as carboxylic ester hydrolase, aldehyde dehydrogenase, ubiquitin protein ligase, and 2'-3'-cyclic GMP-AMP binding activities.
@@ -4915,7 +4915,7 @@
 
           Enriched Terms: Protein binding; Protein homodimerization; ATP binding; DNA binding; Enzyme activity; Re
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            The genes listed are enriched for functions related to protein binding, protein homodimerization, ATP binding, and DNA binding activities, as well as functions related to enzyme and receptor activities, GTPase and phosphorylation activities, and metal ion and lipid bindings.
 
           Additionally, several of the genes are enriched for functions related to metabolic processes, including NADH dehydrogenase and glycerophosphocholine O-acyltransferase activities, as well as carboxylic ester hydrolase, aldehyde dehydrogenase, ubiquitin protein ligase, and 2'-3'-cyclic GMP-AMP binding activities.
@@ -5371,14 +5371,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The terms found to be enriched in the gene summaries include “protein binding activity”, “NAD(P)H oxidase activity”, “ATP binding activity”, “GTP binding activity”, “transmembrane transporter activity”, “DNA binding activity”, “receptor binding activity”, “cysteine-type endopeptidase inhibitor activity”, “caspase binding activity” and “RNA binding activity”. 
 
           Mechanism: These genes likely contribute to or are part of a variety of processes involving cellular signaling pathways, tissue development and repair, immune system modulation, and metabolic pathways.
 
           Enriched Terms: Protein binding activity; NAD(P)H oxidase activity; ATP binding activity; GTP binding activity; transmembrane transporter activity; DNA binding activity; receptor binding activity; cysteine-type endopeptidase inhibitor activity; caspase binding activity; RNA binding activity.
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
            The terms found to be enriched in the gene summaries include “protein binding activity”, “NAD(P)H oxidase activity”, “ATP binding activity”, “GTP binding activity”, “transmembrane transporter activity”, “DNA binding activity”, “receptor binding activity”, “cysteine-type endopeptidase inhibitor activity”, “caspase binding activity” and “RNA binding activity”. 
 
           Mechanism: These genes likely contribute to or are part of a variety of processes involving cellular signaling pathways, tissue development and repair, immune system modulation, and metabolic pathways.
@@ -5840,7 +5840,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Several genes in the list encode proteins involved in the metabolism of fatty acids, including the formation and break down of lipids, synthesis of essential fatty acids, and transport of fatty acid synthase. Additionally, many of the genes encode proteins involved in the functioning of the mitochondria, including relating to the electron transport chains, antioxidant and redox systems, and synthesis of key metabolic components.
@@ -5849,7 +5849,7 @@
 
           Enriched Terms: Lipid Metabolism; Fatty Acid Synthesis; Electron Transport Chain; Mitochondria; Antioxidant; Oxidative Metabolism; Redox; Acyltransferase; Carboxylase; Acyl-Coenzyme A Synthetase; Ubiquitin Protease; Fructosyltransferase; Phospholipid; Oxidoreductase; Plasma Lipase; Hydratase.
         truncation_factor: 0.06871947673600004
-        summary: |4+
+        summary: |2+
 
 
           Summary: Several genes in the list encode proteins involved in the metabolism of fatty acids, including the formation and break down of lipids, synthesis of essential fatty acids, and transport of fatty acid synthase. Additionally, many of the genes encode proteins involved in the functioning of the mitochondria, including relating to the electron transport chains, antioxidant and redox systems, and synthesis of key metabolic components.
@@ -6325,7 +6325,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: The list of genes appear to be primarily involved in metabolic and energy production processes, as well as some related to membrane assembly and transcription factors.
@@ -6334,7 +6334,7 @@
 
           Enriched Terms: Gene expression; ATPase activity; Protein phosphorylation; Ubiquitin-mediated degradation; Cell cycle regulation; GTP binding; Mitochondrial transport; Electron transport; Oxidative phosphorylation; Enzyme activation; Enzyme inhibition; Oxidoreductase activity; Cytosolic transport; Protein binding; Lipid metabolism; Protein modification; Ubiquitinylation.
         truncation_factor: 0.06871947673600004
-        summary: |4+
+        summary: |2+
            
 
           Summary: The list of genes appear to be primarily involved in metabolic and energy production processes, as well as some related to membrane assembly and transcription factors.
@@ -27684,13 +27684,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: Genes involved in diverse processes, including oxidative phosphorylation, membrane trafficking, lipid metabolism, translation, actin cytoskeleton assembly, and metabolic pathways.
           Mechanism: These genes could act collaboratively and interactively to modulate cellular activities related to their respective processes.
           Enriched Terms: Oxidative phosphorylation; Membrane trafficking; Lipid metabolism; Translation; Actin cytoskeleton assembly; Metabolic pathways.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: Genes involved in diverse processes, including oxidative phosphorylation, membrane trafficking, lipid metabolism, translation, actin cytoskeleton assembly, and metabolic pathways.
           Mechanism: These genes could act collaboratively and interactively to modulate cellular activities related to their respective processes.
@@ -27741,13 +27741,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes provided is enriched for functions related to energy metabolism, cell development, and signal transduction.
           Mechanism: Multiple pathways involved in energy metabolism, cell development, and signal transduction are likely at play.
           Enriched Terms: Oxidative phosphorylation; Energy metabolism; Protein kinase; adenylate cyclase; DNA binding; G Protein; Phospholipid metabolism; Protein phosphorylation; Cell cycle; Cell communication; Transcription regulation; Signal transduction; Macromolecule catabolism; Membrane trafficking; Lipid metabolism.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes provided is enriched for functions related to energy metabolism, cell development, and signal transduction.
           Mechanism: Multiple pathways involved in energy metabolism, cell development, and signal transduction are likely at play.
@@ -28177,14 +28177,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Proteins involved in metabolic (energy) processes and the maintenance of the cellular structure are enriched.
 
           Mechanism: These proteins contribute to energy production and cell upholding processes by playing roles in membrane and lipoprotein transporters, Lipid/Fatty Acid metabolism, ion/electron transportation, oxidative and reductive processes, and endocytosis/exocytosis.
 
           Enriched Terms: Lipoprotein binding activity; Lipid/Fatty Acid metabolism; ATP/GTPase binding activity; Molecular Adaptor Activity; cellular respiration; Ion/Electron Transport; Oxidative/Reductive Processes; Endocytosis/Exocytosis; Enzyme Binding; Protein Homodimerization; Protein Heterodimerization; ATPase/ATP Synthase activity; DNA/RNA-binding transcription factor activities; Cytochrome; Homoserine/Threonine Kinase activities; Transmembrane Transporters; GTP-dependent Protein Binding; microtubule Binding; Ubiquitin Protein Ligase Binding; Amyloid-beta Binding; Hexokinase activity; Sialic Acid Binding; PDZ Domain Binding; Phosphatidyl
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
            Proteins involved in metabolic (energy) processes and the maintenance of the cellular structure are enriched.
 
           Mechanism: These proteins contribute to energy production and cell upholding processes by playing roles in membrane and lipoprotein transporters, Lipid/Fatty Acid metabolism, ion/electron transportation, oxidative and reductive processes, and endocytosis/exocytosis.
@@ -28634,13 +28634,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The list contains genes involved in binding activities and protein kinases that are involved in processes related to metabolism, development, and immunity/inflammation. 
           Mechanism: The gene functions are related to metabolic processes, development, and the immune response.
           Enriched Terms: Protein Binding; Kinase Binding; Enzyme Binding; Ion Binding; Transmembrane Transporter Activity; DNA-binding Transcription Factor Activity; RNA Binding Activity; Protein Homodimerization Activity; Protein Dimerization Activity;GTPase Activity; Structural Component of the Endoplasmic Reticulum; Oxidative Phosphorylation; Phosphatase Activity; Acyl-CoA Oxidase Activity; Adenylate Cyclase Activity; Ubiquitin Protein Ligase Binding Activity; Cuprous Ion Binding Activity; Sulfenate-protein Transferase Activity; Methyltransferase Activity; O-acyltransferase Activity; Protein Serine/Threonine Kinase Activity; Protease Binding Activity; Cyclin-dependent Protein Kinase Activity; Acylglycerophosphocholine O-Acyltransferase Activity; UMP Kinase Activity; Lysophospholipase
         truncation_factor: 0.1677721600000001
-        summary: |4
+        summary: |2
            
           Summary: The list contains genes involved in binding activities and protein kinases that are involved in processes related to metabolism, development, and immunity/inflammation. 
           Mechanism: The gene functions are related to metabolic processes, development, and the immune response.
@@ -29091,14 +29091,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes are involved in various cellular processes, such as respiration, protein synthesis, mitochondrial transport and energy metabolism. The commonalities in their functions are related to these processes, as well as the enzymatic reactions for production and utilization of ATP, glycolysis, fatty acid metabolism, and protein binding. Enriched terms include cellular respiration, protein synthesis, mitochondrial transport, energy metabolism, ATP production, glycolysis, transport of fatty acids, and protein binding.
 
           Mechanism: Most of these genes are involved in the production, utilization, or transport of energy molecules, such as ATP, fatty acids, and other metabolites that are critical in powering cell growth and development. Other genes involve proteins that help to bind and synthesize proteins, allowing cells to construct and maintain themselves in a dynamic environment.
 
           Enriched Terms: Cellular Respiration; Protein Synthesis; Mitochondrial Transport; Energy Metabolism; ATP Production; Glycolysis; Transport of Fatty Acids; Protein Binding.
         truncation_factor: 0.08589934592000005
-        summary: |4+
+        summary: |2+
            The list of genes are involved in various cellular processes, such as respiration, protein synthesis, mitochondrial transport and energy metabolism. The commonalities in their functions are related to these processes, as well as the enzymatic reactions for production and utilization of ATP, glycolysis, fatty acid metabolism, and protein binding. Enriched terms include cellular respiration, protein synthesis, mitochondrial transport, energy metabolism, ATP production, glycolysis, transport of fatty acids, and protein binding.
 
           Mechanism: Most of these genes are involved in the production, utilization, or transport of energy molecules, such as ATP, fatty acids, and other metabolites that are critical in powering cell growth and development. Other genes involve proteins that help to bind and synthesize proteins, allowing cells to construct and maintain themselves in a dynamic environment.
@@ -29516,13 +29516,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes listed encode proteins involved in metabolic activities such as production and utilization of energy, processing of lipids and fatty acids, regulating expression of proteins, movement of molecules across membranes, regulation of cell cycle, and production of antioxidants. 
           Mechanism: The highly conserved proteins involved in the processes influenced by these genes help to facilitate cell growth, metabolism, and defense against environmental and cellular damage. 
           Enriched Terms: Metabolism; Lipid Metabolism; Fatty Acid Metabolism; Protein Expression; Membrane Transport; Cell Cycle Regulation; Antioxidants.
         truncation_factor: 0.08589934592000005
-        summary: |4
+        summary: |2
 
           The genes listed encode proteins involved in metabolic activities such as production and utilization of energy, processing of lipids and fatty acids, regulating expression of proteins, movement of molecules across membranes, regulation of cell cycle, and production of antioxidants. 
           Mechanism: The highly conserved proteins involved in the processes influenced by these genes help to facilitate cell growth, metabolism, and defense against environmental and cellular damage. 

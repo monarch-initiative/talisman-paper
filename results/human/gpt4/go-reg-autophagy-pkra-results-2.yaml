@@ -1085,7 +1085,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
            
           Summary: The genes in this list are involved in various aspects of biological processes, ranging from cell growth and development to immune response and proteolysis.
@@ -1094,7 +1094,7 @@
            
           Enriched terms: Cell Growth; Cell Development; Apoptosis; Immune Response; Protein Degradation; Proteolysis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
            
           Summary: The genes in this list are involved in various aspects of biological processes, ranging from cell growth and development to immune response and proteolysis.
@@ -1148,7 +1148,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This set of genes is associated with cellular functions related to metabolic homeostasis and activation of the PI3K/AKT signaling pathway. The enriched terms associated with the genes include cell cycle regulation, protein kinase regulation, mitochondrial regulation, and mitochondrial stress response.
 
           Mechanism: The metabolic homeostasis and activation of the PI3K/AKT pathway are mediated by these genes, which affect the regulation of cell cycle, protein kinase regulation, mitochondrial regulation, and mitochondrial stress response. These genes have roles in regulating metabolic processes as well as responding to external stressors. Their involvement in cell cycle regulation and protein kinase regulation ensures the healthy development and maintenance of the cell, while their role in mitochondrial regulation and mitochondrial stress response plays an important role in maintaining the cell's energy production.
@@ -1260,7 +1260,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are involved in several cellular activities, primarily in their roles in signal transduction pathways, protein modifications, protein folding and stability, cell cycle regulation, and apoptosis. The terms enriched are: signaling receptor activity; protein phosphorylation; regulation of macromolecule biosynthetic process; autophagy; G2/M transition of mitotic cell cycle; chromosome segregation; cytoplasmic stress granule; TORC1 signaling; defense response; anoikis; protein folding chaperone; histone acetylation; I-kappaB kinase/NF-kappaB signaling; K63-linked polyubiquitin modification-dependent protein binding activity.
 
           Mechanism: These genes participate in a variety of biological processes, including signal transduction pathways, protein modifications, cell cycle regulation, apoptosis and DNA-templated transcription, answering to different external and internal stimuli as well as aiding in cell survival and death. The enriched terms involve protein-protein interactions and modifications, as well as involvement in AKT/PI3K, TOR, and NF-kB pathways that are essential for cell signaling, typical in response to bacterial infection and the activation of pro-survival mechanisms
@@ -1379,14 +1379,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The gene summaries provided indicate that the main terms enriched among all of these genes are: protein kinase binding activity, protein kinase activity, protein serine/threonine kinase activity, positive regulation of protein phosphorylation, and regulation of macromolecule biosynthetic process.
 
           Mechanism: The mechanism of action associated with these genes is likely related to their roles in the regulation of protein phosphorylation and macromolecule biosynthetic processes. This likely involves a variety of cellular pathways, such as intracellular signal transduction and TOR signaling, as well as modulation of different cellular components, such as the cytosol, nucleus, and mitochondrion.
 
           Enriched Terms: Protein kinase binding activity; protein kinase activity; protein serine/threonine kinase activity; positive regulation of protein phosphorylation; regulation of macromolecule biosynthetic process.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The gene summaries provided indicate that the main terms enriched among all of these genes are: protein kinase binding activity, protein kinase activity, protein serine/threonine kinase activity, positive regulation of protein phosphorylation, and regulation of macromolecule biosynthetic process.
 
           Mechanism: The mechanism of action associated with these genes is likely related to their roles in the regulation of protein phosphorylation and macromolecule biosynthetic processes. This likely involves a variety of cellular pathways, such as intracellular signal transduction and TOR signaling, as well as modulation of different cellular components, such as the cytosol, nucleus, and mitochondrion.
@@ -1472,7 +1472,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: These genes are involved in various processes related to intracellular signaling pathways, cell cycle regulation, apoptosis, DNA repair, and immunity related GTPase family functions.
@@ -1481,7 +1481,7 @@
 
           Enriched Terms: Protein serine/threonine kinase activator activity; protein serine/threonine kinase binding activity; protein kinase inhibitor activity; guanyl-nucleotide exchange factor activity; positive regulation of TOR signaling; negative regulation of macromolecule metabolic process; regulation of actin cytoskeleton organization; regulation of TOR signaling; regulation of macroautophagy; regulation of NF-kappaB activation; regulation of cell growth; regulation of cell survival; pattern recognition receptor activity; DNA repair; and innate immune response.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: These genes are involved in various processes related to intracellular signaling pathways, cell cycle regulation, apoptosis, DNA repair, and immunity related GTPase family functions.
@@ -1589,13 +1589,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes provided are involved in several cellular pathways, including cell proliferation and survival, signal transduction, apoptosis, protein folding and DNA repair. There is an enrichment for genes involved in cell growth, apoptosis and signal transduction through serine/threonine kinase activator activity, phosphatidylinositol 3-kinase activity, and guanyl-nucleotide exchange factor activity. 
           Mechanism: The genes appear to be involved in a variety of cellular pathways that are regulated by the AKT/PI3K and mammalian target of rapamycin (mTOR) signalling pathways. These signalling pathways mediate the activity of the genes by inducing cell growth and proliferation, and by regulating the expression of transcription factors such as NF-kappaB and TNFRSF11A/RANK.
 
           Enriched Terms: Cell growth; Apoptosis; Signal transduction; Serine/threonine kinase activator activity; Phosphatidylinositol 3-kinase activity; Guanyl-nucleotide exchange factor activity.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The genes provided are involved in several cellular pathways, including cell proliferation and survival, signal transduction, apoptosis, protein folding and DNA repair. There is an enrichment for genes involved in cell growth, apoptosis and signal transduction through serine/threonine kinase activator activity, phosphatidylinositol 3-kinase activity, and guanyl-nucleotide exchange factor activity. 
           Mechanism: The genes appear to be involved in a variety of cellular pathways that are regulated by the AKT/PI3K and mammalian target of rapamycin (mTOR) signalling pathways. These signalling pathways mediate the activity of the genes by inducing cell growth and proliferation, and by regulating the expression of transcription factors such as NF-kappaB and TNFRSF11A/RANK.
 
@@ -11742,12 +11742,12 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes provided are involved in signaling pathways related to innate immune system response, inflammation, and cell cycle regulation. 
           Mechanism: A wide variety of proteins are components of complex signaling pathways that play critical roles in regulating the inflammatory response, regulating the cell cycle, and modulating cell survival and death. 
           Enriched Terms: Inflammation; Intracellular Signaling Cascade; Cytokine Signaling in Immune System; Innate Immune System; Cell Cycle Progression; Apoptotic Processes; Cell Survival; Protein Phosphorylation; Proteasome-mediated Degradation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The genes provided are involved in signaling pathways related to innate immune system response, inflammation, and cell cycle regulation. 
           Mechanism: A wide variety of proteins are components of complex signaling pathways that play critical roles in regulating the inflammatory response, regulating the cell cycle, and modulating cell survival and death. 
         term_strings:
@@ -11803,13 +11803,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: These genes are associated with the regulation of apoptosis, signal transduction pathways, transcriptional regulation, and cell cycle regulation.
           Mechanism: These genes are likely to be part of a molecular pathway that controls the expression of apoptosis-related proteins, such as caspases, as well as the cyclin-dependent kinase, transcription factors, small GTPases and heat shock proteins.
           Enriched Terms: Apoptosis Regulation; Signal Transduction; Transcriptional Regulation; Cell Cycle Regulation; Signal Transduction Pathways; Cyclin-Dependent Kinases; Small GTPases; Heat Shock Proteins.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: These genes are associated with the regulation of apoptosis, signal transduction pathways, transcriptional regulation, and cell cycle regulation.
           Mechanism: These genes are likely to be part of a molecular pathway that controls the expression of apoptosis-related proteins, such as caspases, as well as the cyclin-dependent kinase, transcription factors, small GTPases and heat shock proteins.
@@ -11897,7 +11897,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: Genes detected implicate a broad range of biological processes, including defense response, regulation of DNA-templated transcription, protein phosphorylation, histone acetylation, transcription coactivator activity, positive regulation of cytokine production, response to bacteria, cell cycle regulation, and positive regulation of autophagy.
 
@@ -11905,7 +11905,7 @@
 
           Enriched Terms: Protein Kinase Binding Activity; Protein Phosphorylation; Positive Regulation of Cytokine Production; Defense Response; Response to Bacteria; Chromatin Binding Activity; Protein Homodimerization Activity; Regulation of DNA-Templated Transcription; N-Acyltransferase Activity; and Protein Serine/Threonine Kinase Activator Activity.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
           Summary: Genes detected implicate a broad range of biological processes, including defense response, regulation of DNA-templated transcription, protein phosphorylation, histone acetylation, transcription coactivator activity, positive regulation of cytokine production, response to bacteria, cell cycle regulation, and positive regulation of autophagy.
 
@@ -12000,14 +12000,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes involved in processes such as defense response to other organism, regulation of DNA-templated transcription, response to bacterium, intracellular signal transduction, activation of protein kinase activity, protein phosphorylation, protein folding chaperone, G2/M transition of mitotic cell cycle, and regulation of TOR signaling.
 
           Mechanism: These genes are involved in a variety of functions such as guanyl ribonucleotide binding activity, chromatin binding activity, transcription coactivator activity, protein kinase binding activity, metal ion binding activity, N-acyltransferase activity, protein domain specific binding activity, anion binding activity, and protein kinase regulator activity. These functions help to regulate crucial processes such as defense response to other organism, response to bacterium, negative regulation of transport, positive regulation of macromolecule metabolic process, anterograde axonal protein transport, and regulation of macroautophagy.
 
           Enriched Terms: Protein Kinase Binding Activity; Transcription Coactivator Activity; Regulation of DNA-Templated Transcription; Regulation of Protein Kinase Activity; Positive Regulation of Angiogenesis; Positive Regulation of Macromolecule Metabolic Process; Intrace
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            These genes involved in processes such as defense response to other organism, regulation of DNA-templated transcription, response to bacterium, intracellular signal transduction, activation of protein kinase activity, protein phosphorylation, protein folding chaperone, G2/M transition of mitotic cell cycle, and regulation of TOR signaling.
 
           Mechanism: These genes are involved in a variety of functions such as guanyl ribonucleotide binding activity, chromatin binding activity, transcription coactivator activity, protein kinase binding activity, metal ion binding activity, N-acyltransferase activity, protein domain specific binding activity, anion binding activity, and protein kinase regulator activity. These functions help to regulate crucial processes such as defense response to other organism, response to bacterium, negative regulation of transport, positive regulation of macromolecule metabolic process, anterograde axonal protein transport, and regulation of macroautophagy.
@@ -12201,14 +12201,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This set of genes is primarily enriched for functions related to innate immune response, cell survival, and cell regulation. There were also some terms related to transcription, apoptosis, and protein kinase activity.
 
           Mechanism: The mechanism underlying this set of genes seems to be centered on monitoring and responding to cellular stress and promoting cellular proliferation/survival. The genes could works together by activating inflammation pathways on sensing of pathogens, regulating DNA repair and apoptosis, as well as up-regulating protein kinases and transcriptional activity.
 
           Enriched Terms: Innate immune response; Cell survival; Cell regulation; Transcription; Apoptosis; Protein kinase activity; Inflammation pathways; DNA repair; Autophagy formation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This set of genes is primarily enriched for functions related to innate immune response, cell survival, and cell regulation. There were also some terms related to transcription, apoptosis, and protein kinase activity.
 
           Mechanism: The mechanism underlying this set of genes seems to be centered on monitoring and responding to cellular stress and promoting cellular proliferation/survival. The genes could works together by activating inflammation pathways on sensing of pathogens, regulating DNA repair and apoptosis, as well as up-regulating protein kinases and transcriptional activity.

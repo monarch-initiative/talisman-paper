@@ -765,7 +765,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The enrichment test results reveal that the list of genes are all involved in stem cell pluripotency and early embryonic development. Enriched terms include pluripotency; stem cell morphology; embryonic development; transcription factors; cell growth; differentiation; cell proliferation.
 
           Mechanism: The genes focus on the regulation of the pluripotency and early embryonic developmental program. They regulate various aspects such as transcription factors, cell growth, morphogenesis, differentiation and cell proliferation. By acting in concert, they maintain the pluripotency of stem cells and initiate the processes of early morphogenesis. It is hypothesized that these genes are part of a large regulatory network which facilitates the pluripotency of the progenitor cells and the successful orchestration of early embryonic development.
@@ -830,12 +830,12 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The genes provided are related to transcription factor activity, as they are associated with embryonic stem cell differentiation and pluripotency.
           Enriched Terms: Transcription Factor Activity; Embryonic Stem Cell Differentiation; Cell Pluripotency; DNA-binding; Gene Expression Regulation; Transcription Regulator Activity; Transcription Factor Complex Formation.
           Mechanism: These genes are known to be involved in the regulation of gene expression, and thus serve an important role in directing the biological activities associated with embryonic stem cell differentiation and pluripotency. They are likely to form complexes, interact with DNA, and/or bind to components of the transcription machinery to regulate gene expression at the transcriptional level.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The genes provided are related to transcription factor activity, as they are associated with embryonic stem cell differentiation and pluripotency.
         term_strings:
           - transcription factor activity
@@ -899,7 +899,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: Genes POU5F1, SOX2, KLF4, and MYC, are involved in various functions such as DNA-binding transcription repressor and activator activities, RNA polymerase II-specific, and nucleic acid binding activities. These genes are also implicated in the regulation of biosynthetic processes, signal transduction, gene expression, angiogenesis, protein-DNA complex organization, and cell population proliferation, and are associated with numerous cancers.
@@ -908,7 +908,7 @@
 
           Enriched Terms: Transcription repressor and activator activities; RNA polymerase II-specific; Nucleic acid binding activity; Regulation of biosynthetic process; Regulation of signal transduction; Regulation of gene expression; Regulation of Angiogenesis; and Protein-DNA complex organization; Regulation of cell population proliferation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
 
           Summary: Genes POU5F1, SOX2, KLF4, and MYC, are involved in various functions such as DNA-binding transcription repressor and activator activities, RNA polymerase II-specific, and nucleic acid binding activities. These genes are also implicated in the regulation of biosynthetic processes, signal transduction, gene expression, angiogenesis, protein-DNA complex organization, and cell population proliferation, and are associated with numerous cancers.
@@ -978,7 +978,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
 
           Summary: The commonalities among the gene functions of the list provided are DNA-binding transcription factor activity, RNA polymerase II-specific, nucleic acid binding activity, transcription cis-regulatory region binding activity, regulation of gene expression, and regulation of biosynthetic process.
@@ -987,7 +987,7 @@
 
           Enriched Terms: DNA-binding; transcription factor activity; RNA polymerase II-specific; nucleic acid binding activity; transcription cis-regulatory region binding activity; regulation of gene expression; regulation of biosynthetic process.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
 
           Summary: The commonalities among the gene functions of the list provided are DNA-binding transcription factor activity, RNA polymerase II-specific, nucleic acid binding activity, transcription cis-regulatory region binding activity, regulation of gene expression, and regulation of biosynthetic process.
@@ -1141,7 +1141,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes in this list are transcription factors involved in the development of various organ systems, such as the skin and CNS, as well as responding to DNA damage, apoptosis, and cellular transformation. The enriched terms are transcription factor activity; gene expression regulation; cell cycle regulation; DNA damage response; pluripotency; and embryo development.
 
           Mechanism: The transcription factors in this list interact with DNA, regulate gene expression, and influence cell cycle progression, apoptosis, and cellular transformation. Combined, these genes are thought to play a role in creating and maintaining cellular and tissue identity, as well as responding to environmental changes. This could be part of a larger mechanism that governs organism development and homeostasis.
@@ -4341,7 +4341,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           This term enrichment test on the provided genes MYC, POU5F1 and KLF4 shows an enrichment of gene functions related to cell cycle regulation, signaling pathways, and transcriptional activation of gene expression. Specifically, this term enrichment test is strongly enriched for the terms relating to cell cycle checkpoint functions, cyclin/CDK complexes, and transcriptional activator activities.
 
@@ -4351,7 +4351,7 @@
           Enriched Terms: 
           Cell Cycle Checkpoint Regulation; Cyclin/CDK Complexes; Transcriptional Activator Activity; DNA Replication; Cell Differentiation; Cell Cycle Arrest; Transcription Activation.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            
           This term enrichment test on the provided genes MYC, POU5F1 and KLF4 shows an enrichment of gene functions related to cell cycle regulation, signaling pathways, and transcriptional activation of gene expression. Specifically, this term enrichment test is strongly enriched for the terms relating to cell cycle checkpoint functions, cyclin/CDK complexes, and transcriptional activator activities.
 
@@ -4407,7 +4407,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The genes MYC, POU5F1, and KLF4 are all involved in cellular differentiation and development processes, specifically in embryonic stem cell differentiation and in the formation of various organs. The enriched term is 'differentiation';
           Mechanism: The proposed pathway is mediated by the concerted activities of these three transcription factors and the regulation of genetic expression patterns required for embryonic stem cell differentiation.
@@ -4469,11 +4469,11 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The three human genes MYC, POU5F1, and KLF4 are all involved in transcriptional regulation and gene expression processes. They are all located in various sections of the nucleus, and regulate various cellular functions such as cell proliferation, angiogenesis and gene expression. This suggests a common pathway involving regulation of gene expression by binding to specific sequences in the nucleotide. 
           Enriched Terms: transcriptional regulation; gene expression; nucleotide binding activity; chromatin binding; DNA-binding transcription; regulation of gene expression; positive regulation of biosynthetic process; regulation of angiogenesis; regulation of fibroblast proliferation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            The three human genes MYC, POU5F1, and KLF4 are all involved in transcriptional regulation and gene expression processes. They are all located in various sections of the nucleus, and regulate various cellular functions such as cell proliferation, angiogenesis and gene expression. This suggests a common pathway involving regulation of gene expression by binding to specific sequences in the nucleotide. 
         term_strings:
           - transcriptional regulation
@@ -4536,13 +4536,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: These three genes, MYC, POU5F1, and KLF4, perform similar functions, such as RNA polymerase II-specific DNA-binding transcription activity, nucleic acid binding activity, and ubiquitin protein ligase binding activity, and all three are involved in positive regulation of gene expression and regulation of biosynthetic processes.
           Mechanism: These three genes are likely responsible for gene expression regulation, which initiates many essential functions in the cell, such as growth, differentiation, and metabolism.
           Enriched Terms: DNA-binding transcription activity; RNA polymerase II-specific; nucleic acid binding activity; ubiquitin protein ligase binding activity; positive regulation of gene expression; regulation of biosynthetic process; chromatin binding activity.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: These three genes, MYC, POU5F1, and KLF4, perform similar functions, such as RNA polymerase II-specific DNA-binding transcription activity, nucleic acid binding activity, and ubiquitin protein ligase binding activity, and all three are involved in positive regulation of gene expression and regulation of biosynthetic processes.
           Mechanism: These three genes are likely responsible for gene expression regulation, which initiates many essential functions in the cell, such as growth, differentiation, and metabolism.
@@ -4603,7 +4603,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This list of human genes are involved in the regulation of cellular transformation, stem cell pluripotency, and epidermal barrier function. The enriched terms associated with these functions are cell cycle regulation; apoptosis; cellular transformation; transcription; tumorigenesis; embryonic development; stem cell pluripotency; DNA damage; p53; and G1-to-S transition.
 
           Mechanism: These genes are involved in the regulation of cellular pathways, ranging from cell cycle regulation, apoptosis, transcription, and tumorigenesis, to embryonic development, stem cell pluripotency, and epidermal barrier function. They regulate the expression of specific target genes that are implicated in these processes, allowing the cell to adjust its behavior accordingly. They also show a role in the repair of DNA damage and the expression of the p53 protein, which is implicated in the G1-to-S transition of the cell cycle.
@@ -4686,7 +4686,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These three genes, MYC, POU5F1, and KLF4, are all related to cell-cycle progression and embryogenesis. The enriched terms include “cell cycle progression”, “DNA damage response”, “transcriptional regulation”, “epidermal barrier function”, and “embryonic development”.
 
           Mechanism: These genes appear to share a common mechanism in which they are involved in important cellular processes, such as cell cycle progression, transcriptional regulation, embryonic development, and epidermal barrier function. They control these processes through the transcription of their target genes and by binding to specific DNA sequences. These proteins may also act as tumor suppressors when abnormal expression of these genes occurs in adult tissues. Additionally, some of these genes have an effect on p53 mediated DNA damage responses.

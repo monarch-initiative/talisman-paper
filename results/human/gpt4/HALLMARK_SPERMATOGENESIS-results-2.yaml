@@ -3197,13 +3197,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           The gene list is enriched for functions related to cell signaling, protein regulation, and cell cycle control, as well as complex development processes such as morphogenesis, organogenesis and cytoskeletal regulation.
           Mechanism: A wide range of mechanims are at work here, which involve the transcription and translation of genes to encode proteins and the regulation of their functions to mediate both common and specific biological processes.
           Enriched Terms: Cell Signaling; Protein Regulation; Cell Cycle Control; Morphogenesis; Organogenesis; Cytoskeletal Regulation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           The gene list is enriched for functions related to cell signaling, protein regulation, and cell cycle control, as well as complex development processes such as morphogenesis, organogenesis and cytoskeletal regulation.
           Mechanism: A wide range of mechanims are at work here, which involve the transcription and translation of genes to encode proteins and the regulation of their functions to mediate both common and specific biological processes.
@@ -3254,14 +3254,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Genes associated with this list indicate enrichment for a variety of cell cycle control and chromatin remodeling processes, as well as protein ubiquitination, regulation of DNA replication, spindle assembly, and nuclear organization.
 
           Mechanism: The enriched terms suggest that these genes are involved in a variety of related functions related to the regulation and maintenance of the cell cycle, chromatin remodeling, DNA replication, spindle assembly and nuclear organization.
 
           Enriched Terms: Cell cycle control; Chromatin remodeling; Protein ubiquitination; DNA replication; Spindle assembly; Nuclear organization.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Genes associated with this list indicate enrichment for a variety of cell cycle control and chromatin remodeling processes, as well as protein ubiquitination, regulation of DNA replication, spindle assembly, and nuclear organization.
 
           Mechanism: The enriched terms suggest that these genes are involved in a variety of related functions related to the regulation and maintenance of the cell cycle, chromatin remodeling, DNA replication, spindle assembly and nuclear organization.
@@ -3584,14 +3584,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes are found to be primarily involved in activities related to RNA binding, nucleosome binding, transcription and regulation, DNA binding, protein kinase activity, protein folding and chaperoning, metabolic regulation and ubiquitination.
 
           Mechanism: The mechanisms by which these activities are enabled involve complex interactions between proteins, which act as signal transducers, modulators and effectors, resulting in the relevant activities being enabled and processes being modulated.
 
           Enriched Terms: RNA binding; nucleosome binding; transcription and regulation; DNA binding; protein kinase activity; protein folding and chaperoning; metabolic regulation; ubiquitination.
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
            The list of genes are found to be primarily involved in activities related to RNA binding, nucleosome binding, transcription and regulation, DNA binding, protein kinase activity, protein folding and chaperoning, metabolic regulation and ubiquitination.
 
           Mechanism: The mechanisms by which these activities are enabled involve complex interactions between proteins, which act as signal transducers, modulators and effectors, resulting in the relevant activities being enabled and processes being modulated.
@@ -3919,14 +3919,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Human genes related to this list are enriched for functions in molecular function activator activity, protein kinase activity, cellular component activity, binding activity, peptidase activity, nucleosome binding activity, ion binding activity and phosphatase binding activity; and processes such as cell cycle regulation, apoptosis regulation, cell adhesion, nervous system development, transcription regulation, protein transport, cell-cell recognition and gene expression regulation.
 
           Mechanism: This list of genes are likely to be involved in several biological primary pathways, including signal transduction pathways, protein transcription pathways, metabolic pathways, and membrane transport pathways. These pathways are responsible for the functions and processes associated with cells in the regulation of growth, differentiation, development, and apoptosis.
 
           Enriched Terms: Molecular function activator activity; protein kinase activity; cellular component activity; binding activity; peptidase activity; nucleosome binding activity; ion binding activity; phosphatase binding activity; cell cycle regulation; apoptosis regulation; cell adhesion; nervous system development; transcription regulation; protein transport; cell-cell recognition; gene expression regulation.
         truncation_factor: 0.2621440000000001
-        summary: |4+
+        summary: |2+
            Human genes related to this list are enriched for functions in molecular function activator activity, protein kinase activity, cellular component activity, binding activity, peptidase activity, nucleosome binding activity, ion binding activity and phosphatase binding activity; and processes such as cell cycle regulation, apoptosis regulation, cell adhesion, nervous system development, transcription regulation, protein transport, cell-cell recognition and gene expression regulation.
 
           Mechanism: This list of genes are likely to be involved in several biological primary pathways, including signal transduction pathways, protein transcription pathways, metabolic pathways, and membrane transport pathways. These pathways are responsible for the functions and processes associated with cells in the regulation of growth, differentiation, development, and apoptosis.
@@ -4270,7 +4270,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This term enrichment test on a list of human genes revealed several proteins and proteins related functions that are statistically over-represented.
@@ -4279,7 +4279,7 @@
 
           Enriched Terms: Protein binding activity; Transcription corepressor activity; DNA binding activity; RNA binding activity; Zinc ion binding activity; Peptide alpha-N-acetyltransferase activity; Serine/threonine-protein kinase activity; Adenylate cyclase activity; SNARE binding activity; Clathrin binding activity; Myosin light chain binding activity; Double-stranded DNA binding activity; Phosphatidic acid phosphohydrolase activity; Ubiquitin-protein ligase activity; RNA polymerase binding activity; Polynucleotide adenylyltransferase activity; Polynucleotide adenylyltransferase activity; Molecular adaptor activity; Phosphatase binding activity; ATP-ases associated activity; Chaperone activity; Lipoxygenase activity; ADP-ribosylation factor-like activity
         truncation_factor: 0.13421772800000006
-        summary: |4+
+        summary: |2+
 
 
           Summary: This term enrichment test on a list of human genes revealed several proteins and proteins related functions that are statistically over-represented.
@@ -4639,14 +4639,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Enriched terms shared by the genes include cell cycle regulatory proteins and kinases, DNA binding proteins and chaperones, nucleotide and polypetide biding proteins, phosphatases, and proteins involved in transcription. In particular, the genes function in gene transcription, chromosome organization, apoptosis regulation, DNA repair, protein folding and transport, cell signaling and growth regulation, energy metabolism, cytoskeletal organization, and vesicular trafficking. The underlying biological mechanism is likely involved in multiple steps in cell division and the regulation of gene expression, and in the maintenance of cell homeostasis.
 
           Oerbaken: Enriched terms: Cell Cycle regulatory proteins and kinases; DNA binding proteins and chaperones; nucleotide and polypeptide binding proteins; phosphatases; proteins involved in transcription; gene transcription; chromosome organization; apoptosis regulation; DNA repair; protein folding and transport; cell signaling and growth regulation; energy metabolism; cytoskeletal organization; vesicular trafficking
 
           Mechanism: The underlying biological mechanism is likely involved in multiple steps in cell division and the regulation of gene expression, and in the maintenance of cell homeostasis.
         truncation_factor: 0.13421772800000006
-        summary: |4-
+        summary: |2-
            Enriched terms shared by the genes include cell cycle regulatory proteins and kinases, DNA binding proteins and chaperones, nucleotide and polypetide biding proteins, phosphatases, and proteins involved in transcription. In particular, the genes function in gene transcription, chromosome organization, apoptosis regulation, DNA repair, protein folding and transport, cell signaling and growth regulation, energy metabolism, cytoskeletal organization, and vesicular trafficking. The underlying biological mechanism is likely involved in multiple steps in cell division and the regulation of gene expression, and in the maintenance of cell homeostasis.
 
           Oerbaken: 
@@ -20198,13 +20198,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The human genes in the list are primarily involved in cellular processes including cytoskeleton organization, DNA replication, RNA processing, transcriptional regulation, protein kinase activity, and metabolic processes. 
           Mechanism: These processes are essential for the function of cells, as they provide utility for regulation and communication of intracellular and extracellular activities. 
           Enriched Terms: Protein Kinase; DNA Replication; Cytoskeleton Organization; Metabolic Process; RNA Processing; Transcriptional Regulation.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The human genes in the list are primarily involved in cellular processes including cytoskeleton organization, DNA replication, RNA processing, transcriptional regulation, protein kinase activity, and metabolic processes. 
           Mechanism: These processes are essential for the function of cells, as they provide utility for regulation and communication of intracellular and extracellular activities. 
@@ -20255,13 +20255,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes appear to be involved in various functions related to development, metabolism, and signaling pathways. 
           Mechanism: The mechanism underlying this gene list may be related to the regulation of development, metabolism and signaling pathways via proteins and enzymes encoded by the genes.
           Enriched Terms: Development; Metabolism; Protein Synthesis; Signal Transduction; Gene Regulation; DNA Replication; Chromatin Assembly; Nucleoprotein Assembly; DNA Repair; Stress Response; Cell Proliferation; Proteolysis; Phospholipid Metabolism; Ion Transport; Neurotransmitter Release; Post-translational Modifications; Cell Cycle Control; Chromatin Modifications; Immune Response; lipid Homeostasis.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of genes appear to be involved in various functions related to development, metabolism, and signaling pathways. 
           Mechanism: The mechanism underlying this gene list may be related to the regulation of development, metabolism and signaling pathways via proteins and enzymes encoded by the genes.
@@ -20585,14 +20585,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Summary: Several genes affect several processes related to regulation of multicellular organismal processes, such as stress response, macromolecule metabolism, and peptide signal transduction. Several processes related to chromatin, cyclins, transcription, G protein-coupled receptors, neuropeptides, and intersect associated proteins were identified as being over-represented in the list.
 
           Mechanism: This enrichment test reveals several processes related to regulation of cellular processes involve various molecules which interact with each other. This highlights a complex molecular network which regulates several mechanisms in multicellular organisms.
 
           Enriched Terms: Stress response; macromolecule metabolic process; peptide signal transduction; chromatin binding; cyclins; transcription; G protein-coupled receptor signaling pathway; neuropeptide; intersect associated proteins; ATP hydrolysis activity; peptidase activity; ATP-dependent protein disaggregation; DNA clasp loader activity; peptidyl-serine phosphorylation; chaperone-mediated protein complex assembly; protein localization; signal transduction; cilium assembly; GTPase activity; myosin light chain binding activity; ATP-dependent activity acting on DNA; nucleosome binding activity; G
         truncation_factor: 0.32768000000000014
-        summary: |4+
+        summary: |2+
            Summary: Several genes affect several processes related to regulation of multicellular organismal processes, such as stress response, macromolecule metabolism, and peptide signal transduction. Several processes related to chromatin, cyclins, transcription, G protein-coupled receptors, neuropeptides, and intersect associated proteins were identified as being over-represented in the list.
 
           Mechanism: This enrichment test reveals several processes related to regulation of cellular processes involve various molecules which interact with each other. This highlights a complex molecular network which regulates several mechanisms in multicellular organisms.
@@ -21286,7 +21286,7 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           This gene set is associated with molecules related to cell growth, regulation, and structural components of the nucleus, cytoskeleton, and cellular membrane. Enriched terms include: cell cycle; regulation; nuclear envelope; membrane-bound; cytoplasmic; DNA binding; transcriptional regulation; protein phosphorylation/kinase activity; peptide/protein modification/catalysis; transcription regulation; chaperone activity; signal transduction; DNA replication; ubiquitination; protein ligase activity; and ion transport.
 
@@ -21294,7 +21294,7 @@
 
           Enriched Terms: Cell cycle; Regulation; Nuclear envelope; Mem
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
 
           This gene set is associated with molecules related to cell growth, regulation, and structural components of the nucleus, cytoskeleton, and cellular membrane. Enriched terms include: cell cycle; regulation; nuclear envelope; membrane-bound; cytoplasmic; DNA binding; transcriptional regulation; protein phosphorylation/kinase activity; peptide/protein modification/catalysis; transcription regulation; chaperone activity; signal transduction; DNA replication; ubiquitination; protein ligase activity; and ion transport.
 
@@ -21589,7 +21589,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes includes proteins related to transcription regulation, cell cycle regulation, cellular structure, intercellular communication, signal transduction, metabolism, and muscle functions.
 
@@ -21597,7 +21597,7 @@
 
           Enriched Terms: Transcription regulation; Cell cycle regulation; Cell structure; Intercellular communication; Signal transduction; Metabolism; Muscle functioning; Protein kinases; Protease inhibitors; ADP-ribosyltransferases; Nucleotide binding proteins; Ubiquitin ligases; Chaperone proteins; Microtubule-associated proteins; Glycoproteins; Nucleoporins; Phosphohydrolases; Zinc ion binding proteins; G Protein-coupled receptor proteins; Kinase enzymes; Adaptor proteins; Protein phosphatases; DNA-binding proteins.
         truncation_factor: 0.1677721600000001
-        summary: |4+
+        summary: |2+
 
           Summary: The list of genes includes proteins related to transcription regulation, cell cycle regulation, cellular structure, intercellular communication, signal transduction, metabolism, and muscle functions.
 

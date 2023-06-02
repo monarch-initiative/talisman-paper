@@ -1301,14 +1301,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
 
           Summary: This term enrichment test identified genes involved in signal transduction, ion transport, and regulation of neurotransmitter release.
           Mechanism: This is likely related to the regulation of excitatory and inhibitory signal transmission, potentially mediated by ion channels and signal transduction pathways associated with the G-protein coupled receptors, voltage-gated K+ and Na+ channels, and ligand-gated ion channels.
           Enriched Terms: Signal Transduction; Ion Transport; Regulation of Neurotransmitter Release.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
 
           Summary: This term enrichment test identified genes involved in signal transduction, ion transport, and regulation of neurotransmitter release.
@@ -1354,14 +1354,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            Through a term enrichment test on this list of genes, we see that they are over-represented in terms related to ion conductivity and neural excitability, including ion channels, membrane proteins, and synapse formation.
 
           Mechanism: These genes likely play a role in neural excitability, leading to the formation of specific ion channels that can conduct ions and help form synapses between neurons.
 
           Enriched Terms: Ion Channels; Membrane Proteins; Synapse Formation; Synaptic Transmission; Synaptic Plasticity; Neuronal Excitability; Voltage-Gated Ion Channels; Ligand-Gated Ion Channels.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            Through a term enrichment test on this list of genes, we see that they are over-represented in terms related to ion conductivity and neural excitability, including ion channels, membrane proteins, and synapse formation.
 
           Mechanism: These genes likely play a role in neural excitability, leading to the formation of specific ion channels that can conduct ions and help form synapses between neurons.
@@ -1478,13 +1478,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of human genes are involved in functions such as ligand-gated monoatomic ion channel activity, GABA receptor activity, glutamate receptor activity, voltage-gated potassium and sodium channel activity, adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway, gamma-aminobutyric acid signaling pathway, and neurotransmitter transport. 
           Mechanism: These genes are likely to be involved in the signalling and transport of neurotransmitters across plasma membranes, including the regulation of presynaptic and postsynaptic membrane potentials.
           Enriched Terms: Ion channel Activity; GABA Receptor Activity; Glutamate Receptor Activity; G Protein-Coupled Receptor Signaling Pathway; Gamma-Aminobutyric Acid Signaling Pathway; Neurotransmitter Transport; Voltage-Gated Potassium Channel Activity; Voltage-Gated Sodium Channel Activity; Adenylate Cyclase-Inhibiting G Protein-Coupled Receptor Signaling Pathway.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
 
           Summary: The list of human genes are involved in functions such as ligand-gated monoatomic ion channel activity, GABA receptor activity, glutamate receptor activity, voltage-gated potassium and sodium channel activity, adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway, gamma-aminobutyric acid signaling pathway, and neurotransmitter transport. 
           Mechanism: These genes are likely to be involved in the signalling and transport of neurotransmitters across plasma membranes, including the regulation of presynaptic and postsynaptic membrane potentials.
@@ -1603,14 +1603,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            This gene list is enriched for several terms related to ion channels, transporters, and receptors. The enriched terms include both ligand-gated and voltage-gated ion channel and transporter activities, as well as several types of receptor activities such as G protein-coupled receptors, AMPA glutamate receptors, and kainate-selective glutamate receptors. These genes also appear to be involved in several processes such as membrane potential, chloride transmembrane transport, gamma-aminobutyric acid signaling pathway, and neurotransmitter transport.
 
           Mechanism: The underlying biological mechanism likely involves the regulation of electrical and chemical signals in neurons, thereby enabling communication between different types of cells in the central and peripheral nervous systems.  
 
           Enriched Terms: Voltage-gated potassium/sodium channel activity; Ligand-gated ion channel activity; Transmembrane transporter binding activity; G protein-coupled receptor activity; AMPA glutamate receptor activity; Kainate selective glutamate receptor activity; Ionotropic glutamate receptor signaling pathway; Chloride transmembrane transport; Gamma-aminobutyric acid signaling pathway; Neuronal action potential; Regulation of membrane potential; Chemical synaptic transmission; Regulation of
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            This gene list is enriched for several terms related to ion channels, transporters, and receptors. The enriched terms include both ligand-gated and voltage-gated ion channel and transporter activities, as well as several types of receptor activities such as G protein-coupled receptors, AMPA glutamate receptors, and kainate-selective glutamate receptors. These genes also appear to be involved in several processes such as membrane potential, chloride transmembrane transport, gamma-aminobutyric acid signaling pathway, and neurotransmitter transport.
 
           Mechanism: The underlying biological mechanism likely involves the regulation of electrical and chemical signals in neurons, thereby enabling communication between different types of cells in the central and peripheral nervous systems.  
@@ -1877,13 +1877,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The list of genes is related to ion channel gated ion channels and various neurotransmitters.
           Mechanism: The genes encode proteins responsible for mediating electrical signaling and transmitters of signals like glutamate, GABA, and potassium.
           Enriched Terms: Ion channel; Voltage-gated ion channel; Potassium channel; Ligand-gated ion channel; GABA receptor; Glutamate receptor; Sodium channel.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
 
           Summary: The list of genes is related to ion channel gated ion channels and various neurotransmitters.
           Mechanism: The genes encode proteins responsible for mediating electrical signaling and transmitters of signals like glutamate, GABA, and potassium.
@@ -10010,14 +10010,14 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            These genes are primarily involved in ion channel, signal transduction, cytoplasmic and synaptic membrane transport, and synaptic plasticity. 
 
           Mechanism: Ion channel and transporter activity are essential for intracellular communication, signal transduction and synaptic plasticity, which are fundamental for cellular function, function of neural networks and ultimately, behavior.
 
           Enriched Terms: Ion Channels; Signal Transduction; Cytoplasmic Membrane Transport; Synaptic Membrane Transport; Synaptic Plasticity.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            These genes are primarily involved in ion channel, signal transduction, cytoplasmic and synaptic membrane transport, and synaptic plasticity. 
 
           Mechanism: Ion channel and transporter activity are essential for intracellular communication, signal transduction and synaptic plasticity, which are fundamental for cellular function, function of neural networks and ultimately, behavior.
@@ -10067,14 +10067,14 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            The list of genes is enriched for neurodevelopmental processes and neurotransmission, including glutamate signal transduction, potassium ion/voltage gated channels, and GABA-ergic signal pathways. 
            
           Mechanism: Collectively, the functions of these genes are integral to receptor or ion-channel linked neurodevelopment and neurotransmitter signaling pathways.
 
           Enriched Terms: Glutamate signal transduction; Potassium ion/voltage gated channels; GABA-ergic signaling pathway; Neurodevelopment; Neurotransmission.
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
            The list of genes is enriched for neurodevelopmental processes and neurotransmission, including glutamate signal transduction, potassium ion/voltage gated channels, and GABA-ergic signal pathways. 
            
           Mechanism: Collectively, the functions of these genes are integral to receptor or ion-channel linked neurodevelopment and neurotransmitter signaling pathways.
@@ -10179,13 +10179,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The list of genes are all involved in a wide range of processes, mostly related to ion channel activity, such as regulation of presynaptic membrane potential, potassium ion transmembrane transport, chloride transmembrane transport, calcium ion transmembrane transport, neuronal action potential, and gamma-aminobutyric acid signaling pathway.
           Mechanism: These genes likely act to enable and modulate ion transport across cell membranes. 
           Enriched Terms: Ion channel activity; Voltage-gated monoatomic ion channel activity; Ligand-gated monoatomic ion channel activity; GABA-gated chloride ion channel activity; Potassium ion transmembrane transport; Chloride transmembrane transport; Calcium ion transmembrane transport; Neuronal action potential; Gamma-aminobutyric acid signaling pathway.
         truncation_factor: 1.0
-        summary: |4
+        summary: |2
            
           Summary: The list of genes are all involved in a wide range of processes, mostly related to ion channel activity, such as regulation of presynaptic membrane potential, potassium ion transmembrane transport, chloride transmembrane transport, calcium ion transmembrane transport, neuronal action potential, and gamma-aminobutyric acid signaling pathway.
           Mechanism: These genes likely act to enable and modulate ion transport across cell membranes. 
@@ -10298,7 +10298,7 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: The provided genes are involved in ion channel activity, ion transmembrane transport, and ion-mediated processes that are involved in neural function, synaptic transmission, ion homeostasis, and synaptic plasticity.
 
@@ -10306,7 +10306,7 @@
 
           Enriched Terms: Ligand-gated monoatomic ion channel activity; Voltage-gated monoatomic ion channel activity; Voltage-gated potassium channel activity; Potassium ion transmembrane transport; Chloride transmembrane transport; Extracellular ligand-gated monoatomic ion channel activity; NMDA glutamate receptor activity; Kainate selective glutamate receptor activity; GABA-gated chloride ion channel activity; GABA-A receptor activity; Transmembrane transporter binding activity; Regulation of postsynaptic membrane potential; Regulation of chemical synaptic transmission; Modulation of chemical synaptic transmission; Regulation of calcium ion transport; Regulation of monoatomic ion transmembrane transport; Regulation of presynaptic membrane potential; Response to socio-emotional
         truncation_factor: 1.0
-        summary: |4+
+        summary: |2+
 
           Summary: The provided genes are involved in ion channel activity, ion transmembrane transport, and ion-mediated processes that are involved in neural function, synaptic transmission, ion homeostasis, and synaptic plasticity.
 
@@ -10439,13 +10439,13 @@
           ===
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
            
           Summary: The list of genes provided are mainly involved in ion channel and neurotransmitter receptor activity, particularly glutamate, potassium and GABA receptors, with some also linked to epilepsy and brain development.
           Mechanism: The genes are involved in a variety of ion channel operations and ligand-gated receptors which allow for the transfer of ions and neurotransmitters to be transported in and out of cells to regulate neuronal and muscle activities.
           Enriched Terms: Ion channel activity; Neurotransmitter receptor activity; Ligand-gated receptors; Excitatory synaptic transmission; Glutamate receptor activity; Potassium channel activity; GABA A receptor activity; Voltage-gated ion channels.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
            
           Summary: The list of genes provided are mainly involved in ion channel and neurotransmitter receptor activity, particularly glutamate, potassium and GABA receptors, with some also linked to epilepsy and brain development.
           Mechanism: The genes are involved in a variety of ion channel operations and ligand-gated receptors which allow for the transfer of ions and neurotransmitters to be transported in and out of cells to regulate neuronal and muscle activities.
@@ -10556,13 +10556,13 @@
           ###
 
           Summary and enriched terms:
-        response_text: |4-
+        response_text: |2-
 
           Summary: This group of genes is largely involved in the regulation of synaptic transmission, ion channels, and the flow of ions across cell membranes. 
           Mechanism: The genes involved in this group play a role in the influx of ions, in particular potassium and chloride, across the cell membrane into the cell, resulting in changes in ion concentrations that lead to either excitatory or inhibitory synaptic transmission.
           Enriched Terms: synaptic transmission; potassium channels; chloride channels; ion channels; ion permeability; calcium-permeable; glutamate receptors; AMPA receptors; G-protein-coupled membrane receptors; voltage-dependent sodium channels; GABA receptors; NMDA receptors; kainate-preferring ionic channels; MaxiK channels.
         truncation_factor: 0.8
-        summary: |4
+        summary: |2
 
           Summary: This group of genes is largely involved in the regulation of synaptic transmission, ion channels, and the flow of ions across cell membranes. 
           Mechanism: The genes involved in this group play a role in the influx of ions, in particular potassium and chloride, across the cell membrane into the cell, resulting in changes in ion concentrations that lead to either excitatory or inhibitory synaptic transmission.
