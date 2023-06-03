@@ -9,6 +9,10 @@ packages = [{include = "enrichgpt_results"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 ontogpt = "^0.2.9"
+jupyter = "^1.0.0"
+oaklib = "^0.5.9"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
 
 
 [build-system]

@@ -1,0 +1,197 @@
+{
+    "styles": [
+        "filled",
+        "rounded"
+    ],
+    "fillcolor": "white",
+
+    "excludeSingletons": "true",
+    "relationProperties": {
+        "rdfs:subClassOf": {
+            "color": "black",
+            "penwidth": 3,
+            "arrowhead": "open",
+            "label": "ⓘ"
+        },
+        "rdfs:subPropertyOf": {
+            "color": "black",
+            "penwidth": 3,
+            "arrowhead": "open",
+            "label": "ⓘ"
+        },
+        "owl:inverseOf": {
+            "color": "blue:invis:blue",
+            "penwidth": 2,
+            "arrowhead": "none",
+            "label": "R⁻¹"
+        },
+        "rdfs:domain": {
+            "color": "chartreuse4",
+            "penwidth": 2,
+            "arrowhead": "crow",
+            "label": "Ⓓ"
+        },
+        "rdfs:range": {
+            "color": "chartreuse4",
+            "penwidth": 2,
+            "arrowhead": "crow",
+            "label": "Ⓡ"
+        },
+        "rdf:type": {
+            "color": "blue",
+            "arrowhead": "open",
+            "label": "ⓣ"
+        },
+        "has": {
+            "color": "red",
+            "weight": 100,
+            "label": ""
+        },
+        "RO:0002473": {
+            "color": "gray",
+            "arrowhead": "box",
+            "label": "composed primarily of"
+        }, 
+       "RO:0001025": {
+            "arrowhead": "diamond",
+            "color": "green",
+            "penwidth": 2,            
+            "label": "L"
+        },        
+        "RO:0002202": {
+            "color": "green",
+            "label": "ⓓ"
+        },
+        "BFO:0000050": {
+            "arrowhead": "tee",
+            "color": "blue",
+            "penwidth": 3,            
+            "label": "ⓟ"
+        },
+        "UPHENO:0000001": {
+            "color": "gray",
+            "label": "Ⓐ"
+        },
+        "UPHENO:0000003": {
+            "color": "gray",
+            "label": "Ⓔ"
+        },
+        "RO:0002087": {
+            "color": "cyan4",
+            "label": "›››"
+        },
+        "RO:0002213": {
+            "arrowhead": "diamond",
+            "color": "green",
+            "label": "⇧"
+        },
+        "RO:0002212": {
+            "arrowhead": "tee",
+            "color": "red",
+            "label": "⇩"
+        },
+        "RO:0002220": {
+            "color": "gray",
+            "label": "A"
+        }
+    },
+    "conditionalProperties": [
+        {
+            "conditions": {
+                "type": "INSTANCE"
+            },
+            "properties": {
+                "style": "filled,square",
+                "fillcolor": "green"
+            }
+        },
+        {
+            "conditions": {
+                "subset": "path"
+            },
+            "properties": {
+                "style": "filled,square",
+                "arrowhead": "diamond",
+                "penwidth": "3",
+                "fillcolor": "green"
+            }
+        }
+    ],
+    "displayAnnotations": [
+        "wgs84:lat", "wgs84:long", "sosa:hasSimpleResult"
+    ],
+    "prefixProperties": {
+        "UPHENO": {
+            "fillcolor": "black",
+            "fontcolor": "white"
+        },
+        "NS": {
+            "fillcolor": "pink"
+        },
+        "ONT": {
+            "fillcolor": "mediumturquoise",
+            "shape": "diamond"
+        },
+        "UBERON": {
+            "fillcolor": "yellow"
+        },
+        "NAR": {
+            "fillcolor": "azure2"
+        },
+        "OBI": {
+            "fillcolor": "burlywood1"
+        },
+        "GO": {
+            "fillcolor": "yellow"
+        },
+        "MBA": {
+            "fillcolor": "hotpink"
+        },
+        "HBA": {
+            "fillcolor": "lightgrey"
+        },
+        "ZFA": {
+            "fillcolor": "black",
+            "fontcolor": "white"
+        },
+        "FBdv": {
+            "fillcolor": "mediumturquoise"
+        },
+        "RO": {
+            "fillcolor": "pink"
+        },
+        "PATO": {
+            "fillcolor": "pink"
+        },
+        "ENVO": {
+            "fillcolor": "cyan"
+        },
+        "NCBITaxon": {
+            "fillcolor": "burlywood1"
+        },
+        "FOODON": {
+            "fillcolor": "pink"
+        },
+        "CHEBI": {
+            "fillcolor": "pink"
+        },
+        "sweet:realm/": {
+            "fillcolor": "pink"
+        },
+        "ENM": {
+            "fillcolor": "cornsilk"
+        },
+        "STATO": {
+            "fillcolor": "cornsilk"
+        },
+        "IAO": {
+            "fillcolor": "mediumturquoise"
+        },
+        "BFO": {
+            "fillcolor": "cyan"
+        }
+    },
+    "cliqueRelations": [
+        "equivalent_to", "same_as", "xref", "has"
+    ]
+}
