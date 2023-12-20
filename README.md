@@ -14,4 +14,4 @@ The core results are here:
 
 each yaml file contains results for gpt4, gpt-3.5-turbo, and text-davinci-003.
 
-The processed.tsv results used as input for analysis for the manuscript is [here](https://drive.google.com/file/d/1_48yIAXp10NNg0aDgTzbjjkmmkQZzqHo/view?usp=drive_link)
+The processed.tsv.gz results used as input for analysis for the manuscript are [here](https://drive.google.com/file/d/1_48yIAXp10NNg0aDgTzbjjkmmkQZzqHo/view?usp=drive_link)
