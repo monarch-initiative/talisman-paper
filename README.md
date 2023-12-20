@@ -12,4 +12,6 @@ The core results are here:
 
 [results/human/gpt4](results/human/gpt4)
 
-each yaml file contains results for gpt4, gpt-3.5-turbo, and text-davinci-003
+each yaml file contains results for gpt4, gpt-3.5-turbo, and text-davinci-003.
+
+The processed.tsv results used as input for analysis for the manuscript is [here] (https://drive.google.com/file/d/1_48yIAXp10NNg0aDgTzbjjkmmkQZzqHo/view?usp=drive_link)
