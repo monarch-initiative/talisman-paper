@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "enrichgpt-results"
+name = "talisman-paper"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "enrichgpt_results"}]
+packages = [{include = "talisman-paper"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
